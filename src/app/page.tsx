@@ -36,11 +36,11 @@ export default function Home() {
         </section>
 
         <section className="rounded-[34px] border border-[color:var(--border)] bg-[color:var(--panel)] px-5 py-5 shadow-[0_24px_70px_rgba(0,0,0,0.16)] backdrop-blur-sm sm:px-6 sm:py-6 lg:px-8 lg:py-7">
-          <div className="mx-auto max-w-3xl text-center">
+          <div className="mx-auto w-full max-w-4xl text-center">
             <h2 className="text-[1.7rem] font-semibold tracking-tight text-[color:var(--foreground-strong)] sm:text-[2.1rem] lg:text-[2.35rem] lg:leading-[1.08]">
               {briefing.editorialHeadline ?? briefing.headline}
             </h2>
-            <div className="mx-auto mt-4 max-w-2xl text-left text-sm leading-6 text-[color:var(--muted-soft)] sm:mt-5 sm:text-base sm:leading-7">
+            <div className="mx-auto mt-4 w-full max-w-[52rem] text-left text-sm leading-6 text-[color:var(--muted-soft)] sm:mt-5 sm:text-base sm:leading-7">
               {splitEditorialParagraphs(editorialText).map((paragraph, index) => (
                 <p key={index} className={index === 0 ? "" : "mt-4"}>
                   {paragraph}
