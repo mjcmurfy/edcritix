@@ -45,6 +45,9 @@
   --button-bg: rgba(34, 211, 238, 0.1);
   --button-border: rgba(103, 232, 249, 0.18);
   --button-text: #d6f7ff;
+  --toggle-button-bg: rgba(45, 212, 191, 0.14);
+  --toggle-button-border: rgba(45, 212, 191, 0.28);
+  --toggle-button-text: #ccfbf1;
   --inline-link-text: #9be7ff;
   --section-label-text: rgba(125, 211, 252, 0.82);
   --selection-bg: rgba(34, 211, 238, 0.24);
@@ -96,6 +99,9 @@ html[data-theme="light"] {
   --button-bg: rgba(8, 145, 178, 0.1);
   --button-border: rgba(8, 145, 178, 0.18);
   --button-text: #0f766e;
+  --toggle-button-bg: rgba(20, 184, 166, 0.12);
+  --toggle-button-border: rgba(13, 148, 136, 0.22);
+  --toggle-button-text: #115e59;
   --inline-link-text: #0f766e;
   --section-label-text: #0f5f73;
   --selection-bg: rgba(8, 145, 178, 0.18);
