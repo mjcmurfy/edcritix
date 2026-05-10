@@ -14,7 +14,6 @@ export function SiteFooter() {
         </div>
         <div className="lg:text-right">
           <div>Updated {formatDateTime(updatedAt)}</div>
-          <div className="mt-1">AI-summarised and ranked daily from the latest emergency medicine sources.</div>
         </div>
       </div>
     </footer>
