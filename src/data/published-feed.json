@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-10T03:01:49.404Z",
+    "generatedAt": "2026-05-10T03:07:19.316Z",
     "sourceGeneratedAt": "2026-05-09T18:15:08.971718Z",
     "editorialGeneratedAt": "2026-05-10T02:59:13.015762Z"
   },
@@ -76,7 +76,7 @@
       "publishedAt": "2026-05-05T10:19:45Z",
       "impact": "High-yield",
       "topic": "Resuscitation",
-      "takeaway": "For pediatric patients in non-shockable OHCA, the sequence of initiating advanced airway management versus epinephrine administration does not appear to influence 1-month survival or favorable neurological outcomes based on this data. This suggests that in the field, the priority should remain on rapid, simultaneous implementation of both interventions rather than adhering to a strict sequence. However, remember this is observational data from a specific registry, so clinical judgment must guide the decision-makin…",
+      "takeaway": "For pediatric patients in non-shockable OHCA, the sequence of initiating advanced airway management versus epinephrine administration does not appear to influence 1-month survival or favorable neurological outcomes based on this data. This suggests that in the field, the priority should remain on rapid, simultaneous implementation of both interventions rather than adhering to a strict sequence. However, remember this is observational data from a specific registry, so clinical judgment must guide the decision-making process.",
       "shortSummary": "This retrospective analysis examined the optimal timing of advanced airway management (AAM) versus epinephrine administration in pediatric patients presenting with non-shockable out-of-hospital cardiac arrest (OHCA).",
       "summary": "This retrospective analysis examined the optimal timing of advanced airway management (AAM) versus epinephrine administration in pediatric patients presenting with non-shockable out-of-hospital cardiac arrest (OHCA). Using data from a large Japanese registry spanning 2014 to 2022, the authors compared outcomes between groups where AAM was performed first versus those where epinephrine was given first. After propensity score matching, the study found no statistically significant difference in 1-month survival, favorable neurological outcome, or return of spontaneous circulation (ROSC) when comparing the two sequences. Overall, the findings suggest that the order in which these two critical interventions are initiated may not impact immediate post-resuscitation outcomes in this specific pediatric population.",
       "confidence": "high"
