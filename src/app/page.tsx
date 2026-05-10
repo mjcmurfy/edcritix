@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <PageShell>
-      <main className="mx-auto flex w-full max-w-5xl flex-col gap-7 px-5 pb-8 pt-3 sm:gap-12 sm:px-8 sm:pb-10 sm:pt-4 lg:px-10 lg:pb-14 lg:pt-5">
+      <main className="mx-auto flex w-full max-w-5xl flex-col gap-7 px-5 pb-6 pt-3 sm:gap-12 sm:px-8 sm:pb-8 sm:pt-4 lg:px-10 lg:pb-12 lg:pt-5">
         <section className="pt-0 text-center">
           <div className="mx-auto w-full max-w-5xl">
             <div className="flex w-full flex-col items-center rounded-[28px] border border-[color:var(--hero-badge-border)] bg-[color:var(--hero-badge-bg)] px-6 py-4 text-[color:var(--hero-badge-text)] shadow-[0_10px_30px_rgba(0,0,0,0.08)] sm:px-8 sm:py-5">

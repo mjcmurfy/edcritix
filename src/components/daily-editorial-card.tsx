@@ -117,7 +117,7 @@ export function DailyEditorialCardInner({
                 <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[color:var(--section-label-text)] sm:text-[11px] sm:tracking-[0.28em]">
                   Clinical takeaway
                 </div>
-                <p className="mt-2 max-w-3xl text-[13px] leading-5 text-[color:var(--muted-soft)] sm:text-sm sm:leading-6">{article.takeaway}</p>
+                <p className="mt-2 max-w-3xl text-sm leading-6 text-[color:var(--muted-soft)] sm:text-base sm:leading-7">{article.takeaway}</p>
               </div>
             </div>
           </>

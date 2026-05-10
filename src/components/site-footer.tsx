@@ -4,7 +4,7 @@ export function SiteFooter() {
   const updatedAt = feedMeta.editorialGeneratedAt ?? feedMeta.generatedAt;
 
   return (
-    <footer className="mt-20 border-t border-[color:var(--border)]">
+    <footer className="mt-14 border-t border-[color:var(--border)]">
       <div className="mx-auto flex w-full max-w-5xl flex-col gap-3 px-6 py-8 text-sm text-[color:var(--muted)] sm:px-8 lg:flex-row lg:items-center lg:justify-between lg:px-10">
         <div>
           <div className="text-xs font-semibold uppercase tracking-[0.28em] text-[color:var(--muted-faint)]">
