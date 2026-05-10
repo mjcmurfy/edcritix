@@ -11,8 +11,8 @@
   --panel: rgba(255, 255, 255, 0.04);
   --panel-strong: rgba(255, 255, 255, 0.06);
   --panel-soft: rgba(255, 255, 255, 0.03);
-  --panel-muted: rgba(2, 6, 23, 0.2);
-  --panel-muted-strong: rgba(2, 6, 23, 0.25);
+  --panel-muted: rgba(255, 255, 255, 0.05);
+  --panel-muted-strong: rgba(45, 212, 191, 0.08);
   --border: rgba(255, 255, 255, 0.08);
   --foreground: #e8eef6;
   --foreground-strong: #ffffff;
@@ -65,8 +65,8 @@ html[data-theme="light"] {
   --panel: rgba(255, 255, 255, 0.84);
   --panel-strong: rgba(255, 255, 255, 0.92);
   --panel-soft: rgba(255, 255, 255, 0.72);
-  --panel-muted: rgba(241, 245, 249, 0.82);
-  --panel-muted-strong: rgba(241, 245, 249, 0.94);
+  --panel-muted: rgba(248, 250, 252, 0.88);
+  --panel-muted-strong: rgba(204, 251, 241, 0.45);
   --border: rgba(15, 23, 42, 0.1);
   --foreground: #0f172a;
   --foreground-strong: #020617;

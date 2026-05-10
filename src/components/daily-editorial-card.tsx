@@ -128,7 +128,7 @@ export function DailyEditorialCardInner({
             type="button"
             onClick={() => setIsExpanded((value) => !value)}
             aria-label={isExpanded ? `Collapse ${article.title}` : `Expand ${article.title}`}
-            className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[color:var(--pill-border)] bg-[color:var(--pill-bg)] text-sm font-medium text-[color:var(--pill-text)] transition hover:opacity-90 sm:h-auto sm:w-auto sm:px-4 sm:py-2"
+            className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[color:var(--toggle-button-border)] bg-[color:var(--toggle-button-bg)] text-sm font-medium text-[color:var(--toggle-button-text)] shadow-[0_10px_24px_rgba(0,0,0,0.08)] transition hover:opacity-90 sm:h-auto sm:w-auto sm:px-4 sm:py-2"
           >
             <span className="sm:hidden" aria-hidden>{isExpanded ? "▴" : "▾"}</span>
             <span className="hidden sm:inline">{isExpanded ? "Collapse" : "Expand"}</span>
