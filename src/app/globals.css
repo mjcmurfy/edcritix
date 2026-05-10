@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0b1220;
+  --background-soft: #111a2a;
+  --background-gradient-start: #0a111d;
+  --background-gradient-mid: #0b1220;
+  --background-gradient-end: #0c1321;
+  --glow-primary: rgba(45, 212, 191, 0.08);
+  --glow-secondary: rgba(56, 189, 248, 0.05);
+  --panel: rgba(255, 255, 255, 0.04);
+  --panel-strong: rgba(255, 255, 255, 0.06);
+  --panel-soft: rgba(255, 255, 255, 0.03);
+  --panel-muted: rgba(2, 6, 23, 0.2);
+  --panel-muted-strong: rgba(2, 6, 23, 0.25);
+  --border: rgba(255, 255, 255, 0.08);
+  --foreground: #e8eef6;
+  --foreground-strong: #ffffff;
+  --muted: #93a4ba;
+  --muted-soft: #cbd5e1;
+  --muted-faint: #64748b;
+  --nav-bg: rgba(2, 6, 23, 0.4);
+  --pill-bg: rgba(255, 255, 255, 0.06);
+  --pill-text: #d9e4f2;
+  --pill-muted-text: #aab9cc;
+  --pill-border: rgba(255, 255, 255, 0.14);
+  --number-pill-bg: #0f766e;
+  --number-pill-border: rgba(45, 212, 191, 0.42);
+  --number-pill-text: #ecfeff;
+  --hero-badge-bg: rgba(34, 211, 238, 0.1);
+  --hero-badge-border: rgba(103, 232, 249, 0.24);
+  --hero-badge-text: #c8f4ff;
+  --impact-practice-bg: rgba(16, 185, 129, 0.2);
+  --impact-practice-border: rgba(52, 211, 153, 0.34);
+  --impact-practice-text: #d1fae5;
+  --impact-high-bg: rgba(14, 165, 233, 0.18);
+  --impact-high-border: rgba(56, 189, 248, 0.34);
+  --impact-high-text: #d8f3ff;
+  --impact-watch-bg: rgba(245, 158, 11, 0.18);
+  --impact-watch-border: rgba(251, 191, 36, 0.32);
+  --impact-watch-text: #fef3c7;
+  --impact-background-bg: rgba(148, 163, 184, 0.14);
+  --impact-background-border: rgba(148, 163, 184, 0.28);
+  --impact-background-text: #e2e8f0;
+  --button-bg: rgba(34, 211, 238, 0.1);
+  --button-border: rgba(103, 232, 249, 0.18);
+  --button-text: #d6f7ff;
+  --inline-link-text: #9be7ff;
+  --section-label-text: rgba(125, 211, 252, 0.82);
+  --selection-bg: rgba(34, 211, 238, 0.24);
+  --selection-text: #f8fbff;
+}
+
+html[data-theme="light"] {
+  --background: #f2f7fb;
+  --background-soft: #ffffff;
+  --background-gradient-start: #f7fbff;
+  --background-gradient-mid: #eef5fb;
+  --background-gradient-end: #e9f1f8;
+  --glow-primary: rgba(45, 212, 191, 0.12);
+  --glow-secondary: rgba(56, 189, 248, 0.08);
+  --panel: rgba(255, 255, 255, 0.84);
+  --panel-strong: rgba(255, 255, 255, 0.92);
+  --panel-soft: rgba(255, 255, 255, 0.72);
+  --panel-muted: rgba(241, 245, 249, 0.82);
+  --panel-muted-strong: rgba(241, 245, 249, 0.94);
+  --border: rgba(15, 23, 42, 0.1);
+  --foreground: #0f172a;
+  --foreground-strong: #020617;
+  --muted: #475569;
+  --muted-soft: #334155;
+  --muted-faint: #64748b;
+  --nav-bg: rgba(255, 255, 255, 0.76);
+  --pill-bg: rgba(255, 255, 255, 0.92);
+  --pill-text: #1e293b;
+  --pill-muted-text: #475569;
+  --pill-border: rgba(15, 23, 42, 0.14);
+  --number-pill-bg: #bff7f0;
+  --number-pill-border: rgba(13, 148, 136, 0.28);
+  --number-pill-text: #115e59;
+  --hero-badge-bg: rgba(14, 165, 233, 0.09);
+  --hero-badge-border: rgba(2, 132, 199, 0.2);
+  --hero-badge-text: #0c4a6e;
+  --impact-practice-bg: rgba(16, 185, 129, 0.12);
+  --impact-practice-border: rgba(5, 150, 105, 0.26);
+  --impact-practice-text: #065f46;
+  --impact-high-bg: rgba(14, 165, 233, 0.12);
+  --impact-high-border: rgba(2, 132, 199, 0.24);
+  --impact-high-text: #0c4a6e;
+  --impact-watch-bg: rgba(245, 158, 11, 0.13);
+  --impact-watch-border: rgba(217, 119, 6, 0.24);
+  --impact-watch-text: #92400e;
+  --impact-background-bg: rgba(148, 163, 184, 0.14);
+  --impact-background-border: rgba(100, 116, 139, 0.22);
+  --impact-background-text: #334155;
+  --button-bg: rgba(8, 145, 178, 0.1);
+  --button-border: rgba(8, 145, 178, 0.18);
+  --button-text: #0f766e;
+  --inline-link-text: #0f766e;
+  --section-label-text: #0f5f73;
+  --selection-bg: rgba(8, 145, 178, 0.18);
+  --selection-text: #082f49;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--background);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, var(--glow-primary), transparent 24%),
+    radial-gradient(circle at 50% 20%, var(--glow-secondary), transparent 28%),
+    linear-gradient(180deg, var(--background-gradient-start) 0%, var(--background-gradient-mid) 45%, var(--background-gradient-end) 100%);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--selection-bg);
+  color: var(--selection-text);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
