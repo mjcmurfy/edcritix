@@ -12,6 +12,7 @@ function formatUpdateLabel(iso: string | null) {
   if (!iso) return "Update pending";
 
   return new Intl.DateTimeFormat("en-NZ", {
+    timeZone: "Pacific/Auckland",
     month: "short",
     day: "numeric",
     hour: "numeric",

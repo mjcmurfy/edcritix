@@ -87,6 +87,7 @@ type PublishedFeed = {
 };
 
 const feed = publishedFeed as PublishedFeed;
+const NZ_TIME_ZONE = "Pacific/Auckland";
 
 export const feedMeta: FeedMeta = {
   generatedAt: feed.meta?.generatedAt ?? new Date(0).toISOString(),
@@ -119,6 +120,7 @@ export function formatDateTime(iso: string | null) {
   if (!iso) return "Date not available";
 
   return new Intl.DateTimeFormat("en-NZ", {
+    timeZone: NZ_TIME_ZONE,
     dateStyle: "medium",
     timeStyle: "short",
   }).format(new Date(iso));
@@ -128,6 +130,7 @@ export function formatDate(iso: string | null) {
   if (!iso) return "Date not available";
 
   return new Intl.DateTimeFormat("en-NZ", {
+    timeZone: NZ_TIME_ZONE,
     dateStyle: "medium",
   }).format(new Date(iso));
 }
