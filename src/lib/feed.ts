@@ -24,7 +24,6 @@ export type Article = {
   takeaway: string;
   shortSummary: string;
   summary: string;
-  whyItMatters: string;
   critique: string;
   editorialAngle: string;
   studyDesign: string;

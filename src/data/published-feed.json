@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generatedAt": "2026-05-13T21:58:07.058Z",
+    "generatedAt": "2026-05-14T04:42:35.619Z",
     "sourceGeneratedAt": "2026-05-13T18:15:10.616986Z",
-    "editorialGeneratedAt": "2026-05-13T19:12:30.408370Z"
+    "editorialGeneratedAt": "2026-05-14T04:21:26.786425Z"
   },
   "briefing": {
     "headline": "10 high-priority items in the latest EM scan",
     "summary": "Top sources today: SJTREM, JACEP Open, EMJ. Main themes: guideline or formal recommendation, resuscitation care, reviews. Best early reads: Civilian penetrating traumatic brain injury in South-East Norway; Video Review of Cardiac Arrest: A Scoping Review.",
-    "editorialHeadline": "Daily Editorial",
-    "editorialSummary": "Despite high mortality in cpTBI, most survivors achieved favourable outcome. We found a lower-than-expected guideline compliance for prophylactic AB and ASM, ICP monitoring, and surgical revision within 12 h. Thus, we identified several key factors that can improve cpTBI treatment at our institution.\n\nVideo review enables a precise, multidomain assessment of resuscitation performance of CA that conventional data sources cannot provide. Future work should prioritize consensus definitions and establishing minimum reporting standards.\n\nAcute hyperkalaemia is a potentially life-threatening electrolyte disturbance frequently encountered in emergency departments. Timely recognition and appropriate treatment are critical to prevent serious complications such as cardiac arrhythmias and death. This narrative review summarises current evidence-based and guideline-based recommendations for the emergency management of hyperkalaemia, with a focus on practical challenges and frequently encountered clinical uncertainties."
+    "editorialHeadline": "From TBI Protocols to Hyperkalemia Pitfalls: Key Edits for Today's ED",
+    "editorialSummary": "Today’s reading set presents critical reminders on process adherence, from the trauma bay to the electrolyte panel. For penetrating TBI, the message is clear: while aggressive care like early CTA remains standard for potential survivors, the biggest gap often lies in institutional adherence to prophylactic antibiotics and timely ICP monitoring—proactive process checks are non-negotiable. In the realm of acute hyperkalemia, the focus remains on immediate action: calcium salts are key if ECG changes or K+ ≥6.5 mmol/L are present, but remember to pair insulin-glucose with vigilance against subsequent hypoglycemia, perhaps augmenting with inhaled beta-agonists.\n\nBeyond acute stabilization, we see methodological caution across the board. In non-traumatic chest pain, the meta-analysis on decision rules suggests we should treat these guidelines as helpful adjuncts, not definitive mandates for imaging, given the heterogeneity of the data. Similarly, while video review offers unparalleled depth in assessing cardiac arrest performance, its utility hinges entirely on the field adopting standardized reporting metrics.\n\nThese articles collectively underscore a theme: the most advanced medicine requires the most rigorous operational discipline. Whether it’s standardizing prehospital trial fidelity or remembering that a physiological marker change doesn't guarantee survival, today’s reading demands we elevate our focus from simply knowing the best practice to ensuring flawless execution of it."
   },
   "dailyEditorial": [
     {
@@ -16,28 +16,28 @@
       "title": "Civilian penetrating traumatic brain injury in South-East Norway",
       "source": "SJTREM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42098795/",
-      "published": "6 days ago",
+      "published": "1 week ago",
       "publishedAt": "2026-05-07T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trauma",
-      "takeaway": "We found a lower-than-expected guideline compliance for prophylactic AB and ASM, ICP monitoring, and surgical revision within 12 h. Thus, we identified several key factors that can improve cpTBI treatment at our institution.",
-      "shortSummary": "Despite high mortality in cpTBI, most survivors achieved favourable outcome.",
-      "summary": "Despite high mortality in cpTBI, most survivors achieved favourable outcome. We found a lower-than-expected guideline compliance for prophylactic AB and ASM, ICP monitoring, and surgical revision within 12 h. Thus, we identified several key factors that can improve cpTBI treatment at our institution.",
-      "confidence": "moderate"
+      "takeaway": "When managing pTBI, remember that aggressive care aligned with standard TBI principles, including early CTA, remains the standard of care for potential survivors. Be mindful that institutional adherence to protocols—like prophylactic antibiotics or early ICP monitoring—may lag, so proactively ensuring these steps are initiated is crucial. This suggests a need for rigorous process checks rather than just focusing on the immediate injury management.",
+      "shortSummary": "This report details the management of civilian penetrating traumatic brain injury (pTBI) encountered in South-East Norway.",
+      "summary": "This report details the management of civilian penetrating traumatic brain injury (pTBI) encountered in South-East Norway. Overall, the authors noted that the majority of survivors experienced favorable outcomes despite the high mortality rate associated with this injury type. However, a significant finding was the observed gap in adherence to established institutional guidelines, specifically regarding the timely administration of prophylactic antibiotics and antimicrobials, the initiation of intracranial pressure monitoring, and the timing of surgical revision within the first 12 hours. The authors suggest that for patients deemed potential survivors, management should be aggressive, emphasizing early vascular imaging like CTA, while also highlighting the need to reinforce adherence to existing best practices in the acute care setting.",
+      "confidence": "high"
     },
     {
       "slug": "video-review-of-cardiac-arrest-a-scoping-review",
       "title": "Video Review of Cardiac Arrest: A Scoping Review",
       "source": "JACEP Open",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42124865/",
-      "published": "12 hours ago",
+      "published": "19 hours ago",
       "publishedAt": "2026-05-13T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Resuscitation",
-      "takeaway": "Future work should prioritize consensus definitions and establishing minimum reporting standards. Video review enables a precise, multidomain assessment of resuscitation performance of CA that conventional data sources cannot provide.",
-      "shortSummary": "Video review enables a precise, multidomain assessment of resuscitation performance of CA that conventional data sources cannot provide.",
-      "summary": "Video review enables a precise, multidomain assessment of resuscitation performance of CA that conventional data sources cannot provide. Future work should prioritize consensus definitions and establishing minimum reporting standards.",
-      "confidence": "moderate"
+      "takeaway": "When evaluating resuscitation quality, remember that video review provides a depth of assessment—covering technical skills, team dynamics, and adherence to protocols—that standard chart reviews miss. While video is powerful, its utility hinges on standardization; therefore, be aware that current interpretations may lack uniformity until consensus definitions are adopted. Don't rely solely on video findings without acknowledging the need for established, minimum reporting benchmarks.",
+      "shortSummary": "This scoping review emphasizes the significant value of video review in assessing cardiac arrest (CA) resuscitation performance, arguing that it offers a multidomain assessment capability far exceeding what traditional…",
+      "summary": "This scoping review emphasizes the significant value of video review in assessing cardiac arrest (CA) resuscitation performance, arguing that it offers a multidomain assessment capability far exceeding what traditional data sources can provide. The authors highlight that video analysis allows for a granular evaluation of various aspects of care delivery during resuscitation. While the review itself is a scoping effort, the conclusion strongly points toward the necessity of standardizing how these videos are reviewed and interpreted. They suggest that for video review to become a robust tool, there is a critical need to establish consensus definitions and minimum reporting standards across the field.",
+      "confidence": "high"
     },
     {
       "slug": "acute-hyperkalaemia-in-emergency-care-evidence-based-approaches",
@@ -48,10 +48,10 @@
       "publishedAt": "2026-05-05T10:19:45Z",
       "impact": "High-yield",
       "topic": "Ecg",
-      "takeaway": "Timely recognition and appropriate treatment are critical to prevent serious complications such as cardiac arrhythmias and death. This narrative review summarises current evidence-based and guideline-based recommendations for the emergency management of hyperkalaemia, with a focus on practical challenges and frequently encountered clinical uncertainties.",
-      "shortSummary": "Acute hyperkalaemia is a potentially life-threatening electrolyte disturbance frequently encountered in emergency departments.",
-      "summary": "Acute hyperkalaemia is a potentially life-threatening electrolyte disturbance frequently encountered in emergency departments. Timely recognition and appropriate treatment are critical to prevent serious complications such as cardiac arrhythmias and death. This narrative review summarises current evidence-based and guideline-based recommendations for the emergency management of hyperkalaemia, with a focus on practical challenges and frequently encountered clinical uncertainties.",
-      "confidence": "moderate"
+      "takeaway": "When managing acute hyperkalemia, prioritize calcium if ECG changes or K+ ≥6.5 mmol/L are present. For shifting potassium, use insulin-glucose, but always have glucose readily available to mitigate hypoglycemia risk. Consider adding inhaled beta-agonists to the insulin protocol for enhanced effect, and reserve advanced binders or dialysis for refractory cases, as routine use of older agents is discouraged.",
+      "shortSummary": "This review provides a practical synthesis of current evidence for managing acute hyperkalemia in the ED, acknowledging the high stakes involved in this common but dangerous electrolyte derangement.",
+      "summary": "This review provides a practical synthesis of current evidence for managing acute hyperkalemia in the ED, acknowledging the high stakes involved in this common but dangerous electrolyte derangement. It reiterates that prompt recognition and aggressive management are paramount to preventing fatal arrhythmias. The authors summarize key guideline-based approaches, emphasizing the role of calcium salts when ECG changes or potassium levels reach ≥6.5 mmol/L. While insulin-glucose remains a core strategy for shifting potassium intracellularly, the risk of subsequent hypoglycemia must be carefully managed, especially in non-diabetic patients. Furthermore, the review updates on adjunct therapies, noting the utility of inhaled beta-agonists alongside insulin, while casting doubt on the routine use of sodium bicarbonate and the obsolescence of sodium polystyrene sulfonate.",
+      "confidence": "high"
     },
     {
       "slug": "clinical-decision-rules-for-obtaining-chest-radiography-in-adult-patients-presen",
@@ -62,38 +62,38 @@
       "publishedAt": "2026-05-06T16:00:26Z",
       "impact": "High-yield",
       "topic": "Trauma",
-      "takeaway": "Radiography is used in 70% of cases but identifies clinically significant findings in only 1.5%–2.1%. The predominance of non-actionable imaging results, combined with paucity of decision rules, prompted this systematic review to inform the development of a new clinical decision rule (CDR).",
-      "shortSummary": "Introduction Chest pain is the second leading emergency department (ED) presentation, with its associated diagnostics requiring ED resource utilisation.",
-      "summary": "Introduction Chest pain is the second leading emergency department (ED) presentation, with its associated diagnostics requiring ED resource utilisation. Radiography is used in 70% of cases but identifies clinically significant findings in only 1.5%–2.1%. The predominance of non-actionable imaging results, combined with paucity of decision rules, prompted this systematic review to inform the development of a new clinical decision rule (CDR).",
-      "confidence": "moderate"
+      "takeaway": "When managing non-traumatic chest pain, remember that current decision rules like Hess or Rothrock, while helpful for risk stratification, haven't robustly proven their ability to reduce unnecessary imaging in a real-world setting. Don't rely on these rules alone to dictate the necessity of a chest X-ray; instead, use them as part of a comprehensive clinical assessment. Be cautious interpreting these meta-analyses due to the high heterogeneity and retrospective nature of the underlying data.",
+      "shortSummary": "This systematic review and meta-analysis tackled the resource drain caused by routine chest radiography in non-traumatic chest pain, noting that while imaging is used frequently, it yields actionable findings in a very…",
+      "summary": "This systematic review and meta-analysis tackled the resource drain caused by routine chest radiography in non-traumatic chest pain, noting that while imaging is used frequently, it yields actionable findings in a very small percentage of cases. The authors pooled data from several studies to compare established clinical decision rules, specifically the Hess and Rothrock criteria. The meta-analysis found that while the Hess rule demonstrated higher sensitivity, neither rule was definitively shown to reduce overall imaging utilization, and the overall evidence base was hampered by significant heterogeneity and the use of retrospective cohorts. Ultimately, the authors concluded that due to these limitations, neither rule can be recommended at this time, emphasizing the need for prospective validation studies.",
+      "confidence": "high"
     },
     {
       "slug": "management-of-patients-with-suspected-but-unidentified-poisoning-in-the-emergenc",
       "title": "Management of patients with suspected but unidentified poisoning in the emergency department: a joint Royal College of Emergency Medicine and National Poisons Information Service best practice guideline",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215194v1?rss=1",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-05-08T16:00:15Z",
       "impact": "High-yield",
       "topic": "Toxicology",
-      "takeaway": "The Royal College of Emergency Medicine and National Poisons Information Service have produced this guidance to provide a generalised clinical approach to any poisoned patient in the emergency department. This guideline provides a clinical approach to support the initial assessment of a patient, identification of potential toxic agents and emergency management.",
-      "shortSummary": "The management of patients suspected, but not confirmed, as being poisoned is challenging.",
-      "summary": "The management of patients suspected, but not confirmed, as being poisoned is challenging. The Royal College of Emergency Medicine and National Poisons Information Service have produced this guidance to provide a generalised clinical approach to any poisoned patient in the emergency department. This guideline provides a clinical approach to support the initial assessment of a patient, identification of potential toxic agents and emergency management.",
-      "confidence": "moderate"
+      "takeaway": "When faced with an undifferentiated poisoned patient, adopt a systematic toxidromic framework focusing on anticipated physiological changes rather than waiting for a specific agent confirmation. Remember that this guideline is a general scaffold; always pivot to the detailed, agent-specific protocols available from your local poison center or TOXBASE. Do not let the generalized approach delay necessary, immediate supportive care.",
+      "shortSummary": "This new joint guideline from the Royal College of Emergency Medicine and the National Poisons Information Service addresses the notoriously difficult scenario of managing patients with suspected but unconfirmed poisoni…",
+      "summary": "This new joint guideline from the Royal College of Emergency Medicine and the National Poisons Information Service addresses the notoriously difficult scenario of managing patients with suspected but unconfirmed poisoning in the ED. Recognizing the complexity, the authors have developed a generalized clinical approach designed to support initial assessment and aid in identifying potential toxic agents. The core of the guidance emphasizes adopting a toxidromic approach, meaning the management strategy should focus on the general toxicokinetic principles and how the patient's clinical status might evolve, rather than waiting for a definitive diagnosis. Crucially, the authors stress that this document is meant to complement, not replace, existing, more specific poison-specific guidance found in resources like TOXBASE or local poison centers.",
+      "confidence": "high"
     },
     {
       "slug": "novel-technologies-for-identifying-treatment-assignment-in-a-prehospital-pediatr",
       "title": "Novel Technologies for Identifying Treatment Assignment in a Prehospital Pediatric Emergency Care Clinical Trial",
       "source": "JACEP Open",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42110372/",
-      "published": "2 days ago",
+      "published": "3 days ago",
       "publishedAt": "2026-05-11T10:00:00Z",
       "impact": "High-yield",
       "topic": "Resuscitation",
-      "takeaway": "In the prehospital setting, particular challenges exist in clinical trial design that have a large impact on the quality of the results, including the appropriate and systematic allocation of assigned treatment arm.",
-      "shortSummary": "Clinical trials are essential for generating evidence-based knowledge to support clinical practice.",
-      "summary": "Clinical trials are essential for generating evidence-based knowledge to support clinical practice. In the prehospital setting, particular challenges exist in clinical trial design that have a large impact on the quality of the results, including the appropriate and systematic allocation of assigned treatment arm.",
-      "confidence": "moderate"
+      "takeaway": "When participating in or designing prehospital trials, remember that maintaining blinding and treatment fidelity is exceptionally difficult outside the ED. These technological aids suggest that incorporating simple, non-intrusive digital reminders or web check-ins could significantly improve adherence to the protocol arm at the bedside. However, these tools are supportive aids and do not replace the need for robust, standardized training for the field personnel.",
+      "shortSummary": "This piece tackles the significant methodological hurdles inherent in conducting rigorous clinical trials outside the controlled hospital environment, specifically focusing on prehospital pediatric airway resuscitation.",
+      "summary": "This piece tackles the significant methodological hurdles inherent in conducting rigorous clinical trials outside the controlled hospital environment, specifically focusing on prehospital pediatric airway resuscitation. The authors highlight that ensuring systematic adherence to assigned treatment arms is a major challenge when paramedics are managing critically ill or injured children in the field. To address this, they detail the development and utility of two novel technological aids: a dedicated web application and a portable reminder device. These tools are designed to provide practical, real-time support to research teams, thereby bolstering the internal validity and rigor of multi-center trials like the Pediatric Prehospital Airway Resuscitation Trial. Overall, it's a discussion on operationalizing evidence generation in acute, resource-limited settings.",
+      "confidence": "high"
     },
     {
       "slug": "impact-of-aspirin-use-on-the-modified-brain-injury-guidelines-for-the-management",
@@ -104,9 +104,9 @@
       "publishedAt": "2026-04-30T10:00:00Z",
       "impact": "High-yield",
       "topic": "Trauma",
-      "takeaway": "Further prospective studies are necessary to demonstrate that these patients may be safely observed without transfer to a regional trauma center.",
-      "shortSummary": "CONCLUSION: We propose that the mBIG1 criteria may be expanded to include patients on pre-injury aspirin.",
-      "summary": "CONCLUSION: We propose that the mBIG1 criteria may be expanded to include patients on pre-injury aspirin. Further prospective studies are necessary to demonstrate that these patients may be safely observed without transfer to a regional trauma center.",
+      "takeaway": "When risk-stratifying a patient with isolated mild tICH, consider the impact of pre-existing aspirin use. The current evidence suggests this group might be safely managed with observation rather than mandatory transfer to a regional center, but remember this is a proposed expansion. Do not change standard care based on this until further prospective data solidifies the safety profile.",
+      "shortSummary": "This article addresses the role of pre-injury aspirin use in the management of isolated mild traumatic intracranial hemorrhage (tICH) within the framework of the modified Brain Injury Guidelines (mBIG1).",
+      "summary": "This article addresses the role of pre-injury aspirin use in the management of isolated mild traumatic intracranial hemorrhage (tICH) within the framework of the modified Brain Injury Guidelines (mBIG1). The core finding is a proposal to expand the current mBIG1 criteria to safely incorporate patients who are on aspirin prior to injury. The authors suggest that these patients might be managed effectively with observation at a lower level of care, potentially negating the need for immediate transfer to a regional trauma center. While the proposal is intriguing for optimizing resource utilization, the authors themselves caution that further prospective studies are necessary to definitively confirm the safety of this expanded management pathway.",
       "confidence": "moderate"
     },
     {
@@ -114,14 +114,14 @@
       "title": "A randomised controlled trial of defibrillation with manual pressure augmentation during out-of-hospital cardiac arrest",
       "source": "Resuscitation",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42092447/",
-      "published": "6 days ago",
+      "published": "1 week ago",
       "publishedAt": "2026-05-07T10:00:00Z",
       "impact": "High-yield",
       "topic": "Shock",
-      "takeaway": "Trial registration ACTRN12621000804886. In this prematurely terminated RCT, MPA reduced transthoracic impedance but did not improve survival or other clinical outcomes in initially shockable OHCA.",
-      "shortSummary": "In this prematurely terminated RCT, MPA reduced transthoracic impedance but did not improve survival or other clinical outcomes in initially shockable OHCA.",
-      "summary": "In this prematurely terminated RCT, MPA reduced transthoracic impedance but did not improve survival or other clinical outcomes in initially shockable OHCA. Trial registration ACTRN12621000804886.",
-      "confidence": "moderate"
+      "takeaway": "Don't change your standard defibrillation algorithm based on the potential for impedance reduction with MPA. While the technique successfully lowered transthoracic impedance, this trial did not demonstrate a survival benefit, so the current standard of care remains the guiding principle at the bedside. Be cautious interpreting physiological improvements in isolation without corresponding endpoints of survival.",
+      "shortSummary": "This randomized controlled trial assessed the utility of adding manual pressure augmentation (MPA) during defibrillation for patients presenting with initially shockable out-of-hospital cardiac arrest (OHCA).",
+      "summary": "This randomized controlled trial assessed the utility of adding manual pressure augmentation (MPA) during defibrillation for patients presenting with initially shockable out-of-hospital cardiac arrest (OHCA). The primary finding, despite the intervention significantly lowering transthoracic impedance, was that MPA did not translate into improved survival rates or any other measurable clinical outcomes when compared to standard defibrillation protocols. It is worth noting that the trial was prematurely terminated, which inherently limits the scope of the conclusions drawn regarding definitive efficacy. Overall, the data suggests a dissociation between a measurable physiological change, like impedance reduction, and actual improved patient survival in this setting.",
+      "confidence": "high"
     },
     {
       "slug": "sequence-of-advanced-airway-management-and-epinephrine-administration-for-paedia",
@@ -132,10 +132,10 @@
       "publishedAt": "2026-05-05T10:19:45Z",
       "impact": "High-yield",
       "topic": "Resuscitation",
-      "takeaway": "We therefore aimed to investigate the association between the sequence of AAM and epinephrine administration and outcomes in paediatric patients with OHCA with non-shockable rhythms. Methods This retrospective observational study analysed data from a multicentre OHCA registry in Japan from 2014 to 2022.",
-      "shortSummary": "Background Despite the frequent use of both advanced airway management (AAM) and epinephrine during resuscitation, no studies have evaluated the optimal sequencing of these interventions in paediatric out-of-hospital ca…",
-      "summary": "Background Despite the frequent use of both advanced airway management (AAM) and epinephrine during resuscitation, no studies have evaluated the optimal sequencing of these interventions in paediatric out-of-hospital cardiac arrest (OHCA). We therefore aimed to investigate the association between the sequence of AAM and epinephrine administration and outcomes in paediatric patients with OHCA with non-shockable rhythms. Methods This retrospective observational study analysed data from a multicentre OHCA registry in...",
-      "confidence": "moderate"
+      "takeaway": "For pediatric patients in non-shockable OHCA, the current evidence does not support prioritizing AAM over epinephrine, or vice versa, as a determinant of better outcomes. You can proceed with either intervention first without significant concern for compromising the other, provided standard resuscitation protocols are followed. Remember that this finding is based on observational data from a specific registry, so caution is warranted when applying these results broadly.",
+      "shortSummary": "This retrospective analysis examined the optimal timing of advanced airway management (AAM) versus epinephrine administration in pediatric patients presenting with non-shockable out-of-hospital cardiac arrest (OHCA).",
+      "summary": "This retrospective analysis examined the optimal timing of advanced airway management (AAM) versus epinephrine administration in pediatric patients presenting with non-shockable out-of-hospital cardiac arrest (OHCA). The study utilized data from a large, multicenter Japanese registry spanning 2014 to 2022, comparing outcomes between groups where AAM was performed first versus those where epinephrine was given first. After propensity score matching, the researchers compared survival, neurological outcomes, and return of spontaneous circulation (ROSC) rates between the two sequencing strategies. The findings indicated that the order in which these two critical interventions are performed does not appear to be associated with improved 1-month survival, favorable neurological status, or ROSC in this specific pediatric population.",
+      "confidence": "high"
     },
     {
       "slug": "community-emergency-medicine-a-service-review-of-patients-that-sustain-head-inju",
@@ -146,10 +146,10 @@
       "publishedAt": "2026-05-05T10:19:45Z",
       "impact": "High-yield",
       "topic": "Practice Updates",
-      "takeaway": "1 It covers 1533 km 2 of rural and urban areas in Southeast Wales, serving a population of 600 000, operating 09:00–17:00 5 days a week with cover on alternate weekends. The team either self-tasks based on call handler information available on the list of waiting 999 calls or responds to requests from ambulance crews.",
-      "shortSummary": "The Aneurin Bevan University Health Board’s Physician Response Unit (PRU) comprises a physician-paramedic team that brings senior emergency medicine physician (EMP) (consultant/senior registrar) decision-making to patie…",
-      "summary": "The Aneurin Bevan University Health Board’s Physician Response Unit (PRU) comprises a physician-paramedic team that brings senior emergency medicine physician (EMP) (consultant/senior registrar) decision-making to patients’ homes. 1 It covers 1533 km 2 of rural and urban areas in Southeast Wales, serving a population of 600 000, operating 09:00–17:00 5 days a week with cover on alternate weekends. The team either self-tasks based on call handler information available on the list of waiting 999 calls or responds to...",
-      "confidence": "moderate"
+      "takeaway": "For community head injury management, consider the feasibility of senior physician input outside the ED, especially for stable, older, or anticoagulated patients. If local protocols allow, leveraging a physician-led response team can effectively triage and manage appropriate cases at home, potentially reducing unnecessary ED utilization. Always confirm local guidelines regarding anticoagulation management thresholds before expanding this scope.",
+      "shortSummary": "This review details the operational model of a Physician Response Unit (PRU) that extends senior emergency medicine physician (EMP) decision-making directly into the community setting.",
+      "summary": "This review details the operational model of a Physician Response Unit (PRU) that extends senior emergency medicine physician (EMP) decision-making directly into the community setting. The team, composed of physicians and paramedics, services a large, geographically diverse population, allowing them to triage and manage patients at home rather than requiring an emergency department visit. A key focus area highlighted is the management of head injury patients, particularly those who are older and on anticoagulation. The unit operates by self-tasking based on call handler data or responding to ambulance requests, aiming to provide appropriate care closer to the patient's residence. Furthermore, the EMPs are empowered to manage anticoagulated patients at home, adhering to updated NICE guidelines.",
+      "confidence": "high"
     },
     {
       "slug": "prehospital-prediction-of-clinical-course-in-patients-with-suspected-sepsis-a-pr",
@@ -160,9 +160,9 @@
       "publishedAt": "2026-05-06T16:00:26Z",
       "impact": "High-yield",
       "topic": "Resuscitation",
-      "takeaway": "We examined how variables observed by ambulance personnel predicted the clinical course in patients with suspected sepsis. Methods We prospectively collected prehospital data from patients with suspected sepsis in the ambulance service and supplemented the data with in-hospital findings.",
-      "shortSummary": "Background Early prediction of the clinical course may aid clinical decisions for patients with suspected sepsis.",
-      "summary": "Background Early prediction of the clinical course may aid clinical decisions for patients with suspected sepsis. We examined how variables observed by ambulance personnel predicted the clinical course in patients with suspected sepsis. Methods We prospectively collected prehospital data from patients with suspected sepsis in the ambulance service and supplemented the data with in-hospital findings.",
+      "takeaway": "While several prehospital metrics like qSOFA and SBP show associations with poor outcomes, remember that no single prehospital score predicts all aspects of sepsis severity or mortality. Use these tools as adjuncts to clinical judgment, not as standalone decision-makers. Be cautious interpreting these scores in isolation, as their predictive power appears limited when applied universally.",
+      "shortSummary": "This prospective cohort study assessed the utility of prehospital variables collected by ambulance personnel to predict the subsequent clinical course in patients presenting with suspected sepsis.",
+      "summary": "This prospective cohort study assessed the utility of prehospital variables collected by ambulance personnel to predict the subsequent clinical course in patients presenting with suspected sepsis. The authors analyzed data from 398 patients, correlating prehospital findings with in-hospital outcomes like SOFA score, development of septic shock, and 30-day mortality. Several variables showed associations with these outcomes, including oxygen saturation, systolic blood pressure, and qSOFA for severity and shock development. Notably, the study found that while multiple factors were predictive of different endpoints, no single prehospital variable predicted all three outcomes simultaneously. They also compared qSOFA and NEWS2 for predicting septic shock, finding that qSOFA had a better AUC for this specific outcome.",
       "confidence": "moderate"
     },
     {
@@ -170,13 +170,13 @@
       "title": "Impact of Cardiopulmonary Resuscitation Health Care Workers' Physical Health Parameters on Cardiopulmonary Resuscitation Performance Quality in Simulated Manikin-Based Settings-A Systematic Review",
       "source": "JACEP Open",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42094254/",
-      "published": "6 days ago",
+      "published": "1 week ago",
       "publishedAt": "2026-05-07T10:00:00Z",
       "impact": "High-yield",
       "topic": "Resuscitation",
-      "takeaway": "Achieving adequate depth and sustained frequency of chest compressions requires both strength and endurance among CPR health care workers. CONCLUSION: Physical health and fitness parameters of CPR health care workers are crucial to ensure high-quality CPR.",
-      "shortSummary": "CONCLUSION: Physical health and fitness parameters of CPR health care workers are crucial to ensure high-quality CPR.",
-      "summary": "CONCLUSION: Physical health and fitness parameters of CPR health care workers are crucial to ensure high-quality CPR. Achieving adequate depth and sustained frequency of chest compressions requires both strength and endurance among CPR health care workers.",
+      "takeaway": "Remember that CPR performance quality hinges significantly on the physical stamina and strength of the provider. While this suggests pre-deployment fitness screening could be beneficial, do not let this lead to over-reliance on physical metrics, as real-world performance is complex. Focus instead on incorporating regular, high-fidelity simulation drills that tax both endurance and technique.",
+      "shortSummary": "This systematic review synthesizes evidence regarding how the physical health and fitness levels of healthcare workers performing cardiopulmonary resuscitation (CPR) impact the actual quality of their compressions in si…",
+      "summary": "This systematic review synthesizes evidence regarding how the physical health and fitness levels of healthcare workers performing cardiopulmonary resuscitation (CPR) impact the actual quality of their compressions in simulated environments. The authors conclude that the physical condition of the rescuers is a critical determinant of maintaining high-quality CPR. Specifically, sustaining the necessary depth and frequency of chest compressions demands both underlying muscular strength and cardiovascular endurance from the personnel involved. While the review establishes this link, it is important to note that the findings are derived from simulated manikin-based testing, which may not perfectly translate to the acute chaos of a real-life emergency. Overall, the evidence points toward a tangible link between rescuer fitness and CPR quality.",
       "confidence": "moderate"
     },
     {
@@ -184,13 +184,13 @@
       "title": "Association between prehospital time and trauma outcomes: A multicenter cohort study from the Pan-Asian Trauma Outcomes Study (PATOS)",
       "source": "AJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42114384/",
-      "published": "2 days ago",
+      "published": "3 days ago",
       "publishedAt": "2026-05-11T10:00:00Z",
       "impact": "Worth watching",
       "topic": "Trauma",
-      "takeaway": "Prolonged RT and OST were associated with increased mortality, while extended OST and TT were associated with poor functional outcomes. However, these associations may reflect more severely ill patients requiring additional care.",
-      "shortSummary": "CONCLUSION: Prehospital time varies across EMS systems.",
-      "summary": "CONCLUSION: Prehospital time varies across EMS systems. Prolonged RT and OST were associated with increased mortality, while extended OST and TT were associated with poor functional outcomes. However, these associations may reflect more severely ill patients requiring additional care.",
+      "takeaway": "While prolonged prehospital times for resuscitation or stabilization correlate with worse outcomes, remember that this association might simply reflect the fact that the most critically ill patients take longer to manage. Don't interpret these findings as a mandate to rush care at the expense of thorough initial stabilization; the underlying acuity is likely the dominant factor influencing the time metrics.",
+      "shortSummary": "This multicenter cohort study from the Pan-Asian Trauma Outcomes Study (PATOS) examined the relationship between various prehospital time metrics and subsequent trauma outcomes.",
+      "summary": "This multicenter cohort study from the Pan-Asian Trauma Outcomes Study (PATOS) examined the relationship between various prehospital time metrics and subsequent trauma outcomes. The authors found that prolonged times to resuscitation (RT) and time to stabilization (OST) were independently associated with increased mortality rates. Furthermore, extended OST and time to transport (TT) were linked to poorer functional outcomes. However, the authors caution that these observed associations might be confounded by the underlying severity of the patient population, suggesting that sicker patients might inherently require more time in the prehospital setting.",
       "confidence": "moderate"
     },
     {
@@ -202,9 +202,9 @@
       "publishedAt": "2026-05-02T10:00:00Z",
       "impact": "Worth watching",
       "topic": "Resuscitation",
-      "takeaway": "Persistent gaps in differentiating DR deaths and stratifying outcomes by gestation, birth setting, care level, and CC timeliness underscore the need for prospective studies aligned with the Neonatal Utstein to improve precision and comparison of evidence in neonatal resuscitation.",
-      "shortSummary": "The substantial variation in CC outcome estimates cannot be reliably ascribed to temporal or geographic factors, given the heterogeneity in inclusion criteria.",
-      "summary": "The substantial variation in CC outcome estimates cannot be reliably ascribed to temporal or geographic factors, given the heterogeneity in inclusion criteria. Persistent gaps in differentiating DR deaths and stratifying outcomes by gestation, birth setting, care level, and CC timeliness underscore the need for prospective studies aligned with the Neonatal Utstein to improve precision and comparison of evidence in neonatal resuscitation.",
+      "takeaway": "Given the high heterogeneity across included studies, don't expect to find a single, definitive outcome metric for CC effectiveness. Focus instead on ensuring your local protocols mandate timely initiation and careful documentation of resuscitation steps. Remember that the current evidence base is limited by study design, so treat outcome estimates with caution.",
+      "shortSummary": "This systematic review synthesized data on mortality and severe morbidities following the use of chest compressions (CC) at birth in neonates.",
+      "summary": "This systematic review synthesized data on mortality and severe morbidities following the use of chest compressions (CC) at birth in neonates. The authors conclude that the wide variability observed in the reported outcomes cannot be reliably attributed to simple factors like changes over time or differences across geographic locations. They point out significant gaps in the current literature, specifically regarding the differentiation of deaths due to asphyxia versus other causes, and the need for better stratification of outcomes based on gestational age, the setting of birth, the level of care provided, and how quickly the compressions were initiated. Ultimately, the review emphasizes that more rigorous, prospective studies are necessary to improve the precision and comparability of evidence in neonatal resuscitation protocols.",
       "confidence": "moderate"
     },
     {
@@ -216,24 +216,24 @@
       "publishedAt": "2026-04-30T16:00:16Z",
       "impact": "Worth watching",
       "topic": "Resuscitation",
-      "takeaway": "The last half-decade has seen landmark trials report on several techniques and adoption is growing despite controversies around risk, efficacy and implementation. As leaders in resuscitation, it is essential that emergency physicians understand the principles and practice of endovascular techniques to advocate for the critically unwell patients that may benefit from EVR and be engaged in future implementation.",
-      "shortSummary": "Endovascular resuscitation (EVR) describes a collection of novel therapies that aim to bridge patients in shock states or cardiac arrest to definitive treatment, through a combination of haemorrhage control and mechanic…",
-      "summary": "Endovascular resuscitation (EVR) describes a collection of novel therapies that aim to bridge patients in shock states or cardiac arrest to definitive treatment, through a combination of haemorrhage control and mechanical circulatory support. The last half-decade has seen landmark trials report on several techniques and adoption is growing despite controversies around risk, efficacy and implementation. As leaders in resuscitation, it is essential that emergency physicians understand the principles and practice of...",
-      "confidence": "moderate"
+      "takeaway": "When considering EVR for refractory shock or cardiac arrest, remember that these techniques are intended as temporizing measures to bridge to definitive care. The review provides a good framework for understanding the progression from aortic balloon occlusion to full ECMO support. However, given the growing adoption and inherent controversies, always approach implementation with a deep understanding of the specific indications and the initial vascular access requirements.",
+      "shortSummary": "This expert practice review synthesizes the rapidly evolving field of endovascular resuscitation (EVR), which encompasses novel therapies designed to bridge critically ill patients in shock or cardiac arrest toward defi…",
+      "summary": "This expert practice review synthesizes the rapidly evolving field of endovascular resuscitation (EVR), which encompasses novel therapies designed to bridge critically ill patients in shock or cardiac arrest toward definitive care. The authors structure the review around clinical scenarios, specifically out-of-hospital cardiac arrest and non-compressible hemorrhage, providing a comprehensive overview for emergency physicians. They detail the underlying rationale for using these techniques and emphasize the critical initial step of establishing vascular access. Furthermore, the review systematically covers three escalating interventions: resuscitative endovascular balloon occlusion of the aorta, selective aortic arch perfusion, and extracorporeal cardiopulmonary resuscitation, discussing the physiology, technique, efficacy, and safety profile of each.",
+      "confidence": "high"
     },
     {
       "slug": "barriers-to-bystander-cpr-and-aed-use-in-out-of-hospital-cardiac-arrest-a-narrat",
       "title": "Barriers to bystander CPR and AED use in out-of-hospital cardiac arrest: A narrative review",
       "source": "AJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42119277/",
-      "published": "1 day ago",
+      "published": "2 days ago",
       "publishedAt": "2026-05-12T10:00:00Z",
       "impact": "Worth watching",
       "topic": "Resuscitation",
-      "takeaway": "The \"chain of survival\" framework has served as the foundation of OHCA care for decades. This framework emphasizes early recognition, prompt bystander cardiopulmonary resuscitation (CPR), and rapid defibrillation as critical determinants of outcomes.",
-      "shortSummary": "Out-of-hospital cardiac arrest (OHCA) is a leading cause of death worldwide, with a survival to discharge rate of less than 20% in most communities.",
-      "summary": "Out-of-hospital cardiac arrest (OHCA) is a leading cause of death worldwide, with a survival to discharge rate of less than 20% in most communities. The \"chain of survival\" framework has served as the foundation of OHCA care for decades. This framework emphasizes early recognition, prompt bystander cardiopulmonary resuscitation (CPR), and rapid defibrillation as critical determinants of outcomes.",
-      "confidence": "moderate"
+      "takeaway": "When managing a witnessed or unwitnessed cardiac arrest in the field, remember that the greatest hurdle is often bystander hesitation rather than lack of equipment. While protocols mandate immediate CPR and AED use, focus efforts on rapid, clear activation of the emergency system and direct coaching to overcome bystander reluctance. Don't assume bystanders know what to do; direct them immediately.",
+      "shortSummary": "This narrative review tackles the persistent problem of low survival rates in out-of-hospital cardiac arrest (OHCA), noting that despite decades of efforts building on the 'chain of survival' concept, survival remains p…",
+      "summary": "This narrative review tackles the persistent problem of low survival rates in out-of-hospital cardiac arrest (OHCA), noting that despite decades of efforts building on the 'chain of survival' concept, survival remains poor globally. The authors focus specifically on the barriers preventing bystanders from initiating CPR and using AEDs when needed. They synthesize current understanding regarding these barriers, suggesting that while training has improved, implementation in real-world, high-stress scenarios remains suboptimal. The review synthesizes qualitative and quantitative data to paint a picture of the systemic and psychological hurdles faced by witnesses. It's a good reminder that improving the theoretical knowledge of resuscitation isn't enough; we need to address the practical failures at the point of care.",
+      "confidence": "high"
     },
     {
       "slug": "emcrit-424-2026-crashing-pe-update",
@@ -244,10 +244,10 @@
       "publishedAt": "2026-05-02T19:42:52Z",
       "impact": "Worth watching",
       "topic": "Practice Updates",
-      "takeaway": "AHA Guidelines and some new studies strengthen the EMCrit recs for Sick PE management EMCrit Project by Scott Weingart, MD FCCM .",
-      "shortSummary": "AHA Guidelines and some new studies strengthen the EMCrit recs for Sick PE management EMCrit Project by Scott Weingart, MD FCCM .",
-      "summary": "AHA Guidelines and some new studies strengthen the EMCrit recs for Sick PE management EMCrit Project by Scott Weingart, MD FCCM .",
-      "confidence": "moderate"
+      "takeaway": "When managing a critically ill patient with suspected PE, ensure your approach is guided by hemodynamic status rather than just initial risk scores. Aggressive resuscitation and prompt consideration of advanced therapies, like thrombolysis or embolectomy, are warranted in those showing signs of shock. Remember that these updates strengthen existing recommendations, but clinical judgment remains paramount, especially when interpreting borderline hemodynamic parameters.",
+      "shortSummary": "This update synthesizes the latest evidence, particularly incorporating the American Heart Association guidelines, to refine management strategies for patients presenting with suspected pulmonary embolism (PE) who are h…",
+      "summary": "This update synthesizes the latest evidence, particularly incorporating the American Heart Association guidelines, to refine management strategies for patients presenting with suspected pulmonary embolism (PE) who are hemodynamically unstable or critically ill. The core message reinforces the need for aggressive, risk-stratified management in the sick PE population. It appears the current literature and guidelines are converging to support more proactive and potentially more aggressive interventions for those with signs of shock or severe compromise, moving beyond simple risk stratification alone. The discussion seems geared toward optimizing resuscitation and reperfusion strategies in the setting of acute cardiopulmonary compromise due to PE.",
+      "confidence": "high"
     },
     {
       "slug": "comparison-of-three-point-of-care-ultrasound-techniques-to-confirm-endotracheal-",
@@ -258,23 +258,23 @@
       "publishedAt": "2026-05-01T10:00:00Z",
       "impact": "Worth watching",
       "topic": "Intubation",
-      "takeaway": "CONCLUSION: All three ultrasound techniques demonstrated high diagnostic performance for confirming ETT location after rapid sequence intubation, with TUS providing the shortest confirmation time.",
-      "shortSummary": "CONCLUSION: All three ultrasound techniques demonstrated high diagnostic performance for confirming ETT location after rapid sequence intubation, with TUS providing the shortest confirmation time.",
-      "summary": "CONCLUSION: All three ultrasound techniques demonstrated high diagnostic performance for confirming ETT location after rapid sequence intubation, with TUS providing the shortest confirmation time.",
-      "confidence": "moderate"
+      "takeaway": "When confirming ETT placement after RSI, all evaluated ultrasound techniques appear highly accurate. If speed is a major concern in a resource-limited or time-critical setting, TUS may offer a measurable advantage in confirmation time. However, remember that these are comparative findings, and the core principle remains that ultrasound is a valuable adjunct to traditional methods.",
+      "shortSummary": "This randomized clinical trial compared three different point-of-care ultrasound (POCUS) techniques for confirming endotracheal tube (ETT) placement following rapid sequence intubation (RSI).",
+      "summary": "This randomized clinical trial compared three different point-of-care ultrasound (POCUS) techniques for confirming endotracheal tube (ETT) placement following rapid sequence intubation (RSI). The study found that all three methods—including standard ultrasound, transoral ultrasound (TUS), and potentially others—demonstrated high diagnostic accuracy for confirming the tube's location. Notably, the authors highlighted that TUS was associated with providing the quickest confirmation time among the techniques tested. Overall, the data suggests that ultrasound modalities are reliable tools for this critical confirmation step in the emergency setting.",
+      "confidence": "high"
     },
     {
       "slug": "utilization-of-emergency-departments-by-individuals-with-refugee-status-a-system",
       "title": "Utilization of emergency departments by individuals with refugee status: a systematic review of studies using data from Canadian care centers",
       "source": "CJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42118511/",
-      "published": "1 day ago",
+      "published": "2 days ago",
       "publishedAt": "2026-05-12T10:00:00Z",
       "impact": "Worth watching",
       "topic": "Reviews",
-      "takeaway": "Although comprehensive data on refugees' use of Canadian emergency departments remains limited, unintentional injuries were the most commonly reported reason for ED visits, with comparatively higher rates of pregnancy-related and mental health-related presentations also observed.",
-      "shortSummary": "Although comprehensive data on refugees' use of Canadian emergency departments remains limited, unintentional injuries were the most commonly reported reason for ED visits, with comparatively higher rates of pregnancy-r…",
-      "summary": "Although comprehensive data on refugees' use of Canadian emergency departments remains limited, unintentional injuries were the most commonly reported reason for ED visits, with comparatively higher rates of pregnancy-related and mental health-related presentations also observed.",
+      "takeaway": "When managing refugee patients in the ED, remember that high rates of presentations for issues like mental health or pregnancy might signal underlying access barriers rather than just acute need. Consider screening for potential systemic barriers, such as lack of knowledge about primary care options or financial concerns, rather than just treating the presenting complaint. These findings suggest a need to proactively bridge the gap between acute care and necessary outpatient follow-up.",
+      "shortSummary": "This systematic review synthesizes existing data regarding emergency department utilization among individuals with refugee status within Canadian care centers.",
+      "summary": "This systematic review synthesizes existing data regarding emergency department utilization among individuals with refugee status within Canadian care centers. The authors note that while comprehensive data is scarce, the findings point toward several key patterns of presentation. Unintentional injuries emerged as the most frequent reason for ED visits, but the review also highlighted disproportionately high rates of presentations related to pregnancy and mental health. The authors suggest that these observed patterns might reflect underlying systemic barriers to accessing routine outpatient care. Potential contributing factors discussed include limited familiarity with the Canadian healthcare system, cultural stigma surrounding healthcare utilization, or even financial barriers such as the requirement for upfront payments to receive services.",
       "confidence": "moderate"
     },
     {
@@ -282,13 +282,13 @@
       "title": "Eye-related emergency calls and prehospital management in region Zealand, Danmark: a register-based cohort study",
       "source": "SJTREM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42106843/",
-      "published": "4 days ago",
+      "published": "5 days ago",
       "publishedAt": "2026-05-09T10:00:00Z",
       "impact": "Worth watching",
       "topic": "Stroke",
-      "takeaway": "Several patients classified as eye-related problems were later diagnosed with stroke, highlighting the need for better dispatcher recognition of visual stroke symptoms.",
-      "shortSummary": "CONCLUSION: Eye-related emergency calls were primarily caused by chemical exposures, vision loss, and trauma, with relatively short hospital stays.",
-      "summary": "CONCLUSION: Eye-related emergency calls were primarily caused by chemical exposures, vision loss, and trauma, with relatively short hospital stays. Several patients classified as eye-related problems were later diagnosed with stroke, highlighting the need for better dispatcher recognition of visual stroke symptoms.",
+      "takeaway": "When managing an acute eye complaint, maintain a high index of suspicion for underlying neurological causes, especially in the setting of acute vision loss. Do not solely attribute visual deficits to ocular pathology; consider stroke workup even if the initial presentation seems purely ophthalmic. Remember that dispatchers are a critical safety net, and educating them on recognizing subtle visual stroke signs could improve early triage.",
+      "shortSummary": "This register-based cohort study from Zealand, Denmark, analyzed eye-related emergency calls to characterize common etiologies and outcomes.",
+      "summary": "This register-based cohort study from Zealand, Denmark, analyzed eye-related emergency calls to characterize common etiologies and outcomes. The findings indicate that the primary reasons for these calls were chemical exposures, vision loss, and trauma, generally leading to relatively short hospital stays. Of particular interest is the identification of several patients initially presenting with eye complaints who were subsequently diagnosed with stroke. This suggests that the initial presentation of visual deficits may mask or be associated with underlying cerebrovascular events. The authors emphasize that this pattern warrants improved recognition of visual stroke symptoms by prehospital dispatchers.",
       "confidence": "moderate"
     }
   ]

@@ -89,7 +89,7 @@ export function HeroGraphic({
             <h3 className="mt-2 text-2xl font-semibold tracking-tight text-white transition group-hover:text-cyan-100">
               {lead.title}
             </h3>
-            <p className="mt-3 text-sm leading-7 text-slate-300">{lead.whyItMatters}</p>
+            <p className="mt-3 text-sm leading-7 text-slate-300">{lead.takeaway}</p>
 
             <div className="mt-4 grid gap-3 sm:grid-cols-2">
               <div className="rounded-[18px] border border-white/8 bg-slate-900/45 p-4">
@@ -140,9 +140,7 @@ export function HeroGraphic({
                     <div className="mt-1 text-sm font-semibold text-white transition group-hover:text-cyan-100">
                       {article.title}
                     </div>
-                    <div className="mt-1 text-sm text-slate-300 line-clamp-2">
-                      {article.whyItMatters}
-                    </div>
+                    <div className="mt-1 text-sm text-slate-300 line-clamp-2">{article.shortSummary}</div>
                   </div>
                 </Link>
               ))}

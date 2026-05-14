@@ -77,9 +77,9 @@ export function EditorialBriefingCard({ article }: { article: Article }) {
             </div>
             <div className="rounded-[24px] border border-slate-200/70 bg-white/78 p-5">
               <div className="text-xs font-semibold uppercase tracking-[0.25em] text-teal-700">
-                Why it matters in the ED
+                Bottom line in the ED
               </div>
-              <p className="mt-3 text-sm leading-7 text-slate-700">{article.whyItMatters}</p>
+              <p className="mt-3 text-sm leading-7 text-slate-700">{article.bottomLine}</p>
               <div className="mt-4 rounded-2xl border border-slate-200/70 bg-slate-50/82 p-4 text-sm text-slate-700">
                 <div className="text-[11px] font-semibold uppercase tracking-[0.24em] text-slate-500">
                   Editorial angle
