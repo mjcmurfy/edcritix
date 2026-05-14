@@ -23,7 +23,6 @@ export function EditionPageView({
       <main className="mx-auto flex w-full max-w-5xl flex-col gap-7 px-5 pb-6 pt-3 sm:gap-9 sm:px-8 sm:pb-8 sm:pt-4 lg:px-10 lg:pb-12 lg:pt-5">
         <EditionMasthead
           editionLabel={edition.label}
-          updatedAt={updatedAt}
           sourceWindowDays={edition.sourceWindowDays ?? null}
           articleCount={edition.articleCount ?? edition.articles.length}
           previousHref={previousHref}
@@ -32,17 +31,17 @@ export function EditionPageView({
         />
 
         <EditorNotePanel
-          label={isCurrent ? "Today's editor note" : "Edition note"}
+          label={isCurrent ? "Daily Editorial" : "Edition note"}
           headline={edition.headline}
           summary={summary}
-          updatedAt={updatedAt}
         />
 
         <SelectedReadsSection
           articles={edition.articles}
+          label={isCurrent ? undefined : "Selected reads"}
           heading={
             isCurrent
-              ? `${edition.articles.length} Articles in today's edition`
+              ? `Today's top ${edition.articles.length} Articles`
               : `${edition.articles.length} Articles in the ${edition.label} edition`
           }
         />

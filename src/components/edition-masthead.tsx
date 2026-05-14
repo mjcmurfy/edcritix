@@ -1,12 +1,10 @@
 import Link from "next/link";
-import { formatDateTime } from "@/lib/feed";
 
 const navButtonBase =
   "inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-medium shadow-[0_10px_24px_rgba(0,0,0,0.08)] transition hover:opacity-90";
 
 export function EditionMasthead({
   editionLabel,
-  updatedAt,
   sourceWindowDays,
   articleCount,
   previousHref,
@@ -14,7 +12,6 @@ export function EditionMasthead({
   isCurrent,
 }: {
   editionLabel: string;
-  updatedAt: string | null;
   sourceWindowDays?: number | null;
   articleCount: number;
   previousHref?: string | null;
@@ -22,40 +19,33 @@ export function EditionMasthead({
   isCurrent: boolean;
 }) {
   return (
-    <section className="relative overflow-hidden rounded-[34px] border border-[color:var(--hero-badge-border)] bg-[linear-gradient(155deg,rgba(17,24,39,0.92),rgba(8,15,27,0.84))] px-5 py-6 shadow-[0_30px_90px_rgba(2,12,27,0.28)] sm:px-7 sm:py-7 lg:px-8 lg:py-8">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.18),transparent_34%),radial-gradient(circle_at_85%_10%,rgba(45,212,191,0.14),transparent_28%)]" />
+    <section className="relative overflow-hidden rounded-[34px] border border-[color:var(--hero-badge-border)] bg-[image:var(--hero-surface)] px-5 py-6 shadow-[0_30px_90px_rgba(2,12,27,0.28)] sm:px-7 sm:py-7 lg:px-8 lg:py-8">
+      <div className="pointer-events-none absolute inset-0 bg-[image:var(--hero-glow)]" />
       <div className="pointer-events-none absolute inset-[1px] rounded-[33px] border border-white/6" />
 
       <div className="relative">
-        <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
-          <div className="max-w-3xl">
-            <div className="inline-flex items-center rounded-full border border-cyan-300/20 bg-cyan-400/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.3em] text-cyan-100/90">
-              {isCurrent ? "Current edition" : "Archive edition"}
-            </div>
-            <h1 className="mt-4 text-[1.95rem] font-extrabold uppercase tracking-[0.16em] text-white sm:text-[2.4rem] sm:tracking-[0.22em]">
+        <div className="flex flex-col gap-6 xl:flex-row xl:items-end xl:justify-between">
+          <div className="max-w-4xl">
+            <h1 className="whitespace-nowrap text-[1.12rem] font-extrabold uppercase tracking-[0.08em] text-[color:var(--hero-title)] sm:text-[1.45rem] sm:tracking-[0.1em] lg:text-[1.8rem] xl:text-[2.05rem]">
               Defibrillating the Data
             </h1>
-            <p className="mt-2 text-base font-medium tracking-tight text-cyan-100/85 sm:text-lg">
+            <p className="mt-2 text-base font-medium tracking-tight text-[color:var(--hero-subtitle)] sm:text-lg">
               The front page for Emergency Medicine
             </p>
-            <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-200 sm:text-[15px]">
+            <p className="mt-5 max-w-2xl text-sm leading-7 text-[color:var(--hero-body)] sm:text-[15px]">
               EDCritix scans new emergency medicine papers, guidelines, and FOAMed, ranks the most clinically useful reads for frontline practice, and rewrites them into concise summaries with direct links to the original source.
             </p>
           </div>
 
-          <div className="grid gap-3 sm:grid-cols-3 lg:w-[25rem] lg:grid-cols-1">
-            <div className="rounded-[22px] border border-white/10 bg-white/[0.05] p-4 backdrop-blur-sm">
-              <div className="text-[11px] font-semibold uppercase tracking-[0.24em] text-cyan-200/70">Edition</div>
-              <div className="mt-2 text-lg font-semibold text-white">{editionLabel}</div>
+          <div className="grid gap-3 sm:grid-cols-2 xl:w-[25rem] xl:grid-cols-1">
+            <div className="rounded-[20px] border border-[color:var(--hero-card-border)] bg-[color:var(--hero-card-bg)] px-4 py-3 backdrop-blur-sm">
+              <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[color:var(--hero-card-label)]">Edition</div>
+              <div className="mt-1 text-base font-semibold leading-tight text-[color:var(--hero-card-text)]">{editionLabel}</div>
             </div>
-            <div className="rounded-[22px] border border-white/10 bg-white/[0.05] p-4 backdrop-blur-sm">
-              <div className="text-[11px] font-semibold uppercase tracking-[0.24em] text-cyan-200/70">Updated</div>
-              <div className="mt-2 text-sm font-medium text-slate-100">{formatDateTime(updatedAt)}</div>
-            </div>
-            <div className="rounded-[22px] border border-white/10 bg-white/[0.05] p-4 backdrop-blur-sm">
-              <div className="text-[11px] font-semibold uppercase tracking-[0.24em] text-cyan-200/70">Edition scope</div>
-              <div className="mt-2 text-sm font-medium text-slate-100">
-                {articleCount} reads{sourceWindowDays ? ` · ${sourceWindowDays}-day scan` : ""}
+            <div className="rounded-[20px] border border-[color:var(--hero-card-border)] bg-[color:var(--hero-card-bg)] px-4 py-3 backdrop-blur-sm">
+              <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[color:var(--hero-card-label)]">Edition scope</div>
+              <div className="mt-1 text-sm font-medium leading-tight text-[color:var(--hero-card-text)]">
+                {articleCount} Articles{sourceWindowDays ? ` · ${sourceWindowDays}-day scan` : ""}
               </div>
             </div>
           </div>

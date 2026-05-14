@@ -6,13 +6,13 @@ export default function ArchivePage() {
   return (
     <PageShell>
       <main className="mx-auto flex w-full max-w-5xl flex-col gap-7 px-5 pb-6 pt-3 sm:gap-9 sm:px-8 sm:pb-8 sm:pt-4 lg:px-10 lg:pb-12 lg:pt-5">
-        <section className="rounded-[34px] border border-[color:var(--hero-badge-border)] bg-[linear-gradient(155deg,rgba(17,24,39,0.92),rgba(8,15,27,0.84))] px-5 py-6 shadow-[0_30px_90px_rgba(2,12,27,0.28)] sm:px-7 sm:py-7 lg:px-8 lg:py-8">
+        <section className="rounded-[34px] border border-[color:var(--hero-badge-border)] bg-[image:var(--hero-surface)] px-5 py-6 shadow-[0_30px_90px_rgba(2,12,27,0.28)] sm:px-7 sm:py-7 lg:px-8 lg:py-8">
           <div className="max-w-3xl">
-            <div className="text-[11px] font-semibold uppercase tracking-[0.3em] text-cyan-200/75">Edition archive</div>
-            <h1 className="mt-3 text-[1.9rem] font-semibold tracking-tight text-white sm:text-[2.4rem]">
+            <div className="text-[11px] font-semibold uppercase tracking-[0.3em] text-[color:var(--hero-card-label)]">Edition archive</div>
+            <h1 className="mt-3 text-[1.9rem] font-semibold tracking-tight text-[color:var(--hero-title)] sm:text-[2.4rem]">
               Browse past EDCritix editions
             </h1>
-            <p className="mt-4 text-sm leading-7 text-slate-200 sm:text-[15px]">
+            <p className="mt-4 text-sm leading-7 text-[color:var(--hero-body)] sm:text-[15px]">
               Move back through recent editions, reopen the editor note, and compare how the top reads changed from day to day.
             </p>
           </div>

@@ -7,9 +7,11 @@ import type { Article } from "@/lib/feed";
 export function SelectedReadsSection({
   articles,
   heading,
+  label,
 }: {
   articles: Article[];
   heading?: string;
+  label?: string;
 }) {
   const [compact, setCompact] = useState(false);
   const toggleTextClass = compact
@@ -20,10 +22,12 @@ export function SelectedReadsSection({
     <section>
       <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
         <div>
-          <div className="text-[11px] font-semibold uppercase tracking-[0.3em] text-[color:var(--muted-faint)]">
-            Selected reads
-          </div>
-          <h2 className="mt-2 text-2xl font-semibold tracking-tight text-[color:var(--foreground-strong)] sm:text-3xl">
+          {label ? (
+            <div className="text-[11px] font-semibold uppercase tracking-[0.3em] text-[color:var(--muted-faint)]">
+              {label}
+            </div>
+          ) : null}
+          <h2 className={`${label ? "mt-2 " : ""}text-2xl font-semibold tracking-tight text-[color:var(--foreground-strong)] sm:text-3xl`}>
             {heading ?? `${articles.length} Articles in today's edition`}
           </h2>
         </div>
