@@ -33,7 +33,7 @@ export function EditionMasthead({
               The front page for Emergency Medicine
             </p>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-[color:var(--hero-body)] sm:text-[15px]">
-              EDCritix scans new emergency medicine papers, guidelines, and FOAMed, ranks the most clinically useful reads for frontline practice, and rewrites them into concise summaries with direct links to the original source.
+              EDCritix scans new emergency medicine papers, guidelines, and FOAMed, ranks the most clinically useful reads for frontline practice, providing concise summaries, clinical takeaways, and links to the original source.
             </p>
           </div>
 
