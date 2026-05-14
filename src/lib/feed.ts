@@ -1,4 +1,5 @@
 import publishedFeed from "@/data/published-feed.json";
+import publishedEditions from "@/data/published-editions.json";
 
 export type ImpactLevel =
   | "Practice-changing"
@@ -62,6 +63,7 @@ export type FeedMeta = {
   generatedAt: string;
   sourceGeneratedAt: string | null;
   editorialGeneratedAt: string | null;
+  editionDate?: string | null;
   sourceWindowDays?: number | null;
   notes?: string | null;
   analysisOverridesPath?: string | null;
@@ -85,13 +87,34 @@ type PublishedFeed = {
   topics?: Topic[];
 };
 
+export type Edition = {
+  date: string;
+  label: string;
+  headline: string;
+  summary: string;
+  notes?: string | null;
+  generatedAt?: string | null;
+  sourceGeneratedAt?: string | null;
+  editorialGeneratedAt?: string | null;
+  sourceWindowDays?: number | null;
+  articleCount?: number;
+  articles: Article[];
+};
+
+type PublishedEditions = {
+  currentDate?: string;
+  editions?: Edition[];
+};
+
 const feed = publishedFeed as PublishedFeed;
+const editionsFeed = publishedEditions as PublishedEditions;
 const NZ_TIME_ZONE = "Pacific/Auckland";
 
 export const feedMeta: FeedMeta = {
   generatedAt: feed.meta?.generatedAt ?? new Date(0).toISOString(),
   sourceGeneratedAt: feed.meta?.sourceGeneratedAt ?? null,
   editorialGeneratedAt: feed.meta?.editorialGeneratedAt ?? null,
+  editionDate: feed.meta?.editionDate ?? null,
   sourceWindowDays: feed.meta?.sourceWindowDays ?? null,
   notes: feed.meta?.notes ?? null,
   analysisOverridesPath: feed.meta?.analysisOverridesPath ?? null,
@@ -110,9 +133,58 @@ export const dailyEditorial = (feed.dailyEditorial ?? feed.featured ?? []) as Ar
 export const featuredArticles = (feed.featured ?? dailyEditorial.slice(0, 6)) as Article[];
 export const articles = (feed.articles ?? dailyEditorial) as Article[];
 export const topics = (feed.topics ?? []) as Topic[];
+export const editionArchive = (editionsFeed.editions ?? []) as Edition[];
+
+const fallbackCurrentEditionDate =
+  feedMeta.editionDate ??
+  (feedMeta.editorialGeneratedAt
+    ? new Intl.DateTimeFormat("en-CA", {
+        timeZone: NZ_TIME_ZONE,
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+      }).format(new Date(feedMeta.editorialGeneratedAt))
+    : null);
+
+export const currentEditionDate = editionsFeed.currentDate ?? fallbackCurrentEditionDate ?? "current";
+
+export const currentEdition: Edition =
+  editionArchive.find((edition) => edition.date === currentEditionDate) ?? {
+    date: currentEditionDate,
+    label: formatDate(feedMeta.editorialGeneratedAt ?? feedMeta.generatedAt),
+    headline: briefing.editorialHeadline ?? briefing.headline,
+    summary: briefing.editorialSummary ?? briefing.summary,
+    notes: feedMeta.notes ?? null,
+    generatedAt: feedMeta.generatedAt,
+    sourceGeneratedAt: feedMeta.sourceGeneratedAt,
+    editorialGeneratedAt: feedMeta.editorialGeneratedAt,
+    sourceWindowDays: feedMeta.sourceWindowDays ?? null,
+    articleCount: dailyEditorial.length,
+    articles: dailyEditorial,
+  };
 
 export function getArticleBySlug(slug: string) {
   return articles.find((article) => article.slug === slug);
+}
+
+export function getEditionByDate(date: string) {
+  return editionArchive.find((edition) => edition.date === date) ?? null;
+}
+
+export function getEditionHref(date: string) {
+  return date === currentEditionDate ? "/" : `/archive/${date}`;
+}
+
+export function getEditionNeighbors(date: string) {
+  const index = editionArchive.findIndex((edition) => edition.date === date);
+  if (index === -1) {
+    return { previous: null, next: null };
+  }
+
+  return {
+    previous: editionArchive[index + 1] ?? null,
+    next: editionArchive[index - 1] ?? null,
+  };
 }
 
 export function formatDateTime(iso: string | null) {

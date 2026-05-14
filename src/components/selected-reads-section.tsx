@@ -4,7 +4,13 @@ import { useState } from "react";
 import { DailyEditorialCardInner } from "@/components/daily-editorial-card";
 import type { Article } from "@/lib/feed";
 
-export function SelectedReadsSection({ articles }: { articles: Article[] }) {
+export function SelectedReadsSection({
+  articles,
+  heading,
+}: {
+  articles: Article[];
+  heading?: string;
+}) {
   const [compact, setCompact] = useState(false);
   const toggleTextClass = compact
     ? "text-[color:var(--action-expand-text)]"
@@ -18,7 +24,7 @@ export function SelectedReadsSection({ articles }: { articles: Article[] }) {
             Selected reads
           </div>
           <h2 className="mt-2 text-2xl font-semibold tracking-tight text-[color:var(--foreground-strong)] sm:text-3xl">
-            {`${articles.length} Articles in today's edition`}
+            {heading ?? `${articles.length} Articles in today's edition`}
           </h2>
         </div>
 

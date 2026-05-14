@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "EDCritix",
   description:
-    "Defibrillating the Data. AI-summarised and ranked daily from the latest emergency medicine sources.",
+    "EDCritix scans new emergency medicine papers, guidelines, and FOAMed, ranks the most clinically useful reads for frontline practice, and rewrites them into concise summaries with direct links to the original source.",
 };
 
 export default function RootLayout({
