@@ -6,6 +6,9 @@ import type { Article } from "@/lib/feed";
 
 export function SelectedReadsSection({ articles }: { articles: Article[] }) {
   const [compact, setCompact] = useState(false);
+  const toggleTextClass = compact
+    ? "text-[color:var(--action-expand-text)]"
+    : "text-[color:var(--action-collapse-text)]";
 
   return (
     <section>
@@ -22,7 +25,7 @@ export function SelectedReadsSection({ articles }: { articles: Article[] }) {
         <button
           type="button"
           onClick={() => setCompact((value) => !value)}
-          className="inline-flex items-center justify-center rounded-full border border-[color:var(--toggle-button-border)] bg-[color:var(--toggle-button-bg)] px-4 py-2 text-sm font-medium text-[color:var(--toggle-button-text)] shadow-[0_10px_24px_rgba(0,0,0,0.08)] transition hover:opacity-90 sm:self-auto"
+          className={`inline-flex items-center justify-center rounded-full border border-[color:var(--toggle-button-border)] bg-[color:var(--toggle-button-bg)] px-4 py-2 text-sm font-medium shadow-[0_10px_24px_rgba(0,0,0,0.08)] transition hover:opacity-90 sm:self-auto ${toggleTextClass}`}
         >
           {compact ? "Expand all" : "Collapse all"}
         </button>

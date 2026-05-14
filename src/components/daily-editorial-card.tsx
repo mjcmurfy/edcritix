@@ -10,6 +10,17 @@ const impactClasses: Record<Article["impact"], string> = {
   Background: "border-[color:var(--impact-background-border)] bg-[color:var(--impact-background-bg)] text-[color:var(--impact-background-text)]",
 };
 
+const actionButtonBase =
+  "inline-flex h-11 shrink-0 items-center justify-center rounded-full border appearance-none font-sans text-sm font-medium leading-none tracking-normal shadow-[0_10px_24px_rgba(0,0,0,0.08)] transition hover:opacity-90 sm:h-10";
+
+const actionButtonSecondary = `${actionButtonBase} border-[color:var(--toggle-button-border)] bg-[color:var(--toggle-button-bg)] text-[color:var(--toggle-button-text)]`;
+
+const actionButtonPrimary = `${actionButtonBase} border-[color:var(--button-border)] bg-[color:var(--button-bg)] text-[color:var(--button-text)]`;
+
+const actionButtonLabel = "text-[13px] font-medium leading-none tracking-normal sm:text-sm";
+const actionExpandText = "text-[color:var(--action-expand-text)]";
+const actionCollapseText = "text-[color:var(--action-collapse-text)]";
+
 function MobileExpandableText({
   text,
   mobileLines,
@@ -66,6 +77,7 @@ export function DailyEditorialCardInner({
   compact?: boolean;
 }) {
   const [isExpanded, setIsExpanded] = useState(!compact);
+  const toggleTextClass = isExpanded ? actionCollapseText : actionExpandText;
 
   useEffect(() => {
     setIsExpanded(!compact);
@@ -128,19 +140,19 @@ export function DailyEditorialCardInner({
             type="button"
             onClick={() => setIsExpanded((value) => !value)}
             aria-label={isExpanded ? `Collapse ${article.title}` : `Expand ${article.title}`}
-            className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[color:var(--toggle-button-border)] bg-[color:var(--toggle-button-bg)] text-sm font-medium text-[color:var(--toggle-button-text)] shadow-[0_10px_24px_rgba(0,0,0,0.08)] transition hover:opacity-90 sm:h-auto sm:w-auto sm:px-4 sm:py-2"
+            className={`${actionButtonSecondary} w-11 px-0 sm:w-auto sm:px-4`}
           >
-            <span className="sm:hidden" aria-hidden>{isExpanded ? "▴" : "▾"}</span>
-            <span className="hidden sm:inline">{isExpanded ? "Collapse" : "Expand"}</span>
+            <span className={`sm:hidden ${toggleTextClass}`} aria-hidden>{isExpanded ? "▴" : "▾"}</span>
+            <span className={`hidden sm:inline ${actionButtonLabel} ${toggleTextClass}`}>{isExpanded ? "Collapse" : "Expand"}</span>
           </button>
           <a
             href={article.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-11 shrink-0 items-center justify-center rounded-full border border-[color:var(--button-border)] bg-[color:var(--button-bg)] px-3.5 text-sm font-medium text-[color:var(--button-text)] transition hover:opacity-90 sm:h-auto sm:px-4 sm:py-2"
+            className={`${actionButtonPrimary} px-4`}
           >
-            <span className="sm:hidden">Source</span>
-            <span className="hidden sm:inline">Open source</span>
+            <span className={`sm:hidden ${actionButtonLabel}`}>Source</span>
+            <span className={`hidden sm:inline ${actionButtonLabel}`}>Source</span>
           </a>
         </div>
       </div>
