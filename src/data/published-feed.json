@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generatedAt": "2026-05-15T07:10:40.693Z",
-    "sourceGeneratedAt": "2026-05-14T18:15:13.977479Z",
+    "generatedAt": "2026-05-15T18:28:22.370Z",
+    "sourceGeneratedAt": "2026-05-15T18:15:12.728276Z",
     "editorialGeneratedAt": "2026-05-14T23:59:45.063388Z",
     "editionDate": "2026-05-15"
   },
   "briefing": {
-    "headline": "12 high-priority items in the latest EM scan",
-    "summary": "Top sources today: AJEM, EMJ, EMCrit. Main themes: trials, guideline or formal recommendation, reviews. Best early reads: 2025 guideline updates for community-acquired pneumonia diagnosis and management; Acute hyperkalaemia in emergency care: evidence-based approaches.",
+    "headline": "9 high-priority items in the latest EM scan",
+    "summary": "Top sources today: AJEM, EMJ, EMCrit. Main themes: guideline or formal recommendation, reviews, trials. Best early reads: 2025 guideline updates for community-acquired pneumonia diagnosis and management; Acute hyperkalaemia in emergency care: evidence-based approaches.",
     "editorialHeadline": "From CAP Stewardship to Hyperkalemia Protocols: Key Shifts for the ED Today",
     "editorialSummary": "The landscape of acute care management continues to refine itself, demanding vigilance across multiple systems. On the infectious side, the latest CAP guidelines suggest a move toward de-escalation, prompting a critical review of whether positive viral testing alone might suffice for otherwise healthy outpatients, alongside a push for shorter antibiotic courses.\n\nIn critical stabilization, the management of acute hyperkalemia remains high-stakes; remember that calcium is purely for cardioprotection when ECG changes are present, and the established pathway still favors insulin-glucose plus inhaled beta-agonists while actively steering clear of sodium polystyrene sulfonate. For those managing complex respiratory failure, the updated algorithm for crashing PE offers a valuable, consolidated framework for sequencing advanced therapies, bridging guideline complexity with immediate bedside action.\n\nBeyond these core areas, the literature continues to refine decision-making: pediatric septic shock resuscitation shows fluid choice between 0.9% saline and balanced crystalloids is clinically equivalent, and when facing undifferentiated poisoning, a systematic toxidromic approach remains the best initial scaffold. These updates underscore that while guidelines provide structure, the most valuable takeaways are the specific, actionable pivots—like reassessing antibiotic necessity or optimizing the sequence of life-saving interventions—that must be tailored to the individual patient."
   },
@@ -103,7 +103,7 @@
       "link": "https://pubmed.ncbi.nlm.nih.gov/42102538/",
       "published": "1 week ago",
       "publishedAt": "2026-05-08T10:00:00Z",
-      "impact": "Practice-changing",
+      "impact": "Background",
       "topic": "Stroke",
       "takeaway": "Do not routinely initiate IVT for minor stroke presentations unless there is clear, measurable evidence of significant functional deficit. Focus on reserving this potent therapy for patients with more substantial impairment, as the data suggest routine use is unwarranted. Remember that the literature is calling for more targeted trials to define specific deficits that truly benefit from thrombolysis.",
       "shortSummary": "This piece tackles the often murky area of administering intravenous thrombolytics (IVT) to patients presenting with what is classified as a minor stroke.",
@@ -185,7 +185,7 @@
       "title": "Endovascular Thrombectomy Boosts Outcomes in Medium-Vessel Ischemic Stroke",
       "source": "MedPage Today Emergency Medicine",
       "link": "https://www.medpagetoday.com/neurology/strokes/121243",
-      "published": "1 day ago",
+      "published": "2 days ago",
       "publishedAt": "2026-05-13T21:00:00Z",
       "impact": "Practice-changing",
       "topic": "Stroke",
@@ -229,7 +229,7 @@
       "link": "https://pubmed.ncbi.nlm.nih.gov/42127878/",
       "published": "2 days ago",
       "publishedAt": "2026-05-13T10:00:00Z",
-      "impact": "Practice-changing",
+      "impact": "Background",
       "topic": "General Emergency Medicine",
       "takeaway": "When managing a bacteremic patient in the ED, remember that a significantly elevated initial band count appears to be an independent marker associated with worse short-term outcomes. While this suggests considering the degree of left shift in risk stratification, do not let this finding delay standard resuscitation or source control measures. The association is noted, but its predictive power relative to established sepsis scores remains unclear.",
       "shortSummary": "This retrospective cohort study investigated whether the initial percentage of band neutrophils in adults presenting to the emergency department with confirmed bacteremia predicts short-term mortality.",
@@ -257,7 +257,7 @@
       "link": "https://pubmed.ncbi.nlm.nih.gov/42124866/",
       "published": "2 days ago",
       "publishedAt": "2026-05-13T10:00:00Z",
-      "impact": "Practice-changing",
+      "impact": "High-yield",
       "topic": "Stroke",
       "takeaway": "Don't rely on L&S use as a proxy for improving reperfusion timelines; the benefit appears limited to faster initial CT acquisition. Focus instead on optimizing prehospital notification and hospital activation protocols, as these alternative strategies may offer more tangible improvements to door-to-treatment times. Remember that simply sounding urgent doesn't guarantee faster thrombolysis or thrombectomy.",
       "shortSummary": "This study investigated the relationship between the use of lights and sirens (L&S) during prehospital transport for stroke patients and various critical time metrics in the acute care setting.",
@@ -271,7 +271,7 @@
       "link": "https://pubmed.ncbi.nlm.nih.gov/42114386/",
       "published": "4 days ago",
       "publishedAt": "2026-05-11T10:00:00Z",
-      "impact": "Practice-changing",
+      "impact": "Background",
       "topic": "Trauma",
       "takeaway": "When evaluating atraumatic chest pain, remember that while the overall risk is low, a significant minority—about 1 in 18—will have a life-threatening diagnosis. ACS and PE are the most common serious culprits, so maintain a high index of suspicion for these even in low-risk patients. Use this prevalence data to guide your initial pre-test probability assessment, but do not let it diminish your vigilance for the 'big three' life threats.",
       "shortSummary": "This national cohort study provides an estimate of the true prevalence of life-threatening etiologies in the general population presenting to the emergency department with atraumatic chest pain.",
@@ -315,7 +315,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 2,
+      "itemsKept": 3,
       "itemsSeen": 40
     },
     {
@@ -363,7 +363,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 4,
+      "itemsKept": 3,
       "itemsSeen": 5
     },
     {
@@ -411,7 +411,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 1,
+      "itemsKept": 0,
       "itemsSeen": 20
     },
     {
@@ -435,7 +435,7 @@
       "qualityTier": "selective",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 11,
+      "itemsKept": 10,
       "itemsSeen": 21
     },
     {
@@ -507,8 +507,8 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 27,
-      "itemsSeen": 77
+      "itemsKept": 18,
+      "itemsSeen": 83
     },
     {
       "id": "emj-current",
@@ -543,7 +543,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 15,
+      "itemsKept": 17,
       "itemsSeen": 100
     },
     {
@@ -555,7 +555,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 23,
+      "itemsKept": 22,
       "itemsSeen": 100
     },
     {
@@ -567,7 +567,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 1,
+      "itemsKept": 3,
       "itemsSeen": 100
     },
     {
@@ -579,7 +579,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 11,
+      "itemsKept": 15,
       "itemsSeen": 100
     },
     {
@@ -591,7 +591,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 3,
+      "itemsKept": 4,
       "itemsSeen": 100
     },
     {
@@ -603,7 +603,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 7,
+      "itemsKept": 9,
       "itemsSeen": 100
     },
     {
@@ -627,7 +627,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 6,
+      "itemsKept": 7,
       "itemsSeen": 100
     },
     {
@@ -651,7 +651,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 8,
+      "itemsKept": 6,
       "itemsSeen": 100
     }
   ]
