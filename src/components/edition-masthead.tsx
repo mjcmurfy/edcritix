@@ -25,7 +25,7 @@ export function EditionMasthead({
       <div className="pointer-events-none absolute inset-[1px] rounded-[33px] border border-white/6" />
 
       <div className="relative">
-        <div className="flex flex-col gap-6 xl:flex-row xl:items-end xl:justify-between">
+        <div className="flex flex-col gap-6 xl:flex-row xl:items-start xl:justify-between">
           <div className="max-w-4xl">
             <h1 className="whitespace-nowrap text-[1.12rem] font-extrabold uppercase tracking-[0.08em] text-[color:var(--hero-title)] sm:text-[1.45rem] sm:tracking-[0.1em] lg:text-[1.8rem] xl:text-[2.05rem]">
               Defibrillating the Data
