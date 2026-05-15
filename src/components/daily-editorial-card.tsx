@@ -1,5 +1,6 @@
 "use client";
 
+import { PracticeSignalControl } from "@/components/practice-signal-control";
 import type { Article } from "@/lib/feed";
 import { useEffect, useState, type ReactNode } from "react";
 
@@ -135,25 +136,29 @@ export function DailyEditorialCardInner({
           </>
         ) : null}
 
-        <div className={`mt-4 flex flex-row items-center justify-end gap-2 sm:gap-4 ${isExpanded ? "sm:mt-5" : "sm:mt-4"}`}>
-          <button
-            type="button"
-            onClick={() => setIsExpanded((value) => !value)}
-            aria-label={isExpanded ? `Collapse ${article.title}` : `Expand ${article.title}`}
-            className={`${actionButtonSecondary} w-11 px-0 sm:w-auto sm:px-4`}
-          >
-            <span className={`sm:hidden ${toggleTextClass}`} aria-hidden>{isExpanded ? "▴" : "▾"}</span>
-            <span className={`hidden sm:inline ${actionButtonLabel} ${toggleTextClass}`}>{isExpanded ? "Collapse" : "Expand"}</span>
-          </button>
-          <a
-            href={article.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`${actionButtonPrimary} px-4`}
-          >
-            <span className={`sm:hidden ${actionButtonLabel}`}>Source</span>
-            <span className={`hidden sm:inline ${actionButtonLabel}`}>Source</span>
-          </a>
+        <div className={`mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between ${isExpanded ? "sm:mt-5" : "sm:mt-4"}`}>
+          <PracticeSignalControl slug={article.slug} />
+
+          <div className="flex flex-row items-center justify-end gap-2 sm:gap-4">
+            <button
+              type="button"
+              onClick={() => setIsExpanded((value) => !value)}
+              aria-label={isExpanded ? `Collapse ${article.title}` : `Expand ${article.title}`}
+              className={`${actionButtonSecondary} w-11 px-0 sm:w-auto sm:px-4`}
+            >
+              <span className={`sm:hidden ${toggleTextClass}`} aria-hidden>{isExpanded ? "▴" : "▾"}</span>
+              <span className={`hidden sm:inline ${actionButtonLabel} ${toggleTextClass}`}>{isExpanded ? "Collapse" : "Expand"}</span>
+            </button>
+            <a
+              href={article.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${actionButtonPrimary} px-4`}
+            >
+              <span className={`sm:hidden ${actionButtonLabel}`}>Source</span>
+              <span className={`hidden sm:inline ${actionButtonLabel}`}>Source</span>
+            </a>
+          </div>
         </div>
       </div>
     </article>

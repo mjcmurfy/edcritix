@@ -19,6 +19,13 @@ export function TopNav() {
 
         <div className="flex items-center gap-2 sm:gap-3">
           <Link
+            href="/archive"
+            aria-label="Open archive page"
+            className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[color:var(--border)] bg-[color:var(--pill-bg)] text-sm text-[color:var(--pill-text)] transition hover:opacity-90"
+          >
+            <span aria-hidden>🗂️</span>
+          </Link>
+          <Link
             href="/sources"
             aria-label="Open sources page"
             className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[color:var(--border)] bg-[color:var(--pill-bg)] text-sm text-[color:var(--pill-text)] transition hover:opacity-90"
