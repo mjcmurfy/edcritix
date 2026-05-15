@@ -6,15 +6,22 @@ export default function ArchivePage() {
   return (
     <PageShell>
       <main className="mx-auto flex w-full max-w-5xl flex-col gap-7 px-5 pb-6 pt-3 sm:gap-9 sm:px-8 sm:pb-8 sm:pt-4 lg:px-10 lg:pb-12 lg:pt-5">
-        <section className="rounded-[34px] border border-[color:var(--hero-badge-border)] bg-[image:var(--hero-surface)] px-5 py-6 shadow-[0_30px_90px_rgba(2,12,27,0.28)] sm:px-7 sm:py-7 lg:px-8 lg:py-8">
-          <div className="max-w-3xl">
-            <div className="text-[11px] font-semibold uppercase tracking-[0.3em] text-[color:var(--hero-card-label)]">Edition archive</div>
-            <h1 className="mt-3 text-[1.9rem] font-semibold tracking-tight text-[color:var(--hero-title)] sm:text-[2.4rem]">
-              Browse past EDCritix editions
-            </h1>
-            <p className="mt-4 text-sm leading-7 text-[color:var(--hero-body)] sm:text-[15px]">
-              Move back through recent editions, reopen the editor note, and compare how the top reads changed from day to day.
-            </p>
+        <section className="rounded-[30px] border border-[color:var(--hero-badge-border)] bg-[image:var(--hero-surface)] px-5 py-4 shadow-[0_24px_70px_rgba(2,12,27,0.22)] sm:px-7 sm:py-5 lg:px-8">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <div className="inline-flex items-center rounded-full border border-[color:var(--hero-card-border)] bg-[color:var(--hero-card-bg)] px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.22em] text-[color:var(--hero-card-label)] backdrop-blur-sm">
+                Archive
+              </div>
+              <h1 className="mt-3 text-[1.75rem] font-semibold tracking-tight text-[color:var(--hero-title)] sm:text-[2.1rem]">
+                EDCritix Archive
+              </h1>
+            </div>
+            <Link
+              href="/"
+              className="inline-flex items-center justify-center rounded-full border border-[color:var(--button-border)] bg-[color:var(--button-bg)] px-4 py-2 text-sm font-medium text-[color:var(--button-text)] shadow-[0_10px_24px_rgba(0,0,0,0.08)] transition hover:opacity-90"
+            >
+              Latest edition
+            </Link>
           </div>
         </section>
 
@@ -40,7 +47,7 @@ export default function ArchivePage() {
                         </span>
                       ) : null}
                     </div>
-                    <h2 className="mt-3 text-xl font-semibold tracking-tight text-[color:var(--foreground-strong)] transition group-hover:text-white sm:text-2xl">
+                    <h2 className="mt-3 text-xl font-semibold tracking-tight text-[color:var(--foreground-strong)] transition group-hover:text-[color:var(--hero-title)] sm:text-2xl">
                       {edition.headline}
                     </h2>
                     <p className="mt-3 max-w-[54rem] text-sm leading-7 text-[color:var(--muted-soft)]">
