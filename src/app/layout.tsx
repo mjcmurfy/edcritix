@@ -27,6 +27,7 @@ export default function RootLayout({
     <html
       lang="en"
       data-theme="dark"
+      data-editorial="hidden"
       suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
