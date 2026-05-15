@@ -56,7 +56,7 @@ export function EditorialBriefingCard({ article }: { article: Article }) {
         <div className="space-y-5">
           <section className="rounded-[24px] border border-slate-200/70 bg-slate-50/82 p-5">
             <div className="text-xs font-semibold uppercase tracking-[0.25em] text-teal-700">
-              Editorial summary
+              Article Summary
             </div>
             <p className="mt-3 text-base leading-8 text-slate-700">{article.summary}</p>
           </section>

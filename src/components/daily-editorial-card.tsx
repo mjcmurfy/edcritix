@@ -114,7 +114,7 @@ export function DailyEditorialCardInner({
           <>
             <div className="mt-4 rounded-[20px] border border-[color:var(--border)] bg-[color:var(--panel-muted)] p-3.5 sm:mt-5 sm:rounded-[22px] sm:p-4">
               <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[color:var(--section-label-text)] sm:text-[11px] sm:tracking-[0.28em]">
-                Editorial summary
+                Article Summary
               </div>
               <div className="mt-2 max-w-3xl">
                 <MobileExpandableText
