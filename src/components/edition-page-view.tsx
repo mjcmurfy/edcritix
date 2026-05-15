@@ -15,12 +15,11 @@ export function EditionPageView({
   nextHref?: string | null;
   isCurrent: boolean;
 }) {
-  const updatedAt = edition.editorialGeneratedAt ?? edition.generatedAt ?? null;
-  const summary = edition.summary?.trim() || "No editor note is available for this edition yet.";
+  const summary = edition.summary?.trim() || "No daily editorial is available for this edition yet.";
 
   return (
     <PageShell>
-      <main className="mx-auto flex w-full max-w-5xl flex-col gap-7 px-5 pb-6 pt-3 sm:gap-9 sm:px-8 sm:pb-8 sm:pt-4 lg:px-10 lg:pb-12 lg:pt-5">
+      <main className="mx-auto flex w-full max-w-5xl flex-col gap-7 px-5 pb-4 pt-3 sm:gap-9 sm:px-8 sm:pb-6 sm:pt-4 lg:px-10 lg:pb-8 lg:pt-5">
         <EditionMasthead
           editionLabel={edition.label}
           sourceWindowDays={edition.sourceWindowDays ?? null}
@@ -30,11 +29,7 @@ export function EditionPageView({
           isCurrent={isCurrent}
         />
 
-        <EditorNotePanel
-          label={isCurrent ? "Daily Editorial" : "Edition note"}
-          headline={edition.headline}
-          summary={summary}
-        />
+        <EditorNotePanel label="Daily Editorial" headline={edition.headline} summary={summary} />
 
         <SelectedReadsSection
           articles={edition.articles}

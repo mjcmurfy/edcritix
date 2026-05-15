@@ -15,7 +15,10 @@ export function EditorNotePanel({
   summary: string;
 }) {
   return (
-    <section className="rounded-[34px] border border-[color:var(--border)] bg-[color:var(--panel)] px-5 py-5 shadow-[0_24px_70px_rgba(0,0,0,0.16)] backdrop-blur-sm sm:px-6 sm:py-6 lg:px-8 lg:py-7">
+    <section
+      data-editorial-panel="true"
+      className="rounded-[34px] border border-[color:var(--border)] bg-[color:var(--panel)] px-5 py-5 shadow-[0_24px_70px_rgba(0,0,0,0.16)] backdrop-blur-sm sm:px-6 sm:py-6 lg:px-8 lg:py-7"
+    >
       <div className="max-w-4xl">
         <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[color:var(--muted-faint)]">
           {label ?? "Edition note"}

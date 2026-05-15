@@ -39,6 +39,8 @@
   --hero-card-border: rgba(255, 255, 255, 0.1);
   --hero-card-label: rgba(165, 243, 252, 0.7);
   --hero-card-text: #ffffff;
+  --archive-pill-bg: rgba(255, 255, 255, 0.08);
+  --archive-pill-border: rgba(125, 211, 252, 0.22);
   --impact-practice-bg: rgba(16, 185, 129, 0.2);
   --impact-practice-border: rgba(52, 211, 153, 0.34);
   --impact-practice-text: #d1fae5;
@@ -104,6 +106,8 @@ html[data-theme="light"] {
   --hero-card-border: rgba(8, 145, 178, 0.14);
   --hero-card-label: rgba(12, 74, 110, 0.7);
   --hero-card-text: #082f49;
+  --archive-pill-bg: rgba(255, 255, 255, 0.72);
+  --archive-pill-border: rgba(8, 145, 178, 0.2);
   --impact-practice-bg: rgba(16, 185, 129, 0.12);
   --impact-practice-border: rgba(5, 150, 105, 0.26);
   --impact-practice-text: #065f46;
@@ -185,4 +189,8 @@ textarea {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+html[data-editorial="hidden"] [data-editorial-panel="true"] {
+  display: none;
 }

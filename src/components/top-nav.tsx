@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BrandMark } from "@/components/brand-mark";
+import { EditorialVisibilityToggle } from "@/components/editorial-visibility-toggle";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 export function TopNav() {
@@ -17,6 +18,7 @@ export function TopNav() {
         </Link>
 
         <div className="flex items-center gap-2 sm:gap-3">
+          <EditorialVisibilityToggle />
           <ThemeToggle />
         </div>
       </div>

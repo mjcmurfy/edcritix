@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { sourceCatalogSummary } from "@/lib/feed";
 
 const navButtonBase =
   "inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-medium shadow-[0_10px_24px_rgba(0,0,0,0.08)] transition hover:opacity-90";
@@ -29,11 +30,8 @@ export function EditionMasthead({
             <h1 className="whitespace-nowrap text-[1.12rem] font-extrabold uppercase tracking-[0.08em] text-[color:var(--hero-title)] sm:text-[1.45rem] sm:tracking-[0.1em] lg:text-[1.8rem] xl:text-[2.05rem]">
               Defibrillating the Data
             </h1>
-            <p className="mt-2 text-base font-medium tracking-tight text-[color:var(--hero-subtitle)] sm:text-lg">
-              The front page for Emergency Medicine
-            </p>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-[color:var(--hero-body)] sm:text-[15px]">
-              EDCritix scans new emergency medicine papers, guidelines, and FOAMed, ranks the most clinically useful reads for frontline practice, providing concise summaries, clinical takeaways, and links to the original source.
+              EDCritix scans new emergency medicine papers, guidelines, and FOAMed resources, ranks and sorts them into the most clinically useful articles for frontline practice, and provides concise summaries, clinical takeaways, and links to the original source.
             </p>
           </div>
 
@@ -43,11 +41,30 @@ export function EditionMasthead({
               <div className="mt-1 text-base font-semibold leading-tight text-[color:var(--hero-card-text)]">{editionLabel}</div>
             </div>
             <div className="rounded-[20px] border border-[color:var(--hero-card-border)] bg-[color:var(--hero-card-bg)] px-4 py-3 backdrop-blur-sm">
-              <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[color:var(--hero-card-label)]">Edition scope</div>
+              <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[color:var(--hero-card-label)]">Scope</div>
               <div className="mt-1 text-sm font-medium leading-tight text-[color:var(--hero-card-text)]">
-                {articleCount} Articles{sourceWindowDays ? ` · ${sourceWindowDays}-day scan` : ""}
+                Top {articleCount} Articles{sourceWindowDays ? ` · Last ${sourceWindowDays}-days` : ""}
               </div>
             </div>
+            <Link
+              href="/sources"
+              className="rounded-[20px] border border-[color:var(--hero-card-border)] bg-[color:var(--hero-card-bg)] px-4 py-3 text-left backdrop-blur-sm transition hover:opacity-90"
+            >
+              <div className="flex items-start justify-between gap-3">
+                <div>
+                  <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[color:var(--hero-card-label)]">Sources</div>
+                  <div className="mt-1 text-sm font-medium leading-tight text-[color:var(--hero-card-text)]">
+                    {sourceCatalogSummary.total} Total · {sourceCatalogSummary.online} Online{sourceCatalogSummary.offline ? ` · ${sourceCatalogSummary.offline} Offline` : ""}
+                  </div>
+                  <div className="mt-1 text-xs leading-tight text-[color:var(--hero-card-label)]">
+                    {sourceCatalogSummary.core} Core-tier · {sourceCatalogSummary.standard + sourceCatalogSummary.selective} Supporting
+                  </div>
+                </div>
+                <span className="pt-0.5 text-sm text-[color:var(--hero-card-label)]" aria-hidden>
+                  ↗
+                </span>
+              </div>
+            </Link>
           </div>
         </div>
 

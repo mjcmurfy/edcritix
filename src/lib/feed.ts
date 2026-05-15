@@ -69,6 +69,22 @@ export type FeedMeta = {
   analysisOverridesPath?: string | null;
 };
 
+export type SourceStatus = "online" | "offline";
+export type SourceQualityTier = "core" | "standard" | "selective";
+
+export type SourceCatalogEntry = {
+  id: string;
+  name: string;
+  url: string;
+  category: string;
+  priority: number;
+  qualityTier: SourceQualityTier;
+  status: SourceStatus;
+  rawStatus: string | null;
+  itemsKept: number;
+  itemsSeen: number;
+};
+
 export type BriefingContent = {
   headline: string;
   summary: string;
@@ -85,6 +101,7 @@ type PublishedFeed = {
   featured?: Article[];
   articles?: Article[];
   topics?: Topic[];
+  sources?: SourceCatalogEntry[];
 };
 
 export type Edition = {
@@ -133,7 +150,25 @@ export const dailyEditorial = (feed.dailyEditorial ?? feed.featured ?? []) as Ar
 export const featuredArticles = (feed.featured ?? dailyEditorial.slice(0, 6)) as Article[];
 export const articles = (feed.articles ?? dailyEditorial) as Article[];
 export const topics = (feed.topics ?? []) as Topic[];
+export const sourceCatalog = (feed.sources ?? []) as SourceCatalogEntry[];
 export const editionArchive = (editionsFeed.editions ?? []) as Edition[];
+
+export const sourceCatalogSummary = sourceCatalog.reduce(
+  (acc, source) => {
+    acc.total += 1;
+    acc[source.status] += 1;
+    acc[source.qualityTier] += 1;
+    return acc;
+  },
+  {
+    total: 0,
+    online: 0,
+    offline: 0,
+    core: 0,
+    standard: 0,
+    selective: 0,
+  },
+);
 
 const fallbackCurrentEditionDate =
   feedMeta.editionDate ??
@@ -204,6 +239,17 @@ export function formatDate(iso: string | null) {
     timeZone: NZ_TIME_ZONE,
     dateStyle: "medium",
   }).format(new Date(iso));
+}
+
+export function formatSourceCategory(category: string) {
+  const normalized = category.trim().toLowerCase();
+  if (normalized === "pubmed-journal") return "Journal";
+
+  return category
+    .split(/[-_]/)
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
 }
 
 export function getTopSources(limit = 5) {
