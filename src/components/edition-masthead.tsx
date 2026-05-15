@@ -31,7 +31,7 @@ export function EditionMasthead({
               Defibrillating the Data
             </h1>
             <p className="mt-5 max-w-2xl text-sm leading-7 text-[color:var(--hero-body)] sm:text-[15px]">
-              EDCritix scans new emergency medicine papers, guidelines, and FOAMed resources, ranks and sorts them into the most clinically useful articles for frontline practice, and provides concise summaries, clinical takeaways, and links to the original source.
+              EDCritix scans new emergency medicine papers, journal articles, guidelines, and FOAMed resources, ranks and sorts them into the most clinically useful articles for frontline practice, and provides concise summaries, clinical takeaways, and links to the original source.
             </p>
           </div>
 
