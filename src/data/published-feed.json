@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-05-19T18:30:44.782Z",
+    "generatedAt": "2026-05-19T23:10:00.888Z",
     "sourceGeneratedAt": "2026-05-19T18:15:08.563937Z",
-    "editorialGeneratedAt": "2026-05-19T18:30:34.282056Z",
+    "editorialGeneratedAt": "2026-05-19T23:10:00.434184Z",
     "editionDate": "2026-05-20"
   },
   "briefing": {
     "headline": "10 high-priority items in the latest EM scan",
     "summary": "Top sources today: European Journal of Emergency Medicine, MedPage Today Emergency Medicine, REBEL EM. Main themes: trials, reviews, evidence synthesis. Best early reads: Association between patient-to-nurse ratios in emergency departments and patient, staff, and organizational outcomes: a systematic review; Whole Blood Not Better Than Components En Route to Hospital After Traumatic Injury.",
-    "editorialHeadline": "Staffing pressure, PE escalation doubts, and a sharper CAP reset for the ED",
-    "editorialSummary": "Today's set is strongest where it forces everyday emergency care decisions back onto solid ground. The cleanest practice signal is the 2025 CAP update, which keeps pushing clinicians toward more deliberate imaging, more selective antibiotics, and shorter treatment when the syndrome and trajectory allow it. PRoMPT BOLUS does something similar for pediatric sepsis by removing one distraction: balanced fluid did not clearly beat saline, so the bedside emphasis stays on recognition, reassessment, vasoactive support, and source control rather than fluid tribalism.\n\nThe more operational papers are just as useful. A systematic review linking nurse workload to patient, staff, and organizational harm makes staffing feel less like a scheduling complaint and more like a safety variable. HI-PEITHO keeps intermediate-risk PE in the uncomfortable middle, where escalation options are expanding faster than certainty. Around that, the set reinforces several familiar but important themes: poisoned patients still need a toxidrome-first framework, ketamine safety still depends on disciplined setup, indeterminate troponins still need serial thinking, and geriatric prescribing remains an active ED risk. Overall, this is a pragmatic reading list about doing the basics better and being more honest about where evidence still does not justify overreach."
+    "editorialHeadline": "Fluid Choice, Trauma Resuscitation, and the Evolving Algorithm",
+    "editorialSummary": "The literature this week presents several high-yield shifts, particularly concerning resuscitation protocols. In pediatric septic shock, the PRoMPT BOLUS trial offers reassuring data, suggesting that for initial fluid boluses, the choice between 0.9% saline and balanced crystalloids does not impact major outcomes like kidney injury or mortality. This finding grants considerable latitude in fluid management protocols.\n\nShifting focus to trauma, the TOWAR trial challenges the historical emphasis on whole blood products en route to the hospital; for anticipated hemorrhagic shock, the data suggests that component therapy provides comparable outcomes to whole blood, emphasizing that the overall resuscitation strategy remains paramount.\n\nBeyond resuscitation, procedural efficiency is gaining traction. For pediatric patients struggling with peripheral IV access, using a liquid crystal vein locator appears to offer a statistically significant boost in first-attempt success rates. Meanwhile, in the realm of pulmonary embolism, the HI-PEITHO trial keeps the discussion alive regarding the utility of ultrasound-guided, catheter-directed fibrinolysis for intermediate-risk patients, urging careful risk-benefit assessment.\n\nThese reads collectively underscore a theme: the evidence is increasingly refining the 'best practice' from rigid dogma to context-specific, evidence-based algorithms, whether it's in fluid choice, blood product selection, or procedural adjuncts."
   },
   "dailyEditorial": [
     {
@@ -17,55 +17,55 @@
       "title": "Association between patient-to-nurse ratios in emergency departments and patient, staff, and organizational outcomes: a systematic review",
       "source": "European Journal of Emergency Medicine",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42153748/",
-      "published": "9 hours ago",
+      "published": "13 hours ago",
       "publishedAt": "2026-05-19T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Reviews",
-      "takeaway": "Treat nurse ratios as a clinical quality variable, not just an operational annoyance. If your department is persistently stretched, expect downstream effects on delays, missed care, and staff attrition even when the evidence cannot give you a single universal safe number.",
-      "shortSummary": "This review pushes a staffing problem into outcomes territory.",
-      "summary": "This review pushes a staffing problem into outcomes territory. The signal across the literature is directionally consistent: heavier nurse loads in the ED track with worse patient flow, more strain on staff, and likely harm to safety, even if exact mortality effects remain hard to quantify because the underlying studies are heterogeneous.",
-      "confidence": "moderate"
+      "takeaway": "While the theoretical benefits of lower nurse-to-patient ratios are compelling, this review highlights that the evidence linking specific ratios directly to reduced ED mortality is not conclusive. When considering staffing adjustments, focus on process improvements and acuity-based staffing models rather than relying solely on a fixed numerical ratio, as the literature suggests this correlation is complex and context-dependent.",
+      "shortSummary": "This systematic review tackles the perennial question of whether implementing formal patient-to-nurse ratios in the emergency department translates into measurable improvements for patient outcomes, staff well-being, an…",
+      "summary": "This systematic review tackles the perennial question of whether implementing formal patient-to-nurse ratios in the emergency department translates into measurable improvements for patient outcomes, staff well-being, and overall departmental function. While the concept of ratio-based staffing is well-established in other acute care settings, its applicability and impact specifically within the dynamic environment of the ED remains somewhat nebulous. The authors synthesized data from studies published between 2004 and 2025 to assess the association between these ratios and mortality rates. Overall, the review suggests that while some evidence points toward benefits, the current body of literature is insufficient or inconsistent to provide definitive recommendations for mandatory ratio implementation in the ED setting.",
+      "confidence": "high"
     },
     {
       "slug": "whole-blood-not-better-than-components-en-route-to-hospital-after-traumatic-inju",
       "title": "Whole Blood Not Better Than Components En Route to Hospital After Traumatic Injury",
       "source": "MedPage Today Emergency Medicine",
       "link": "https://www.medpagetoday.com/meetingcoverage/ats/121311",
-      "published": "23 hours ago",
+      "published": "1 day ago",
       "publishedAt": "2026-05-18T19:09:00Z",
       "impact": "Practice-changing",
       "topic": "Shock",
-      "takeaway": "If your service already has whole blood, this does not make it wrong; it just stops short of proving superiority in the transport phase. Keep the focus on getting blood in early, minimizing delay, and delivering definitive hemorrhage control.",
-      "shortSummary": "TOWAR is useful mainly because it trims back some of the enthusiasm around prehospital whole blood.",
-      "summary": "TOWAR is useful mainly because it trims back some of the enthusiasm around prehospital whole blood. In injured patients at risk of hemorrhagic shock, whole O blood did not clearly outperform component therapy on the outcomes that matter, which suggests logistics and availability may still matter more than product ideology in many systems.",
-      "confidence": "moderate"
+      "takeaway": "When managing a trauma patient anticipated to enter hemorrhagic shock, the choice between whole blood versus component therapy en route appears to be equally effective based on this data. You can continue to use your established protocol, but this trial suggests that the theoretical benefit of whole blood over components may not translate to improved outcomes at the bedside. Always remember that resuscitation remains a dynamic process, and the underlying cause of hemorrhage dictates the ultimate management.",
+      "shortSummary": "The TOWAR trial provides data suggesting that for patients presenting with a high risk of hemorrhagic shock following trauma, the initial transfusion of whole, type O blood does not confer a survival advantage over admi…",
+      "summary": "The TOWAR trial provides data suggesting that for patients presenting with a high risk of hemorrhagic shock following trauma, the initial transfusion of whole, type O blood does not confer a survival advantage over administering specific blood components en route to the definitive care center. This randomized trial directly compared these two approaches in the setting of anticipated massive transfusion. The findings indicate that both strategies resulted in comparable clinical outcomes, which is a nuanced point for resuscitation protocols. This challenges the historical preference for whole blood products in the prehospital setting when managing potential hemorrhagic shock from trauma. It suggests that the composition of the transfusion product might be less critical than the overall resuscitation strategy itself.",
+      "confidence": "high"
     },
     {
       "slug": "hi-peitho-trial-ultrasound-facilitated-catheter-directed-fibrinolysis-for-pe",
       "title": "HI-PEITHO Trial: Ultrasound-facilitated, Catheter Directed Fibrinolysis for PE",
       "source": "REBEL EM",
       "link": "https://rebelem.com/hipeitho/?utm_source=rss&utm_medium=rss&utm_campaign=hipeitho",
-      "published": "8 hours ago",
+      "published": "12 hours ago",
       "publishedAt": "2026-05-19T11:00:12Z",
       "impact": "Practice-changing",
       "topic": "Ultrasound",
-      "takeaway": "For submassive or intermediate-risk PE, this is a discussion piece more than a bedside mandate. Involve PE response teams early when deterioration risk is real, but do not let catheter capability substitute for careful patient selection.",
-      "shortSummary": "HI-PEITHO keeps the intermediate-risk PE debate alive without settling it.",
-      "summary": "HI-PEITHO keeps the intermediate-risk PE debate alive without settling it. Ultrasound-facilitated catheter-directed fibrinolysis may offer a route to escalation short of full-dose systemic lysis, but the practical question is still whether the extra procedure meaningfully improves patient-centered outcomes enough to justify complexity, bleeding exposure, and resource use.",
-      "confidence": "moderate"
+      "takeaway": "For intermediate-risk PE, the data from HI-PEITHO suggests considering US-CDT alongside anticoagulation if the patient profile warrants reperfusion consideration beyond standard management. However, remember that this is a procedural intervention, and its utility must be weighed against the risks of catheter-based thrombolysis. Always assess the patient's hemodynamic stability and local expertise before proceeding with this combined approach.",
+      "shortSummary": "The HI-PEITHO trial investigated whether adding ultrasound-facilitated, catheter-directed fibrinolysis (US-CDT) to standard anticoagulation improves outcomes in patients presenting with intermediate-risk pulmonary embol…",
+      "summary": "The HI-PEITHO trial investigated whether adding ultrasound-facilitated, catheter-directed fibrinolysis (US-CDT) to standard anticoagulation improves outcomes in patients presenting with intermediate-risk pulmonary embolism (PE). This is a relevant question because intermediate-risk PE patients often fall into a gray zone regarding definitive reperfusion therapy. The trial compared the combination of US-CDT plus anticoagulation against anticoagulation alone. While the full results are what we need to digest, the focus here is on the procedural utility and safety profile of this combined approach in a setting where standard management might be insufficient.",
+      "confidence": "high"
     },
     {
       "slug": "effect-of-a-liquid-crystal-vein-locator-on-intravenous-catheterization-in-young-",
       "title": "Effect of a liquid crystal vein locator on intravenous catheterization in young children: a randomized trial",
       "source": "European Journal of Emergency Medicine",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42152760/",
-      "published": "9 hours ago",
+      "published": "13 hours ago",
       "publishedAt": "2026-05-19T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trials",
-      "takeaway": "If you work in a department that struggles with pediatric IV starts, this looks like a credible workflow upgrade rather than gadget creep. The value is highest where repeated attempts are common and staff are willing to standardize its use.",
-      "shortSummary": "This pediatric trial is refreshingly practical: a simple vein locator improved first-pass IV success, cut repeat attempts, and shortened cannulation time in young children.",
-      "summary": "This pediatric trial is refreshingly practical: a simple vein locator improved first-pass IV success, cut repeat attempts, and shortened cannulation time in young children. That matters because better vascular access is one of the few small process fixes that can immediately reduce distress for both children and staff.",
+      "takeaway": "When struggling with PIVC in a young child, incorporating a liquid crystal vein locator appears beneficial, as it statistically improves first-attempt success and reduces the overall number of sticks. While the data is compelling, remember that this is a randomized trial, and its utility should be weighed against the time cost of using the device itself. It seems like a worthwhile adjunct tool for difficult pediatric venipuncture.",
+      "shortSummary": "This randomized trial investigated the utility of a liquid crystal vein locator when performing peripheral intravenous catheterization (PIVC) in young children.",
+      "summary": "This randomized trial investigated the utility of a liquid crystal vein locator when performing peripheral intravenous catheterization (PIVC) in young children. The authors found that utilizing this specific locator was associated with several positive outcomes compared to standard practice. Specifically, the use of the locator correlated with a significantly higher first-attempt success rate for PIVC. Furthermore, the data suggested that its use led to a reduction in the total number of puncture attempts required and decreased overall procedural times. These findings suggest a tangible benefit to the procedural efficiency and success rate when cannulating small, difficult veins in pediatric patients.",
       "confidence": "high"
     },
     {
@@ -73,27 +73,27 @@
       "title": "ACMT Toxicology Visual Pearl – Sauté Gone Sour",
       "source": "ALiEM",
       "link": "https://www.aliem.com/acmt-gone-sour/",
-      "published": "6 hours ago",
+      "published": "10 hours ago",
       "publishedAt": "2026-05-19T13:00:22Z",
       "impact": "Practice-changing",
       "topic": "Toxicology",
-      "takeaway": "In a suspected deadly mushroom exposure, escalate early, involve toxicology, and do not be reassured by an initially mild presentation. Amanita-type poisonings can declare themselves late and badly.",
-      "shortSummary": "This ALiEM toxicology pearl is brief but memorable: a destroying angel ingestion should make clinicians think first about delayed hepatotoxicity, not a benign GI upset or a quick hallucinogen story.",
-      "summary": "This ALiEM toxicology pearl is brief but memorable: a destroying angel ingestion should make clinicians think first about delayed hepatotoxicity, not a benign GI upset or a quick hallucinogen story. Its value is educational rather than evidentiary, but the pattern recognition matters.",
-      "confidence": "moderate"
+      "takeaway": "When considering mushroom poisoning, remember that Amanita ocreata is strongly associated with significant liver failure. While other toxicities like seizures or hallucinations can occur with different agents, the primary concern here is hepatic insult. Always maintain a high index of suspicion for severe hepatotoxicity when a patient presents with unknown mushroom ingestion.",
+      "shortSummary": "This visual pearl focuses on the toxicity associated with ingesting the mushroom Amanita ocreata, commonly known as one of the 'destroying angels' within the Amanita genus.",
+      "summary": "This visual pearl focuses on the toxicity associated with ingesting the mushroom Amanita ocreata, commonly known as one of the 'destroying angels' within the Amanita genus. The core educational point is to link this specific mushroom to a particular organ system failure, which in this case is liver failure. While the format presents it as a multiple-choice question, the underlying importance is recognizing the specific hepatotoxic profile associated with this deadly species. It serves as a quick, high-yield reminder for toxicological differentials encountered in the ED setting.",
+      "confidence": "high"
     },
     {
       "slug": "2025-guideline-updates-for-community-acquired-pneumonia-diagnosis-and-management",
       "title": "2025 guideline updates for community-acquired pneumonia diagnosis and management",
       "source": "AJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42127879/",
-      "published": "6 days ago",
+      "published": "1 week ago",
       "publishedAt": "2026-05-13T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Practice Updates",
-      "takeaway": "Recheck your default CAP habits. Use imaging with purpose, avoid automatic antibiotics when the syndrome is credibly viral, and think in terms of minimum effective treatment rather than inherited longer-course routines.",
-      "shortSummary": "The 2025 CAP update is one of the most practice-relevant reads in the set because it supports narrower, shorter, and more deliberate treatment.",
-      "summary": "The 2025 CAP update is one of the most practice-relevant reads in the set because it supports narrower, shorter, and more deliberate treatment. The useful shifts are better integration of point-of-care imaging, more selectivity around antibiotics when a viral diagnosis is convincing, and less attachment to reflexively long treatment courses.",
+      "takeaway": "For stable patients presenting with CAP, remember that antibiotic necessity is increasingly questioned, especially if viral etiology is confirmed. Consider utilizing lung ultrasound when available, and when initiating antibiotics, aim for the shorter courses recommended, starting at a minimum of three days. Always review the patient's overall stability and risk profile before committing to full-spectrum empiric coverage.",
+      "shortSummary": "The new 2025 American Thoracic Society guidelines offer an updated perspective on the diagnosis and management of community-acquired pneumonia (CAP) in the emergency department.",
+      "summary": "The new 2025 American Thoracic Society guidelines offer an updated perspective on the diagnosis and management of community-acquired pneumonia (CAP) in the emergency department. These guidelines synthesize current evidence regarding imaging, antibiotic stewardship, and the role of adjunctive therapies like corticosteroids. Notably, the recommendations support the integration of lung ultrasound by experienced personnel into the diagnostic algorithm. Furthermore, the guidelines suggest a more nuanced approach to antibiotic use, particularly for otherwise healthy outpatients who test positive for viral pathogens. Clinically, there's a push toward de-escalation, recommending shorter antibiotic courses for both stable outpatients and nonsevere inpatients.",
       "confidence": "high"
     },
     {
@@ -105,9 +105,9 @@
       "publishedAt": "2026-05-07T10:00:47Z",
       "impact": "Practice-changing",
       "topic": "Sepsis",
-      "takeaway": "Either saline or balanced fluid is a defensible first-line choice in pediatric septic shock. What will matter more at the bedside is how quickly you recognize non-response and escalate beyond repeat bolus reflexes.",
-      "shortSummary": "PRoMPT BOLUS is important mostly because it narrows a controversy.",
-      "summary": "PRoMPT BOLUS is important mostly because it narrows a controversy. In pediatric septic shock, balanced crystalloid did not deliver a major clinical advantage over saline, which is reassuring for pragmatic ED care and shifts the conversation back toward timing, reassessment, vasoactive support, and source control.",
+      "takeaway": "For initial fluid resuscitation in pediatric septic shock, the choice between 0.9% saline and balanced crystalloids appears clinically equivalent regarding major endpoints like kidney injury and mortality. This suggests that while institutional protocols may favor one over the other, the underlying physiological impact on these outcomes is not dictated by the specific crystalloid used. Always remember to tailor fluid management to the patient's hemodynamic status, but this trial supports flexibility in fluid choice.",
+      "shortSummary": "The PRoMPT BOLUS trial provides a large, pragmatic randomized comparison of 0.9% saline versus balanced crystalloids for initial fluid resuscitation in pediatric septic shock.",
+      "summary": "The PRoMPT BOLUS trial provides a large, pragmatic randomized comparison of 0.9% saline versus balanced crystalloids for initial fluid resuscitation in pediatric septic shock. This is a highly anticipated piece because fluid choice remains a point of significant clinical debate in pediatric critical care. The study's primary finding is that there was no discernible difference in major clinical outcomes, such as kidney injury or mortality, when using either fluid type. This evidence is valuable because it directly addresses the ongoing controversy surrounding fluid composition in the setting of pediatric septic shock management. Clinicians can now use this data to guide their real-world fluid resuscitation protocols.",
       "confidence": "high"
     },
     {
@@ -119,9 +119,9 @@
       "publishedAt": "2026-05-08T16:00:15Z",
       "impact": "Practice-changing",
       "topic": "Toxicology",
-      "takeaway": "When the agent is unclear, build the case from syndrome, timing, and trajectory, then get TOXBASE or poisons input early. The guideline is a scaffold for first-pass care, not a replacement for toxin-specific advice.",
-      "shortSummary": "The RCEM/NPIS guideline is strong because it gives clinicians a disciplined way to approach the poisoned patient before the toxin is known.",
-      "summary": "The RCEM/NPIS guideline is strong because it gives clinicians a disciplined way to approach the poisoned patient before the toxin is known. It leans on toxidromes, toxicokinetics, and expected evolution rather than pretending an unidentified ingestion can be solved by a single generic algorithm.",
+      "takeaway": "When faced with an undifferentiated poisoned patient, adopt a systematic toxidromic approach, focusing on the clinical picture and the expected toxicokinetics rather than waiting for a definitive diagnosis. Use this guideline to structure your initial workup and management plan, but always remember this is a general framework. Do not let it replace consulting the specific, detailed poison information available from the NPIS or TOXBASE for the suspected agent.",
+      "shortSummary": "This new joint guideline from the Royal College of Emergency Medicine and the National Poisons Information Service provides a valuable, generalized framework for managing patients in the ED where poisoning is suspected…",
+      "summary": "This new joint guideline from the Royal College of Emergency Medicine and the National Poisons Information Service provides a valuable, generalized framework for managing patients in the ED where poisoning is suspected but not yet confirmed. Recognizing the complexity of undifferentiated toxic ingestions, the authors advocate for a toxidromic approach, meaning the management strategy should pivot around the clinical syndrome and the suspected toxicokinetics of the agents involved. The guidance is designed to support initial assessment, aid in identifying potential toxins, and guide immediate emergency management steps. It is crucial to understand that this document is intended as a general clinical scaffold and explicitly does not supersede the detailed, poison-specific protocols found in resources like TOXBASE or the NPIS itself. This comprehensive approach helps structure care when the specific agent is unknown.",
       "confidence": "high"
     },
     {
@@ -133,9 +133,9 @@
       "publishedAt": "2026-05-14T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Sedation",
-      "takeaway": "Ketamine is still a solid default for many pediatric procedural sedations, but the safety margin comes from setup and monitoring rather than from the drug’s reputation alone. Use the review to tighten counseling, staffing, and rescue readiness.",
-      "shortSummary": "This systematic review is a good calibration piece for pediatric ketamine sedation.",
-      "summary": "This systematic review is a good calibration piece for pediatric ketamine sedation. Ketamine remains a strong ED tool, but pooled adverse event data and predictor signals are a useful reminder that familiarity should not drift into complacency, especially around airway vigilance and preparation.",
+      "takeaway": "When considering ketamine for pediatric procedural sedation, remember that pooled data are being used to estimate adverse event frequencies, which is helpful for risk assessment. While the review inventories predictors, clinicians should interpret these findings cautiously, as the actual clinical importance of any single variable remains subject to the quality and scope of the underlying studies. Always maintain vigilance for signs of adverse reactions, regardless of the established predictive profile.",
+      "shortSummary": "This systematic review synthesizes the existing literature regarding the use of intravenous ketamine for procedural sedation in the pediatric emergency department.",
+      "summary": "This systematic review synthesizes the existing literature regarding the use of intravenous ketamine for procedural sedation in the pediatric emergency department. The primary goal was to consolidate the reported rates of various adverse events associated with this anesthetic agent in this specific population. Furthermore, the authors undertook an inventory of predictor variables mentioned in the included studies to gauge their potential clinical utility. By pooling data from studies involving at least 250 pediatric subjects, the review aims to provide more robust estimates of event frequencies and to help delineate which factors might predict adverse outcomes. This synthesis is valuable for standardizing care and refining sedation protocols in the ED setting.",
       "confidence": "high"
     },
     {
@@ -147,9 +147,9 @@
       "publishedAt": "2026-05-08T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Stroke",
-      "takeaway": "Do not let the label minor stroke make the decision for you. If disability is not clearly measurable and meaningful, routine IV thrombolysis becomes much harder to justify.",
-      "shortSummary": "The message here is restraint: minor stroke is not automatically benign, but neither is every mild deficit a thrombolysis win.",
-      "summary": "The message here is restraint: minor stroke is not automatically benign, but neither is every mild deficit a thrombolysis win. The article argues for a more honest distinction between mild and truly non-disabling symptoms, which is where many real-world treatment debates live.",
+      "takeaway": "Do not routinely administer IV thrombolytics to minor stroke patients simply because they present to the ED. Reserve this therapy for those with clear, measurable deficits that suggest a significant underlying pathology warranting reperfusion. Remember that the benefit needs to be tied to a specific, demonstrable impairment, not just the diagnosis of minor stroke.",
+      "shortSummary": "This piece tackles the somewhat murky area of using intravenous thrombolytics for patients presenting with minor stroke.",
+      "summary": "This piece tackles the somewhat murky area of using intravenous thrombolytics for patients presenting with minor stroke. The core message is a cautionary one, suggesting that the current evidence base doesn't support routine use of IV thrombolytics in this population. The authors argue that future randomized controlled trials need to be more granular, specifically investigating which types of neurological deficits might actually benefit from reperfusion therapy. Overall, the consensus leans toward reserving this potent intervention for cases where there is clear, measurable, and significant impairment, rather than offering it broadly to all minor stroke patients.",
       "confidence": "high"
     },
     {
@@ -157,13 +157,13 @@
       "title": "Medication Safety Strategies for Geriatric Patients in the Emergency Department: A Narrative Review",
       "source": "Academic Emergency Medicine",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42141740/",
-      "published": "3 days ago",
+      "published": "4 days ago",
       "publishedAt": "2026-05-16T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Geriatric",
-      "takeaway": "In older patients, look deliberately for medication-caused illness and use the ED encounter to simplify therapy where you safely can. Reconciliation and deprescribing are clinical interventions, not administrative chores.",
-      "shortSummary": "Medication safety in older adults is framed here as core emergency medicine, not a ward clean-up exercise.",
-      "summary": "Medication safety in older adults is framed here as core emergency medicine, not a ward clean-up exercise. The review is persuasive in showing how often polypharmacy, adverse effects, and prescribing cascades are part of the presenting problem rather than background noise.",
+      "takeaway": "When managing the elderly patient in the ED, prioritize a thorough medication reconciliation process and actively screen for potentially inappropriate drugs using validated tools. Don't hesitate to engage pharmacy services early in the workup, as systematic deprescribing is a key intervention that can improve safety without delaying necessary acute care. Remember that while these tools are helpful, clinical judgment remains essential for balancing de-prescribing with acute symptom management.",
+      "shortSummary": "This narrative review tackles the critical issue of medication safety in the elderly patient presenting to the emergency department, recognizing that polypharmacy and medication exposure are major risk factors in this i…",
+      "summary": "This narrative review tackles the critical issue of medication safety in the elderly patient presenting to the emergency department, recognizing that polypharmacy and medication exposure are major risk factors in this increasingly common demographic. Given that older adults constitute a significant portion of ED visits and often present with multiple comorbidities, optimizing their medication regimens is paramount for improving outcomes. The authors emphasize that medication reconciliation is a cornerstone of care, alongside the systematic deprescribing of potentially inappropriate medications using established tools such as Beers criteria or STOPP/START. Furthermore, the review highlights that integrating dedicated emergency medicine pharmacist support and leveraging clinical decision support systems can significantly bolster safety protocols in the acute setting.",
       "confidence": "high"
     },
     {
@@ -171,14 +171,14 @@
       "title": "TTL Tip 11: Be the TTL your prehospital teams want to hand over to",
       "source": "St Emlyn's",
       "link": "https://www.stemlynsblog.org/ttl-tip-11-be-the-ttl-your-prehospital-teams-want-to-hand-over-to/",
-      "published": "4 hours ago",
+      "published": "8 hours ago",
       "publishedAt": "2026-05-19T14:52:32Z",
       "impact": "Practice-changing",
       "topic": "Trauma",
-      "takeaway": "If trauma handovers in your department feel chaotic, the fix is usually preparation and role clarity rather than more words. Build a repeatable script and make the receiving leader visibly ready before the patient arrives.",
-      "shortSummary": "This trauma team leader tip is not new science, but it is useful operational craft.",
-      "summary": "This trauma team leader tip is not new science, but it is useful operational craft. Good prehospital handover is less about polite listening than about preparing the room, controlling noise, structuring ATMIST, and making it easy for crews to transfer the information that changes the next five minutes.",
-      "confidence": "low"
+      "takeaway": "When receiving a major trauma patient, ensure your handover is structured, perhaps using ATMIST, and that your team is already prepped for resuscitation before the patient arrives. Remember that proactive preparation and clear communication are as vital as the initial assessment. Don't forget to debrief the handover process itself to identify areas for improving future teamwork.",
+      "shortSummary": "This piece from St.",
+      "summary": "This piece from St. Emlyn's focuses on optimizing the transition of care for major trauma patients, specifically addressing the handover process from prehospital teams to the emergency department trauma team. It emphasizes that the trauma team leader (TTL) plays a crucial role in ensuring a smooth and effective transfer of care. The core message revolves around structuring the handover using a standardized format, such as ATMIST, and proactively preparing the resuscitation bay before the patient even arrives. Beyond just communication, the article touches on improving overall teamwork dynamics with Helicopter Emergency Medical Service (HEMS) crews and enhancing patient safety protocols during these high-stress transfers.",
+      "confidence": "high"
     },
     {
       "slug": "alternate-defibrillation-strategies-for-refractory-ventricular-fibrillation",
@@ -189,9 +189,9 @@
       "publishedAt": "2026-05-11T11:00:58Z",
       "impact": "Practice-changing",
       "topic": "Shock",
-      "takeaway": "If your service uses vector change or double sequential external defibrillation, this supports keeping that pathway rehearsed and deliberate. The gain will disappear quickly if it comes at the cost of longer pauses or confused choreography.",
-      "shortSummary": "This DOSE-VF analysis reinforces the idea that refractory VF care may benefit from changing shock strategy instead of just repeating the same failed cycle.",
-      "summary": "This DOSE-VF analysis reinforces the idea that refractory VF care may benefit from changing shock strategy instead of just repeating the same failed cycle. The interesting signal is mechanistic as well as clinical: less time spent in VF may be part of why alternative defibrillation approaches outperform standard repeats.",
+      "takeaway": "The data suggests that minimizing the time spent in VF between shocks, perhaps via strategies like DSED, might be a key driver of improved OHCA outcomes. While this is based on a secondary analysis of an RCT, it points toward optimizing the rhythm management process rather than just the shock itself. Clinicians should keep DSED in mind as a potential adjunct to standard protocols, but remember this is an evolving area requiring further dedicated study.",
+      "shortSummary": "This review analyzes defibrillation data from the DOSE-VF Trial to determine if simply reducing the time spent in ventricular fibrillation (VF) between shocks is the mechanism driving survival benefits in out-of-hospita…",
+      "summary": "This review analyzes defibrillation data from the DOSE-VF Trial to determine if simply reducing the time spent in ventricular fibrillation (VF) between shocks is the mechanism driving survival benefits in out-of-hospital cardiac arrest (OHCA). The analysis compared outcomes across different defibrillation approaches, specifically looking at Double Sequential Defibrillation (DSED) and Vector Change (VC) defibrillation against standard protocols. The key finding suggests that both DSED and VC strategies are associated with a reduction in the duration of VF between shocks, with DSED showing the most encouraging signal. This shifts the focus from just the type of shock to the overall efficiency of defibrillation cycles in the field setting.",
       "confidence": "moderate"
     },
     {
@@ -203,9 +203,9 @@
       "publishedAt": "2026-05-14T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trials",
-      "takeaway": "If STI screening is inconsistent in your department, patient-directed tools are worth considering, but only if they slot cleanly into registration, consent, and follow-up pathways. Good implementation will matter more than the software itself.",
-      "shortSummary": "The STIckER trial is a workflow paper more than a diagnostics paper.",
-      "summary": "The STIckER trial is a workflow paper more than a diagnostics paper. Its relevance is in showing that patient-facing digital decision support may increase STI testing in adolescents and young adults without relying entirely on clinician recall in a busy ED.",
+      "takeaway": "If you are concerned about optimizing STI screening in your ED population, this trial suggests that incorporating a structured digital prompt like STIckER might be a worthwhile addition to your workflow. Remember that the benefit is tied to the tool's implementation, so ensure it integrates smoothly without creating undue burden on already busy staff. However, the evidence is based on this specific tool and population, so consider it an adjunct rather than a standalone protocol change.",
+      "shortSummary": "This randomized controlled trial assessed the utility of a digital patient decision aid, called STIckER, designed to boost rates of sexually transmitted infection (STI) testing among adolescents and young adults present…",
+      "summary": "This randomized controlled trial assessed the utility of a digital patient decision aid, called STIckER, designed to boost rates of sexually transmitted infection (STI) testing among adolescents and young adults presenting to the emergency department. The core of the study was evaluating whether implementing this specific digital tool could practically improve current screening practices within the fast-paced ED environment. While the overall importance score was moderate, the design—a randomized controlled trial—lends weight to the findings regarding workflow integration and adherence to screening guidelines. It provides a real-world test of an intervention meant to address potential gaps in routine STI screening for this demographic.",
       "confidence": "moderate"
     },
     {
@@ -217,9 +217,9 @@
       "publishedAt": "2026-05-13T21:00:00Z",
       "impact": "Practice-changing",
       "topic": "Stroke",
-      "takeaway": "Do not dismiss clinically important MeVO stroke as too distal to matter. Early stroke-team involvement remains reasonable when deficits are meaningful and treatment windows are still open.",
-      "shortSummary": "ORIENTAL-MeVO matters because medium-vessel occlusion has been a persistent gray zone in stroke systems.",
-      "summary": "ORIENTAL-MeVO matters because medium-vessel occlusion has been a persistent gray zone in stroke systems. A signal toward better functional outcomes with thrombectomy is enough to keep these patients on the radar during triage, even if broader replication and local capability still shape what should happen next.",
+      "takeaway": "For patients with moderate-to-severe deficits from an acute middle-vessel occlusion, aiming for endovascular thrombectomy within 24 hours appears beneficial for functional independence. Remember that this benefit is specifically highlighted for this deficit severity and occlusion type. Proceed with standard workup, but keep the 24-hour window in mind for aggressive reperfusion strategies.",
+      "shortSummary": "The ORIENTAL-MeVO trial provides encouraging data suggesting that timely endovascular thrombectomy can improve functional outcomes in patients presenting with acute middle-vessel occlusion strokes who have moderate to s…",
+      "summary": "The ORIENTAL-MeVO trial provides encouraging data suggesting that timely endovascular thrombectomy can improve functional outcomes in patients presenting with acute middle-vessel occlusion strokes who have moderate to severe neurological deficits. Specifically, the analysis points toward improved functional independence when this intervention is performed within a 24-hour window from symptom onset. This is a valuable piece of information for guiding acute stroke management protocols, particularly in the setting of known or suspected middle-vessel occlusion. While the trial suggests a benefit, it's important to keep the context of the patient population and the timing of intervention in mind when applying these findings at the bedside.",
       "confidence": "moderate"
     },
     {
@@ -231,9 +231,9 @@
       "publishedAt": "2026-05-11T10:00:00Z",
       "impact": "High-yield",
       "topic": "Trauma",
-      "takeaway": "Use this to interrogate where delay accumulates in your trauma system rather than to chase one crude time target. The important question is which minutes are necessary care and which are pure system drag.",
-      "shortSummary": "PATOS adds detail to the old prehospital-time debate by showing that different components of delay may track with different outcomes.",
-      "summary": "PATOS adds detail to the old prehospital-time debate by showing that different components of delay may track with different outcomes. It is helpful as a systems paper because it discourages simplistic use of total time alone while still making clear that prolonged rescue and scene intervals are not harmless.",
+      "takeaway": "While the data suggests that minimizing time to resuscitation and on-scene treatment is beneficial for reducing mortality, remember that these associations might be confounded by patient severity. Therefore, focus on implementing system-level improvements to streamline care rather than solely interpreting time metrics in isolation. Always maintain a high index of suspicion for underlying systemic issues when interpreting delayed times.",
+      "shortSummary": "This multicenter cohort study from the Pan-Asian Trauma Outcomes Study (PATOS) analyzed how various prehospital time metrics relate to subsequent trauma outcomes.",
+      "summary": "This multicenter cohort study from the Pan-Asian Trauma Outcomes Study (PATOS) analyzed how various prehospital time metrics relate to subsequent trauma outcomes. The authors found a clear association where prolonged time to resuscitation (RT) and time to on-scene treatment (OST) were linked to higher mortality rates. Furthermore, extended OST and time to transport (TT) were associated with poorer functional outcomes. While these findings suggest that optimizing prehospital time is important for improving prognosis, the group acknowledged a critical limitation: these associations might simply reflect selection bias, meaning the most severely ill patients might inherently require more time and thus have worse outcomes regardless of the specific time metric.",
       "confidence": "moderate"
     },
     {
@@ -241,13 +241,13 @@
       "title": "Major adverse cardiac events in patients with indeterminate high-sensitivity troponin testing and chest pain: a systematic review",
       "source": "CJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42132995/",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-05-14T10:00:00Z",
       "impact": "High-yield",
       "topic": "Chest Pain",
-      "takeaway": "A borderline troponin is not a discharge decision by itself. Re-anchor on serial change, clinical context, and pretest risk rather than forcing certainty from a single ambiguous number.",
-      "shortSummary": "Indeterminate high-sensitivity troponin results remain a common place where ED pathways overpromise clarity.",
-      "summary": "Indeterminate high-sensitivity troponin results remain a common place where ED pathways overpromise clarity. This review highlights just how inconsistent downstream management still is, and how often serial testing is underused when a single value lands in the gray zone.",
+      "takeaway": "When faced with an indeterminate hs-Tn in a chest pain patient, remember that the literature does not support a blanket assumption of increased MACE risk without serial testing. Focus heavily on a thorough clinical assessment, especially for those falling into low-risk categories, as this remains the most actionable step. Be cautious about interpreting these values in isolation.",
+      "shortSummary": "This systematic review tackles the somewhat nebulous clinical scenario of patients presenting with chest pain and an indeterminate high-sensitivity troponin (hs-Tn) result.",
+      "summary": "This systematic review tackles the somewhat nebulous clinical scenario of patients presenting with chest pain and an indeterminate high-sensitivity troponin (hs-Tn) result. The authors conclude that there is currently insufficient evidence to definitively state whether these specific patients are at an increased risk for major adverse cardiac events (MACE). A key limitation highlighted is the inconsistent management of these indeterminate results across studies, with the review noting that a significant proportion of patients in the analyzed cohorts did not even receive serial troponin testing. Overall, the paper serves as a reminder that the interpretation of an indeterminate hs-Tn value requires significant clinical context rather than relying solely on the test result itself.",
       "confidence": "high"
     },
     {
@@ -255,13 +255,13 @@
       "title": "High-Risk Medication Prescribing Among Older Adults in the Emergency Department: A National Assessment",
       "source": "Academic Emergency Medicine",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42136546/",
-      "published": "4 days ago",
+      "published": "5 days ago",
       "publishedAt": "2026-05-15T10:00:00Z",
       "impact": "High-yield",
       "topic": "General Emergency Medicine",
-      "takeaway": "Scrutinize discharge prescriptions in older adults with the same care you give admission medication review. Sedatives, anticholinergics, and other familiar high-risk choices still deserve a deliberate pause.",
-      "shortSummary": "This national assessment gives a more concrete denominator to geriatric prescribing risk: nearly one in ten older adults filled a high-risk discharge medication within days of an ED visit.",
-      "summary": "This national assessment gives a more concrete denominator to geriatric prescribing risk: nearly one in ten older adults filled a high-risk discharge medication within days of an ED visit. The improvement trend is encouraging, but the residual rate is high enough to make this a live patient-safety issue.",
+      "takeaway": "Even with observed declines, remember that high-risk medication prescribing remains a significant issue in the ED setting for older adults. Pay particular attention to younger older adults and female patients, as they appear to be at higher risk. System-level checks, like mandatory pharmacist review or targeted discharge counseling, are warranted to mitigate these ongoing prescribing vulnerabilities.",
+      "shortSummary": "This national assessment looked at the prescribing patterns of high-risk medications, specifically those on the GEMS-Rx list, for older adults discharged from the emergency department between 2017 and 2022.",
+      "summary": "This national assessment looked at the prescribing patterns of high-risk medications, specifically those on the GEMS-Rx list, for older adults discharged from the emergency department between 2017 and 2022. The overall trend showed a decrease in the proportion of these high-risk fills, which is somewhat encouraging. However, the data revealed important nuances, noting that while the overall rate is still significant—nearly one in ten patients—younger older adults and female patients were disproportionately more likely to receive these medications upon discharge. The authors conclude that despite the general decline, this highlights persistent gaps in geriatric medication safety protocols that require targeted system-level improvements.",
       "confidence": "high"
     },
     {
@@ -269,13 +269,13 @@
       "title": "Association between initial bandemia degree and short-term mortality among adults with bacteremia in the emergency department",
       "source": "AJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42127878/",
-      "published": "6 days ago",
+      "published": "1 week ago",
       "publishedAt": "2026-05-13T10:00:00Z",
       "impact": "High-yield",
       "topic": "General Emergency Medicine",
-      "takeaway": "Treat a high band count as another reason to widen your safety margin on disposition and reassessment. It should sharpen concern about severity, not replace the rest of the clinical picture.",
-      "shortSummary": "Bandemia is not a magic sepsis test, but this study argues it still carries prognostic weight in bacteremic adults.",
-      "summary": "Bandemia is not a magic sepsis test, but this study argues it still carries prognostic weight in bacteremic adults. The useful point is not that band count dictates therapy; it is that marked bandemia should make clinicians less comfortable with seemingly middling presentations.",
+      "takeaway": "When managing an adult with bacteremia in the ED, remember that a significantly elevated initial band count appears to be an independent marker associated with worse short-term outcomes. While this finding warrants consideration, do not let this single lab value overshadow the need for aggressive source control and appropriate empiric antibiotics. Always interpret this finding alongside clinical stability and source identification.",
+      "shortSummary": "This retrospective cohort study investigated whether the initial percentage of band neutrophils in adults presenting to the emergency department with confirmed bacteremia predicts short-term mortality.",
+      "summary": "This retrospective cohort study investigated whether the initial percentage of band neutrophils in adults presenting to the emergency department with confirmed bacteremia predicts short-term mortality. The authors found a statistically significant association, concluding that a higher initial band percentage is independently linked to an increased risk of death within 30 days. This suggests that beyond just the presence of bacteremia, the degree of left shift seen upon initial presentation might carry prognostic weight. While the study establishes this association, it is important to remember that this is observational data, and causality cannot be definitively established from this design alone. Nevertheless, it prompts a re-evaluation of routine laboratory findings in this high-risk population.",
       "confidence": "moderate"
     },
     {
@@ -287,10 +287,10 @@
       "publishedAt": "2026-05-06T16:00:26Z",
       "impact": "High-yield",
       "topic": "Resuscitation",
-      "takeaway": "Use prehospital sepsis scores to prepare attention and resources, not to close the diagnostic loop. Repeated bedside reassessment after ED arrival still matters more than any single prehospital risk label.",
-      "shortSummary": "This prospective prehospital sepsis study is a useful check on score worship.",
-      "summary": "This prospective prehospital sepsis study is a useful check on score worship. Ambulance-era variables and tools like qSOFA or NEWS2 carry some signal, but none cleanly predict shock, severity, and mortality all at once, which limits how far they can be pushed in isolation.",
-      "confidence": "high"
+      "takeaway": "While prehospital data like oxygen saturation, SBP, and qSOFA are associated with poor outcomes, remember that no single prehospital score predicts everything, and relying solely on these tools is insufficient. Use these initial findings to guide immediate resuscitation efforts, but do not let them replace the need for thorough in-hospital workup and established clinical judgment.",
+      "shortSummary": "This prospective cohort study analyzed prehospital data from 398 patients with suspected sepsis to see if initial field measurements could predict subsequent severe outcomes like septic shock or mortality.",
+      "summary": "This prospective cohort study analyzed prehospital data from 398 patients with suspected sepsis to see if initial field measurements could predict subsequent severe outcomes like septic shock or mortality. The authors found that several prehospital variables showed associations with sepsis severity and shock development, including oxygen saturation, systolic blood pressure, and qSOFA. Interestingly, the Glasgow Coma Score and male sex were linked to both severity and mortality, while specific findings like ashen skin or a focus of infection were associated with septic shock. While the study suggests prehospital scores might have some utility, it cautions that no single variable predicted all three measured outcomes, and the predictive power of any single tool is limited.",
+      "confidence": "moderate"
     }
   ],
   "sources": [
