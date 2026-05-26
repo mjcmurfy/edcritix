@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-05-25T18:30:42.628Z",
-    "sourceGeneratedAt": "2026-05-25T18:15:07.260297Z",
-    "editorialGeneratedAt": "2026-05-25T18:30:36.008032Z",
-    "editionDate": "2026-05-26"
+    "generatedAt": "2026-05-26T18:32:05.407Z",
+    "sourceGeneratedAt": "2026-05-26T18:15:13.285100Z",
+    "editorialGeneratedAt": "2026-05-26T18:31:57.193673Z",
+    "editionDate": "2026-05-27"
   },
   "briefing": {
-    "headline": "13 high-priority items in the latest EM scan",
-    "summary": "Top sources today: European Journal of Emergency Medicine, MedPage Today Emergency Medicine, REBEL EM. Main themes: trials, reviews, point-of-care ultrasound. Best early reads: Association between patient-to-nurse ratios in emergency departments and patient, staff, and organizational outcomes: a systematic review; Whole Blood Not Better Than Components En Route to Hospital After Traumatic Injury.",
-    "editorialHeadline": "Evidence With Restraint: Targeted Gains Without the Hype",
-    "editorialSummary": "Today's set is less about sweeping disruption and more about tightening judgment. Trauma transfusion, catheter-directed PE therapy, regional anaesthesia for rib fractures, bedside DVT ultrasound and paediatric IV access all point toward targeted interventions that can help when used in the right patients and systems—but several papers also warn against reading operational or procedural enthusiasm as proof of universal benefit.\n\nThe strongest practical signals are the SAPB trial for rib-fracture analgesia, bedside compression ultrasound for DVT, and better paediatric cannulation with a vein locator. By contrast, the PE literature is a good lesson in restraint: HI-PEITHO raises the possibility of benefit in a narrow subgroup, while contemporaneous commentary reminds us that invasive escalation still needs a high threshold and patient-centred endpoints.\n\nAcross sepsis, pneumonia, torsion, anticoagulation and biomarkers, the recurring theme is the same: use tools to refine care, not to outsource judgment. The win is not more technology at any cost; it is better selection, faster decisions and fewer automatic habits."
+    "headline": "12 high-priority items in the latest EM scan",
+    "summary": "Top sources today: European Journal of Emergency Medicine, REBEL EM, Academic Emergency Medicine. Main themes: trials, reviews, point-of-care ultrasound. Best early reads: Association between patient-to-nurse ratios in emergency departments and patient, staff, and organizational outcomes: a systematic review; HI-PEITHO Trial: Ultrasound-facilitated, Catheter Directed Fibrinolysis for PE.",
+    "editorialHeadline": "Sharp Tools, Higher Thresholds",
+    "editorialSummary": "Today's set rewards clinicians who like useful tools but distrust easy hype. The cleanest bedside wins are practical: serratus anterior plane block looks increasingly ready for rib-fracture analgesia in the ED, trained emergency physicians can diagnose DVT accurately and much faster with compression ultrasound, and ultrasound again outperforms plain films for radiolucent foreign bodies.\n\nThe pulmonary embolism cluster is where the editorial tension sits. HI-PEITHO suggests a narrower benefit for catheter-directed fibrinolysis in selected intermediate-risk PE, while the paired commentary and First10EM critique both argue for a much higher threshold before turning procedural capability into routine care. That same caution threads through other papers: postoperative transfusion thresholds still need discipline, imported head-injury pathways may save resources but not automatically safely, and presepsin remains an adjunct rather than a biomarker escape hatch from clinical judgment.\n\nThere are also a few quieter but sticky practice points worth carrying onto shift: TWIST plus POCUS helps in paediatric torsion but should not be used to rule it out, sepsis-induced new AF still does not justify reflex anticoagulation, and preceding OHCA alone should not exclude a patient from mechanical circulatory support conversations. Overall, this is a reading set about using sharper tools with a higher threshold, not about chasing every shiny intervention."
   },
   "dailyEditorial": [
     {
@@ -17,55 +17,27 @@
       "title": "Association between patient-to-nurse ratios in emergency departments and patient, staff, and organizational outcomes: a systematic review",
       "source": "European Journal of Emergency Medicine",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42153748/",
-      "published": "6 days ago",
+      "published": "1 week ago",
       "publishedAt": "2026-05-19T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Emergency Department",
-      "takeaway": "Use this as evidence for staffing conversations, not as proof that one ratio target alone will fix ED safety. If you are arguing for resourcing, the paper supports the importance of the question, but you still need local operational data to drive action.",
-      "shortSummary": "This review asks a system question every ED already feels on the floor: does nurse staffing ratio actually change outcomes in emergency care, not just inpatient wards.",
-      "summary": "This review asks a system question every ED already feels on the floor: does nurse staffing ratio actually change outcomes in emergency care, not just inpatient wards. The signal matters, but the available excerpt is heavy on methods and light on outcome detail, so this is more a policy-shaping paper than an immediate bedside pivot. It is still worth tracking because crowding, workload and harm are tightly linked even when the published evidence remains messy.",
+      "takeaway": "Use this to support acuity-aware staffing arguments, not to claim one fixed ratio will solve ED harm. Local workload, boarding pressure and task mix still need to drive operational decisions.",
+      "shortSummary": "This review tackles a question every crowded department feels viscerally: whether explicit nurse staffing ratios actually translate into better ED outcomes.",
+      "summary": "This review tackles a question every crowded department feels viscerally: whether explicit nurse staffing ratios actually translate into better ED outcomes. The summary we have is method-heavy and result-light, so it is more useful as a signal that the evidence base is still unsettled than as a mandate for one magic ratio. That matters, because staffing debates are often framed with more certainty than the literature can support.",
       "confidence": "moderate"
-    },
-    {
-      "slug": "whole-blood-not-better-than-components-en-route-to-hospital-after-traumatic-inju",
-      "title": "Whole Blood Not Better Than Components En Route to Hospital After Traumatic Injury",
-      "source": "MedPage Today Emergency Medicine",
-      "link": "https://www.medpagetoday.com/meetingcoverage/ats/121311",
-      "published": "1 week ago",
-      "publishedAt": "2026-05-18T19:09:00Z",
-      "impact": "Practice-changing",
-      "topic": "Shock",
-      "takeaway": "Whole blood remains a reasonable prehospital haemorrhage strategy where systems support it, but do not oversell superiority. For most clinicians the operational question is whether a simpler product can be delivered reliably, not whether this trial proves a survival advantage.",
-      "shortSummary": "The TOWAR trial is useful precisely because it trims hype.",
-      "summary": "The TOWAR trial is useful precisely because it trims hype. Prehospital whole O blood did not outperform component therapy for patients at risk of traumatic haemorrhagic shock, but similar outcomes still matter because whole blood can simplify logistics and speed delivery in the field. This looks more like validation of a practical option than a mandate to rewrite every transfusion pathway.",
-      "confidence": "high"
     },
     {
       "slug": "hi-peitho-trial-ultrasound-facilitated-catheter-directed-fibrinolysis-for-pe",
       "title": "HI-PEITHO Trial: Ultrasound-facilitated, Catheter Directed Fibrinolysis for PE",
       "source": "REBEL EM",
       "link": "https://rebelem.com/hipeitho/?utm_source=rss&utm_medium=rss&utm_campaign=hipeitho",
-      "published": "6 days ago",
+      "published": "1 week ago",
       "publishedAt": "2026-05-19T11:00:12Z",
       "impact": "Practice-changing",
       "topic": "Ultrasound",
-      "takeaway": "Start with good anticoagulation and honest risk stratification. Escalation to catheter-directed therapy should stay reserved for carefully selected intermediate-high-risk patients with credible concern for deterioration, ideally in a centre that can deliver it well.",
-      "shortSummary": "HI-PEITHO keeps the intermediate-risk PE argument alive without truly settling it.",
-      "summary": "HI-PEITHO keeps the intermediate-risk PE argument alive without truly settling it. Catheter-directed ultrasound-facilitated fibrinolysis appears to reduce short-term decompensation in selected sicker patients, but the gain is narrower than the headline enthusiasm can imply. This is a nuanced escalation paper, not a green light for routine invasive therapy in every stable submassive PE.",
-      "confidence": "high"
-    },
-    {
-      "slug": "effect-of-a-liquid-crystal-vein-locator-on-intravenous-catheterization-in-young-",
-      "title": "Effect of a liquid crystal vein locator on intravenous catheterization in young children: a randomized trial",
-      "source": "European Journal of Emergency Medicine",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42152760/",
-      "published": "6 days ago",
-      "publishedAt": "2026-05-19T10:00:00Z",
-      "impact": "Practice-changing",
-      "topic": "Pivc",
-      "takeaway": "If your department has access to a vein locator, this trial supports using it for difficult or young paediatric IV access rather than saving it as a novelty device. The value is less trauma, faster access and fewer repeat attempts.",
-      "shortSummary": "This is a practical paediatric win: the liquid crystal vein locator improved first-pass success, reduced total attempts and shortened cannulation time.",
-      "summary": "This is a practical paediatric win: the liquid crystal vein locator improved first-pass success, reduced total attempts and shortened cannulation time. For a common ED pain point, that is exactly the sort of modest technology win worth noticing. It will not replace skill, but it may reduce distress and procedural drag in the right population.",
+      "takeaway": "Start with good anticoagulation and honest risk stratification. Reserve catheter-directed escalation for the subset with credible deterioration risk and access to a team that can deliver it well.",
+      "shortSummary": "HI-PEITHO keeps the intermediate-risk PE argument alive without making anticoagulation any less central.",
+      "summary": "HI-PEITHO keeps the intermediate-risk PE argument alive without making anticoagulation any less central. Ultrasound-facilitated catheter-directed fibrinolysis appears to reduce short-term decompensation in a selected higher-risk subgroup, but the gain is narrower than the procedural enthusiasm can suggest. This is a nuanced escalation paper, not a signal to catheterise every stable submassive PE.",
       "confidence": "high"
     },
     {
@@ -73,13 +45,13 @@
       "title": "Serratus Anterior Plane Block for Acute Rib Fractures in the Emergency Department: A Randomized Controlled Trial",
       "source": "Academic Emergency Medicine",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42159402/",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-05-20T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Analgesia",
-      "takeaway": "Consider SAPB when rib fracture pain is limiting ventilation, mobilisation or discharge planning and you have the skill set to perform it safely. This is one of the clearer actionable procedural papers in the set.",
-      "shortSummary": "The SAPB rib fracture trial is the sort of paper that can actually change shift-level practice.",
-      "summary": "The SAPB rib fracture trial is the sort of paper that can actually change shift-level practice. Better pain control, ED feasibility and a non-opioid mechanism make this more compelling than another generic analgesia comparison. Rib fracture care often fails because we undertreat pain; this pushes regional anaesthesia further toward mainstream ED use.",
+      "takeaway": "If your team already has ultrasound-guided regional anaesthesia capability, SAPB looks like a credible ED tool rather than an ICU-only trick. The practical question is increasingly training and workflow, not proof of concept.",
+      "shortSummary": "This randomized trial gives regional analgesia another push toward mainstream ED rib-fracture care.",
+      "summary": "This randomized trial gives regional analgesia another push toward mainstream ED rib-fracture care. Adding serratus anterior plane block improved pain scores and was performed safely by emergency physicians, which is exactly the implementation question many departments care about. Rib-fracture outcomes are often driven by poor analgesia more than by the fracture pattern itself, so a scalable block matters.",
       "confidence": "high"
     },
     {
@@ -91,9 +63,9 @@
       "publishedAt": "2026-05-13T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Practice Updates",
-      "takeaway": "For non-severe CAP, reassess whether you really need antibiotics, how long you plan to treat, and whether bedside ultrasound can improve the diagnostic picture. This is a guideline update worth aligning with local protocols rather than ignoring as background noise.",
-      "shortSummary": "The 2025 CAP update continues the drift toward tighter stewardship and more selective diagnostics.",
-      "summary": "The 2025 CAP update continues the drift toward tighter stewardship and more selective diagnostics. Lung ultrasound gains more legitimacy, viral-positive well patients may not need reflex antibiotics, and shorter treatment courses keep gaining ground. None of that is revolutionary on its own, but together it keeps pushing ED CAP care toward less automatic treatment and more disciplined diagnosis.",
+      "takeaway": "Expect more justification for ultrasound-first thinking and shorter antibiotic courses in uncomplicated CAP. Treat the patient’s risk profile, not every infiltrate with the same reflexive antibiotic script.",
+      "shortSummary": "The 2025 CAP update is notable for pushing care toward a lighter, more selective default.",
+      "summary": "The 2025 CAP update is notable for pushing care toward a lighter, more selective default. Lung ultrasound gets more legitimacy, some viral-positive low-risk patients may not need antibiotics, and shorter treatment courses are increasingly supported in stable non-severe disease. None of that is radical on its own, but together it reinforces a more restrained ED pneumonia approach.",
       "confidence": "high"
     },
     {
@@ -101,13 +73,13 @@
       "title": "TOP: Liberal or restrictive post-op transfusion",
       "source": "The Bottom Line",
       "link": "https://www.thebottomline.org.uk/summaries/icm/top/?utm_source=rss&utm_medium=rss&utm_campaign=top",
-      "published": "3 days ago",
+      "published": "4 days ago",
       "publishedAt": "2026-05-22T11:42:18Z",
       "impact": "Practice-changing",
       "topic": "Postoperative Anaemia",
-      "takeaway": "Do not abandon restrictive transfusion thinking just because a patient is post-operative and high cardiac risk. Use symptoms, ischaemic risk and overall trajectory to individualise thresholds instead of defaulting to a liberal trigger.",
-      "shortSummary": "The TOP transfusion trial speaks to a familiar acute-care tension: do high-risk post-op patients need a more liberal haemoglobin target for protection, or are we still better off staying restrictive.",
-      "summary": "The TOP transfusion trial speaks to a familiar acute-care tension: do high-risk post-op patients need a more liberal haemoglobin target for protection, or are we still better off staying restrictive. The practical message remains that transfusion should be justified by meaningful risk and physiology, not habit. This is more refinement than reversal of modern transfusion conservatism.",
+      "takeaway": "Do not let cardiac comorbidity automatically drive you to liberal transfusion. Individualise for ischemia and bleeding risk, but restrictive practice still looks like the default position to defend.",
+      "shortSummary": "TOP is useful because it revisits transfusion thresholds in the cohort that makes clinicians most nervous: postoperative patients with cardiac risk.",
+      "summary": "TOP is useful because it revisits transfusion thresholds in the cohort that makes clinicians most nervous: postoperative patients with cardiac risk. The trial compares liberal and restrictive strategies rather than assuming the broader restrictive-transfusion story automatically fits this group. The likely practical message is caution against transfusing to comfort rather than to clear physiologic need.",
       "confidence": "moderate"
     },
     {
@@ -119,9 +91,9 @@
       "publishedAt": "2026-06-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Ultrasound",
-      "takeaway": "Read this as framing for multidisciplinary discussion, not as stand-alone practice change. It is most useful when you are deciding how skeptical to be about invasive PE enthusiasm.",
-      "shortSummary": "This Annals piece reinforces how quickly commentary forms around high-impact PE trials.",
-      "summary": "This Annals piece reinforces how quickly commentary forms around high-impact PE trials. The main value is less in introducing new data than in sharpening the question: if catheter-directed fibrinolysis helps, exactly which endpoint and which patient justify the extra complexity. It complements HI-PEITHO rather than replacing the trial itself.",
+      "takeaway": "Read this alongside HI-PEITHO, not instead of it. The main practical value is sharpening thresholds for escalation and avoiding the slide from promising procedure to overused procedure.",
+      "shortSummary": "This commentary on catheter-directed fibrinolysis is valuable because it checks procedural enthusiasm against patient selection and real-world applicability.",
+      "summary": "This commentary on catheter-directed fibrinolysis is valuable because it checks procedural enthusiasm against patient selection and real-world applicability. The technique may be elegant, but the bedside challenge remains deciding who is sick enough to benefit and stable enough to reach an invasive pathway without overtreatment. It is best read as a restraint piece rather than a technology pitch.",
       "confidence": "moderate"
     },
     {
@@ -129,27 +101,27 @@
       "title": "Modified brain injury guidelines in a regional Australian setting indicate significant resource savings but also safety concerns",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-216031v1?rss=1",
-      "published": "4 days ago",
+      "published": "5 days ago",
       "publishedAt": "2026-05-21T16:00:18Z",
       "impact": "Practice-changing",
       "topic": "Trauma",
-      "takeaway": "If you are considering a streamlined mild TBI pathway, focus on local validation before rollout. Efficiency gains are attractive, but misclassifying the uncommon bad actor is the whole risk.",
-      "shortSummary": "The Australian mBIG paper is appealing because it targets a real ED problem: too many mild TBI pathways consume transfers, repeat CTs and neurosurgical attention.",
-      "summary": "The Australian mBIG paper is appealing because it targets a real ED problem: too many mild TBI pathways consume transfers, repeat CTs and neurosurgical attention. The catch is equally important: resource savings do not matter if safety slips. This is the right kind of implementation study to read carefully before copying another system’s rule set.",
-      "confidence": "high"
+      "takeaway": "Severity-stratified TBI pathways can save resources, but they need local validation before broad adoption. Cheapening the workup is only a win if the missed-injury risk stays acceptably low.",
+      "shortSummary": "The Australian mBIG experience is appealing because it promises fewer neurosurgical consults, repeat scans and transfers in mostly mild head injury.",
+      "summary": "The Australian mBIG experience is appealing because it promises fewer neurosurgical consults, repeat scans and transfers in mostly mild head injury. The catch is equally important: resource savings may come with safety concerns when an imported pathway meets a different local system. That tension makes this more of a service-design paper than a simple efficiency win.",
+      "confidence": "moderate"
     },
     {
       "slug": "hi-peitho-more-negative-data-on-invasive-therapy-for-higher-risk-pes",
       "title": "HI-PEITHO: More negative data on invasive therapy for higher risk PEs",
       "source": "First10EM",
       "link": "https://first10em.com/hi-peitho/",
-      "published": "8 hours ago",
+      "published": "1 day ago",
       "publishedAt": "2026-05-25T10:49:00Z",
       "impact": "Practice-changing",
       "topic": "Pulmonary Embolism",
-      "takeaway": "Keep a high threshold for catheter-directed fibrinolysis in intermediate-risk PE unless the patient is truly trending the wrong way. A watchful anticoagulation-first strategy remains defensible for most of this group.",
-      "shortSummary": "First10EM provides the necessary counterweight to the positive spin around HI-PEITHO.",
-      "summary": "First10EM provides the necessary counterweight to the positive spin around HI-PEITHO. The core argument is that the apparent benefit may rest on softer decompensation endpoints rather than a convincing patient-centred outcome gain, which matters when the intervention is invasive and resource-heavy. This is a useful reminder that “positive trial” and “practice-changing trial” are not synonyms.",
+      "takeaway": "If you are tempted by invasive PE escalation, make sure you can explain the patient-centred benefit rather than just the composite endpoint. A watchful, anticoagulation-first approach still deserves a high bar to abandon.",
+      "shortSummary": "First10EM plays the useful contrarian role here by arguing that the apparent HI-PEITHO win may rest more on composite-endpoint design than on a clinically persuasive patient benefit.",
+      "summary": "First10EM plays the useful contrarian role here by arguing that the apparent HI-PEITHO win may rest more on composite-endpoint design than on a clinically persuasive patient benefit. That scepticism matters because intermediate-risk PE is exactly the space where invasive therapy can spread on thin evidence. The piece is strongest as an antidote to overreading a technically positive trial.",
       "confidence": "moderate"
     },
     {
@@ -157,13 +129,27 @@
       "title": "Evaluating the TWIST score and point-of-care ultrasound for paediatric testicular torsion",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/43/6/334?rss=1",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-05-20T12:57:54Z",
       "impact": "Practice-changing",
       "topic": "Ultrasound",
-      "takeaway": "Use TWIST and POCUS to sharpen urgency and consultation decisions, but do not let a reassuring score overrule persistent clinical concern. In torsion, the last step is still clinical judgment and timely escalation.",
-      "shortSummary": "TWIST plus bedside ultrasound looks genuinely helpful for paediatric torsion workup, but the authors are right not to oversell it.",
-      "summary": "TWIST plus bedside ultrasound looks genuinely helpful for paediatric torsion workup, but the authors are right not to oversell it. High sensitivity and specificity are useful; a false-negative rate that is not zero is even more important. This is a risk-stratification tool, not permission to relax when the story still sounds like torsion.",
+      "takeaway": "Use TWIST and POCUS to structure urgency, not to dismiss a child with persistent torsion concern. High clinical suspicion still beats a reassuring score when the story or exam feels wrong.",
+      "shortSummary": "This is a practical paediatric diagnostic paper with reassuring numbers and an important warning attached.",
+      "summary": "This is a practical paediatric diagnostic paper with reassuring numbers and an important warning attached. TWIST plus bedside ultrasound performed by emergency clinicians showed high sensitivity and specificity, but the false-negative rate was not trivial enough to let the score serve as a rule-out device. That keeps the paper clinically useful without letting it become a shortcut.",
+      "confidence": "high"
+    },
+    {
+      "slug": "understanding-patients-with-mechanical-circulatory-support-for-cardiogenic-shock",
+      "title": "Understanding Patients with Mechanical Circulatory Support for Cardiogenic Shock: The Role of Preceding Cardiac Arrest",
+      "source": "Resuscitation",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42184916/",
+      "published": "1 day ago",
+      "publishedAt": "2026-05-25T10:00:00Z",
+      "impact": "Practice-changing",
+      "topic": "Shock",
+      "takeaway": "Do not treat preceding OHCA as an automatic reason to withhold mechanical circulatory support evaluation. The better question is whether the broader physiology and trajectory make support worthwhile.",
+      "shortSummary": "This cardiogenic shock paper is helpful because it separates the presence of preceding OHCA from the reflex assumption of futility.",
+      "summary": "This cardiogenic shock paper is helpful because it separates the presence of preceding OHCA from the reflex assumption of futility. Mortality at 30 days was similar between OHCA and non-OHCA patients receiving mechanical support, but the predictors of death differed, suggesting the populations should not be collapsed into one narrative. It is a useful antidote to blunt exclusion logic.",
       "confidence": "high"
     },
     {
@@ -171,27 +157,27 @@
       "title": "Is ultrasound superior to plain radiography for detecting radiolucent soft tissue foreign bodies in the extremities?",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-216076v1?rss=1",
-      "published": "3 hours ago",
+      "published": "1 day ago",
       "publishedAt": "2026-05-25T16:00:16Z",
       "impact": "Practice-changing",
       "topic": "Ultrasound",
-      "takeaway": "If you suspect a radiolucent extremity foreign body, do not rely on plain films to reassure you. Bedside ultrasound is the better next test, especially when the wound story and exam remain convincing.",
-      "shortSummary": "The radiolucent foreign body review is classic ED pragmatism: when x-ray is predictably blind, ultrasound is probably the better tool.",
-      "summary": "The radiolucent foreign body review is classic ED pragmatism: when x-ray is predictably blind, ultrasound is probably the better tool. The limitation is that the evidence base is small and operator dependent, but the direction of travel is clear. For clinicians who already scan soft tissue well, this supports using ultrasound earlier rather than after a negative radiograph.",
-      "confidence": "moderate"
+      "takeaway": "If you are looking for a radiolucent extremity foreign body, ultrasound should usually be your first useful test, not a negative x-ray. Just remember that performance depends on operator skill and scanning discipline.",
+      "shortSummary": "For radiolucent soft-tissue foreign bodies, the evidence again points toward ultrasound beating plain films by a wide margin.",
+      "summary": "For radiolucent soft-tissue foreign bodies, the evidence again points toward ultrasound beating plain films by a wide margin. The important caveat is that most supporting studies are small and operator-dependent, so the superiority is real but not infinitely generalisable. Even so, this is one of those bedside questions where the imaging choice should probably already be shifting.",
+      "confidence": "high"
     },
     {
       "slug": "journal-update-monthly-top-five",
       "title": "Journal update monthly top five",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/43/6/385?rss=1",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-05-20T12:57:54Z",
       "impact": "Practice-changing",
       "topic": "Practice Updates",
-      "takeaway": "Worth a skim if sepsis risk-stratification interests you, but do not expect one new variable to suddenly solve prognostication. The practical lesson is that mortality prediction remains multifactorial and imperfect.",
-      "shortSummary": "The monthly top-five digest is more of a horizon scan than a single practice changer, but the septic shock prognostic review stands out because clinicians still struggle to identify who is quietly failing despite appare…",
-      "summary": "The monthly top-five digest is more of a horizon scan than a single practice changer, but the septic shock prognostic review stands out because clinicians still struggle to identify who is quietly failing despite apparently standard care. This is useful for perspective, less so for immediate protocol change. Think of it as curated intellectual triage.",
+      "takeaway": "Treat this as background enrichment rather than a new bedside algorithm. In septic shock, trajectory and repeated reassessment still matter more than any one prognostic headline.",
+      "shortSummary": "This monthly top-five digest is more horizon scan than immediate practice changer, but the septic-shock prognostic review inside it is worth attention.",
+      "summary": "This monthly top-five digest is more horizon scan than immediate practice changer, but the septic-shock prognostic review inside it is worth attention. The theme is familiar: we still want cleaner ways to identify who is truly in trouble early, yet robust single-variable answers remain elusive. Useful reading, but not something that should seduce you into false precision.",
       "confidence": "moderate"
     },
     {
@@ -199,13 +185,13 @@
       "title": "Point-of-care ultrasound by trained emergency physicians versus radiologists for deep vein thrombosis diagnosis: a prospective blinded study on diagnostic accuracy and time efficiency",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215770v1?rss=1",
-      "published": "4 days ago",
+      "published": "5 days ago",
       "publishedAt": "2026-05-21T16:00:18Z",
       "impact": "Practice-changing",
       "topic": "Ultrasound",
-      "takeaway": "If your team is trained in compression ultrasound, this supports using it as a frontline DVT pathway tool. The real gain may be throughput and earlier decisions, not just diagnostic ownership.",
-      "shortSummary": "The DVT ultrasound study is one of the more directly operational papers in the set.",
-      "summary": "The DVT ultrasound study is one of the more directly operational papers in the set. Trained emergency physicians matched radiology closely on diagnostic accuracy while cutting time-to-diagnosis dramatically. That is exactly the kind of evidence that supports moving a workflow bottleneck to the bedside.",
+      "takeaway": "If your department has trained operators, compression ultrasound for suspected DVT looks ready for wider frontline use. Faster diagnosis is the obvious win; the next question is how much ED flow and length of stay improve downstream.",
+      "shortSummary": "This DVT ultrasound study is one of the sharper operationally relevant reads of the set.",
+      "summary": "This DVT ultrasound study is one of the sharper operationally relevant reads of the set. Trained emergency physicians matched radiology closely for accuracy while cutting time to diagnosis from hours to about one, which is exactly the sort of workflow gain that matters in a crowded ED. It is a good example of bedside ultrasound improving both speed and quality rather than trading one for the other.",
       "confidence": "high"
     },
     {
@@ -217,9 +203,9 @@
       "publishedAt": "2026-06-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Resuscitation",
-      "takeaway": "Treat this as a methods paper with clinical relevance. It should not change fluid choice today, but it does support better-quality sepsis trials in the environment where decisions are actually made.",
-      "shortSummary": "The ICARUS-ED commentary is really about trial design, but it still matters because early sepsis resuscitation is notoriously hard to study well.",
-      "summary": "The ICARUS-ED commentary is really about trial design, but it still matters because early sepsis resuscitation is notoriously hard to study well. Showing that rigorous enrolment and protocol adherence are feasible in undifferentiated ED sepsis is valuable groundwork. This does not make albumin the answer; it makes future answers more believable.",
+      "takeaway": "Read this as sepsis research-methods guidance, not bedside albumin advocacy. The immediate lesson is that better early-intervention trials are feasible if the workflow is built properly.",
+      "shortSummary": "This piece is really about trial design rather than albumin practice.",
+      "summary": "This piece is really about trial design rather than albumin practice. Its value lies in showing that early ED sepsis trials can recruit in real time, maintain protocol fidelity and still cope with diagnostic uncertainty. That is important infrastructure work, even if it should not be mistaken for proof that albumin has earned a routine resuscitation role.",
       "confidence": "moderate"
     },
     {
@@ -231,9 +217,9 @@
       "publishedAt": "2026-05-14T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Sedation",
-      "takeaway": "Keep using ketamine thoughtfully, but use pooled adverse-event data to sharpen consent, staffing and rescue-readiness. The practical win is safer anticipation, not a new sedation doctrine.",
-      "shortSummary": "The ketamine adverse-event review is helpful because paediatric sedation safety often gets discussed with more confidence than data.",
-      "summary": "The ketamine adverse-event review is helpful because paediatric sedation safety often gets discussed with more confidence than data. A large synthesis of event rates and predictors should improve counselling, preparation and monitoring even if it does not radically alter practice. This is quality-of-care evidence rather than a headline-grabber.",
+      "takeaway": "Keep using ketamine thoughtfully, but lean on better pooled safety data when discussing risk and planning monitoring. Be cautious about overvaluing any predictor that has not been consistently supported across studies.",
+      "shortSummary": "Ketamine remains a workhorse in paediatric ED sedation, so a large adverse-event review is inherently useful even without a dramatic new warning.",
+      "summary": "Ketamine remains a workhorse in paediatric ED sedation, so a large adverse-event review is inherently useful even without a dramatic new warning. The likely contribution here is better pooled estimates and a clearer sense of which proposed risk factors deserve attention versus repetition. That should help protocols, counseling and monitoring more than it changes sedation choice outright.",
       "confidence": "moderate"
     },
     {
@@ -241,13 +227,13 @@
       "title": "Presepsin for sepsis diagnosis in emergency departments: a multicentre study",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/43/6/360?rss=1",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-05-20T12:57:54Z",
       "impact": "Practice-changing",
       "topic": "Resuscitation",
-      "takeaway": "Do not let a presepsin result overrule the bedside picture. If available, it may help with risk stratification, but resuscitation and antimicrobial decisions still need to be clinically led.",
-      "shortSummary": "Presepsin edges out procalcitonin statistically, but only just, and the broader message is restraint.",
-      "summary": "Presepsin edges out procalcitonin statistically, but only just, and the broader message is restraint. Modest diagnostic performance means biomarkers still support rather than drive early sepsis care. This is another reminder that lab novelty rarely rescues weak clinical reasoning.",
+      "takeaway": "Use presepsin, if available, as an adjunctive risk-stratification signal rather than a gatekeeper for antibiotics or resuscitation. Clinical assessment and trajectory still do the heavy lifting.",
+      "shortSummary": "Presepsin edges out procalcitonin here, but only narrowly and with modest overall diagnostic performance.",
+      "summary": "Presepsin edges out procalcitonin here, but only narrowly and with modest overall diagnostic performance. That makes the paper clinically useful mainly as a reminder that biomarker escalation keeps running into the same ceiling: supportive information, not diagnostic closure. The mortality association is interesting, but not enough to hand the resuscitation wheel to a lab result.",
       "confidence": "high"
     },
     {
@@ -255,13 +241,13 @@
       "title": "Should anticoagulants be initiated in patients with sepsis-induced new-onset atrial fibrillation? Best evidence topic report",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/43/6/376?rss=1",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-05-20T12:57:54Z",
       "impact": "Practice-changing",
       "topic": "Sepsis",
-      "takeaway": "Avoid reflex anticoagulation for sepsis-related new AF unless there is another compelling indication. Reassess rhythm, bleeding risk and longer-term need once the septic physiology settles.",
-      "shortSummary": "The best-evidence review on anticoagulation for sepsis-induced new AF lands in the most useful possible place: caution.",
-      "summary": "The best-evidence review on anticoagulation for sepsis-induced new AF lands in the most useful possible place: caution. Current data do not show reliable stroke reduction and may even hint at harm in some cohorts. Until better trials exist, routine anticoagulation here looks more like extrapolation than evidence-based care.",
+      "takeaway": "Do not start anticoagulation reflexively for sepsis-related new AF purely for presumed stroke prevention. Reassess once the acute illness settles, and wait for better trial data before treating this as standard practice.",
+      "shortSummary": "This best-evidence report lands in the sensible place: routine anticoagulation for sepsis-induced new-onset AF is not supported by the current observational literature.",
+      "summary": "This best-evidence report lands in the sensible place: routine anticoagulation for sepsis-induced new-onset AF is not supported by the current observational literature. The most uncomfortable detail is that one larger study even suggested more stroke with anticoagulation, which should cool any impulse to extrapolate from chronic AF logic too casually. For now the signal is uncertainty, not endorsement.",
       "confidence": "high"
     },
     {
@@ -269,13 +255,13 @@
       "title": "Naloxone administration associated with improved survival in PEA out-of-hospital cardiac arrests",
       "source": "Resuscitation",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42176972/",
-      "published": "2 days ago",
+      "published": "3 days ago",
       "publishedAt": "2026-05-23T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Shock",
-      "takeaway": "Do not generalise naloxone as a routine arrest therapy on this study alone. In a plausible opioid-linked PEA arrest it remains reasonable, but the data are not strong enough to broaden practice indiscriminately.",
-      "shortSummary": "Naloxone in PEA OHCA is the kind of observational signal that will tempt over-interpretation.",
-      "summary": "Naloxone in PEA OHCA is the kind of observational signal that will tempt over-interpretation. The association with better survival is intriguing, especially given the rhythm-specific effect, but this is hypothesis-generating rather than protocol-rewriting evidence. Still, it keeps the door open for a more targeted prehospital question.",
+      "takeaway": "If opioid toxicity is credible in a PEA arrest, naloxone remains a reasonable move with this observational signal in mind. Just do not confuse association with proof that naloxone broadly improves non-shockable arrest outcomes.",
+      "shortSummary": "Naloxone in PEA OHCA is the kind of finding that is intriguing precisely because it does not fit neatly into current assumptions.",
+      "summary": "Naloxone in PEA OHCA is the kind of finding that is intriguing precisely because it does not fit neatly into current assumptions. The association with improved survival in PEA, but not shockable rhythms or asystole, raises a plausible signal without proving causality. It is worth noticing, but the retrospective design means it should shape curiosity before protocol.",
       "confidence": "moderate"
     },
     {
@@ -283,13 +269,27 @@
       "title": "Validation of The Resuscitation Management (THERM) score in the emergency department",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/43/6/381?rss=1",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-05-20T12:57:54Z",
       "impact": "Practice-changing",
       "topic": "Practice Updates",
-      "takeaway": "If you are interested in resus scoring systems, THERM is worth watching, especially where bicarbonate is rapidly available. Use it as an adjunct to clinical assessment, not a replacement for it.",
-      "shortSummary": "THERM is attractive because it is simple and anchored in variables already present during ED resuscitation.",
-      "summary": "THERM is attractive because it is simple and anchored in variables already present during ED resuscitation. If it consistently outperforms broader early-warning scores, it may end up being genuinely useful for critically ill patient stratification. For now, this is promising validation work rather than an established default tool.",
+      "takeaway": "THERM may become a useful adjunct for early risk framing in the resus room, especially where bicarbonate is rapidly available. Use it to inform escalation conversations, not to outsource them.",
+      "shortSummary": "THERM is interesting because it tries to keep risk prediction clinically grounded with variables already familiar in the resus bay.",
+      "summary": "THERM is interesting because it tries to keep risk prediction clinically grounded with variables already familiar in the resus bay. A score that outperforms NEWS in critically ill ED patients deserves attention, but validation studies are where enthusiasm should stay disciplined. Prediction tools help most when they sharpen shared situational awareness rather than pretend to replace judgment.",
+      "confidence": "moderate"
+    },
+    {
+      "slug": "survival-effect-of-prehospital-emergency-anaesthesia-in-major-trauma",
+      "title": "Survival effect of prehospital emergency anaesthesia in major trauma",
+      "source": "St Emlyn's",
+      "link": "https://www.stemlynsblog.org/survival-effect-of-prehospital-emergency-anaesthesia-in-major-trauma/",
+      "published": "1 day ago",
+      "publishedAt": "2026-05-25T13:31:05Z",
+      "impact": "Practice-changing",
+      "topic": "Intubation",
+      "takeaway": "Prehospital emergency anaesthesia should stay a patient-selection decision, not a badge of procedural capability. The practical lesson is to improve triage for who benefits, while keeping the threshold high enough to avoid unnecessary harm.",
+      "shortSummary": "This trauma review asks a live prehospital question: when does advanced airway intervention genuinely improve survival rather than simply track severity?",
+      "summary": "This trauma review asks a live prehospital question: when does advanced airway intervention genuinely improve survival rather than simply track severity? The machine-learning and causal-inference framing is interesting, and the signal suggests some patients predicted to need prehospital anaesthesia do worse when they do not receive it. Still, this is best taken as refined hypothesis support, not a licence for indiscriminate roadside intubation.",
       "confidence": "moderate"
     }
   ],
@@ -387,7 +387,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 2,
+      "itemsKept": 3,
       "itemsSeen": 12
     },
     {
@@ -423,7 +423,7 @@
       "qualityTier": "selective",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 0,
+      "itemsKept": 1,
       "itemsSeen": 20
     },
     {
@@ -543,7 +543,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 19,
+      "itemsKept": 23,
       "itemsSeen": 100
     },
     {
@@ -555,7 +555,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 22,
+      "itemsKept": 18,
       "itemsSeen": 100
     },
     {
@@ -603,7 +603,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 6,
+      "itemsKept": 7,
       "itemsSeen": 100
     },
     {
@@ -639,7 +639,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 4,
+      "itemsKept": 2,
       "itemsSeen": 100
     },
     {
