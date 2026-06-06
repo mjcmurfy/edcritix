@@ -1,71 +1,57 @@
 {
   "meta": {
-    "generatedAt": "2026-05-27T18:30:46.978Z",
-    "sourceGeneratedAt": "2026-05-27T18:15:10.891886Z",
-    "editorialGeneratedAt": "2026-05-27T18:30:24.099597Z",
-    "editionDate": "2026-05-28"
+    "generatedAt": "2026-06-06T22:07:42.255Z",
+    "sourceGeneratedAt": "2026-06-06T21:53:44.454062Z",
+    "editorialGeneratedAt": "2026-06-06T22:07:14.816750Z",
+    "editionDate": "2026-06-07"
   },
   "briefing": {
-    "headline": "6 high-priority items in the latest EM scan",
-    "summary": "Top sources today: European Journal of Emergency Medicine, REBEL EM, The Bottom Line. Main themes: trials, point-of-care ultrasound, reviews. Best early reads: Association between patient-to-nurse ratios in emergency departments and patient, staff, and organizational outcomes: a systematic review; HI-PEITHO Trial: Ultrasound-facilitated, Catheter Directed Fibrinolysis for PE.",
-    "editorialHeadline": "Sharper Tools, Stricter Thresholds",
-    "editorialSummary": "Today’s set is strongest when it turns new capability into disciplined bedside use rather than procedural enthusiasm. The clearest practical wins are operational and ultrasound-heavy: emergency physicians diagnosing DVT accurately and far faster at the bedside, serratus anterior plane block looking increasingly ready for frontline rib-fracture analgesia, and TWIST plus POCUS giving paediatric torsion assessment more structure without making it safe to rule torsion out.\n\nThe PE cluster is the real editorial hinge. HI-PEITHO suggests a limited benefit for catheter-directed fibrinolysis in selected intermediate-risk patients, but the paired commentary and First10EM critique both argue for a much higher threshold before treating technical availability as routine indication. That same caution runs through the rest of the list: imported head-injury pathways may save resources but can carry safety costs, postoperative transfusion thresholds still should not drift liberal by reflex, and trial-design papers in sepsis remain more useful for building better studies than for changing bedside fluid practice.\n\nA few quieter but sticky points are worth carrying into shift: paediatric ketamine safety still benefits from better pooled estimates rather than new dogma, preceding OHCA alone should not end mechanical-circulatory-support conversations, and ED staffing debates still need stronger department-specific evidence than people often claim. Overall, this is a reading set about sharper tools and stricter thresholds."
+    "headline": "4 high-priority items in the latest EM scan",
+    "summary": "Top sources today: Academic Emergency Medicine, ALiEM, MedPage Today Emergency Medicine. Main themes: trials, reviews, evidence synthesis. Best early reads: Point-of-Care Ultrasound for Pediatric Urethral Catheterization: A Systematic Review and Meta-Analysis of Randomized Controlled Trials; AZ-SWED Trial: Azithromycin Does Not Improve Preschool Wheezing Outcomes.",
+    "editorialHeadline": "POCUS Guidance and Antibiotic Skepticism Define Today's Focus",
+    "editorialSummary": "The evidence base is sharpening on several fronts today. For pediatric care, the message regarding urethral catheterization is quite clear: incorporating real-time Point-of-Care Ultrasound (POCUS) guidance significantly boosts first-attempt success rates without compromising workflow—a highly actionable protocol change.\n\nMeanwhile, in common pediatric presentations like wheezing, we see a strong pushback against routine empiric antibiotics. A recent trial definitively showed that administering azithromycin offers no discernible benefit for preschool wheezing exacerbations, even when nasal swabs are positive. This reinforces the principle that bacterial detection alone should not dictate antibiotic stewardship.\n\nIn critical care and trauma, specialized tools continue to emerge. For instance, monitoring pulmonary status during severe organophosphate poisoning with serial lung ultrasound findings presents an intriguing objective adjunct to atropine titration. Furthermore, while managing acute PE, clinicians must weigh targeted interventions like catheter-directed fibrinolysis against the more cautious interpretations of trials suggesting standard anticoagulation may remain paramount.\n\nOverall, today’s readings emphasize integrating high-yield, evidence-backed procedural improvements—like POCUS in pediatrics—while simultaneously demanding greater skepticism regarding routine antibiotic use and novel invasive therapies."
   },
   "dailyEditorial": [
     {
-      "slug": "association-between-patient-to-nurse-ratios-in-emergency-departments-and-patient",
-      "title": "Association between patient-to-nurse ratios in emergency departments and patient, staff, and organizational outcomes: a systematic review",
-      "source": "European Journal of Emergency Medicine",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42153748/",
-      "published": "1 week ago",
-      "publishedAt": "2026-05-19T10:00:00Z",
-      "impact": "Practice-changing",
-      "topic": "Emergency Department",
-      "takeaway": "Use this as support for acuity-aware staffing advocacy, not as proof that one fixed ratio solves ED harm. Boarding load, task mix and local workflow still matter more than any headline number.",
-      "shortSummary": "This review addresses a question every crowded department feels but rarely answers cleanly: whether explicit ED nurse staffing ratios improve meaningful outcomes.",
-      "summary": "This review addresses a question every crowded department feels but rarely answers cleanly: whether explicit ED nurse staffing ratios improve meaningful outcomes. The available summary is much stronger on methods than results, so its practical value is less about proving one correct ratio and more about showing that staffing arguments still need better ED-specific evidence.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "hi-peitho-trial-ultrasound-facilitated-catheter-directed-fibrinolysis-for-pe",
-      "title": "HI-PEITHO Trial: Ultrasound-facilitated, Catheter Directed Fibrinolysis for PE",
-      "source": "REBEL EM",
-      "link": "https://rebelem.com/hipeitho/?utm_source=rss&utm_medium=rss&utm_campaign=hipeitho",
-      "published": "1 week ago",
-      "publishedAt": "2026-05-19T11:00:12Z",
+      "slug": "point-of-care-ultrasound-for-pediatric-urethral-catheterization-a-systematic-rev",
+      "title": "Point-of-Care Ultrasound for Pediatric Urethral Catheterization: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+      "source": "Academic Emergency Medicine",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42246462/",
+      "published": "2 days ago",
+      "publishedAt": "2026-06-05T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Ultrasound",
-      "takeaway": "Start with good anticoagulation and honest risk stratification. Reserve catheter-directed escalation for the subset with credible deterioration risk and a team that can deliver it well.",
-      "shortSummary": "HI-PEITHO keeps intermediate-risk PE interesting without making anticoagulation any less central.",
-      "summary": "HI-PEITHO keeps intermediate-risk PE interesting without making anticoagulation any less central. The signal for reduced short-term decompensation appears real in a selected subgroup, but the benefit is narrower than procedural enthusiasm can make it sound.",
+      "takeaway": "When performing urethral catheterization on a child, remember that real-time POCUS is supported by strong evidence to improve first-attempt success and cut down on unnecessary attempts. This should be integrated into your routine protocol without causing workflow delays. Be mindful that while the benefits are clear, this guidance doesn't replace clinical judgment for complex anatomical presentations.",
+      "shortSummary": "This systematic review and meta-analysis synthesized data from randomized controlled trials to assess the role of real-time Point-of-Care Ultrasound (POCUS) during urethral catheterization in pediatric patients.",
+      "summary": "This systematic review and meta-analysis synthesized data from randomized controlled trials to assess the role of real-time Point-of-Care Ultrasound (POCUS) during urethral catheterization in pediatric patients. The authors concluded that utilizing ultrasound guidance significantly improves the rate of successful first-attempt catheter placement while also drastically reducing the number of futile attempts. Beyond procedural success, the review highlighted ancillary benefits, noting improvements in caregiver satisfaction and a reduction in patient distress scores. Crucially, these positive outcomes were achieved without negatively impacting the overall workflow efficiency within the emergency department setting. Given these highly actionable findings, the authors strongly support incorporating ultrasound guidance into standard pediatric emergency care protocols.",
       "confidence": "high"
     },
     {
-      "slug": "top-liberal-or-restrictive-post-op-transfusion",
-      "title": "TOP: Liberal or restrictive post-op transfusion",
-      "source": "The Bottom Line",
-      "link": "https://www.thebottomline.org.uk/summaries/icm/top/?utm_source=rss&utm_medium=rss&utm_campaign=top",
-      "published": "5 days ago",
-      "publishedAt": "2026-05-22T11:42:18Z",
+      "slug": "az-swed-trial-azithromycin-does-not-improve-preschool-wheezing-outcomes",
+      "title": "AZ-SWED Trial: Azithromycin Does Not Improve Preschool Wheezing Outcomes",
+      "source": "ALiEM",
+      "link": "https://www.aliem.com/az-swed-azithromycin-preschool-wheezing/",
+      "published": "3 days ago",
+      "publishedAt": "2026-06-04T10:00:00Z",
       "impact": "Practice-changing",
-      "topic": "Postoperative Anaemia",
-      "takeaway": "Do not let cardiac comorbidity automatically push you to a liberal threshold. Individualise for ischemia and bleeding, but restrictive practice still looks like the default position to defend.",
-      "shortSummary": "TOP is useful because it revisits transfusion thresholds in the patients who make clinicians most uneasy: postoperative adults with cardiac risk.",
-      "summary": "TOP is useful because it revisits transfusion thresholds in the patients who make clinicians most uneasy: postoperative adults with cardiac risk. The practical lesson is restraint against transfusing to comfort rather than to clear physiologic need.",
-      "confidence": "moderate"
+      "topic": "Airway",
+      "takeaway": "Given these results, there's no compelling evidence to initiate azithromycin or other antibiotics for acute preschool wheezing, even if nasal swabs are positive. Continue standard supportive care with bronchodilators and corticosteroids as indicated by exacerbation severity. Remember that bacterial detection alone does not mandate antibiotic therapy in this common pediatric presentation.",
+      "shortSummary": "The recent AZ-SWED trial provides a clear data point regarding the role of azithromycin in managing preschool wheezing, which remains a very common reason for ED visits.",
+      "summary": "The recent AZ-SWED trial provides a clear data point regarding the role of azithromycin in managing preschool wheezing, which remains a very common reason for ED visits. This randomized controlled trial compared azithromycin against placebo in children presenting with wheezing, and importantly, it found no discernible clinical benefit from administering the antibiotic, even among those who had detectable bacteria in their nasopharynx. The authors suggest that the presence of airway bacteria does not appear to be the primary driver for acute wheezing exacerbations in this age group. This evidence is useful because it directly challenges the routine use of antibiotics based on bacterial detection in the setting of viral-like wheeze.",
+      "confidence": "high"
     },
     {
-      "slug": "serratus-anterior-plane-block-for-acute-rib-fractures-in-the-emergency-departmen",
-      "title": "Serratus Anterior Plane Block for Acute Rib Fractures in the Emergency Department: A Randomized Controlled Trial",
-      "source": "Academic Emergency Medicine",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42159402/",
-      "published": "1 week ago",
-      "publishedAt": "2026-05-20T10:00:00Z",
+      "slug": "tenecteplase-unseats-low-dose-alteplase-favored-for-asian-patients",
+      "title": "Tenecteplase Unseats Low-Dose Alteplase Favored for Asian Patients",
+      "source": "MedPage Today Emergency Medicine",
+      "link": "https://www.medpagetoday.com/cardiology/strokes/121536",
+      "published": "5 days ago",
+      "publishedAt": "2026-06-01T21:31:22Z",
       "impact": "Practice-changing",
-      "topic": "Analgesia",
-      "takeaway": "If your team already has ultrasound-guided regional anaesthesia capability, SAPB looks increasingly like a practical ED tool. The question is now training and workflow more than whether the block works.",
-      "shortSummary": "This randomized trial pushes regional analgesia closer to mainstream ED rib-fracture care.",
-      "summary": "This randomized trial pushes regional analgesia closer to mainstream ED rib-fracture care. SAPB improved pain scores and was performed safely by emergency physicians, which matters because implementation has usually been the real barrier rather than proof of concept.",
+      "topic": "Stroke",
+      "takeaway": "For Asian patients undergoing thrombectomy who are at risk of bleeding, consider standard-dose tenecteplase as a preferred bridging agent over low-dose alteplase based on this trial's findings. While these results are encouraging for optimizing reperfusion timing, remember that the benefit was specifically seen in the context of bridging therapy to thrombectomy, and further multi-center data will be needed before changing standard institutional protocols.",
+      "shortSummary": "A recent Japanese trial provides compelling evidence suggesting that standard-dose tenecteplase (TNKase) may be superior to low-dose alteplase when utilized as a bridging therapy for patients undergoing mechanical throm…",
+      "summary": "A recent Japanese trial provides compelling evidence suggesting that standard-dose tenecteplase (TNKase) may be superior to low-dose alteplase when utilized as a bridging therapy for patients undergoing mechanical thrombectomy, particularly those with an elevated risk of bleeding. The study's primary finding centered on the early reperfusion outcomes, which significantly favored the use of TNKase in this specific cohort. This suggests that even in carefully selected, bleeding-prone individuals requiring endovascular intervention, standard tenecteplase might offer a better balance of efficacy and safety compared to lower doses of alteplase. It's an important piece of data for refining reperfusion strategies in the acute stroke setting.",
       "confidence": "high"
     },
     {
@@ -73,111 +59,237 @@
       "title": "Catheter-Directed Fibrinolysis for Pulmonary Embolism: Is It Old NEWS?",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00257-X/fulltext?rss=yes",
-      "published": "<1 hour ago",
+      "published": "6 days ago",
       "publishedAt": "2026-06-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Ultrasound",
-      "takeaway": "Read this alongside HI-PEITHO, not instead of it. Its main value is sharpening thresholds for escalation and resisting the slide from promising procedure to overused procedure.",
-      "shortSummary": "This commentary is valuable because it checks procedural enthusiasm against patient selection and real-world applicability.",
-      "summary": "This commentary is valuable because it checks procedural enthusiasm against patient selection and real-world applicability. The technique may be elegant, but the harder bedside question is still who is sick enough to benefit without being overtreated.",
-      "confidence": "moderate"
+      "takeaway": "For patients with acute PE where systemic thrombolysis is contraindicated or carries high risk, ultrasound-guided catheter-directed fibrinolysis offers a targeted alternative. While the technique appears promising in theory by localizing lysis, remember that its routine adoption requires careful consideration of institutional expertise and patient selection criteria outlined in the full text. It's an emerging tool, so maintain vigilance regarding bleeding risks at the site of catheter placement.",
+      "shortSummary": "This article details the use of ultrasound-guided, catheter-directed fibrinolysis as a treatment strategy for acute pulmonary embolism (PE).",
+      "summary": "This article details the use of ultrasound-guided, catheter-directed fibrinolysis as a treatment strategy for acute pulmonary embolism (PE). The authors present data on this minimally invasive approach, which aims to directly administer thrombolytic agents into the pulmonary vasculature. This technique is designed to improve clot lysis compared to systemic administration while potentially offering better targeting and safety profiles in select patients. It represents an evolution in managing massive or submassive PE by localizing fibrinolytic activity. The discussion centers on whether this catheter-directed method constitutes a significant advancement over established standard care protocols for acute thromboembolic events.",
+      "confidence": "high"
     },
     {
-      "slug": "modified-brain-injury-guidelines-in-a-regional-australian-setting-indicate-signi",
-      "title": "Modified brain injury guidelines in a regional Australian setting indicate significant resource savings but also safety concerns",
-      "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-216031v1?rss=1",
-      "published": "6 days ago",
-      "publishedAt": "2026-05-21T16:00:18Z",
+      "slug": "best-practices-on-blood-and-blood-products-for-a-prehospital-hemorrhage-protocol",
+      "title": "Best practices on blood and blood products for a prehospital hemorrhage protocol: consensus from the 2025 Canadian prehospital transfusion summit",
+      "source": "SJTREM",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42237186/",
+      "published": "3 days ago",
+      "publishedAt": "2026-06-04T10:00:00Z",
       "impact": "Practice-changing",
-      "topic": "Trauma",
-      "takeaway": "Severity-stratified TBI pathways can save work, but they need local validation before broad adoption. Resource efficiency is only a win if the missed-injury risk stays acceptably low.",
-      "shortSummary": "The Australian mBIG experience is appealing because it promises fewer neurosurgical consults, repeat scans and transfers in mostly mild head injury.",
-      "summary": "The Australian mBIG experience is appealing because it promises fewer neurosurgical consults, repeat scans and transfers in mostly mild head injury. The catch is the important part: imported pathways may save resources while introducing safety concerns once they meet a different local system.",
-      "confidence": "moderate"
+      "topic": "Policy Statements",
+      "takeaway": "When implementing a prehospital hemorrhage protocol, remember that RBCs and tranexamic acid are the established core components. For resource-limited or remote scenarios, incorporating freeze-dried plasma or whole blood may be advantageous, but always adhere to the specific activation criteria outlined in these consensus guidelines. These statements provide a solid framework for product prioritization at the bedside.",
+      "shortSummary": "This article synthesizes the key recommendations from the 2025 Canadian Prehospital Transfusion Summit, providing a comprehensive set of consensus statements intended to standardize prehospital hemorrhage protocols acro…",
+      "summary": "This article synthesizes the key recommendations from the 2025 Canadian Prehospital Transfusion Summit, providing a comprehensive set of consensus statements intended to standardize prehospital hemorrhage protocols across varied Canadian settings. The panel focused on establishing foundational therapies and prioritizing specific blood products and adjuncts for immediate use in the field. Notably, red blood cells and tranexamic acid were highlighted as core components of care, while the utility of freeze-dried plasma and whole blood was emphasized particularly for remote or austere environments. These 12 consensus statements offer practical guidance covering everything from initial activation criteria to product logistics, aiming to improve safety and efficacy in prehospital trauma resuscitation.",
+      "confidence": "high"
     },
     {
       "slug": "hi-peitho-more-negative-data-on-invasive-therapy-for-higher-risk-pes",
       "title": "HI-PEITHO: More negative data on invasive therapy for higher risk PEs",
       "source": "First10EM",
       "link": "https://first10em.com/hi-peitho/",
-      "published": "2 days ago",
+      "published": "2 weeks ago",
       "publishedAt": "2026-05-25T10:49:00Z",
       "impact": "Practice-changing",
       "topic": "Pulmonary Embolism",
-      "takeaway": "If you are tempted by invasive PE escalation, make sure you can explain the patient-centred benefit rather than just the composite endpoint. An anticoagulation-first, watchful approach still deserves a high bar to abandon.",
-      "shortSummary": "First10EM plays the useful contrarian role here by arguing that the apparent HI-PEITHO win may rest more on composite-endpoint design than on a clinically persuasive patient benefit.",
-      "summary": "First10EM plays the useful contrarian role here by arguing that the apparent HI-PEITHO win may rest more on composite-endpoint design than on a clinically persuasive patient benefit. That scepticism matters because intermediate-risk PE is exactly where invasive therapy can spread on thin evidence.",
+      "takeaway": "Given the nuanced interpretation of HI-PEITHO, one should remain cautious about adopting routine catheter-directed thrombolysis for intermediate-risk PE based solely on this data. The evidence suggests that a more conservative, 'wait and see' approach might be preferable to initiating invasive fibrinolytic therapy in this cohort. Remember that clinical status monitoring (like NEWS) is crucial, but don't overinterpret improvements as proof of intervention benefit.",
+      "shortSummary": "The discussion centers on the HI-PEITHO trial, which compared ultrasound-guided catheter-directed fibrinolysis against standard anticoagulation for patients presenting with intermediate-risk pulmonary embolism (PE).",
+      "summary": "The discussion centers on the HI-PEITHO trial, which compared ultrasound-guided catheter-directed fibrinolysis against standard anticoagulation for patients presenting with intermediate-risk pulmonary embolism (PE). Although the primary composite endpoint appeared to favor the intervention group receiving thrombolysis, the author critically interprets these findings. The core argument is that any observed benefit was likely confounded by differences in cardiorespiratory status, specifically noting that improvements captured by the NEWS score were not indicative of true therapeutic efficacy from the fibrinolytic approach itself. This suggests that the perceived positive signal might be attributable to standard care evolution or patient selection rather than the invasive therapy.",
       "confidence": "moderate"
-    },
-    {
-      "slug": "point-of-care-ultrasound-by-trained-emergency-physicians-versus-radiologists-for",
-      "title": "Point-of-care ultrasound by trained emergency physicians versus radiologists for deep vein thrombosis diagnosis: a prospective blinded study on diagnostic accuracy and time efficiency",
-      "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215770v1?rss=1",
-      "published": "6 days ago",
-      "publishedAt": "2026-05-21T16:00:18Z",
-      "impact": "Practice-changing",
-      "topic": "Ultrasound",
-      "takeaway": "If your department has trained operators, compression ultrasound for suspected DVT looks ready for wider frontline use. Faster diagnosis is the obvious win; the next question is how much downstream flow improves.",
-      "shortSummary": "This is one of the sharper operationally relevant reads of the set.",
-      "summary": "This is one of the sharper operationally relevant reads of the set. Trained emergency physicians matched radiology closely for accuracy while cutting time to diagnosis from hours to about one, which is exactly the kind of workflow gain that matters in a crowded ED.",
-      "confidence": "high"
     },
     {
       "slug": "design-refinements-for-sepsis-albumin-trials-building-on-icarus-ed-experience",
       "title": "Design Refinements for Sepsis Albumin Trials: Building on ICARUS-ED Experience",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00028-4/fulltext?rss=yes",
-      "published": "<1 hour ago",
+      "published": "6 days ago",
       "publishedAt": "2026-06-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Resuscitation",
-      "takeaway": "Read this as sepsis research-methods guidance, not bedside albumin advocacy. The immediate lesson is that better early-intervention trials are feasible if the workflow is built properly.",
-      "shortSummary": "This piece is really about trial design rather than albumin practice.",
-      "summary": "This piece is really about trial design rather than albumin practice. Its value is in showing that early ED sepsis trials can recruit in real time, maintain protocol fidelity and still cope with diagnostic uncertainty.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "evaluating-the-twist-score-and-point-of-care-ultrasound-for-paediatric-testicula",
-      "title": "Evaluating the TWIST score and point-of-care ultrasound for paediatric testicular torsion",
-      "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/43/6/334?rss=1",
-      "published": "1 week ago",
-      "publishedAt": "2026-05-20T12:57:54Z",
-      "impact": "Practice-changing",
-      "topic": "Ultrasound",
-      "takeaway": "Use TWIST and POCUS to structure urgency, not to dismiss a child with persistent torsion concern. High clinical suspicion still beats a reassuring score when the story or exam feels wrong.",
-      "shortSummary": "This is a practical paediatric diagnostic paper with reassuring numbers and an important warning attached.",
-      "summary": "This is a practical paediatric diagnostic paper with reassuring numbers and an important warning attached. TWIST plus bedside ultrasound performed by emergency clinicians showed high accuracy, but the false-negative rate was still not trivial enough to let the score serve as a rule-out device.",
+      "takeaway": "The feasibility demonstrated by ICARUS-ED suggests that conducting real-time sepsis resuscitation trials involving diverse patient populations, including those managed on the ward, is achievable in the ED. While this doesn't change current standard care, it strengthens the evidence base for future protocol development and trial design in undifferentiated septic shock. Remember that the high rate of confirmed infection (95%) reflects the acuity of the cohort studied.",
+      "shortSummary": "This piece reviews the ICARUS-ED pilot randomized controlled trial, which explored using concentrated albumin for undifferentiated sepsis management directly within the emergency department setting.",
+      "summary": "This piece reviews the ICARUS-ED pilot randomized controlled trial, which explored using concentrated albumin for undifferentiated sepsis management directly within the emergency department setting. The authors highlight that a major achievement of this single-center study was demonstrating the feasibility of conducting real-time sepsis trials in the ED environment. Notably, they achieved high protocol compliance, exceeding 97%, and successfully enrolled both ICU-bound and ward-based patients, which expands the generalizability of such research. Furthermore, the trial confirmed an infection diagnosis in a substantial majority of participants, at 95%. Overall, it provides valuable operational data on executing complex sepsis trials outside of dedicated academic centers.",
       "confidence": "high"
     },
     {
-      "slug": "systematic-review-of-pediatric-ketamine-in-emergency-department-procedural-sedat",
-      "title": "Systematic Review of Pediatric Ketamine in Emergency Department Procedural Sedation: Frequency and Predictors of Adverse Events",
-      "source": "Annals of Emergency Medicine",
-      "link": "https://www.annemergmed.com/article/S0196-0644(26)00236-2/fulltext?rss=yes",
-      "published": "2 weeks ago",
-      "publishedAt": "2026-05-14T00:00:00Z",
+      "slug": "point-of-care-lung-ultrasound-during-atropine-titration-in-severe-organophosphat",
+      "title": "Point-of-care lung ultrasound during atropine titration in severe organophosphate poisoning: A case report",
+      "source": "AJEM",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42247808/",
+      "published": "2 days ago",
+      "publishedAt": "2026-06-05T10:00:00Z",
       "impact": "Practice-changing",
-      "topic": "Sedation",
-      "takeaway": "Keep using ketamine thoughtfully, but lean on better pooled safety data when discussing risk and planning monitoring. Be cautious about overvaluing any predictor that has not been consistently supported across studies.",
-      "shortSummary": "Ketamine remains a paediatric ED workhorse, so a large adverse-event review is inherently useful even without a dramatic new warning.",
-      "summary": "Ketamine remains a paediatric ED workhorse, so a large adverse-event review is inherently useful even without a dramatic new warning. The likely gain is better pooled safety estimates and a cleaner sense of which proposed risk factors deserve attention versus repetition.",
+      "topic": "Toxicology",
+      "takeaway": "Consider serial LUS as a complementary tool when managing severe OP poisoning requiring aggressive atropine titration, as it may objectively track pulmonary status alongside clinical improvement. The observed reduction in B-lines correlating with atropine dosing is intriguing but based on limited case data; therefore, do not abandon standard resuscitation protocols for this technique.",
+      "shortSummary": "This case report describes the serial use of point-of-care lung ultrasound (LUS) as an adjunct tool while titrating atropine in a patient with severe organophosphate poisoning.",
+      "summary": "This case report describes the serial use of point-of-care lung ultrasound (LUS) as an adjunct tool while titrating atropine in a patient with severe organophosphate poisoning. Since assessing the optimal dose of atropine for cholinergic toxidrome can rely on subjective clinical endpoints, the authors utilized LUS to monitor pulmonary status during resuscitation. They observed that serial LUS findings showed a progressive decrease in B-line burden that correlated with both cumulative atropine dosing and overall clinical improvement in their case. This suggests that lung ultrasound might offer an objective way to track pulmonary changes related to antidotal therapy in this high-acuity setting.",
       "confidence": "moderate"
+    },
+    {
+      "slug": "airway-management-with-a-supraglottic-airway-device-during-resuscitation-by-basi",
+      "title": "Airway management with a supraglottic airway device during resuscitation by basic life support providers: a systematic review",
+      "source": "Resuscitation",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42203138/",
+      "published": "2 weeks ago",
+      "publishedAt": "2026-05-27T10:00:00Z",
+      "impact": "Practice-changing",
+      "topic": "Resuscitation",
+      "takeaway": "For BLS providers managing resuscitation, current data do not support a routine switch from BVM ventilation to an SGA device. Stick with standard BVM techniques unless advanced airway management is available and indicated. Remember that the evidence base is limited and heterogeneous, so this finding should guide practice rather than dictate immediate protocol changes.",
+      "shortSummary": "This systematic review synthesized the evidence regarding the utility of supraglottic airway devices (SGAs) versus standard bag-valve mask (BVM) ventilation when administered by basic life support (BLS)-trained personne…",
+      "summary": "This systematic review synthesized the evidence regarding the utility of supraglottic airway devices (SGAs) versus standard bag-valve mask (BVM) ventilation when administered by basic life support (BLS)-trained personnel during resuscitation efforts. The authors concluded that, based on the current body of literature reviewed, there is no demonstrable benefit to using an SGA over a BVM for this specific group of providers. A key limitation noted was considerable heterogeneity across the included studies, which complicated direct comparisons between different types of SGAs. Furthermore, the evidence base remains notably thin concerning outcomes achieved by first rescuers or initial first responders.",
+      "confidence": "high"
+    },
+    {
+      "slug": "comparison-of-short-term-outcomes-in-open-versus-endovascular-management-of-trau",
+      "title": "Comparison of short-term outcomes in open versus endovascular management of traumatic axillosubclavian arterial injuries in the contemporary era: a systematic review and meta-analysis",
+      "source": "World Journal of Emergency Surgery",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42231442/",
+      "published": "4 days ago",
+      "publishedAt": "2026-06-03T10:00:00Z",
+      "impact": "Practice-changing",
+      "topic": "Stroke",
+      "takeaway": "When managing traumatic axillosubclavian injuries, current evidence suggests a potential survival benefit with endovascular repair over open surgery in the short term. However, since rates of major complications like amputation and stroke were similar across both groups, this doesn't definitively favor one approach for all patients. Always keep in mind that these findings stem from retrospective data, so clinical decision-making should be tempered by the need for prospective confirmation.",
+      "shortSummary": "This systematic review and meta-analysis directly compared short-term outcomes when managing traumatic axillosubclavian arterial injuries using either open surgical repair (OS) or endovascular repair (ER).",
+      "summary": "This systematic review and meta-analysis directly compared short-term outcomes when managing traumatic axillosubclavian arterial injuries using either open surgical repair (OS) or endovascular repair (ER). The authors synthesized data to determine if one approach offered a survival advantage over the other in the contemporary setting. The key finding reported is that endovascular repair was associated with lower rates of short-term mortality compared to traditional open surgery for these complex vascular injuries. However, they noted that outcomes regarding amputation, thrombosis, and stroke were comparable between the two techniques. It is crucial to remember that the authors themselves cautioned that these conclusions are constrained by the retrospective nature of the underlying studies, emphasizing the need for prospective validation.",
+      "confidence": "high"
     },
     {
       "slug": "understanding-patients-with-mechanical-circulatory-support-for-cardiogenic-shock",
       "title": "Understanding Patients with Mechanical Circulatory Support for Cardiogenic Shock: The Role of Preceding Cardiac Arrest",
       "source": "Resuscitation",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42184916/",
-      "published": "2 days ago",
+      "published": "2 weeks ago",
       "publishedAt": "2026-05-25T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Shock",
-      "takeaway": "Do not treat preceding OHCA as an automatic reason to withhold mechanical circulatory support evaluation. The better question is whether the broader physiology and trajectory make support worthwhile.",
-      "shortSummary": "This cardiogenic shock paper is helpful because it separates preceding OHCA from the reflex assumption of futility.",
-      "summary": "This cardiogenic shock paper is helpful because it separates preceding OHCA from the reflex assumption of futility. Similar 30-day mortality with different predictors of death suggests these patients should not be collapsed into one simple narrative.",
+      "takeaway": "Do not let a history of OHCA alone preclude initiating MCS or enrolling a patient in related trials; 30-day mortality rates were comparable between groups. However, be mindful that the specific predictors of death differ based on whether the shock followed an arrest versus another etiology. This suggests tailoring prognostication beyond just the presence of prior cardiac arrest.",
+      "shortSummary": "This analysis compared outcomes in patients requiring mechanical circulatory support (MCS) for cardiogenic shock, specifically stratifying based on whether they had experienced a preceding out-of-hospital cardiac arrest…",
+      "summary": "This analysis compared outcomes in patients requiring mechanical circulatory support (MCS) for cardiogenic shock, specifically stratifying based on whether they had experienced a preceding out-of-hospital cardiac arrest (OHCA). While the overall 30-day mortality rates were found to be comparable between the OHCA and non-OHCA groups, the predictors driving death differed significantly between the two cohorts. The authors emphasize that while the clinical presentation is distinct, the underlying management principles for MCS remain relevant regardless of the initial arrest etiology. This suggests a nuanced approach is needed when assessing risk factors in this critically ill population.",
+      "confidence": "high"
+    },
+    {
+      "slug": "is-ultrasound-superior-to-plain-radiography-for-detecting-radiolucent-soft-tissu",
+      "title": "Is ultrasound superior to plain radiography for detecting radiolucent soft tissue foreign bodies in the extremities?",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-216076v1?rss=1",
+      "published": "2 weeks ago",
+      "publishedAt": "2026-05-25T16:00:16Z",
+      "impact": "Practice-changing",
+      "topic": "Ultrasound",
+      "takeaway": "When suspecting a radiolucent soft tissue foreign body in an extremity, prioritize obtaining an ultrasound over plain film as it offers significantly higher sensitivity. Remember that this recommendation is based on limited literature; therefore, if the clinical picture remains highly suspicious despite a negative ultrasound, consider further advanced imaging modalities or expert consultation.",
+      "shortSummary": "This systematic review compared the utility of ultrasound against plain radiography for identifying radiolucent soft tissue foreign bodies within the extremities.",
+      "summary": "This systematic review compared the utility of ultrasound against plain radiography for identifying radiolucent soft tissue foreign bodies within the extremities. The analysis synthesized data from six relevant studies, which consistently pointed toward a significant advantage for ultrasound imaging. Specifically, ultrasound demonstrated high sensitivity rates ranging from 90% to 99% in detecting these types of objects, whereas plain radiographs failed to detect any foreign bodies in the comparative arms of the included literature. While the evidence strongly suggests that ultrasound is superior for this specific diagnostic task, the authors cautioned that the current body of work suffers from methodological limitations, primarily consisting of small sample sizes and single-center designs.",
+      "confidence": "high"
+    },
+    {
+      "slug": "pocus-literature-primer-key-papers-on-first-trimester-pregnancy-and-scrotal-pocu",
+      "title": "POCUS literature primer: key papers on first-trimester pregnancy and scrotal POCUS",
+      "source": "CJEM",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42218354/",
+      "published": "1 week ago",
+      "publishedAt": "2026-05-30T10:00:00Z",
+      "impact": "High-yield",
+      "topic": "Pocus",
+      "takeaway": "When evaluating early pregnancy or acute scrotal pain, remember that POCUS provides valuable adjunct information beyond standard protocols. Use it systematically to confirm IUP location and assess testicular viability in suspected torsion; however, always maintain a high index of suspicion for emergent pathology regardless of the initial ultrasound findings.",
+      "shortSummary": "This consensus review curates essential literature regarding the application of point-of-care ultrasound (POCUS) in two distinct but critical emergency medicine scenarios: first-trimester pregnancy assessment and scrota…",
+      "summary": "This consensus review curates essential literature regarding the application of point-of-care ultrasound (POCUS) in two distinct but critical emergency medicine scenarios: first-trimester pregnancy assessment and scrotal pathology evaluation. The authors have compiled key papers to guide clinicians on leveraging POCUS for confirming intrauterine gestation versus ruling out ectopic pregnancy, alongside its utility in rapidly identifying testicular torsion. Essentially, this resource acts as a curated reading list designed not only to educate practitioners but also to build a foundation for evidence-based integration of these ultrasound skills into emergency department practice and future research efforts.",
+      "confidence": "high"
+    },
+    {
+      "slug": "development-of-a-predictive-model-for-identifying-high-risk-older-adults-for-ger",
+      "title": "Development of a Predictive Model for Identifying High-Risk Older Adults for Geriatric Emergency Department Screening",
+      "source": "JACEP Open",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42221017/",
+      "published": "6 days ago",
+      "publishedAt": "2026-06-01T10:00:00Z",
+      "impact": "High-yield",
+      "topic": "General Emergency Medicine",
+      "takeaway": "Consider implementing a validated screening score like GED-SS early in your triage process for older adults to systematically stratify risk beyond standard indices. While its performance is promising compared to existing tools, remember this model's utility hinges on consistent data capture at admission. It should serve as an adjunct to your clinical judgment rather than replacing comprehensive geriatric assessment.",
+      "shortSummary": "This paper introduces the Geriatric Emergency Department Screening Score (GED-SS), a novel predictive tool developed for use in older adults presenting to the emergency department.",
+      "summary": "This paper introduces the Geriatric Emergency Department Screening Score (GED-SS), a novel predictive tool developed for use in older adults presenting to the emergency department. The primary goal was to create a structured, easily calculable model capable of identifying patients at elevated risk for short-term mortality and subsequent acute care utilization. Validation showed that the GED-SS performs comparably to or even better than established tools like the ISAR score, achieving an AUC of 0.73 in this analysis. The strength of this tool lies in its structured data format, which suggests it is amenable to automatic calculation at the point of triage. Overall, it offers a systematic approach to risk stratification that could improve resource allocation and patient management decisions within the geriatric ED setting.",
+      "confidence": "moderate"
+    },
+    {
+      "slug": "ambulance-offload-delays-and-patient-outcomes-a-systematic-review",
+      "title": "Ambulance offload delays and patient outcomes: a systematic review",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215483v1?rss=1",
+      "published": "3 days ago",
+      "publishedAt": "2026-06-04T09:30:11Z",
+      "impact": "High-yield",
+      "topic": "Reviews",
+      "takeaway": "Expect that ambulance offload delays are reliably associated with longer ED stays, confirming a significant bottleneck issue. However, do not over-interpret the current literature regarding direct mortality risk; the evidence is weak due to methodological flaws and confounding variables. When considering policy changes based on this data, remember that rigorous causal inference methods are needed before attributing adverse outcomes solely to the delay itself.",
+      "shortSummary": "This systematic review synthesized findings from four observational studies examining the link between ambulance offload delays (ramping) and subsequent patient outcomes in the ED setting.",
+      "summary": "This systematic review synthesized findings from four observational studies examining the link between ambulance offload delays (ramping) and subsequent patient outcomes in the ED setting. The authors noted a consistent association between these delays and prolonged overall ED length of stay, which speaks to significant operational strain on emergency departments. While one study suggested a statistically significant increase in 30-day mortality with longer delays, most other analyses found no clear link or reported inconsistent effects regarding severe clinical harm. A major limitation highlighted is the heterogeneity across the included studies, particularly concerning how 'offload delay' was defined and the limited ability to control for baseline illness severity or time to definitive treatment.",
+      "confidence": "high"
+    },
+    {
+      "slug": "guideline-integrated-large-language-models-improve-decision-support-for-acute-ea",
+      "title": "Guideline-Integrated Large Language Models Improve Decision Support for Acute Ear, Nose and Throat Emergencies",
+      "source": "Journal of Emergency Medicine",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42202642/",
+      "published": "2 weeks ago",
+      "publishedAt": "2026-05-27T10:00:00Z",
+      "impact": "High-yield",
+      "topic": "Otolaryngology",
+      "takeaway": "When relying on AI tools for acute otolaryngology decision support, remember that integrating RAG significantly improves guideline fidelity and diagnostic reliability over baseline LLMs. This suggests a strong move toward using these systems as evidence-anchored assistants rather than pure knowledge generators. Always confirm the model's output against local protocols, especially when managing bleeding or hearing loss, as AI assistance should augment, not replace, expert judgment.",
+      "shortSummary": "This piece discusses enhancing clinical decision support tools for acute otolaryngology by integrating Retrieval-Augmented Generation (RAG) into Large Language Models (LLMs).",
+      "summary": "This piece discusses enhancing clinical decision support tools for acute otolaryngology by integrating Retrieval-Augmented Generation (RAG) into Large Language Models (LLMs). Essentially, the authors are showing how coupling LLMs with reliable external knowledge bases significantly boosts the accuracy and adherence to established guidelines when managing complex ear, nose, and throat emergencies in the ED. The findings suggest that RAG integration leads to marked improvements in diagnostic precision and management planning compared to using raw LLM output alone. This is particularly relevant for conditions like sudden sensorineural hearing loss or epistaxis where protocol adherence is critical for patient safety.",
+      "confidence": "high"
+    },
+    {
+      "slug": "a-woman-with-rapidly-progressive-weakness",
+      "title": "A Woman With Rapidly Progressive Weakness",
+      "source": "Annals of Emergency Medicine",
+      "link": "https://www.annemergmed.com/article/S0196-0644(25)01432-5/fulltext?rss=yes",
+      "published": "6 days ago",
+      "publishedAt": "2026-06-01T00:00:00Z",
+      "impact": "High-yield",
+      "topic": "Trauma",
+      "takeaway": "When encountering rapidly progressive flaccid paralysis with distinct sensory deficits in a CKD patient, immediately consider toxic/metabolic etiologies like uremia-related neuropathy or electrolyte derangements. The combination of profound weakness and specific sensory loss warrants urgent nerve conduction studies and thorough metabolic panel review to rule out treatable causes before assuming a primary motor neuron process.",
+      "shortSummary": "This case report details a 57-year-old woman with known chronic kidney disease presenting acutely with rapidly progressive, nontraumatic lower extremity weakness and numbness over six hours.",
+      "summary": "This case report details a 57-year-old woman with known chronic kidney disease presenting acutely with rapidly progressive, nontraumatic lower extremity weakness and numbness over six hours. On examination, she exhibited profound flaccid paralysis in her legs, absent reflexes, and a distinct pattern of sensory loss affecting pain and temperature below the nipple-to-xiphoid level. The clinical picture strongly suggests an acute neuromuscular process requiring urgent workup given the severity and rapidity of onset. While the specific etiology isn't detailed here, the presentation is highly suggestive of an acute polyneuropathy or motor neuron disorder in a patient with underlying renal compromise.",
+      "confidence": "high"
+    },
+    {
+      "slug": "impact-of-abortion-bans-on-emergency-care-for-patients-with-vaginal-bleeding-an-",
+      "title": "Impact of Abortion Bans on Emergency Care for Patients With Vaginal Bleeding: An Ethnographic Analysis",
+      "source": "Academic Emergency Medicine",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42246485/",
+      "published": "2 days ago",
+      "publishedAt": "2026-06-05T10:00:00Z",
+      "impact": "High-yield",
+      "topic": "General Emergency Medicine",
+      "takeaway": "Be mindful that external legal pressures can subtly shift provider behavior toward overly cautious history-taking or documentation patterns when managing vaginal bleeding. While institutional guidance is crucial to mitigate this risk, always maintain a high index of suspicion for underlying causes rather than letting the legal climate dictate your diagnostic approach. Remember that patient trust and thorough workup remain paramount regardless of local statutes.",
+      "shortSummary": "This ethnographic analysis details how the implementation of abortion bans, specifically citing Indiana's legislation, has fundamentally altered the clinical experience for emergency physicians managing patients present…",
+      "summary": "This ethnographic analysis details how the implementation of abortion bans, specifically citing Indiana's legislation, has fundamentally altered the clinical experience for emergency physicians managing patients presenting with vaginal bleeding. The authors found that the pervasive legal uncertainty surrounding reproductive health is not merely an external stressor but actively reshapes routine clinical behavior within the ED. This manifests as changes in history-taking patterns and documentation practices among providers. Essentially, the study argues that the threat of legal repercussion forces clinicians into more cautious or defensive modes of care, which carries risks for timely and comprehensive patient management.",
+      "confidence": "high"
+    },
+    {
+      "slug": "em-3am-meningococcal-disease",
+      "title": "EM@3AM: Meningococcal Disease",
+      "source": "emDocs",
+      "link": "https://www.emdocs.net/em3am-meningococcal-disease/",
+      "published": "12 hours ago",
+      "publishedAt": "2026-06-06T10:28:57Z",
+      "impact": "High-yield",
+      "topic": "General Emergency Medicine",
+      "takeaway": "When encountering a febrile child or young adult with headache, lethargy, nuchal rigidity, and a petechial rash, treat suspected meningococcemia/meningitis as emergent until proven otherwise. Initiate empiric broad-spectrum antibiotics immediately after obtaining cultures, without waiting for confirmatory CSF results if the clinical suspicion remains high.",
+      "shortSummary": "This emDocs series provides a concise, case-based review focusing on suspected meningococcal disease in the emergency department setting.",
+      "summary": "This emDocs series provides a concise, case-based review focusing on suspected meningococcal disease in the emergency department setting. The presented vignette describes a concerning pediatric patient with fever, headache, lethargy, nuchal rigidity, and a petechial rash, strongly suggesting bacterial meningitis due to *N. meningitidis*. Given that this pathogen is a major cause of meningitis associated with high morbidity and mortality, prompt recognition and management are paramount in the ED. The article emphasizes the critical nature of timely diagnosis when these classic signs appear, guiding clinicians through the necessary workup steps.",
+      "confidence": "high"
+    },
+    {
+      "slug": "early-vs-delayed-opioid-administration-for-pediatric-sickle-cell-vaso-occlusive-",
+      "title": "Early vs delayed opioid administration for pediatric sickle cell vaso-occlusive crisis: A systematic review and meta-analysis",
+      "source": "AJEM",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42190636/",
+      "published": "2 weeks ago",
+      "publishedAt": "2026-05-26T10:00:00Z",
+      "impact": "High-yield",
+      "topic": "Paediatric",
+      "takeaway": "For managing pediatric sickle cell VOE, the timing of initial opioid administration appears to be non-determinative regarding major outcomes like ED length of stay or hospital admission. You can safely manage your workflow without feeling compelled to rigidly adhere to a strict 'early' versus 'delayed' protocol based on this evidence. Always ensure adequate analgesia is provided, but don't let the timing become an unnecessary point of contention at the bedside.",
+      "shortSummary": "This systematic review and meta-analysis directly compared the timing of opioid administration—early versus delayed—in pediatric patients presenting with sickle cell vaso-occlusive crisis (VOE).",
+      "summary": "This systematic review and meta-analysis directly compared the timing of opioid administration—early versus delayed—in pediatric patients presenting with sickle cell vaso-occlusive crisis (VOE). The authors synthesized data to determine if initiating opioids sooner or waiting a bit longer made any difference in standard care metrics. Overall, the analysis concluded that there was no discernible difference in outcomes regardless of whether the opioids were given early or later. Specifically, this lack of difference was noted across several key endpoints, including hospital admission rates, discharge from the emergency department, the total length of stay in the ED, and subsequent pain reassessment scores.",
       "confidence": "high"
     }
   ],
@@ -191,7 +303,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 2,
+      "itemsKept": 1,
       "itemsSeen": 10
     },
     {
@@ -215,7 +327,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 3,
+      "itemsKept": 2,
       "itemsSeen": 50
     },
     {
@@ -227,7 +339,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 4,
+      "itemsKept": 5,
       "itemsSeen": 10
     },
     {
@@ -251,7 +363,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 2,
+      "itemsKept": 3,
       "itemsSeen": 5
     },
     {
@@ -263,7 +375,7 @@
       "qualityTier": "selective",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 2,
+      "itemsKept": 1,
       "itemsSeen": 300
     },
     {
@@ -275,7 +387,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 3,
+      "itemsKept": 5,
       "itemsSeen": 12
     },
     {
@@ -287,7 +399,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 2,
+      "itemsKept": 3,
       "itemsSeen": 10
     },
     {
@@ -299,7 +411,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 1,
+      "itemsKept": 0,
       "itemsSeen": 20
     },
     {
@@ -323,7 +435,7 @@
       "qualityTier": "selective",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 7,
+      "itemsKept": 3,
       "itemsSeen": 21
     },
     {
@@ -371,7 +483,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 1,
+      "itemsKept": 2,
       "itemsSeen": 20
     },
     {
@@ -395,8 +507,8 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 19,
-      "itemsSeen": 67
+      "itemsKept": 15,
+      "itemsSeen": 69
     },
     {
       "id": "emj-current",
@@ -407,7 +519,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 17,
+      "itemsKept": 0,
       "itemsSeen": 17
     },
     {
@@ -419,8 +531,8 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 8,
-      "itemsSeen": 75
+      "itemsKept": 6,
+      "itemsSeen": 78
     },
     {
       "id": "pubmed-resuscitation",
@@ -431,7 +543,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 20,
+      "itemsKept": 10,
       "itemsSeen": 100
     },
     {
@@ -443,7 +555,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 19,
+      "itemsKept": 13,
       "itemsSeen": 100
     },
     {
@@ -467,7 +579,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 14,
+      "itemsKept": 7,
       "itemsSeen": 100
     },
     {
@@ -479,7 +591,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 3,
+      "itemsKept": 0,
       "itemsSeen": 100
     },
     {
@@ -515,7 +627,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 29,
+      "itemsKept": 9,
       "itemsSeen": 100
     },
     {
@@ -527,7 +639,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 2,
+      "itemsKept": 6,
       "itemsSeen": 100
     },
     {
@@ -539,7 +651,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 2,
+      "itemsKept": 7,
       "itemsSeen": 100
     }
   ]
