@@ -28,6 +28,16 @@ function CountPill({ label, count, active = false }: { label: string; count: num
   );
 }
 
+function VoteButtonLabel({ icon, count, label }: { icon: string; count: number; label: string }) {
+  return (
+    <span className="inline-flex items-center gap-1.5">
+      <span aria-hidden>{icon}</span>
+      <span>{count}</span>
+      <span>{label}</span>
+    </span>
+  );
+}
+
 function EcgIcon() {
   return (
     <svg aria-hidden viewBox="0 0 28 20" className="h-5 w-8" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -45,14 +55,9 @@ function SignalLabelIcon() {
 }
 
 export function PracticeSignalControl({ slug }: { slug: string }) {
-  const [voterId, setVoterId] = useState<string | null>(null);
+  const [voterId] = useState<string | null>(() => (typeof window === "undefined" ? null : getOrCreateVoterId()));
   const [state, setState] = useState<PracticeSignalState | null>(null);
   const [pendingVote, setPendingVote] = useState<PracticeVote | null>(null);
-
-  useEffect(() => {
-    const id = getOrCreateVoterId();
-    setVoterId(id);
-  }, []);
 
   useEffect(() => {
     const resolvedVoterId = voterId;
@@ -138,7 +143,7 @@ export function PracticeSignalControl({ slug }: { slug: string }) {
         disabled={isSubmitting}
         className={`${buttonBase} ${neutralTone} disabled:opacity-60`}
       >
-        👍 Useful
+        <VoteButtonLabel icon="👍" count={state.up} label="Useful" />
       </button>
       <button
         type="button"
@@ -146,7 +151,7 @@ export function PracticeSignalControl({ slug }: { slug: string }) {
         disabled={isSubmitting}
         className={`${buttonBase} ${mutedTone} disabled:opacity-60`}
       >
-        👎 Not useful
+        <VoteButtonLabel icon="👎" count={state.down} label="Not useful" />
       </button>
     </div>
   );
