@@ -11,13 +11,15 @@ function applyVisibility(next: Visibility) {
 }
 
 export function EditorialVisibilityToggle() {
-  const [visibility, setVisibility] = useState<Visibility>("hidden");
+  const [visibility, setVisibility] = useState<Visibility>("shown");
 
   useEffect(() => {
     const saved = window.localStorage.getItem(STORAGE_KEY);
-    const initial: Visibility = saved === "shown" ? "shown" : "hidden";
-    setVisibility(initial);
+    const initial: Visibility = saved === "hidden" ? "hidden" : "shown";
     applyVisibility(initial);
+    if (initial === "hidden") {
+      window.setTimeout(() => setVisibility(initial), 0);
+    }
   }, []);
 
   function toggleVisibility() {
