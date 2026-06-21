@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-06-20T18:29:02.571Z",
-    "sourceGeneratedAt": "2026-06-20T18:15:10.617246Z",
-    "editorialGeneratedAt": "2026-06-20T18:28:36.766756Z",
-    "editionDate": "2026-06-21"
+    "generatedAt": "2026-06-21T18:32:26.136Z",
+    "sourceGeneratedAt": "2026-06-21T18:15:09.992437Z",
+    "editorialGeneratedAt": "2026-06-21T18:30:41.392863Z",
+    "editionDate": "2026-06-22"
   },
   "briefing": {
     "headline": "3 high-priority items in the latest EM scan",
     "summary": "Top sources today: St Emlyn's, EMJ, WestJEM. Main themes: evidence synthesis, reviews, trials. Best early reads: To squeeze or not to squeeze. The ARISE-FLUIDS trial; In adult patients with suspected sepsis, is adjunct resuscitation with human albumin solution associated with improved patient-oriented outcomes?.",
-    "editorialHeadline": "Resuscitation Protocols: When 'Best Practice' Isn't a Clear Choice",
-    "editorialSummary": "The resuscitation landscape remains complex, and today’s readings underscore that rigid adherence to protocol—whether in septic shock or post-cardiac arrest care—may not translate into superior outcomes. The ARISE-FLUIDS data, for instance, suggest that the debate over early vasopressors versus liberal fluids lacks a clear winner regarding long-term survival endpoints.\n\nThis theme of uncertainty echoes across critical care; similarly, systematic reviews caution against routine use of adjuncts like human albumin in suspected sepsis and advise reserving advanced therapies for organophosphate poisoning to core supportive measures. On the stroke front, while late-window EVT shows promise for select patients with functional gains, robust pre-treatment selection criteria are non-negotiable.\n\nBeyond immediate resuscitation, we see valuable insights into system optimization: dedicated critical care zones within the ED appear beneficial for reducing downstream resource utilization, and tracking lactate post-ROSC in pediatrics suggests a useful biomarker for risk stratification. These findings collectively remind us that optimizing emergency medicine is as much about refining our systems and recognizing where evidence falls short as it is about mastering the initial intervention."
+    "editorialHeadline": "From Septic Shock Protocols to PE Triage: Key Shifts in Critical Care Management",
+    "editorialSummary": "The evidence base continues to refine our approach across multiple high-stakes areas. In septic shock, the debate around early vasopressor use remains active, while for undifferentiated sepsis, current data do not support routine adjunct resuscitation with human albumin solution; established protocols remain paramount until larger trials clarify its role.\n\nOperationalizing care pathways is equally critical. For acute pulmonary embolism, a low-risk sPESI score suggests that hospitalization itself may not confer a survival benefit over appropriate outpatient management using DOACs. Furthermore, when managing stroke outside the standard window, endovascular therapy warrants extreme caution and highly individualized selection rather than routine application.\n\nBeyond resuscitation bays, we see important reminders about process: strengthening early recognition systems for acute stroke remains key to reducing mortality across all settings, and in pediatric OHCA, monitoring lactate within six hours post-ROSC appears associated with poorer long-term neurological outcomes. These varied findings underscore that today’s focus must be on evidence-driven refinement—knowing when to escalate therapy versus when to confidently manage patients in the outpatient setting."
   },
   "dailyEditorial": [
     {
@@ -17,14 +17,14 @@
       "title": "To squeeze or not to squeeze. The ARISE-FLUIDS trial",
       "source": "St Emlyn's",
       "link": "https://www.stemlynsblog.org/to-squeeze-or-not-to-squeeze-the-arise-fluids-trial/",
-      "published": "3 days ago",
+      "published": "4 days ago",
       "publishedAt": "2026-06-17T16:51:19Z",
       "impact": "Practice-changing",
       "topic": "Shock",
-      "takeaway": "The ARISE-FLUIDS data suggest caution when rigidly adhering to protocols dictating the timing or volume of initial fluid administration versus early vasopressors in septic shock. At the bedside, this implies that while aggressive resuscitation is necessary, the choice between immediate low-volume vasopressor support versus more liberal fluids upfront may not significantly alter long-term outcomes. Always consider the patient's underlying physiology when titrating these interventions.",
-      "shortSummary": "This review focuses on the ARISE-FLUIDS trial, which directly compared two distinct resuscitation strategies in septic shock patients presenting to the emergency department.",
-      "summary": "This review focuses on the ARISE-FLUIDS trial, which directly compared two distinct resuscitation strategies in septic shock patients presenting to the emergency department. Specifically, it pitted an early vasopressor approach combined with restricted fluid administration against a strategy involving higher initial fluid volumes followed by later vasopressor initiation. The primary finding reported is that neither of these established approaches demonstrated superiority regarding the composite endpoint of days alive at day 90. This lack of difference suggests that current resuscitation guidelines, which often pit early versus delayed vasopressor use and restricted versus liberal fluids, may not have a definitive advantage over one another.",
-      "confidence": "high"
+      "takeaway": "ARISE-FLUIDS does not show superiority for routine early vasopressors with restricted fluids over higher-volume early fluids and later vasopressors. Use it as support for reassessment-driven septic shock resuscitation rather than a one-size-fits-all protocol change.",
+      "shortSummary": "St Emlyn's reviews ARISE-FLUIDS, a septic shock trial comparing earlier vasopressors with a more restrictive fluid strategy against higher initial fluid volumes with later vasopressors.",
+      "summary": "St Emlyn's reviews ARISE-FLUIDS, a septic shock trial comparing earlier vasopressors with a more restrictive fluid strategy against higher initial fluid volumes with later vasopressors. The key signal is pragmatic: neither strategy produced more days alive at 90 days, so the trial does not support a simple shift toward routine early vasopressors plus fluid restriction for all ED septic shock patients. For bedside practice, the result reinforces individualized resuscitation: assess perfusion, congestion risk, response to initial fluid, and vasopressor timing rather than treating fluid restriction as a universal target. It also keeps the focus on fundamentals that determine early sepsis care: rapid recognition, source control, antibiotics, reassessment, and clear escalation when shock persists. The article is most useful as a prompt to revisit local protocols and ask whether they allow clinician judgment when patients sit between fluid-responsive shock and early vasopressor need.",
+      "confidence": "moderate"
     },
     {
       "slug": "in-adult-patients-with-suspected-sepsis-is-adjunct-resuscitation-with-human-albu",
@@ -35,9 +35,9 @@
       "publishedAt": "2026-06-09T16:00:20Z",
       "impact": "Practice-changing",
       "topic": "Resuscitation",
-      "takeaway": "For routine management of suspected sepsis in the ED, do not initiate albumin infusion based on current guidelines; the evidence synthesis suggests no benefit. Continue standard resuscitation protocols while recognizing that more robust, large-scale randomized controlled trials are necessary before changing established care pathways. Be mindful that this conclusion is drawn from limited data.",
-      "shortSummary": "This systematic review directly addressed whether adding human albumin solution (HAS) as an adjunct resuscitation measure improves patient outcomes specifically in adults presenting with suspected sepsis.",
-      "summary": "This systematic review directly addressed whether adding human albumin solution (HAS) as an adjunct resuscitation measure improves patient outcomes specifically in adults presenting with suspected sepsis. The authors synthesized data from three relevant studies found through major databases, providing a focused assessment of the current evidence base. Overall, the analysis suggests that incorporating HAS into routine emergency department management for suspected sepsis is not currently supported by the available literature. Given the high clinical relevance of optimizing resuscitation strategies in septic patients, this negative finding warrants attention. However, the authors rightly point out that the overall body of evidence remains limited, emphasizing the need for larger, definitive trials to guide practice.",
+      "takeaway": "For undifferentiated septic shock or suspected sepsis in the ED, current evidence does not support routine adjunct resuscitation with human albumin solution. Stick to established protocols for initial fluid resuscitation while awaiting further data; do not initiate HAS based on this review alone. Remember that larger trials are needed before changing standard practice.",
+      "shortSummary": "This systematic review synthesized evidence regarding whether adding human albumin solution (HAS) as an adjunct resuscitation measure improves patient outcomes in adults presenting with suspected sepsis.",
+      "summary": "This systematic review synthesized evidence regarding whether adding human albumin solution (HAS) as an adjunct resuscitation measure improves patient outcomes in adults presenting with suspected sepsis. The authors analyzed three relevant studies from major databases to address this specific clinical question. Overall, the synthesis suggests that current data do not support the routine use of HAS resuscitation in the emergency department setting for patients with suspected sepsis. They emphasize that while the topic is clinically relevant, more robust and larger-scale trials are necessary before making definitive recommendations regarding its role in initial management.",
       "confidence": "high"
     },
     {
@@ -49,9 +49,9 @@
       "publishedAt": "2026-06-08T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Toxicology",
-      "takeaway": "Atropine remains the primary agent for OP poisoning management; reserve oximes based on WHO recommendations. Avoid routine gastric lavage due to questionable efficacy and potential harm. Do not initiate advanced therapies like plasma exchange or use agents such as penehyclidine unless specifically indicated, keeping your focus on core supportive care.",
+      "takeaway": "Atropine remains the primary antidote for OP poisoning; consider oximes if appropriate per WHO guidelines. Avoid routine gastric lavage due to questionable efficacy and potential harm. Do not default to therapies like plasma exchange or penehyclidine unless specific protocols dictate otherwise.",
       "shortSummary": "This umbrella review synthesizes evidence from multiple systematic reviews concerning the management of organophosphate (OP) self-poisoning.",
-      "summary": "This umbrella review synthesizes evidence from multiple systematic reviews concerning the management of organophosphate (OP) self-poisoning. The authors conclude that atropine remains the cornerstone of therapy for OP envenomation, with oximes being a potential adjunct as per WHO guidelines. More importantly for daily practice, the review casts significant doubt on several commonly considered interventions. Specifically, gastric lavage is noted to have doubtful efficacy and carries potential risks. Furthermore, the authors advise against the routine use of agents such as penehyclidine, rhubarb, or complex therapies like plasma exchange with hemoperfusion.",
+      "summary": "This umbrella review synthesizes evidence from multiple systematic reviews concerning the management of organophosphate (OP) self-poisoning. The authors conclude that atropine remains the cornerstone of therapy for OP envenomation, with oximes being a potential adjunct as per WHO guidelines. More importantly for daily practice, the review casts significant doubt on several commonly considered interventions. Specifically, gastric lavage is noted to have doubtful efficacy and carries potential risks. Furthermore, the recommendation against routine use extends to agents such as penehyclidine, rhubarb, hemofiltration, and plasma exchange.",
       "confidence": "high"
     },
     {
@@ -63,9 +63,9 @@
       "publishedAt": "2026-06-12T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Stroke",
-      "takeaway": "For patients presenting with ischemic stroke significantly past 24 hours, consider EVT only in the context of robust imaging evidence supporting salvageable penumbra. While the data suggest potential functional gains and mortality reduction in select cases, remember that patient selection is paramount; do not apply this blindly to all late-presenting strokes.",
+      "takeaway": "For patients presenting with ischemic stroke significantly outside the standard time window, consider EVT only in carefully selected individuals where the potential benefit outweighs the procedural risk. Remember that while functional improvement and mortality reduction are suggested for select groups, the overall data mandate a highly individualized approach rather than routine application.",
       "shortSummary": "This meta-analysis synthesized data regarding the use of Endovascular Therapy (EVT) for acute ischemic stroke presenting in very late windows, specifically beyond the traditional 24-hour mark.",
-      "summary": "This meta-analysis synthesized data regarding the use of Endovascular Therapy (EVT) for acute ischemic stroke presenting in very late windows, specifically beyond the traditional 24-hour mark. The overall conclusion suggests that EVT can indeed confer benefits by improving functional outcomes and reducing all-cause mortality in carefully selected patient cohorts. However, the authors caution that these improvements are not universal across all outcome measures, indicating a complex picture. The emphasis remains heavily placed on rigorous pre-treatment selection criteria to identify those who are most likely to benefit from this advanced intervention.",
+      "summary": "This meta-analysis synthesized data regarding the use of Endovascular Therapy (EVT) for acute ischemic stroke presenting in very late windows, specifically beyond the traditional 24-hour mark. The authors concluded that when applied judiciously to select patients, EVT can indeed confer benefits by improving functional outcomes and reducing all-cause mortality. However, the analysis also stressed that patient selection is paramount, suggesting that a blanket application of this intervention is not supported by the overall data. It's worth noting that while some individual studies within the meta-analysis showed significant positive trends, the collective evidence presents a somewhat mixed picture across various outcome measures.",
       "confidence": "moderate"
     },
     {
@@ -73,27 +73,13 @@
       "title": "Association of Serum Lactate with Outcome After Pediatric Out-of-Hospital Cardiac Arrest: A Secondary Analysis of the Therapeutic Hypothermia After Pediatric Cardiac Arrest (THAPCA) Trial",
       "source": "Resuscitation",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42314897/",
-      "published": "2 days ago",
+      "published": "3 days ago",
       "publishedAt": "2026-06-18T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Cardiac Arrest",
-      "takeaway": "Consider tracking serial lactate levels within the first six hours post-ROSC in pediatric cardiac arrest survivors; higher values correlate with worse one-year outcomes. This suggests lactate could be useful for risk stratification, but remember that this finding is based on a secondary analysis and should complement, not replace, established resuscitation protocols.",
-      "shortSummary": "This secondary analysis re-examined the THAPCA-OH trial data specifically to assess the utility of serum lactate levels in predicting outcomes following pediatric out-of-hospital cardiac arrest.",
-      "summary": "This secondary analysis re-examined the THAPCA-OH trial data specifically to assess the utility of serum lactate levels in predicting outcomes following pediatric out-of-hospital cardiac arrest. The key finding reported is a correlation between elevated lactate concentrations measured within the first six hours after return of spontaneous circulation (ROSC) and poorer one-year survival rates. This suggests that lactate may serve as an adjunct biomarker for early neuroprognostication and overall mortality risk in this critically ill pediatric population. While promising, it's important to note this is a secondary analysis drawing conclusions from existing trial data.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "critical-care-delivery-models-in-emergency-departments-a-systematic-review-of-th",
-      "title": "Critical care delivery models in emergency departments: a systematic review of the literature and meta-analysis of related outcome effects",
-      "source": "SJTREM",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42289704/",
-      "published": "6 days ago",
-      "publishedAt": "2026-06-14T10:00:00Z",
-      "impact": "Practice-changing",
-      "topic": "Critical Care",
-      "takeaway": "When considering resource allocation for high-acuity resuscitation, establishing a dedicated critical care zone within the ED appears beneficial based on this meta-analysis. This suggests that structured environments can help mitigate downstream utilization, potentially lowering both ICU admissions and overall hospital stay duration. However, remember this is an aggregate finding; implementation should be tailored to local resources, and these models do not replace comprehensive resuscitation protocols.",
-      "shortSummary": "This systematic review synthesized literature on various organizational models for delivering critical care within the emergency department setting, culminating in a meta-analysis of associated outcomes.",
-      "summary": "This systematic review synthesized literature on various organizational models for delivering critical care within the emergency department setting, culminating in a meta-analysis of associated outcomes. The authors categorized several approaches, with dedicated critical care areas, such as an ED-ICU setup, being the most frequently studied model. The quantitative analysis provides evidence suggesting that establishing these specialized, dedicated critical care zones within the ED environment may confer tangible benefits to critically ill patients. Specifically, the meta-analysis points toward a potential reduction in both subsequent ICU admission rates and overall hospital length of stay when compared against other established CC-ED delivery models.",
+      "takeaway": "Keep monitoring lactate early post-ROSC in pediatric OHCA patients; higher levels within six hours appear associated with worse one-year outcomes. This suggests considering lactate as part of your risk stratification panel, but do not rely on it alone for management decisions. Remember that this association was identified in a secondary analysis.",
+      "shortSummary": "This secondary analysis re-examined the THAPCA-OH trial data specifically focusing on serum lactate levels following pediatric out-of-hospital cardiac arrest (OHCA).",
+      "summary": "This secondary analysis re-examined the THAPCA-OH trial data specifically focusing on serum lactate levels following pediatric out-of-hospital cardiac arrest (OHCA). The core finding is that elevated lactate concentrations measured within the first six hours after return of spontaneous circulation (ROSC) correlated with poorer one-year outcomes. This suggests that lactate may serve as a valuable adjunct biomarker for predicting neurological prognosis and overall mortality in this critically ill pediatric population. While the association was noted, it's important to remember this is an observational finding from a secondary analysis.",
       "confidence": "moderate"
     },
     {
@@ -105,9 +91,9 @@
       "publishedAt": "2026-06-08T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Stroke",
-      "takeaway": "Focus on implementing structured triage tools at your site as a foundational step for improving recognition rates. Remember that optimizing the entire pathway—from initial suspicion to definitive care—is paramount; don't overlook system barriers when planning local improvements. While AI is promising, current efforts should prioritize strengthening established referral links to ensure timely specialist access.",
-      "shortSummary": "This systematic review synthesizes evidence on improving outcomes for acute stroke patients by focusing on early recognition and robust referral pathways.",
-      "summary": "This systematic review synthesizes evidence on improving outcomes for acute stroke patients by focusing on early recognition and robust referral pathways. The authors conclude that the implementation of structured clinical tools and broader system-level interventions are associated with reduced mortality in this population. Furthermore, the review highlights emerging technologies like artificial intelligence and mobile stroke units as potentially beneficial additions to current care models. A key theme emphasized is the necessity of strengthening overall referral systems to ensure equitable access to care, especially when dealing with geographic or resource limitations. Overall, the evidence points toward a multi-faceted approach addressing both clinical process gaps and systemic infrastructure issues.",
+      "takeaway": "Focus on implementing structured screening tools at every point of entry to improve early recognition, as system improvements are key drivers for reducing mortality. While AI and mobile units show promise, remember that strengthening the entire referral continuum is more impactful than any single technology. Don't overlook establishing cost-effective triage protocols to ensure equitable care delivery across varying resource settings.",
+      "shortSummary": "This systematic review synthesizes the evidence surrounding early recognition and referral pathways for acute stroke, emphasizing that timely intervention significantly improves patient outcomes.",
+      "summary": "This systematic review synthesizes the evidence surrounding early recognition and referral pathways for acute stroke, emphasizing that timely intervention significantly improves patient outcomes. The authors highlight that structured clinical tools and comprehensive system-level interventions are associated with reduced mortality rates in this population. Furthermore, they note that emerging technologies like artificial intelligence and mobile stroke units show potential utility in improving care delivery. A key theme across the findings is the necessity of strengthening referral systems to ensure equitable access to care, especially when addressing geographic or resource limitations. The review suggests that adopting cost-effective triage strategies can support better overall patient management pathways.",
       "confidence": "high"
     },
     {
@@ -119,9 +105,37 @@
       "publishedAt": "2026-06-08T11:00:52Z",
       "impact": "Practice-changing",
       "topic": "Cardiac Arrest",
-      "takeaway": "When managing hypotension after ROSC, current data suggest that neither norepinephrine nor epinephrine is definitively superior in preventing recurrent cardiac arrest based on this pooled analysis. Continue to use your preferred agent while remaining vigilant for signs of inadequate perfusion or evolving shock state; remember that the choice should remain highly individualized.",
-      "shortSummary": "This meta-analysis directly addresses the comparative safety and efficacy of using norepinephrine versus epinephrine as vasopressors following a return of spontaneous circulation (ROSC) after cardiac arrest.",
-      "summary": "This meta-analysis directly addresses the comparative safety and efficacy of using norepinephrine versus epinephrine as vasopressors following a return of spontaneous circulation (ROSC) after cardiac arrest. The core question investigated is whether one agent confers a lower risk of subsequent recurrent cardiac arrest compared to the other. By synthesizing data, the authors provide an evidence-based comparison aimed at guiding post-cardiac arrest resuscitation management regarding vasopressor choice. While the meta-analysis provides quantitative comparisons, clinicians should interpret these findings within the broader context of individual patient physiology and institutional protocols.",
+      "takeaway": "When managing hypotension after ROSC, the decision between norepinephrine and epinephrine should be weighed against the risk profile for recurrent arrest. The meta-analysis suggests that neither agent was definitively superior in preventing subsequent cardiac arrests compared to the other. Continue to use your preferred vasopressor based on local protocols while remaining mindful of potential differential effects on myocardial contractility or systemic vascular resistance.",
+      "shortSummary": "This meta-analysis directly tackles the question of whether using norepinephrine versus epinephrine as a vasopressor agent post-cardiac arrest is associated with a difference in recurrent cardiac arrest rates following…",
+      "summary": "This meta-analysis directly tackles the question of whether using norepinephrine versus epinephrine as a vasopressor agent post-cardiac arrest is associated with a difference in recurrent cardiac arrest rates following Return of Spontaneous Circulation (ROSC). The authors synthesized data to compare these two common agents in this critical setting. While the primary focus is on preventing subsequent arrhythmias or circulatory collapse, understanding the comparative hemodynamic profiles and outcomes related to vasopressor choice remains relevant for resuscitation teams. Given that both drugs are foundational components of post-arrest care, any evidence suggesting a differential impact on secondary cardiac events is clinically valuable for guideline refinement.",
+      "confidence": "moderate"
+    },
+    {
+      "slug": "pulmcrit-is-oseltamivir-assassinating-icu-patients",
+      "title": "PulmCrit: Is oseltamivir assassinating ICU patients?",
+      "source": "EMCrit",
+      "link": "https://emcrit.org/pulmcrit/remap-cap-oseltamivir/",
+      "published": "5 hours ago",
+      "publishedAt": "2026-06-21T13:28:04Z",
+      "impact": "Practice-changing",
+      "topic": "Trials",
+      "takeaway": "Given the preliminary data suggesting a high risk of increased mortality associated with oseltamivir in critically ill patients, exercise significant restraint before initiating this therapy. While further review of the full dataset is warranted, these findings strongly suggest that routine use should be reconsidered until more robust analyses are available.",
+      "shortSummary": "The REMAP-CAP adaptive platform trial has released preliminary data regarding the use of oseltamivir in critically ill patients, and the findings are quite alarming.",
+      "summary": "The REMAP-CAP adaptive platform trial has released preliminary data regarding the use of oseltamivir in critically ill patients, and the findings are quite alarming. The primary analysis presented suggests a substantial association between receiving oseltamivir and increased mortality risk in this vulnerable population. Specifically, the reported likelihood of causing increased mortality was calculated at 98.3%. Given these preliminary but stark results, clinicians should approach the use of neuraminidase inhibitors like oseltamivir with extreme caution when managing patients admitted to the ICU setting.",
+      "confidence": "high"
+    },
+    {
+      "slug": "critical-care-delivery-models-in-emergency-departments-a-systematic-review-of-th",
+      "title": "Critical care delivery models in emergency departments: a systematic review of the literature and meta-analysis of related outcome effects",
+      "source": "SJTREM",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42289704/",
+      "published": "1 week ago",
+      "publishedAt": "2026-06-14T10:00:00Z",
+      "impact": "Practice-changing",
+      "topic": "Critical Care",
+      "takeaway": "When considering resource allocation for high-acuity resuscitation, establishing a physically distinct, dedicated critical care zone within the ED seems supported by meta-analysis data suggesting lower downstream utilization. While this is promising, remember that these findings are based on model comparison and may not account for all local workflow variables; therefore, implementation should be thoughtful about staffing ratios.",
+      "shortSummary": "This systematic review synthesized the current literature on various organizational models for providing critical care within the emergency department setting, culminating in a meta-analysis of outcome data.",
+      "summary": "This systematic review synthesized the current literature on various organizational models for providing critical care within the emergency department setting, culminating in a meta-analysis of outcome data. The authors categorized several delivery approaches, with dedicated critical care areas, such as an ED-ICU setup, being the most frequently studied model. The quantitative analysis presented suggests a tangible benefit associated with these dedicated spaces. Specifically, compared to other established CC-ED models, implementing a dedicated critical care area appears associated with reductions in both subsequent ICU admission rates and overall hospital length of stay for critically ill patients presenting to the ED.",
       "confidence": "moderate"
     },
     {
@@ -129,13 +143,13 @@
       "title": "Prediction of bloodstream infection using triage variables in the emergency department: retrospective derivation and validation cohort",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215749v1?rss=1",
-      "published": "1 week ago",
+      "published": "2 weeks ago",
       "publishedAt": "2026-06-10T16:00:19Z",
       "impact": "Practice-changing",
       "topic": "General Emergency Medicine",
-      "takeaway": "Consider using this GOTHIC score when managing febrile patients in the ED if you are concerned about blood culture yield. Remember that while tachycardia and age ≥ 75 years increase risk, protective complaints like dyspnea actually decrease it according to this model. However, since this is a retrospective derivation, use it as an adjunct tool rather than replacing clinical judgment.",
-      "shortSummary": "This retrospective study introduces the GOTHIC score, a novel, easily implementable prediction tool designed to estimate the risk of bloodstream infection in febrile emergency department patients based solely on variabl…",
-      "summary": "This retrospective study introduces the GOTHIC score, a novel, easily implementable prediction tool designed to estimate the risk of bloodstream infection in febrile emergency department patients based solely on variables obtainable immediately after triage. The authors derived and validated this score using data from two university hospital EDs over 2021, analyzing factors like age ≥ 75 years, tachycardia >90 beats per minute, systolic blood pressure <38 degrees Celsius, isolated fever complaint, and specific chief complaints. They found that the resulting seven-factor score provides a method to stratify risk in settings where routine blood cultures may have low yield or contamination concerns. The inclusion of protective factors, such as dyspnea or COVID-19 symptoms which actually lowered the odds ratio, adds nuance to its clinical utility.",
+      "takeaway": "Consider using a simple triage-based tool like GOTHIC when managing febrile patients where blood culture utility is questionable. Remember that while tachycardia, advanced age, and hypotension are associated with increased risk points, having certain protective complaints actually lowers the calculated risk. However, this score was derived retrospectively, so interpret its predictive power cautiously without prospective validation.",
+      "shortSummary": "This retrospective study introduces the GOTHIC score, a novel and supposedly easy-to-implement tool designed to predict bloodstream infection (BSI) risk in febrile emergency department patients.",
+      "summary": "This retrospective study introduces the GOTHIC score, a novel and supposedly easy-to-implement tool designed to predict bloodstream infection (BSI) risk in febrile emergency department patients. The authors derived this score using seven variables that can be assessed immediately upon triage, which is particularly useful given the known low yield and contamination risks associated with routine blood cultures in the ED setting. The components of the GOTHIC score include age greater than or equal to 75 years, tachycardia exceeding 90 beats per minute, a systolic blood pressure less than 38 degrees Celsius, having an isolated fever as the chief complaint, and presenting with certain protective complaints like dyspnea or COVID-19 symptoms. The study reports analyzing over 6700 visits across derivation and validation cohorts to test the diagnostic accuracy of this composite score.",
       "confidence": "moderate"
     },
     {
@@ -147,9 +161,9 @@
       "publishedAt": "2026-06-09T16:00:21Z",
       "impact": "Practice-changing",
       "topic": "Sepsis",
-      "takeaway": "Aiming for norepinephrin initiation within one hour of detecting hypotension appears beneficial for reducing 28-day mortality in sepsis. While this suggests an aggressive approach to early vasopressor use, remember that timing must be balanced with the need to achieve adequate mean arterial pressure goals, ideally targeting a MAP greater than 65 mm Hg. Be mindful that this is observational data correlating time to initiation with outcome.",
-      "shortSummary": "This prospective, multicenter study examined the relationship between when norepinephrine was started and 28-day all-cause mortality in patients presenting with sepsis.",
-      "summary": "This prospective, multicenter study examined the relationship between when norepinephrine was started and 28-day all-cause mortality in patients presenting with sepsis. The authors found a clear association between delayed initiation of norepinephrine and worse outcomes; specifically, non-survivors had a significantly longer median time to starting NE compared to those who survived. Furthermore, the analysis highlighted that initiating norepinephrine within the first 60 minutes following hypotension was independently associated with a reduced risk of death. These findings reinforce the critical importance of rapid hemodynamic resuscitation in septic shock management.",
+      "takeaway": "Aiming for vasopressor initiation within one hour of recognizing hypotension seems strongly linked to better survival outcomes in sepsis. While this is an observational association, it reinforces the need for aggressive early recognition and treatment protocols rather than waiting for hemodynamic parameters to worsen significantly. Be mindful that 'time to start' needs to be tracked diligently across your team.",
+      "shortSummary": "This prospective multicenter study assessed the relationship between how quickly norepinephrine was started and 28-day all-cause mortality in sepsis patients, involving 138 individuals.",
+      "summary": "This prospective multicenter study assessed the relationship between how quickly norepinephrine was started and 28-day all-cause mortality in sepsis patients, involving 138 individuals. The authors found a clear association between delayed initiation of vasopressors and poorer outcomes; specifically, non-survivors had a significantly longer median time to receiving norepinephrine compared to those who survived. Furthermore, the analysis highlighted that starting norepinephrine within the first 60 minutes after hypotension developed was independently associated with a lower risk of death at 28 days. These findings underscore the critical importance of rapid resuscitation efforts in septic shock management.",
       "confidence": "high"
     },
     {
@@ -157,27 +171,13 @@
       "title": "ECG Cases 62 – ACLS Arrhythmia Pitfalls, Part 5: Stable Narrow Complex Tachycardias",
       "source": "Emergency Medicine Cases",
       "link": "https://emergencymedicinecases.com/ecg-casesacls-arrhythmia-pitfalls-stable-narrow-complex-tachycardias/",
-      "published": "4 days ago",
+      "published": "5 days ago",
       "publishedAt": "2026-06-16T14:33:51Z",
       "impact": "Practice-changing",
       "topic": "Ecg",
-      "takeaway": "When faced with a stable narrow complex tachycardia, don't assume the diagnosis based solely on rate and regularity; always systematically rule out atrial flutter versus true SVT, paying close attention to underlying triggers. Remember that secondary causes are often the key differentiator, so a thorough history and physical exam remain paramount before initiating any rhythm conversion or rate control therapy.",
-      "shortSummary": "This installment of the ECG Cases series tackles the common but tricky pitfalls encountered when interpreting stable narrow complex tachycardias.",
-      "summary": "This installment of the ECG Cases series tackles the common but tricky pitfalls encountered when interpreting stable narrow complex tachycardias. The resource uses eight real-world case examples to guide readers through differentiating between sinus tachycardia, atrial fibrillation, atrial flutter, and supraventricular tachycardia (SVT). What's most valuable here is the emphasis not just on pattern recognition, but also on considering secondary causes that might be driving the rhythm. Recognizing these subtle distinctions is crucial because misdiagnosis can lead to inappropriate or harmful management decisions in the acute setting.",
-      "confidence": "high"
-    },
-    {
-      "slug": "frailty-stratification-in-the-emergency-department-using-the-triage-frailty-and-",
-      "title": "Frailty stratification in the emergency department using the triage frailty and comorbidity tool",
-      "source": "AJEM",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42320418/",
-      "published": "1 day ago",
-      "publishedAt": "2026-06-19T10:00:00Z",
-      "impact": "High-yield",
-      "topic": "General Emergency Medicine",
-      "takeaway": "Consider incorporating the TFC Tool into your low-acuity triage process; it appears to help flag frail patients who might otherwise wait longer without compromising overall acuity flow. Remember that a positive score suggests higher risk for hospitalization, prompting closer monitoring even if their initial presentation is minor. Don't let this replace standard vital sign checks, but use it as an adjunct risk stratification tool.",
-      "shortSummary": "This article evaluates the utility of integrating the Triage Frailty and Comorbidity (TFC) Tool into standard emergency department triage protocols, specifically targeting low-acuity patients.",
-      "summary": "This article evaluates the utility of integrating the Triage Frailty and Comorbidity (TFC) Tool into standard emergency department triage protocols, specifically targeting low-acuity patients. The core finding suggests that routine use of this tool successfully identifies vulnerable individuals within the low-acuity spectrum. Importantly, implementing the TFC Tool was associated with reducing waiting times to medical assessment for these frail patients without negatively impacting established acuity prioritization pathways. Furthermore, a positive TFC score independently correlated with an increased likelihood of subsequent hospital admission, suggesting it's a useful marker beyond just triage placement.",
+      "takeaway": "When faced with a stable narrow complex tachycardia, don't just rely on rhythm strips; systematically differentiate between sinus, A-fib, flutter, and SVT using clinical context. Always keep secondary causes in mind, as they dictate the management pathway more than the rate itself. Remember that careful differentiation is key to avoiding inappropriate cardioversion or antiarrhythmic use.",
+      "shortSummary": "This installment of the ECG Cases series tackles the common but tricky area of stable narrow complex tachycardias, reminding us that these rhythms are often not what they appear to be on initial read.",
+      "summary": "This installment of the ECG Cases series tackles the common but tricky area of stable narrow complex tachycardias, reminding us that these rhythms are often not what they appear to be on initial read. The resource uses eight real-world case examples to walk through the pitfalls involved in accurately differentiating between sinus tachycardia, atrial fibrillation, atrial flutter, and supraventricular tachycardia (SVT). Beyond just pattern recognition, the emphasis here is heavily placed on considering secondary causes that might be driving the arrhythmia and making sound management decisions at the bedside. It's a good refresher because misinterpreting these rhythms can lead to unnecessary or harmful interventions.",
       "confidence": "high"
     },
     {
@@ -185,13 +185,13 @@
       "title": "Outcomes of Acute PE Treated With DOACs in the Veterans Affairs Health System: A Retrospective Cohort Study",
       "source": "Academic Emergency Medicine",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42313763/",
-      "published": "2 days ago",
+      "published": "3 days ago",
       "publishedAt": "2026-06-18T10:00:00Z",
       "impact": "High-yield",
       "topic": "General Emergency Medicine",
-      "takeaway": "For hemodynamically stable, low-risk acute PE patients (sPESI 0 or 1), routine hospitalization does not appear to improve 30-day mortality compared to discharge. This supports a more aggressive shift toward outpatient management when no other compelling reason for admission exists. Be mindful that this is observational data, so use it to guide resource allocation rather than abandoning inpatient care entirely.",
-      "shortSummary": "This retrospective cohort study analyzed 30-day mortality in a large U.S.",
-      "summary": "This retrospective cohort study analyzed 30-day mortality in a large U.S. population presenting with acute pulmonary embolism (PE) managed with direct oral anticoagulants (DOACs), stratifying outcomes based on the Wells' criteria equivalent, sPESI score. The key finding is that for patients deemed low risk, specifically those scoring sPESI 0 or 1, hospitalization did not confer a survival benefit compared to appropriate outpatient management. Notably, despite this evidence suggesting reduced inpatient utilization, two-thirds of these low-risk patients were still admitted to the hospital. This strongly suggests an opportunity to refine current guidelines and practice patterns regarding unnecessary short-stay admissions for low-risk PE.",
+      "takeaway": "For low-risk acute PE patients (sPESI 0 or 1), do not default to admission if the patient is otherwise stable and has no other compelling reason for inpatient care, as hospitalization did not improve 30-day mortality. This supports confidently managing these individuals in an outpatient setting with appropriate DOAC bridging. Remember that this finding pertains specifically to low-risk stratification.",
+      "shortSummary": "This retrospective analysis looked at the 30-day mortality outcomes for U.S.",
+      "summary": "This retrospective analysis looked at the 30-day mortality outcomes for U.S. patients presenting with acute pulmonary embolism (PE) who were managed with direct oral anticoagulants (DOACs), stratifying risk by the Wells' criteria equivalent, sPESI score. The key finding is that in low-risk patients, specifically those scoring sPESI 0 or 1, receiving inpatient hospitalization did not appear to confer a survival benefit compared to being managed as an outpatient. Given that two-thirds of these low-risk patients were still admitted despite the lack of apparent benefit from hospitalization alone, the authors suggest this supports a broader shift toward expanding appropriate outpatient management pathways for acute PE.",
       "confidence": "high"
     },
     {
@@ -199,41 +199,27 @@
       "title": "No Pause, No Problem? Using Doppler Ultrasound to Detect ROSC Without Pausing Compressions for Pulse Check",
       "source": "Taming the SRU",
       "link": "https://www.tamingthesru.com/blog/journal-club/using-doppler-ultrasound-for-pulse-checks-during-cpr",
-      "published": "3 days ago",
+      "published": "4 days ago",
       "publishedAt": "2026-06-17T11:55:00Z",
       "impact": "High-yield",
       "topic": "Ultrasound",
-      "takeaway": "If you are concerned about pulse checks interrupting your rhythm during a code, remember that Doppler ultrasound of the femoral artery offers a potential way to detect ROSC without stopping compressions. While promising for workflow improvement, this technique is still under review, so don't abandon standard protocols entirely; use it as an adjunct tool when appropriate.",
-      "shortSummary": "This review tackles the persistent issue of interruptions during CPR, specifically focusing on how routine pulse checks disrupt high-quality chest compressions.",
-      "summary": "This review tackles the persistent issue of interruptions during CPR, specifically focusing on how routine pulse checks disrupt high-quality chest compressions. The core question addressed is whether continuous monitoring via femoral arterial Doppler ultrasound can reliably detect Return of Spontaneous Circulation (ROSC) without necessitating a pause in compressions for manual pulse assessment. The authors evaluate the diagnostic accuracy of detecting pulsatility and anterograde flow signals obtained *during* active CPR, comparing this method against established protocols that require stopping compressions to check for palpable pulses or arterial waveforms. If validated, this technique could significantly streamline resuscitation efforts by maintaining uninterrupted high-quality chest compressions.",
+      "takeaway": "If you suspect ROSC but aren't sure, using Doppler ultrasound on the femoral artery during compressions may allow you to confirm flow status without stopping chest compressions. This could help maintain high-quality CPR momentum, which is paramount for successful resuscitation. Remember that this is a diagnostic aid and shouldn't replace clinical judgment or established protocols.",
+      "shortSummary": "This review tackles the persistent issue of interruptions during CPR, specifically focusing on how traditional pulse checks disrupt high-quality chest compressions.",
+      "summary": "This review tackles the persistent issue of interruptions during CPR, specifically focusing on how traditional pulse checks disrupt high-quality chest compressions. The core concept explored is utilizing femoral arterial Doppler ultrasound waveforms obtained *during* active compressions to detect signs of Return of Spontaneous Circulation (ROSC). Instead of pausing compressions for a manual pulse check, the authors evaluate if detecting pulsatility and anterograde flow signals can reliably predict true cardiac activity. This approach suggests a significant workflow improvement by allowing continuous monitoring without sacrificing compression quality, which is crucial given that interruptions are known to compromise resuscitation efforts.",
       "confidence": "moderate"
-    },
-    {
-      "slug": "patterns-of-emergency-department-visits-for-suicidal-attempts-associated-with-to",
-      "title": "Patterns of emergency department visits for suicidal attempts associated with toxic ingestion: A retrospective cross-sectional study",
-      "source": "AJEM",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42320413/",
-      "published": "1 day ago",
-      "publishedAt": "2026-06-19T10:00:00Z",
-      "impact": "High-yield",
-      "topic": "Toxicology",
-      "takeaway": "When managing a patient presenting with intentional overdose, anticipate polypharmacy involving CNS depressants as the most common pattern. Prompt toxicology consultation is non-negotiable for guiding specific antidotal or supportive care pathways. Remember that optimizing outcomes requires integrating both acute stabilization and considering broader prevention strategies.",
-      "shortSummary": "This retrospective analysis characterizing intentional self-poisoning presentations in Israel highlights a significant trend: most ingestions are medication-related, often involving polypharmacy that includes central ne…",
-      "summary": "This retrospective analysis characterizing intentional self-poisoning presentations in Israel highlights a significant trend: most ingestions are medication-related, often involving polypharmacy that includes central nervous system depressants. The authors strongly emphasize the critical role of early toxicology consultation for managing these complex cases. Beyond immediate clinical stabilization, they underscore the broader function of medical toxicologists in surveillance and prevention efforts related to self-harm. Overall, the findings reinforce that these presentations are rarely single-agent exposures.",
-      "confidence": "high"
     },
     {
       "slug": "risk-of-obstructive-acute-kidney-injury-derivation-and-internal-validation-of-a-",
       "title": "Risk of obstructive acute kidney injury: derivation and internal validation of a risk stratification tree",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215861v1?rss=1",
-      "published": "2 days ago",
+      "published": "3 days ago",
       "publishedAt": "2026-06-18T16:00:20Z",
       "impact": "High-yield",
       "topic": "General Emergency Medicine",
-      "takeaway": "For any patient presenting with AKI where an obstructive etiology is suspected, consider using the KIT-FISTO framework to guide workup intensity. The presence of flank or hypogastric pain strongly suggests a higher pretest probability for obstruction, while patients without pain but with relevant urological history warrant moderate suspicion. Remember that this model requires external validation before it should change routine practice.",
+      "takeaway": "When managing a patient with acute kidney injury in the ED, consider using risk stratification tools like KIT-FISTO to guide workup intensity. Remember that pain localized to the flank or lumbar region strongly suggests a higher likelihood of obstruction (around 55% risk). While this model is promising, do not rely on it alone; always correlate the calculated risk with physical exam findings and imaging results.",
       "shortSummary": "This paper introduces the KIT-FISTO model, a newly developed risk stratification decision tree designed to predict obstructive acute kidney injury (AKI) in the emergency department setting.",
-      "summary": "This paper introduces the KIT-FISTO model, a newly developed risk stratification decision tree designed to predict obstructive acute kidney injury (AKI) in the emergency department setting. The authors utilized a retrospective derivation and internal validation cohort study involving adult patients presenting with AKI of any KDIGO stage. They found that clinical presentation is highly predictive; specifically, patients reporting lumbar, flank, or hypogastric pain were categorized as 'high risk,' showing an associated obstructive AKI risk around 55%. Furthermore, the model assigned a 'moderate risk' status to those without overt pain but with specific histories such as prior urinary tract surgery or abdominal cancer. The utility of this tool lies in its ability to stratify patients into low, moderate, and high risk groups based on clinical features.",
+      "summary": "This paper introduces the KIT-FISTO model, a newly developed risk stratification decision tree designed to predict obstructive acute kidney injury (AKI) in the emergency department setting. The authors performed a retrospective derivation and internal validation study using adult patients presenting with AKI of any KDIGO stage. They found that clinical presentation is highly predictive; specifically, patients reporting lumbar, flank, or hypogastric pain were categorized as 'high risk,' correlating with an obstructive AKI risk around 55%. A separate 'moderate risk' group was defined by the presence of specific histories, such as prior urinary tract surgery or abdominal cancer. The model appears robust in identifying low-risk patients, achieving high sensitivity for those who do not develop obstructive AKI. However, the authors rightly caution that this tool requires external and prospective validation before it can be implemented into routine clinical practice.",
       "confidence": "high"
     },
     {
@@ -241,13 +227,27 @@
       "title": "Real-time identification of aetiology in patients able to undergo transoesophageal echocardiography with non-traumatic out-of-hospital cardiac arrest in China: a prospective, single-centre exploratory study",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215837v1?rss=1",
-      "published": "2 days ago",
+      "published": "3 days ago",
       "publishedAt": "2026-06-18T16:00:20Z",
       "impact": "High-yield",
       "topic": "Resuscitation",
-      "takeaway": "TEE appears to be a feasible tool for rapidly assessing suspected causes during active CPR in NT-OHCA, with acute aortic dissection being a key finding to consider. However, remember this is an exploratory series lacking a control arm; therefore, do not use the reported differences in outcomes as definitive evidence of superior care pathways at the bedside. Proceed cautiously and recognize that its role should be viewed as complementary rather than standalone diagnostic confirmation.",
+      "takeaway": "TEE appears to be a rapid and feasible tool for identifying potential causes during resuscitation when available. Remember that while it can reveal critical diagnoses like aortic dissection, this study lacks a control arm, so do not rely on these findings alone to change immediate protocol; rather, view it as strong supportive evidence warranting further multi-center validation.",
       "shortSummary": "This single-center, prospective study explored the utility of transoesophageal echocardiography (TEE) for identifying reversible causes in patients presenting with non-traumatic out-of-hospital cardiac arrest (NT-OHCA)…",
-      "summary": "This single-center, prospective study explored the utility of transoesophageal echocardiography (TEE) for identifying reversible causes in patients presenting with non-traumatic out-of-hospital cardiac arrest (NT-OHCA) in China. The authors reported that TEE successfully provided diagnostic images in all 43 patients who underwent the procedure, which is a strong finding regarding feasibility during active resuscitation. They identified reversible etiologies in nearly two-fifths of the cohort, with acute aortic dissection being the most frequently diagnosed cause. While TEE guided interventions were performed in over half of the identified cases, the study noted that there was no significant difference in return of spontaneous circulation or 28-day survival rates between those whose aetiology was found versus those where it was not. Crucially, the authors emphasized that due to the lack of a comparator group, these findings warrant further controlled investigation.",
+      "summary": "This single-center, prospective study explored the utility of transoesophageal echocardiography (TEE) for identifying reversible causes in patients presenting with non-traumatic out-of-hospital cardiac arrest (NT-OHCA) in China. The authors reported that TEE successfully provided diagnostic images in all 43 eligible patients who underwent the procedure, suggesting its feasibility during active resuscitation efforts. They identified reversible etiologies in nearly two-fifths of these cases, with acute aortic dissection being the most frequently diagnosed condition. While TEE guided interventions were performed in over half of the identified cases, the study authors cautioned that due to the absence of a comparator group, further controlled investigation is necessary before drawing definitive conclusions about its role.",
+      "confidence": "moderate"
+    },
+    {
+      "slug": "intranasal-ketamine-versus-intravenous-opioids-for-acute-pain-in-the-emergency-d",
+      "title": "Intranasal ketamine versus intravenous opioids for acute pain in the emergency department: A scoping review",
+      "source": "AJEM",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42263334/",
+      "published": "2 weeks ago",
+      "publishedAt": "2026-06-09T10:00:00Z",
+      "impact": "High-yield",
+      "topic": "Analgesia",
+      "takeaway": "Consider intranasal ketamine as a viable adjunct analgesic option when opioid use is being limited, given its comparable efficacy to IV morphine. Remember that the slower onset with IN ketamine compared to IV opioids might dictate its role in rapidly escalating pain states. Further guidelines are needed on optimal dosing and direct comparison against more potent agents.",
+      "shortSummary": "This scoping review synthesized evidence comparing intranasal ketamine against intravenous opioids for managing acute pain in the emergency department setting, addressing the ongoing need to reduce opioid reliance.",
+      "summary": "This scoping review synthesized evidence comparing intranasal ketamine against intravenous opioids for managing acute pain in the emergency department setting, addressing the ongoing need to reduce opioid reliance. The analysis of included randomized controlled trials suggests that intranasal ketamine achieved pain score reductions comparable to those seen with IV morphine. However, a notable difference highlighted was that IV morphine provided a faster onset of analgesia compared to the nasal route. Overall, the authors conclude that IN ketamine shows potential utility for acute pain management in the ED, but they strongly emphasize that more research is required before definitive recommendations can be made regarding optimal dosing or direct comparison against stronger opioids.",
       "confidence": "moderate"
     },
     {
@@ -255,13 +255,27 @@
       "title": "Sex-based and gender-based details in accelerated diagnostic protocol implementation among emergency department patients presenting with chest pain: a systematic review",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215652v1?rss=1",
-      "published": "3 days ago",
+      "published": "4 days ago",
       "publishedAt": "2026-06-17T16:00:18Z",
       "impact": "High-yield",
       "topic": "Policy Statements",
-      "takeaway": "When considering chest pain workup, remember that while we know sex can influence presentation, most existing literature fails to provide outcome data stratified by sex or gender. This suggests current ADPs may not be optimally tailored for all patient groups. Always maintain a high index of suspicion for sex-specific risk factors and advocate for more rigorous reporting in local quality improvement initiatives.",
-      "shortSummary": "This systematic review critically examines how often sex and gender are factored into the implementation of accelerated diagnostic protocols (ADPs) for chest pain in the emergency department.",
-      "summary": "This systematic review critically examines how often sex and gender are factored into the implementation of accelerated diagnostic protocols (ADPs) for chest pain in the emergency department. While most studies reviewing this topic report participant sex, the authors found that less than 20% of included literature actually incorporated sex or gender into their analyses or the ADP application itself. More concerningly, none of the reviewed studies provided disaggregated data for crucial outcomes like length of stay or major adverse cardiac events based on sex or gender. The review concludes by emphasizing a significant gap in current ED cardiac research, stressing that future efforts must improve the consistent integration and reporting of these biological and social factors into established protocols.",
+      "takeaway": "When considering chest pain management, remember that while sex is often reported, most current literature fails to disaggregate key outcomes like length of stay or MACE by sex or gender. This suggests that relying on generalized ADP guidelines might overlook important differences in risk stratification. Future protocols should ideally incorporate sex-specific troponin thresholds and mandate outcome reporting stratified by sex/gender.",
+      "shortSummary": "This systematic review critically examines how often sex and gender are accounted for when implementing accelerated diagnostic protocols (ADPs) in the emergency department for patients presenting with chest pain.",
+      "summary": "This systematic review critically examines how often sex and gender are accounted for when implementing accelerated diagnostic protocols (ADPs) in the emergency department for patients presenting with chest pain. The authors found that while most studies report participant sex, very few actually incorporate sex or gender into their analyses of ADP effectiveness. More concerningly, no included studies provided disaggregated data for major outcomes like length of stay or major adverse cardiac events based on sex or gender. This suggests a significant gap in current literature regarding the nuances of cardiovascular risk assessment across different sexes and genders. The review emphasizes that future research must move beyond simple reporting to actively integrate these biological and social factors into protocol development and outcome measurement.",
+      "confidence": "high"
+    },
+    {
+      "slug": "frailty-stratification-in-the-emergency-department-using-the-triage-frailty-and-",
+      "title": "Frailty stratification in the emergency department using the triage frailty and comorbidity tool",
+      "source": "AJEM",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42320418/",
+      "published": "2 days ago",
+      "publishedAt": "2026-06-19T10:00:00Z",
+      "impact": "High-yield",
+      "topic": "General Emergency Medicine",
+      "takeaway": "Consider incorporating the TFC Tool into your triage workflow for low-acuity patients; doing so appears to improve timely assessment for frail individuals without compromising overall acuity flow. Remember that a positive score flags higher risk and increased odds of admission, suggesting these patients warrant closer monitoring even if their initial presentation is minor. However, this tool's impact on maintaining standard prioritization needs to be weighed against the added time burden at triage.",
+      "shortSummary": "This piece evaluates the utility of integrating the Triage Frailty and Comorbidity (TFC) Tool into routine triage processes for low-acuity patients within the emergency department setting.",
+      "summary": "This piece evaluates the utility of integrating the Triage Frailty and Comorbidity (TFC) Tool into routine triage processes for low-acuity patients within the emergency department setting. The core finding suggests that incorporating this tool helps identify vulnerable, frail individuals who might otherwise be overlooked in standard acuity sorting. Importantly, the authors report that using the TFC Tool successfully shortened the time to medical assessment specifically for these high-risk, low-acuity patients without disrupting the established system of acuity prioritization. Furthermore, a positive TFC score was correlated with an increased likelihood of subsequent hospital admission, suggesting it's a useful prognostic marker in this setting.",
       "confidence": "high"
     },
     {
@@ -269,28 +283,14 @@
       "title": "A Prospective, Observational Study Evaluating the Impact and Safety of an Emergency Physician Collaboration With a Nurse Triage Phone Line",
       "source": "JACEP Open",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42292056/",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-06-15T10:00:00Z",
       "impact": "High-yield",
       "topic": "Triage",
-      "takeaway": "Incorporating EM input into your triage calls appears useful for modifying initial disposition recommendations, as evidenced by changes in over 40% of cases. Remember that while downgrading a patient's acuity level correlates with lower observed ED visits, this does not eliminate the need for follow-up, given that a substantial minority will still present within 72 hours. Interpret these findings associatively rather than causally.",
-      "shortSummary": "This prospective observational study explored the impact and safety profile of integrating emergency physician consultation directly into existing nurse triage phone line (NTPL) calls.",
-      "summary": "This prospective observational study explored the impact and safety profile of integrating emergency physician consultation directly into existing nurse triage phone line (NTPL) calls. The authors found a significant association, noting that involving an EM was linked to changes in triage disposition in over 40% of the cases reviewed. Furthermore, they observed that patients whose initial recommendations were downgraded showed lower subsequent observed emergency department utilization compared to those whose recommendations were upgraded. It is important to note, however, that nearly one-third of these downgraded patients still presented to the ED within a three-day window, suggesting ongoing need for follow-up care.",
+      "takeaway": "When considering integrating EM expertise into remote triage calls, remember that this process can significantly alter initial disposition recommendations for a large percentage of callers. While downgrading care levels appears associated with reduced subsequent ED visits, be mindful that nearly one-third of those downgraded patients still presented within 72 hours, suggesting continued need for vigilance regarding follow-up.",
+      "shortSummary": "This prospective study explored the impact and safety profile of integrating emergency physician consultation directly into a nurse triage phone line (NTPL) workflow.",
+      "summary": "This prospective study explored the impact and safety profile of integrating emergency physician consultation directly into a nurse triage phone line (NTPL) workflow. The authors found that involving an EM was associated with significant modifications to initial triage dispositions in over 40% of calls. Furthermore, they observed that patients whose care level recommendations were downgraded showed lower rates of subsequent emergency department utilization compared to those whose recommendations were upgraded. While these results suggest a utility for physician input in refining initial triage decisions made remotely, the authors caution that the findings are purely associative and not causal.",
       "confidence": "moderate"
-    },
-    {
-      "slug": "validation-of-the-2022-german-trauma-team-activation-criteria-a-national-registr",
-      "title": "Validation of the 2022 German trauma team activation criteria: a national registry study with focus on geriatric-specific modifiers",
-      "source": "SJTREM",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42277933/",
-      "published": "1 week ago",
-      "publishedAt": "2026-06-12T10:00:00Z",
-      "impact": "High-yield",
-      "topic": "Trauma",
-      "takeaway": "The integration of geriatric-specific modifiers into TTA criteria appears beneficial for improving risk stratification in older trauma patients compared to standard guidelines. At the bedside, this suggests a more nuanced approach is warranted when assessing elderly patients, potentially leading to better alignment between initial disposition and actual mortality risk. Keep in mind that while the predictive accuracy improves, quantifying overtriage implications remains an area needing further evidence.",
-      "shortSummary": "This national registry study validates the updated 2022 German trauma team activation (TTA) criteria, paying special attention to how geriatric-specific modifiers impact resource utilization and patient outcomes.",
-      "summary": "This national registry study validates the updated 2022 German trauma team activation (TTA) criteria, paying special attention to how geriatric-specific modifiers impact resource utilization and patient outcomes. The authors found that incorporating these modifications significantly improves the concordance between initial triage assessments and actual observed mortality risk, which is a key metric for system efficiency. This enhancement in predictive accuracy appears particularly pronounced within the elderly population, suggesting the updated guidelines better capture the unique physiological vulnerabilities of older adults presenting with trauma. While the study confirms the improved alignment, it also points toward future work needing to quantify the direct impact on overtriage rates and overall resource allocation decisions.",
-      "confidence": "high"
     }
   ],
   "sources": [
@@ -315,7 +315,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 2,
+      "itemsKept": 3,
       "itemsSeen": 40
     },
     {
@@ -627,7 +627,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 13,
+      "itemsKept": 12,
       "itemsSeen": 100
     },
     {
@@ -639,7 +639,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 6,
+      "itemsKept": 5,
       "itemsSeen": 100
     },
     {
