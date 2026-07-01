@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-06-30T18:28:55.231Z",
-    "sourceGeneratedAt": "2026-06-30T18:15:10.719971Z",
-    "editorialGeneratedAt": "2026-06-30T18:28:32.753920Z",
-    "editionDate": "2026-07-01"
+    "generatedAt": "2026-07-01T18:28:51.679Z",
+    "sourceGeneratedAt": "2026-07-01T18:15:11.228893Z",
+    "editorialGeneratedAt": "2026-07-01T18:28:34.908046Z",
+    "editionDate": "2026-07-02"
   },
   "briefing": {
     "headline": "6 high-priority items in the latest EM scan",
-    "summary": "Top sources today: EMJ, The Bottom Line. Main themes: trials, guideline or formal recommendation, reviews. Best early reads: Journal update monthly top five; Management of patients with suspected but unidentified poisoning in the emergency department: a joint Royal College of Emergency Medicine and National Poisons Information Service best practice guideline.",
-    "editorialHeadline": "Reperfusion Strategies, Toxidromes, and the Fluid Debate",
-    "editorialSummary": "The data stream this week demands a careful re-evaluation of established protocols across several high-stakes areas. For acute stroke management, the TRACE-5 trial’s robust look at tenecteplase for basilar artery occlusion suggests potential shifts in reperfusion strategies that warrant immediate consideration.\n\nIn toxicology, the emerging consensus favors a systematic toxidromic approach when faced with undifferentiated poisoning, emphasizing clinical syndrome over waiting for definitive identification. This cautious framework is echoed in critical care fluid management; recent analyses of septic shock resuscitation suggest that neither aggressive initial fluid loading nor immediate vasopressor use demonstrated clear superiority for 90-day survival.\n\nBeyond the ICU, practical algorithms are sharpening our focus: implementing decision rules for pediatric ankle and wrist injuries shows promise in reducing unnecessary radiation. Furthermore, when managing metabolic acidosis in critically ill patients on pressors, current data suggests that routine sodium bicarbonate administration may not translate into a clear benefit for preventing major kidney insults.\n\nKeep these evolving guidelines—from stroke reperfusion to fluid titration—in mind as you navigate the complexity of undifferentiated presentations at the bedside."
+    "summary": "Top sources today: EMJ, Journal of Emergency Medicine. Main themes: trials, cardiac arrest care, evidence synthesis. Best early reads: Journal update monthly top five; Management of patients with suspected but unidentified poisoning in the emergency department: a joint Royal College of Emergency Medicine and National Poisons Information Service best practice guideline.",
+    "editorialHeadline": "Stroke Reperfusion & Toxidromes: Where to Focus Today",
+    "editorialSummary": "The literature today presents high-yield updates across stroke management and toxicology. For acute posterior circulation strokes, the TRACE-5 trial data regarding tenecteplase for basilar artery occlusion within 24 hours warrants close attention as it suggests a potential shift in reperfusion strategy.\n\nIn the realm of undifferentiated poisoning, adopting a systematic toxidromic approach remains critical; management must remain highly adaptable because the patient's toxicokinetics are constantly evolving. Furthermore, when managing acute scrotal pain in children, integrating structured clinical scoring with Doppler ultrasound—rather than relying on imaging alone—is key to timely decision-making.\n\nBeyond these areas, we see refinement in resource utilization: evidence supports using validated decision rules for pediatric extremity injuries to reduce unnecessary radiographs, and novel machine learning models are emerging to improve specificity when workup is required for dizziness. These developments underscore a trend toward algorithmically guided care, whether it’s optimizing imaging or managing complex metabolic derangements like acidosis in the ICU."
   },
   "dailyEditorial": [
     {
@@ -17,13 +17,13 @@
       "title": "Journal update monthly top five",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/43/7/452?rss=1",
-      "published": "1 day ago",
+      "published": "2 days ago",
       "publishedAt": "2026-06-29T13:00:37Z",
       "impact": "Practice-changing",
       "topic": "Practice Updates",
-      "takeaway": "Given the 'game changer' rating for TRACE-5 regarding basilar artery occlusion, keep tenecteplase high on your differential and treatment consideration list for acute posterior circulation ischemia within 24 hours. While this suggests a potential shift in guidelines away from older standards, remember that consensus reviews are based on published data, so always correlate these findings with local institutional protocols before making changes at the bedside.",
+      "takeaway": "Given the 'game changer' rating, you should pay close attention to the TRACE-5 data regarding tenecteplase use for basilar artery occlusion within 24 hours. While this suggests a potential shift in standard care, remember that consensus is key; review the full paper to understand its specific inclusion criteria and limitations before making any immediate protocol changes at the bedside.",
       "shortSummary": "The St.",
-      "summary": "The St. Vincent's Emergency Research Group has compiled a consensus review of five highly relevant papers from outside the field of emergency medicine, which is useful for keeping us current on broader critical care literature. Of these selections, one paper stands out significantly: the TRACE-5 trial comparing tenecteplase to standard care specifically for basilar artery occlusion within 24 hours. The group has rated this finding as a potential 'game changer' for acute stroke management protocols. This suggests that reperfusion strategies for posterior circulation strokes might warrant immediate re-evaluation based on these robust, multicenter data.",
+      "summary": "The St. Vincent's Emergency Research Group has curated a set of five external papers for consensus review, highlighting key literature relevant to emergency medicine practice. Of these, the TRACE-5 trial stands out as a 'game changer,' focusing on tenecteplase versus standard care for basilar artery occlusion within 24 hours. Basilar artery occlusion represents a severe posterior circulation stroke with high associated morbidity and mortality. The findings from this multicenter, prospective, randomized, open-label, blinded-endpoint trial suggest significant potential shifts in how we manage reperfusion therapy for these challenging strokes.",
       "confidence": "high"
     },
     {
@@ -31,13 +31,27 @@
       "title": "Management of patients with suspected but unidentified poisoning in the emergency department: a joint Royal College of Emergency Medicine and National Poisons Information Service best practice guideline",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/43/7/427?rss=1",
-      "published": "1 day ago",
+      "published": "2 days ago",
       "publishedAt": "2026-06-29T13:00:37Z",
       "impact": "Practice-changing",
       "topic": "Toxicology",
-      "takeaway": "When faced with an undifferentiated poisoned patient, adopt a systematic toxidromic approach while maintaining high index of suspicion for evolving toxicity. Remember to integrate toxicokinetic principles into your management plan as the patient's status changes, rather than relying solely on initial findings. Always cross-reference this general guidance with specific poison control literature or local protocols.",
-      "shortSummary": "This new joint guideline from the Royal College of Emergency Medicine and the National Poisons Information Service provides a valuable, generalized framework for managing patients presenting to the ED with suspected but…",
-      "summary": "This new joint guideline from the Royal College of Emergency Medicine and the National Poisons Information Service provides a valuable, generalized framework for managing patients presenting to the ED with suspected but unconfirmed poisoning. Recognizing the inherent difficulty in these cases, the authors advocate for adopting a toxidromic approach, meaning management should focus on the clinical syndrome rather than waiting for definitive identification of the toxin. A key element stressed throughout is the continuous consideration of toxicokinetics—how the patient's condition and potential poison levels might change over time. While this guidance offers excellent support for initial assessment and guiding differential diagnosis, it explicitly cautions that it does not supersede established, specific protocols found in TOXBASE or local poisons centers.",
+      "takeaway": "When faced with an undifferentiated poisoned patient, adopt a systematic toxidromic approach focusing on serial assessments rather than waiting for definitive confirmation. Keep the toxicokinetics of potential agents top-of-mind as you manage fluctuating vital signs and symptoms. Remember this is a general guide; always default to specific poison center advice or TOXBASE protocols when available.",
+      "shortSummary": "This new joint guideline from the Royal College of Emergency Medicine and the National Poisons Information Service provides a much-needed generalized framework for managing patients in the ED when poisoning is suspected…",
+      "summary": "This new joint guideline from the Royal College of Emergency Medicine and the National Poisons Information Service provides a much-needed generalized framework for managing patients in the ED when poisoning is suspected but not yet confirmed. The core concept revolves around adopting a toxidromic approach, meaning management must be highly adaptable because the patient's clinical picture will likely change as more information becomes available regarding potential toxins. It stresses that initial assessment and identifying possible agents are paramount, with careful consideration of how different poisons behave over time—their toxicokinetics. Crucially, the authors emphasize repeatedly that this guidance is a general scaffold and absolutely does not supersede specific protocols found in TOXBASE or from local poison centers.",
+      "confidence": "high"
+    },
+    {
+      "slug": "time-critical-diagnosis-of-pediatric-testicular-torsion-in-a-tertiary-pediatric-",
+      "title": "Time-Critical Diagnosis of Pediatric Testicular Torsion in a Tertiary Pediatric Emergency Setting: Integrating Clinical Predictors With Selective Doppler Ultrasound",
+      "source": "Journal of Emergency Medicine",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379130/",
+      "published": "1 day ago",
+      "publishedAt": "2026-06-30T10:00:00Z",
+      "impact": "Practice-changing",
+      "topic": "Ultrasound",
+      "takeaway": "When managing an acute scrotum in a child, remember that structured clinical scoring alongside Doppler ultrasound is key for risk stratification. Use your clinical assessment to guide the need for imaging rather than waiting for imaging results before considering surgery. If clinical suspicion remains high despite normal or equivocal ultrasound findings, do not delay operative evaluation.",
+      "shortSummary": "This paper addresses the optimal diagnostic pathway for testicular torsion (TT) in pediatric patients presenting with an acute scrotum within a tertiary emergency setting.",
+      "summary": "This paper addresses the optimal diagnostic pathway for testicular torsion (TT) in pediatric patients presenting with an acute scrotum within a tertiary emergency setting. The authors emphasize that while Doppler ultrasound exhibits excellent diagnostic accuracy when performed, relying solely on imaging is insufficient given the time-sensitive nature of this condition. They strongly advocate for adopting an integrated, probability-based approach to diagnosis. This means systematically using established clinical predictors, such as incorporating scores like TWIST, to guide whether and when ultrasound should be utilized. Crucially, the study concludes that these clinical assessments must direct decision-making without causing any delay in proceeding toward surgical exploration if suspicion remains high.",
       "confidence": "high"
     },
     {
@@ -45,27 +59,13 @@
       "title": "Sodium Bicarbonate for Metabolic Acidosis in the Intensive Care Unit (SODa-BIC) trial",
       "source": "The Bottom Line",
       "link": "https://www.thebottomline.org.uk/uncategorized/sodium-bicarbonate-for-metabolic-acidosis-in-the-intensive-care-unit-soda-bic-trial/?utm_source=rss&utm_medium=rss&utm_campaign=sodium-bicarbonate-for-metabolic-acidosis-in-the-intensive-care-unit-soda-bic-trial",
-      "published": "1 day ago",
+      "published": "2 days ago",
       "publishedAt": "2026-06-29T06:58:04Z",
       "impact": "Practice-changing",
       "topic": "Metabolic Acidosis",
-      "takeaway": "For critically ill patients with metabolic acidosis and vasopressor dependence, the data from SODa-BIC suggests that while prior work hinted at renal benefits, the current evidence base is being refined. Continue to manage underlying causes of acidosis aggressively, as routine bicarbonate administration may not translate into a clear benefit for preventing major kidney events. Be mindful that interpretation must account for the specific patient selection criteria used in this trial.",
-      "shortSummary": "The SODa-BIC trial provides a randomized assessment of whether administering sodium bicarbonate to critically ill patients with metabolic acidosis (pH < 7.30) who are also on vasopressors can reduce major adverse kidney…",
-      "summary": "The SODa-BIC trial provides a randomized assessment of whether administering sodium bicarbonate to critically ill patients with metabolic acidosis (pH < 7.30) who are also on vasopressors can reduce major adverse kidney events within one month. Given the historical variability in evidence regarding alkali therapy, this multi-center study was designed to clarify the role of bicarbonate supplementation in this specific high-risk population. The primary endpoint focused squarely on preventing significant renal insults in patients already requiring circulatory support and exhibiting acidosis. While some earlier research suggested a benefit, this trial directly addresses the utility of routine bicarbonate administration in the ICU setting for kidney protection.",
-      "confidence": "high"
-    },
-    {
-      "slug": "interventions-to-reduce-imaging-in-children-with-upper-or-lower-extremity-injuri",
-      "title": "Interventions to reduce imaging in children with upper or lower extremity injuries: a systematic review and meta-analysis",
-      "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/43/7/435?rss=1",
-      "published": "1 day ago",
-      "publishedAt": "2026-06-29T13:00:37Z",
-      "impact": "Practice-changing",
-      "topic": "Guidelines",
-      "takeaway": "For ankle and wrist injuries in children, implementing evidence-based decision rules appears effective at reducing unnecessary X-rays. Remember that while this approach shows promise for specific joints, it's not a blanket solution; be mindful of the limitations regarding missed injury types when applying these guidelines at the bedside.",
-      "shortSummary": "This systematic review and meta-analysis synthesized evidence regarding interventions designed to curb unnecessary radiographic imaging in pediatric patients presenting with upper or lower extremity injuries in the emer…",
-      "summary": "This systematic review and meta-analysis synthesized evidence regarding interventions designed to curb unnecessary radiographic imaging in pediatric patients presenting with upper or lower extremity injuries in the emergency department. The authors found that implementing specific clinical decision rules showed promise for reducing radiation exposure, transition delays, and costs associated with over-imaging. Specifically, a decision rule tailored for ankle injuries was associated with a statistically significant reduction in radiography (OR=0.11). Similarly, a decision rule for wrist injuries demonstrated a notable decrease in imaging utilization (OR=0.06), although the authors noted that this specific intervention missed eight types of injuries. Overall, while guidelines incorporating these rules are suggested to reduce overall radiographs per patient, the review cautions that more research is needed to validate interventions for other pediatric extremity injury patterns.",
+      "takeaway": "For critically ill patients with metabolic acidosis and vasopressor dependence, the evidence from SODa-BIC suggests that sodium bicarbonate administration may indeed reduce major adverse kidney events. However, remember that previous data hinted at a benefit regarding reduced need for renal replacement therapy; therefore, consider this supportive role rather than an absolute indication to initiate treatment.",
+      "shortSummary": "The SODa-BIC trial addressed a persistent question in critical care: whether administering sodium bicarbonate to critically ill patients with metabolic acidosis and concurrent vasopressor support actually improves kidne…",
+      "summary": "The SODa-BIC trial addressed a persistent question in critical care: whether administering sodium bicarbonate to critically ill patients with metabolic acidosis and concurrent vasopressor support actually improves kidney outcomes. This multi-center randomized controlled trial specifically enrolled adults meeting criteria for metabolic acidosis (pH < 7.30) while requiring pressors, which is the population where intervention decisions are most challenging. The primary endpoint was a reduction in major adverse kidney events over 30 days. While previous literature presented conflicting data regarding bicarbonate's role in this setting, these investigators provided a large-scale assessment of its utility in guiding therapy for acute kidney injury in the ICU.",
       "confidence": "high"
     },
     {
@@ -73,27 +73,55 @@
       "title": "EMCrit 428 – A Few Things (ARISE Fluids, Bicarb Studies & More)",
       "source": "EMCrit",
       "link": "https://emcrit.org/emcrit/a-few-things/",
-      "published": "3 days ago",
+      "published": "4 days ago",
       "publishedAt": "2026-06-27T23:33:09Z",
       "impact": "Practice-changing",
       "topic": "Sepsis",
-      "takeaway": "For septic shock patients who have already received significant initial fluid boluses, remember the ARISE Fluids trial context suggests reassessing aggressive ongoing fluid administration in favor of vasopressors when appropriate. While the 30 mL/kg mandate is widely known, this data emphasizes that subsequent resuscitation strategies need to be nuanced based on prior fluid status. Be cautious about over-relying on bicarbonate for metabolic derangements without clear underlying causes.",
-      "shortSummary": "This update summarizes key data emerging from the Critical Care Reviews 2026 meeting, giving a rundown on several hot topics relevant to critical care practice.",
-      "summary": "This update summarizes key data emerging from the Critical Care Reviews 2026 meeting, giving a rundown on several hot topics relevant to critical care practice. The main focus is the ARISE Fluids trial, which sheds light on fluid management in septic shock patients who have already received substantial initial resuscitation. Beyond fluids, the discussion covers recent findings regarding sodium bicarbonate use in both cardiac arrest and metabolic derangements, while also correcting some common misconceptions about acid-base status, particularly concerning DKA resolution. It’s a high-yield overview of evolving guidelines and trial data that impacts daily management.",
+      "takeaway": "The ARISE Fluids trial suggests that for septic shock patients who have already received significant initial fluid boluses, the direct use of vasopressors versus further fluids needs careful consideration. Remember that current guidelines often mandate a 30 mL/kg resuscitation goal, but this data highlights that subsequent management may require shifting focus away from aggressive crystalloid administration if hemodynamic targets are not met. Be mindful of the specific eligibility criteria in these trials when applying concepts to your own septic patients.",
+      "shortSummary": "This update synthesizes several key findings from the Critical Care Reviews 2026 meeting, paying particular attention to the ARISE Fluids trial and its implications for fluid management in septic shock.",
+      "summary": "This update synthesizes several key findings from the Critical Care Reviews 2026 meeting, paying particular attention to the ARISE Fluids trial and its implications for fluid management in septic shock. The discussion covers how this randomized controlled trial compared vasopressors directly against fluids in patients who had already received substantial initial fluid resuscitation, which is a critical nuance for current guidelines. Beyond sepsis, the review also addresses recent data regarding sodium bicarbonate use in both cardiac arrest and metabolic acidosis settings, while also correcting common misunderstandings about DKA resolution acid-base status. Overall, it provides a high-yield summary of evolving evidence across multiple areas of critical care practice.",
       "confidence": "high"
     },
     {
-      "slug": "to-squeeze-or-not-to-squeeze-the-arise-fluids-trial",
-      "title": "To squeeze or not to squeeze. The ARISE-FLUIDS trial",
-      "source": "St Emlyn's",
-      "link": "https://www.stemlynsblog.org/to-squeeze-or-not-to-squeeze-the-arise-fluids-trial/",
-      "published": "2 weeks ago",
-      "publishedAt": "2026-06-17T16:51:19Z",
+      "slug": "interventions-to-reduce-imaging-in-children-with-upper-or-lower-extremity-injuri",
+      "title": "Interventions to reduce imaging in children with upper or lower extremity injuries: a systematic review and meta-analysis",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/43/7/435?rss=1",
+      "published": "2 days ago",
+      "publishedAt": "2026-06-29T13:00:37Z",
       "impact": "Practice-changing",
-      "topic": "Shock",
-      "takeaway": "The ARISE-FLUIDS trial suggests caution regarding the dogma around early vs. delayed vasopressor initiation in septic shock. Since neither strategy showed a benefit over the other for 90-day survival, clinicians should maintain a nuanced approach rather than rigidly adhering to one protocol. Remember that fluid management and vasopressor titration remain highly individualized decisions.",
-      "shortSummary": "This review discusses the ARISE-FLUIDS trial, which directly compared two resuscitation strategies in septic shock patients presenting to the emergency department: one group received early vasopressors with restricted f…",
-      "summary": "This review discusses the ARISE-FLUIDS trial, which directly compared two resuscitation strategies in septic shock patients presenting to the emergency department: one group received early vasopressors with restricted fluid administration, while the other received higher fluid volumes and initiated vasopressors later. The key finding reported is that neither of these distinct approaches demonstrated a superior rate of survival at day 90 when compared head-to-head. This suggests that current resuscitation guidelines emphasizing either aggressive initial fluid loading or immediate vasopressor use may not be definitively supported by this data set.",
+      "topic": "Guidelines",
+      "takeaway": "For pediatric extremity injuries, adopting validated decision rules for specific joints like the ankle or wrist appears effective at reducing unnecessary radiographs. Remember that while these protocols are helpful, they require careful implementation and may not cover every possible injury pattern; always maintain a high index of suspicion. Further research is needed to generalize these findings across all types of extremity trauma.",
+      "shortSummary": "This systematic review and meta-analysis synthesized evidence regarding interventions designed to curb unnecessary radiographic imaging in pediatric patients presenting with upper or lower extremity injuries in the emer…",
+      "summary": "This systematic review and meta-analysis synthesized evidence regarding interventions designed to curb unnecessary radiographic imaging in pediatric patients presenting with upper or lower extremity injuries in the emergency department. The authors found that implementing specific clinical decision rules showed promise for reducing radiation exposure, transition delays, and costs associated with over-imaging. Specifically, a decision rule tailored for ankle injuries demonstrated a statistically significant reduction in radiography (OR=0.11). Similarly, a guideline for wrist injuries was associated with reduced imaging rates (OR=0.06), although this analysis noted that some injuries were missed by the protocol. Overall, the review suggests that integrating evidence-based guidelines into practice is a viable strategy to optimize imaging utilization in this population.",
+      "confidence": "high"
+    },
+    {
+      "slug": "pre-hospital-neurological-risk-stratification-at-return-of-spontaneous-circulati",
+      "title": "Pre-hospital neurological risk stratification at return of spontaneous circulation (ROSC) after out-of-hospital cardiac arrest - the Pre-MIRACLE 2 score",
+      "source": "Resuscitation",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379417/",
+      "published": "1 day ago",
+      "publishedAt": "2026-06-30T10:00:00Z",
+      "impact": "Practice-changing",
+      "topic": "Cardiac Arrest",
+      "takeaway": "Consider implementing the Pre-MIRACLE 2 score when assessing OHCA survivors pre-hospital if pH measurement is not feasible; its reported AUROC of 0.85 suggests good predictive value. This tool may help triage patients toward those with a higher likelihood of poor neurological outcomes, potentially guiding resource allocation or further immediate management decisions at the scene. Remember that this is a scoring system for prediction and should complement, not replace, clinical judgment.",
+      "shortSummary": "This paper introduces the Pre-MIRACLE 2 score, a novel tool intended to stratify neurological risk for patients who have achieved return of spontaneous circulation following out-of-hospital cardiac arrest (OHCA), partic…",
+      "summary": "This paper introduces the Pre-MIRACLE 2 score, a novel tool intended to stratify neurological risk for patients who have achieved return of spontaneous circulation following out-of-hospital cardiac arrest (OHCA), particularly useful when blood pH measurements are unavailable. The authors report that this scoring system demonstrated excellent performance in validation cohorts, achieving an area under the receiver operating characteristic curve (AUROC) of 0.85. Given its design, it is positioned as a pragmatic adjunct for decision-making regarding neurological prognosis in resource-limited pre-hospital settings. Overall, the findings suggest the score holds potential utility for guiding care pathways immediately following resuscitation outside the hospital.",
+      "confidence": "moderate"
+    },
+    {
+      "slug": "adolescent-substance-use-screening-in-the-emergency-department",
+      "title": "Adolescent Substance Use Screening in the Emergency Department",
+      "source": "JACEP Open",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42382160/",
+      "published": "8 hours ago",
+      "publishedAt": "2026-07-01T10:00:00Z",
+      "impact": "Practice-changing",
+      "topic": "General Emergency Medicine",
+      "takeaway": "When encountering an adolescent in the ED, don't just rely on routine screening; pair any positive screen or suspicion of use with a brief motivational conversation and ensure a concrete follow-up plan is established. Remember that detection alone isn't enough to curb escalating mortality risks from fentanyl exposure. Integrating these steps into your standard assessment flow will maximize impact.",
+      "shortSummary": "This piece underscores the ED's crucial role as a primary point of contact for identifying adolescent substance use, which is particularly concerning given the rise in drug-related mortality from substances like fentany…",
+      "summary": "This piece underscores the ED's crucial role as a primary point of contact for identifying adolescent substance use, which is particularly concerning given the rise in drug-related mortality from substances like fentanyl. While established universal screening tools such as CRAFFT and BSTAD exist, their consistent application within the fast-paced ED setting remains challenging due to workflow barriers. The authors argue that simply detecting use isn't enough; true improvement requires integrating detection with brief motivational interviewing techniques and establishing robust referral pathways. Therefore, the key message is shifting from just screening to actively linking identification with immediate, structured intervention.",
       "confidence": "high"
     },
     {
@@ -101,13 +129,13 @@
       "title": "Haematoma block versus sedation for manipulating distal radius fractures in the emergency department",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/43/7/448?rss=1",
-      "published": "1 day ago",
+      "published": "2 days ago",
       "publishedAt": "2026-06-29T13:00:37Z",
       "impact": "Practice-changing",
       "topic": "Sedation",
-      "takeaway": "When deciding between a haematoma block and sedation for distal radius manipulation, remember that procedural success rates appear comparable across both modalities without strong evidence of increased adverse event risk with either approach. If pain control is a primary concern, the literature suggests a potential benefit to the haematoma block regarding postoperative pain scores. Proceed cautiously, as this review aggregates varied study designs, so individual patient factors should guide your final decision.",
-      "shortSummary": "This review synthesized data comparing haematoma block versus standard procedural sedation for manipulating adult distal radius fractures in the ED setting.",
-      "summary": "This review synthesized data comparing haematoma block versus standard procedural sedation for manipulating adult distal radius fractures in the ED setting. The overall findings suggest that both techniques yield comparable rates of procedural success, and there is no strong evidence pointing toward a difference in the incidence of adverse events between the two methods. While the highest-quality evidence from randomized controlled trials did not differentiate radiographic outcomes, one notable finding suggested that haematoma block might be associated with less postoperative pain compared to sedation. Given the resource demands of sedation, this comparison offers valuable data for optimizing ED protocols.",
+      "takeaway": "When deciding between a haematoma block and sedation for distal radius manipulation, remember that procedural success rates appear comparable based on current literature. If minimizing systemic agents or avoiding sedation complications is a concern, the block is an option; however, be aware that pain management post-procedure might still require multimodal analgesia regardless of technique. Always assess local anesthetic availability and institutional protocols before making this choice.",
+      "shortSummary": "This review synthesized data comparing haematoma block versus standard procedural sedation for manipulating distal radius fractures in adults presenting to the ED.",
+      "summary": "This review synthesized data comparing haematoma block versus standard procedural sedation for manipulating distal radius fractures in adults presenting to the ED. The authors found that there is no consistent evidence suggesting a difference in the overall procedural success rate between these two techniques, even when looking at the highest-quality randomized controlled trials. Furthermore, regarding adverse events, the literature did not establish a clear difference in safety profiles across all studies reviewed. Interestingly, one reported finding suggested that haematoma block might be associated with less postoperative pain compared to sedation. Overall, the evidence suggests both methods are viable alternatives for fracture reduction.",
       "confidence": "high"
     },
     {
@@ -115,13 +143,13 @@
       "title": "Prehospital epinephrine as a bridge to survival in traumatic cardiac arrest: A nationwide propensity score-matched analysis",
       "source": "AJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42372567/",
-      "published": "1 day ago",
+      "published": "2 days ago",
       "publishedAt": "2026-06-29T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trauma",
-      "takeaway": "Given the observed increase in survival and prehospital ROSC with early epinephrine, consider its use in anticipated scenarios of traumatic arrest. However, remember that this data does not solidify a link to favorable neurological outcomes, so don't change your entire protocol based on this alone. Always keep an eye out for guidelines refining optimal timing and patient selection.",
-      "shortSummary": "This nationwide propensity score-matched analysis looked at whether giving epinephrine in the field, before hospital arrival, improves outcomes after traumatic cardiac arrest.",
-      "summary": "This nationwide propensity score-matched analysis looked at whether giving epinephrine in the field, before hospital arrival, improves outcomes after traumatic cardiac arrest. The authors found a positive association between prehospital epinephrine administration and both survival to discharge and achieving return of spontaneous circulation (ROSC) while still out in the community. While these are encouraging findings suggesting a benefit from early drug delivery, the paper cautions that the link between this intervention and better neurological outcomes is not yet clear. Overall, it suggests a potential role for prehospital epinephrine but emphasizes that more research is needed to nail down the best timing and which patients truly benefit most.",
+      "takeaway": "Given the observed association with improved survival and ROSC rates, continuing to administer prehospital epinephrine in traumatic arrest remains supported by this evidence. However, do not over-rely on this data regarding neurological outcomes, as that link is uncertain. Remember that optimal timing and patient selection are key areas needing further investigation.",
+      "shortSummary": "This nationwide propensity score-matched analysis examined whether administering epinephrine in the prehospital setting improves outcomes following traumatic cardiac arrest.",
+      "summary": "This nationwide propensity score-matched analysis examined whether administering epinephrine in the prehospital setting improves outcomes following traumatic cardiac arrest. The authors found a positive association between receiving prehospital epinephrine and both increased survival to hospital discharge, as well as higher rates of return of spontaneous circulation before reaching the facility. While these findings suggest a benefit from early administration, the study itself cautions that the link between this intervention and favorable neurological outcomes is not yet clear. Overall, it provides supportive data for the use of prehospital epinephrine but strongly emphasizes the need for more research to pinpoint the ideal timing and specific patient populations who will benefit most.",
       "confidence": "high"
     },
     {
@@ -129,13 +157,13 @@
       "title": "Percutaneous versus surgical treatment of acute cholecystitis",
       "source": "World Journal of Emergency Surgery",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42374556/",
-      "published": "8 hours ago",
+      "published": "1 day ago",
       "publishedAt": "2026-06-30T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trials",
-      "takeaway": "Given the significant risk of confounding by indication across the pooled observational data, do not interpret this meta-analysis as definitive proof that CC is superior to PC. While trends suggest better outcomes with surgery, be mindful that patients selected for one procedure versus another are likely different in baseline acuity. Proceed with caution and consider local institutional protocols when deciding between these two management pathways.",
+      "takeaway": "When deciding between CC and PC for acute cholecystitis, remember that while meta-analyses point toward better outcomes with CC, this interpretation is heavily tempered by potential confounding from observational data. Therefore, do not change your standard management algorithm based solely on these pooled results; instead, use it as a reminder to critically assess the indication for choosing one procedure over the other at the bedside.",
       "shortSummary": "This meta-analysis compared cholecystectomy (CC) versus percutaneous cholecystostomy (PC) for managing acute cholecystitis, suggesting that CC might be associated with better outcomes regarding lower mortality and readm…",
-      "summary": "This meta-analysis compared cholecystectomy (CC) versus percutaneous cholecystostomy (PC) for managing acute cholecystitis, suggesting that CC might be associated with better outcomes regarding lower mortality and readmission rates than PC. The authors caution the reader, however, because the pooled evidence heavily relies on observational cohorts. This means that any comparison is highly susceptible to confounding by indication, as the choice of management itself likely influences patient severity and subsequent outcomes. While a randomized trial like CHOCOLATE was included, the overall weight of evidence remains limited by these inherent biases in the study designs.",
+      "summary": "This meta-analysis compared cholecystectomy (CC) versus percutaneous cholecystostomy (PC) for managing acute cholecystitis, suggesting that CC might be associated with better outcomes regarding lower mortality and readmission rates than PC. It's important to note, however, that the pooled evidence supporting this conclusion is largely derived from observational cohorts. Because of this reliance on observational data, the findings are quite susceptible to confounding by indication, meaning that the initial management choice itself likely influences the observed differences in outcomes. While a randomized trial like CHOCOLATE was included, the overall body of evidence remains limited by these inherent biases when comparing the two approaches.",
       "confidence": "moderate"
     },
     {
@@ -147,9 +175,9 @@
       "publishedAt": "2026-06-18T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Cardiac Arrest",
-      "takeaway": "If you encounter a child who has experienced out-of-hospital cardiac arrest and achieves ROSC, consider drawing lactate levels within the first six hours for potential risk stratification. Higher initial lactate values appear associated with worse long-term outcomes, suggesting it could be useful adjunct information at the bedside. However, this finding is from a secondary analysis, so interpret this as suggestive rather than definitive protocol change.",
-      "shortSummary": "This secondary analysis of the THAPCA-OH trial focused on determining if serum lactate levels could serve as a reliable biomarker to predict long-term outcomes following pediatric out-of-hospital cardiac arrest.",
-      "summary": "This secondary analysis of the THAPCA-OH trial focused on determining if serum lactate levels could serve as a reliable biomarker to predict long-term outcomes following pediatric out-of-hospital cardiac arrest. The key finding reported is that elevated lactate concentrations measured within six hours of return of spontaneous circulation (ROSC) correlate with poorer one-year survival and unfavorable neurological outcomes in this pediatric population. This suggests that lactate may have utility as an adjunct tool for early risk stratification, moving beyond just monitoring resuscitation efforts. While the association was noted, it's important to remember this is based on a secondary analysis of existing trial data.",
+      "takeaway": "Consider serial lactate measurements within six hours post-ROSC in pediatric patients who experienced out-of-hospital arrest. Higher levels appear associated with worse long-term outcomes, suggesting its utility for risk stratification beyond initial resuscitation measures. Remember this is an association from a secondary analysis, so interpret these findings as supportive evidence rather than definitive guidelines.",
+      "shortSummary": "This secondary analysis of the THAPCA-OH trial focused on using serum lactate levels to predict outcomes following pediatric out-of-hospital cardiac arrest.",
+      "summary": "This secondary analysis of the THAPCA-OH trial focused on using serum lactate levels to predict outcomes following pediatric out-of-hospital cardiac arrest. The key finding reported is that elevated lactate concentrations measured within six hours of return of spontaneous circulation (ROSC) correlated with poorer one-year survival and overall unfavorable outcomes in this pediatric population. This suggests that lactate may serve as a valuable adjunct biomarker for early risk stratification, potentially aiding in predicting both neurological prognosis and mortality following resuscitation efforts outside the hospital setting.",
       "confidence": "moderate"
     },
     {
@@ -161,9 +189,9 @@
       "publishedAt": "2026-06-22T11:00:07Z",
       "impact": "High-yield",
       "topic": "Intubation",
-      "takeaway": "Given the small absolute differences in post-sedation timing seen between rocuronium and succinylcholine, don't change your paralytic choice based on this alone. However, always prioritize planning for adequate post-intubation sedation and analgesia *before* RSI, as maintaining a controlled state is paramount regardless of the agent used.",
-      "shortSummary": "This review discusses a retrospective study comparing the use of rocuronium versus succinylcholine during Rapid Sequence Intubation (RSI) in the emergency department setting, focusing on post-intubation sedation and ana…",
-      "summary": "This review discusses a retrospective study comparing the use of rocuronium versus succinylcholine during Rapid Sequence Intubation (RSI) in the emergency department setting, focusing on post-intubation sedation and analgesia management. The core finding suggests that while rocuronium was associated with a delay in achieving adequate post-intubation sedation and analgesia compared to succinylcholine, the absolute median differences observed were quite small, leading to uncertainty regarding true clinical significance. What is particularly noteworthy is the discussion around the risk of awareness during paralysis when utilizing longer-acting agents like rocuronium. Overall, the article emphasizes that proactive planning for post-intubation sedation and analgesia before performing RSI remains a key consideration.",
+      "takeaway": "When choosing a paralytic for RSI, remember that while rocuronium might delay starting post-intubation sedation compared to succinylcholine, the absolute difference is small. The main takeaway is to proactively plan and administer adequate sedatives and analgesics *before* you place the patient on paralysis, regardless of which agent you choose, to minimize awareness risk.",
+      "shortSummary": "This review synthesizes findings from a retrospective study comparing the use of rocuronium versus succinylcholine during Rapid Sequence Intubation (RSI) in the emergency department setting, focusing on post-intubation…",
+      "summary": "This review synthesizes findings from a retrospective study comparing the use of rocuronium versus succinylcholine during Rapid Sequence Intubation (RSI) in the emergency department setting, focusing on post-intubation sedation and analgesia timing and awareness risk. The authors noted that while rocuronium was associated with delayed initiation of post-intubation sedation and analgesia when compared to succinylcholine, the absolute median differences observed were quite small, leading to uncertainty regarding true clinical significance. A key concern highlighted is the potential for patient awareness during paralysis when utilizing longer-acting agents like rocuronium. Given these nuances, the article strongly recommends proactive planning for administering post-intubation sedation and analgesia prior to performing RSI.",
       "confidence": "high"
     },
     {
@@ -171,83 +199,69 @@
       "title": "Reducing Hyperoxemia in Mechanically Ventilated Emergency Department Patients: A Before-and-After Study",
       "source": "Journal of Emergency Medicine",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42348932/",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-06-25T10:00:00Z",
       "impact": "High-yield",
       "topic": "Hyperoxemia",
-      "takeaway": "When implementing oxygen titration guidelines, be mindful that reducing excessive oxygen can inadvertently increase the risk of mild to moderate hypoxemia. Do not assume guideline adherence will optimize oxygenation without monitoring for this shift; perhaps consider using more dynamic or physiological targets rather than fixed thresholds. Further research is clearly needed to define a safe and effective target range.",
+      "takeaway": "When titrating oxygen in ventilated ED patients, remember that guideline adherence successfully lowers severe hyperoxemia but appears to increase overall hypoxemia. Be mindful that this intervention may shift you from one endpoint problem to another, and current data do not clarify the optimal target range. Further research is necessary before making significant protocol changes based on these findings.",
       "shortSummary": "This before-and-after study assessed the impact of implementing a formal oxygen titration guideline in mechanically ventilated emergency department patients regarding their oxygenation status.",
-      "summary": "This before-and-after study assessed the impact of implementing a formal oxygen titration guideline in mechanically ventilated emergency department patients regarding their oxygenation status. The authors found that adopting this guideline successfully reduced the incidence of severe hyperoxemia among the cohort. However, this benefit came at the cost of an increased rate of hypoxemia, and critically, it did not alter the prevalence of severe hypoxemia. Overall, while standardizing oxygen delivery is beneficial for managing high FiO2 levels, the data suggest a trade-off that warrants caution in practice.",
+      "summary": "This before-and-after study assessed the impact of implementing a formal oxygen titration guideline in mechanically ventilated emergency department patients regarding their oxygenation status. The authors found that adopting this guideline successfully reduced instances of severe hyperoxemia among the cohort. However, this improvement came at a cost, as the implementation was concurrently associated with an increase in overall hypoxemia. Notably, the incidence of severe hypoxemia did not change following the intervention. Overall, the data suggest a trade-off when implementing such protocols, indicating that while high oxygen levels can be curtailed, there is a risk of shifting the balance toward inadequate oxygenation.",
       "confidence": "high"
+    },
+    {
+      "slug": "development-and-validation-of-machine-learning-models-to-optimize-imaging-and-re",
+      "title": "Development and Validation of Machine Learning Models to Optimize Imaging and Referrals for Dizziness in the Emergency Department",
+      "source": "Academic Emergency Medicine",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42383526/",
+      "published": "8 hours ago",
+      "publishedAt": "2026-07-01T10:00:00Z",
+      "impact": "High-yield",
+      "topic": "General Emergency Medicine",
+      "takeaway": "These ML models show promise for refining the initial workup of dizzy patients by potentially improving specificity over current scores. For now, treat this as an adjunct tool: use it to guide your suspicion level but do not change established protocols based solely on these preliminary findings. Remember that external validation is key before integrating any new predictive algorithm into routine ED practice.",
+      "shortSummary": "This paper tackles a common ED challenge by developing and validating machine learning models designed to improve risk stratification for serious etiologies like stroke or TIA in patients presenting with dizziness or ve…",
+      "summary": "This paper tackles a common ED challenge by developing and validating machine learning models designed to improve risk stratification for serious etiologies like stroke or TIA in patients presenting with dizziness or vertigo. The authors built these ML tools specifically because current risk assessment methods lack robust predictive power, leading to potential over-utilization of imaging resources. They report that several selected models achieved discrimination comparable to established scoring systems, such as the Sudbury Vertigo Risk Score. Furthermore, the modeling suggests a potential benefit in improving specificity and decreasing overall projected resource use, particularly for CT scans. While these results are encouraging regarding their utility in guiding workup decisions, the authors rightly emphasize that external validation is a necessary next step before clinical adoption.",
+      "confidence": "moderate"
     },
     {
       "slug": "maintenance-of-prehospital-anaesthesia-using-an-intermittent-bolus-regime-in-blu",
       "title": "Maintenance of prehospital anaesthesia using an intermittent bolus regime in blunt trauma patients with a high GCS and hemodynamic reserve: a retrospective cohort study",
       "source": "SJTREM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42351216/",
-      "published": "4 days ago",
+      "published": "5 days ago",
       "publishedAt": "2026-06-26T10:00:00Z",
       "impact": "High-yield",
       "topic": "Trauma",
-      "takeaway": "When maintaining anesthesia prehospital in hemodynamically stable trauma patients with a GCS of 9 or higher, be mindful that an intermittent bolus-only approach can lead to highly variable cumulative drug exposure. This variability increases the risk of falling into sub-therapeutic plasma levels without clear warning signs. Consider if alternative maintenance strategies might provide more predictable drug delivery.",
-      "shortSummary": "This retrospective cohort study examined the practice of maintaining anesthesia in prehospital blunt trauma patients who had both a Glasgow Coma Scale (GCS) score of 9 or greater and evidence of hemodynamic reserve, spe…",
-      "summary": "This retrospective cohort study examined the practice of maintaining anesthesia in prehospital blunt trauma patients who had both a Glasgow Coma Scale (GCS) score of 9 or greater and evidence of hemodynamic reserve, specifically focusing on those managed with an intermittent bolus-only regimen. The authors concluded that relying solely on this intermittent bolus approach for anesthetic maintenance introduces significant variability into the total cumulative drug doses administered to these patients. This inherent variability raises a concern regarding the potential for achieving sub-therapeutic plasma levels despite routine practice in the field setting. While the cohort was relatively homogeneous, the core finding points toward an unpredictable dosing profile associated with this specific maintenance strategy.",
-      "confidence": "moderate"
+      "takeaway": "When maintaining anesthesia prehospital in hemodynamically stable blunt trauma patients with GCS ≥ 9, be mindful that an intermittent bolus-only regimen can result in unpredictable cumulative drug dosing. This variability increases the risk of falling into sub-therapeutic plasma concentrations. Consider supplementing or adjusting maintenance techniques to ensure more consistent anesthetic depth.",
+      "shortSummary": "This retrospective cohort study examined the practice of maintaining anesthesia prehospital in blunt trauma patients who presented with both a Glasgow Coma Scale (GCS) score of 9 or higher and evidence of hemodynamic re…",
+      "summary": "This retrospective cohort study examined the practice of maintaining anesthesia prehospital in blunt trauma patients who presented with both a Glasgow Coma Scale (GCS) score of 9 or higher and evidence of hemodynamic reserve. The authors specifically focused on the technique of using only intermittent boluses for anesthetic maintenance. Their key conclusion highlights that this bolus-only approach leads to considerable variability in the total cumulative doses administered across patients. This inherent variability raises a concern regarding the potential for achieving sub-therapeutic plasma levels of the anesthetic agents, even in seemingly stable trauma patients.",
+      "confidence": "high"
     },
     {
       "slug": "a-multi-center-retrospective-cohort-study-of-sugammadex-for-neuromuscular-blocka",
       "title": "A multi-center retrospective cohort study of SUGAmmadex for neuromuscular blockade reversal in the emergency department: SUGARED study - on behalf of EMPHARM-NET Investigators",
       "source": "AJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42349235/",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-06-25T10:00:00Z",
       "impact": "High-yield",
       "topic": "Sedation",
-      "takeaway": "When considering rocuronium reversal with sugammadex in TBI or sICH patients, remember to thoroughly assess the patient's GCS and analgesic needs both before and after administration. The association found suggests these parameters may fluctuate post-reversal, so don't just treat the block; monitor for associated neurological or pain changes.",
-      "shortSummary": "This multi-center retrospective cohort study, the SUGARED study, looked at the impact of using sugammadex to reverse rocuronium blockade specifically in the emergency department setting for patients who had experienced…",
-      "summary": "This multi-center retrospective cohort study, the SUGARED study, looked at the impact of using sugammadex to reverse rocuronium blockade specifically in the emergency department setting for patients who had experienced traumatic brain injury or symptomatic intracranial hemorrhage. The authors found a notable association between administering sugammadex and subsequent changes observed in both the patient's Glasgow Coma Scale score and their need for analgesia/sedation. This suggests that simply reversing the neuromuscular block might have downstream effects on neurological status or pain management requirements that warrant attention in acute care.",
+      "takeaway": "When administering sugammadex to reverse rocuronium in a TBI or sICH patient, be prepared to reassess both their GCS and analgesic needs closely. The finding suggests that reversal itself may unmask underlying neurological deterioration or increased pain requiring immediate attention. Always maintain vigilance for subtle changes post-reversal.",
+      "shortSummary": "This multi-center retrospective cohort study, the SUGARED study, assessed the impact of using sugammadex to reverse rocuronium neuromuscular blockade specifically in patients presenting to the emergency department with…",
+      "summary": "This multi-center retrospective cohort study, the SUGARED study, assessed the impact of using sugammadex to reverse rocuronium neuromuscular blockade specifically in patients presenting to the emergency department with traumatic brain injury or symptomatic intracranial hemorrhage. The authors found a notable association between administering sugammadex and subsequent changes in both the Glasgow Coma Scale (GCS) scores and the need for analgesia. This suggests that simply reversing the block might precipitate underlying neurological instability or altered pain management requirements, which is clinically relevant given the acuity of these patient populations.",
       "confidence": "moderate"
-    },
-    {
-      "slug": "a-cold-blue-leg",
-      "title": "A cold, blue leg",
-      "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/43/7/411?rss=1",
-      "published": "1 day ago",
-      "publishedAt": "2026-06-29T13:00:37Z",
-      "impact": "High-yield",
-      "topic": "Trauma",
-      "takeaway": "When encountering a leg that is cold, swollen, blue, and associated with signs of shock like hypotension and tachycardia, immediately consider Phlegmasia cerulea dolens over simple DVT or acute limb ischemia. Given its severity, prompt anticoagulation initiation alongside aggressive vascular imaging and management is crucial; do not delay workup based on a seemingly benign presentation.",
-      "shortSummary": "This case report highlights the classic presentation of Phlegmasia cerulea dolens (PCD), a severe and potentially fatal deep vein thrombosis involving multiple venous occlusions in the lower extremity.",
-      "summary": "This case report highlights the classic presentation of Phlegmasia cerulea dolens (PCD), a severe and potentially fatal deep vein thrombosis involving multiple venous occlusions in the lower extremity. The vignette describes a young patient with Ehlers-Danlos syndrome presenting with acute symptoms including painful, cold, swollen, blue discoloration of the leg, coupled with signs of systemic compromise like hypotension and tachycardia. While other diagnoses such as acute limb ischemia or cellulitis might be considered initially, the constellation of findings strongly points toward PCD. The article serves to reinforce recognition of this rare but critical condition in the emergency setting.",
-      "confidence": "high"
-    },
-    {
-      "slug": "the-role-of-radiological-imaging-in-pediatric-nasal-fractures-too-much-too-often",
-      "title": "The Role of Radiological Imaging in Pediatric Nasal Fractures: Too Much, Too Often?",
-      "source": "Journal of Emergency Medicine",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42372418/",
-      "published": "1 day ago",
-      "publishedAt": "2026-06-29T10:00:00Z",
-      "impact": "High-yield",
-      "topic": "Trauma",
-      "takeaway": "When managing suspected pediatric nasal fractures, remember that routine X-rays and even CT scans may not significantly change management if no fracture is evident. Consider relying more heavily on clinical examination findings before ordering imaging to potentially reduce unnecessary radiation exposure. Always weigh the diagnostic yield against the potential for overdiagnosis or overtreatment.",
-      "shortSummary": "This review tackles the common practice of using radiological imaging for suspected pediatric nasal fractures, questioning whether current utilization is appropriate.",
-      "summary": "This review tackles the common practice of using radiological imaging for suspected pediatric nasal fractures, questioning whether current utilization is appropriate. The core finding suggests that standard nasal X-rays may offer limited diagnostic utility following facial trauma in children. More broadly, the authors point out that a significant proportion of patients presenting with nasal trauma undergo imaging—either plain films or CT scans—without actually sustaining a confirmed fracture or needing surgical management. This raises a valid discussion point regarding overutilization within the emergency department setting for this common pediatric injury.",
-      "confidence": "high"
     },
     {
       "slug": "ep-220-facial-injuries-assessment-management-and-disposition",
       "title": "Ep 220 Facial Injuries: Assessment, Management and Disposition",
       "source": "Emergency Medicine Cases",
       "link": "https://emergencymedicinecases.com/facial-injuries-assessment-management-disposition/",
-      "published": "2 hours ago",
+      "published": "1 day ago",
       "publishedAt": "2026-06-30T16:08:48Z",
       "impact": "High-yield",
       "topic": "Airway",
-      "takeaway": "When managing facial trauma, prioritize airway assessment and meticulous examination for subtle soft tissue injuries over solely focusing on fracture patterns seen on CT. Be highly suspicious of potential airway compromise following any significant maxillofacial injury until proven otherwise. Remember that the physical exam dictates immediate disposition; use established guidelines to safely discharge patients after ruling out critical deficits.",
-      "shortSummary": "This EM Cases episode provides a comprehensive, practical walkthrough of facial trauma management, correctly emphasizing that the most critical issues are often not the obvious fractures but rather associated complicati…",
-      "summary": "This EM Cases episode provides a comprehensive, practical walkthrough of facial trauma management, correctly emphasizing that the most critical issues are often not the obvious fractures but rather associated complications. The discussion systematically covers airway compromise risk stratification, assessment for vision-threatening ocular injuries, and identifying occult soft tissue pathology like septal hematomas. It guides the clinician through determining when an injury warrants immediate consultation or transfer versus when a safe discharge is appropriate. Overall, it reinforces that a thorough physical exam remains paramount, often superseding imaging findings in initial triage decisions.",
+      "takeaway": "When managing facial trauma, always prioritize assessing the airway, vision, and soft tissues before focusing solely on fracture patterns; a thorough physical exam remains paramount over initial imaging to catch subtle issues like septal hematomas. Use this framework to triage care by identifying high-risk features that mandate immediate consultation or transfer versus those allowing for safe disposition.",
+      "shortSummary": "This EM Cases episode provides a comprehensive, practical walkthrough of facial trauma management, correctly emphasizing that the most dangerous aspects are often overlooked complications rather than the obvious fractur…",
+      "summary": "This EM Cases episode provides a comprehensive, practical walkthrough of facial trauma management, correctly emphasizing that the most dangerous aspects are often overlooked complications rather than the obvious fractures. The discussion systematically covers airway assessment, ocular integrity, and subtle soft tissue pathology alongside fracture evaluation. It guides the reader through determining which specific fractures carry an immediate risk for delayed airway compromise and when a physical exam trumps advanced imaging like CT scans. Crucially, it provides actionable algorithms for deciding between urgent consultation/transfer versus safe disposition in the ED setting.",
       "confidence": "high"
     },
     {
@@ -255,13 +269,13 @@
       "title": "ACMT Toxicology Visual Pearl – The Fang and the Furious",
       "source": "ALiEM",
       "link": "https://www.aliem.com/acmt-the-fang-and-the-furious/",
-      "published": "5 hours ago",
+      "published": "1 day ago",
       "publishedAt": "2026-06-30T13:00:51Z",
       "impact": "High-yield",
       "topic": "Toxicology",
-      "takeaway": "When considering envenomation from *Acanthophis*, anticipate a picture dominated by descending flaccid paralysis rather than localized necrosis or renal failure. Early recognition of ocular signs like diplopia is key, as respiratory compromise can rapidly ensue. Ensure immediate access to and administration of species-specific antivenom without delay.",
-      "shortSummary": "This visual pearl focuses on envenomation from *Acanthophis* species, commonly known as death adders, highlighting a predictable pattern of severe systemic neurotoxicity.",
-      "summary": "This visual pearl focuses on envenomation from *Acanthophis* species, commonly known as death adders, highlighting a predictable pattern of severe systemic neurotoxicity. The venom's mechanism involves toxins acting both as post-synaptic antagonists and through irreversible presynaptic binding that impairs neurotransmitter release. Clinically, the presentation is characterized by rapidly progressive descending flaccid paralysis, with initial signs often including diplopia and ptosis, ultimately leading to respiratory failure if untreated. Given this predictable progression, prompt identification and administration of specific antivenom are critical cornerstones of management.",
+      "takeaway": "When managing suspected death adder envenomation, anticipate a picture dominated by descending flaccid paralysis rather than localized necrosis or renal failure. The rapid progression necessitates aggressive respiratory support readiness alongside timely administration of appropriate antivenom. Remember that the underlying mechanism involves both post-synaptic blockade and presynaptic impairment.",
+      "shortSummary": "This visual pearl focuses on envenomation from *Acanthophis* species, commonly known as death adders, highlighting a predictable pattern of systemic neurotoxicity.",
+      "summary": "This visual pearl focuses on envenomation from *Acanthophis* species, commonly known as death adders, highlighting a predictable pattern of systemic neurotoxicity. The venom profile is characterized by toxins acting both as post-synaptic antagonists and those that cause impaired neurotransmitter release through irreversible presynaptic binding. Clinically, the presentation is dominated by rapidly progressive descending flaccid paralysis, which can manifest initially with symptoms like diplopia and ptosis before progressing to respiratory failure. Given this predictable neurotoxic syndrome, prompt recognition and administration of specific antivenom are critical components of management.",
       "confidence": "high"
     },
     {
@@ -269,27 +283,13 @@
       "title": "Optimal Site of Tactile Stimulation during Initial Steps of Neonatal Resuscitation: A Three-Arm Randomized Controlled Trial",
       "source": "Resuscitation",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42361894/",
-      "published": "4 days ago",
+      "published": "5 days ago",
       "publishedAt": "2026-06-26T10:00:00Z",
       "impact": "High-yield",
       "topic": "Resuscitation",
-      "takeaway": "For initial tactile stimulation in non-crying neonates, the choice between stimulating the back, trunk, or soles appears to be clinically interchangeable based on this evidence. There is no compelling data suggesting one site offers superior immediate respiratory support over another. Continue providing gentle stimulation while maintaining a systematic approach to resuscitation.",
-      "shortSummary": "This randomized controlled trial directly addresses a common point of variability in the delivery room regarding tactile stimulation (TS) for non-crying neonates, comparing back, trunk, and sole rubs.",
-      "summary": "This randomized controlled trial directly addresses a common point of variability in the delivery room regarding tactile stimulation (TS) for non-crying neonates, comparing back, trunk, and sole rubs. The primary objective was to determine if varying the site of this initial physical stimulus impacts immediate neonatal outcomes, specifically 5-minute peripheral oxygen saturation (SpO2). Overall, the findings suggest that regardless of whether you stimulate the baby's back, trunk, or soles, there is no statistically significant difference in SpO2 or other measured endpoints across these three groups. This provides some reassurance regarding current resuscitation protocols.",
-      "confidence": "high"
-    },
-    {
-      "slug": "first-line-vasopressor-therapy-in-neonates-with-fluid-refractory-septic-shock-a-",
-      "title": "First-line vasopressor therapy in neonates with fluid-refractory septic shock: A systematic review and meta-analysis of randomized controlled trials",
-      "source": "AJEM",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42361705/",
-      "published": "4 days ago",
-      "publishedAt": "2026-06-26T10:00:00Z",
-      "impact": "High-yield",
-      "topic": "Shock",
-      "takeaway": "When managing fluid-refractory septic shock in neonates, current meta-analyses do not support a clear preference among epinephrine, norepinephrine, or dopamine as initial vasopressors. Given the heterogeneity and limited evidence base, standard institutional protocols should remain flexible while awaiting more standardized neonatal research. Do not change your established first-line agent based solely on this review.",
-      "shortSummary": "This systematic review and meta-analysis synthesized data from randomized controlled trials comparing initial vasopressor choices—specifically epinephrine, norepinephrine, and dopamine—in neonates presenting with septic…",
-      "summary": "This systematic review and meta-analysis synthesized data from randomized controlled trials comparing initial vasopressor choices—specifically epinephrine, norepinephrine, and dopamine—in neonates presenting with septic shock refractory to fluid resuscitation. The authors concluded that, based on the pooled analysis, there was no significant difference observed among these tested vasoactive agents concerning early reversal of shock or overall mortality in this critically ill population. However, the review team appropriately cautioned that the current evidence base is limited by a small number of trials and considerable clinical heterogeneity across the included studies. Therefore, while it provides an overview, the findings should not be interpreted as definitive guidelines for first-line therapy selection.",
+      "takeaway": "When initiating resuscitation on a non-crying neonate, you can feel comfortable choosing any of the standard tactile stimulation sites—back, trunk, or sole rubs—as this trial suggests no difference in 5-minute SpO2. While adherence to established protocols is key, do not let site selection become an unnecessary point of debate at the bedside. Remember that these findings pertain specifically to initial tactile stimulation and may not address other critical resuscitation interventions.",
+      "shortSummary": "This randomized controlled trial addressed the lack of consensus regarding the optimal anatomical site for tactile stimulation (TS) during the initial phases of neonatal resuscitation in the delivery room.",
+      "summary": "This randomized controlled trial addressed the lack of consensus regarding the optimal anatomical site for tactile stimulation (TS) during the initial phases of neonatal resuscitation in the delivery room. The study compared three distinct approaches—rubbing the back, rubbing the trunk, or rubbing the soles of the feet—and assessed their impact on peripheral oxygen saturation at the five-minute mark, alongside other relevant outcomes. Overall, the findings indicated no statistically significant difference in 5-minute SpO2 levels or any other measured outcome when comparing these three stimulation sites. This suggests that from a measurable physiological standpoint, the specific location chosen for routine tactile stimulation may not be critical.",
       "confidence": "high"
     }
   ],
@@ -303,7 +303,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 9,
+      "itemsKept": 5,
       "itemsSeen": 10
     },
     {
@@ -315,7 +315,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 4,
+      "itemsKept": 3,
       "itemsSeen": 40
     },
     {
@@ -363,7 +363,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 5,
+      "itemsKept": 4,
       "itemsSeen": 5
     },
     {
@@ -387,7 +387,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 8,
+      "itemsKept": 11,
       "itemsSeen": 12
     },
     {
@@ -435,7 +435,7 @@
       "qualityTier": "selective",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 2,
+      "itemsKept": 3,
       "itemsSeen": 21
     },
     {
@@ -483,7 +483,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 2,
+      "itemsKept": 1,
       "itemsSeen": 20
     },
     {
@@ -531,7 +531,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 7,
+      "itemsKept": 6,
       "itemsSeen": 77
     },
     {
@@ -543,7 +543,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 15,
+      "itemsKept": 16,
       "itemsSeen": 100
     },
     {
@@ -579,7 +579,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 11,
+      "itemsKept": 10,
       "itemsSeen": 100
     },
     {
@@ -603,7 +603,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 7,
+      "itemsKept": 8,
       "itemsSeen": 100
     },
     {
@@ -627,7 +627,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 6,
+      "itemsKept": 8,
       "itemsSeen": 100
     },
     {
@@ -651,7 +651,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 9,
+      "itemsKept": 10,
       "itemsSeen": 100
     }
   ]
