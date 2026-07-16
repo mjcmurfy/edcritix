@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-07-14T18:28:51.269Z",
-    "sourceGeneratedAt": "2026-07-14T18:15:13.185483Z",
-    "editorialGeneratedAt": "2026-07-14T18:28:34.041514Z",
-    "editionDate": "2026-07-15"
+    "generatedAt": "2026-07-16T18:28:54.679Z",
+    "sourceGeneratedAt": "2026-07-16T18:15:13.701817Z",
+    "editorialGeneratedAt": "2026-07-16T18:28:34.901562Z",
+    "editionDate": "2026-07-17"
   },
   "briefing": {
-    "headline": "2 high-priority items in the latest EM scan",
-    "summary": "Top sources today: REBEL EM, emDocs, Life in the Fast Lane. Main themes: airway management, guideline or formal recommendation, evidence synthesis. Best early reads: The TASC Trial: Therapeutic vs Prophylactic Anticoagulation for Acute Chest Syndrome; Critical Kids: PRoMPT Bolus.",
-    "editorialHeadline": "From Anticoagulation Dosing to Stroke Pathways: Key Shifts in Critical Care Management",
-    "editorialSummary": "The evidence base continues to refine our approach across several high-acuity domains. For adults with sickle cell disease presenting with acute chest syndrome, the TASC trial suggests that escalating anticoagulation to a therapeutic dose may be superior to standard prophylaxis alone, leading to shorter illness duration and reduced opioid burden.\n\nIn stroke care, the meta-analysis comparing management models strongly favors the Mothership approach for achieving better functional outcomes and faster treatment times. Meanwhile, in septic shock, recent large-scale analyses suggest that while aggressive resuscitation is vital, the precise timing of vasopressor initiation may not be an independent predictor of increased mortality risk.\n\nBeyond these major updates, we see practical guidance emerging: utilizing objective scoring systems like Roth or DSS could standardize discharge decisions for COPD exacerbations at the bedside. Furthermore, when managing pediatric septic shock, current trends point toward favoring balanced crystalloids over normal saline based on adult data patterns, though caution remains paramount. These varied findings—from optimizing anticoagulation dosing to refining resuscitation timing and streamlining imaging protocols—underscore a necessary shift from rigid adherence to protocol toward dynamic, evidence-informed clinical judgment."
+    "headline": "3 high-priority items in the latest EM scan",
+    "summary": "Top sources today: REBEL EM, emDocs, EMJ. Main themes: general emergency medicine, guideline or formal recommendation, airway management. Best early reads: The TASC Trial: Therapeutic vs Prophylactic Anticoagulation for Acute Chest Syndrome; Critical Kids: PRoMPT Bolus.",
+    "editorialHeadline": "From Anticoagulation Dosing to Triage Scores: Refining Bedside Decisions",
+    "editorialSummary": "Today’s reading set presents several high-yield, actionable updates that challenge assumptions in routine care. Most notably, the TASC trial suggests a shift in thinking for acute chest syndrome in sickle cell disease; rather than defaulting to standard prophylaxis, escalating anticoagulation to therapeutic doses may actually shorten illness duration and reduce opioid use when initial supportive measures fall short.\n\nBeyond hematology, diagnostic efficiency is sharpened by new tools. For febrile patients presenting with an undifferentiated source of fever, the GOTHIC score offers a readily implementable triage mechanism to guide blood culture suspicion away from mere presence of fever alone. Furthermore, in COPD exacerbations, simple bedside scores like Roth and DSS provide objective metrics for determining safe discharge readiness.\n\nWe also see important refinements in critical care logistics: adopting the Mothership model appears superior for acute ischemic stroke management overall, improving function regardless of local system integration. Finally, while resuscitation fluid choice remains complex—with pediatric data pointing toward balanced crystalloids over normal saline—the message across these diverse topics is clear: robust evidence continues to refine our algorithms, demanding that we move beyond generalized protocols and apply specific, context-aware decision points at the bedside."
   },
   "dailyEditorial": [
     {
@@ -17,13 +17,13 @@
       "title": "The TASC Trial: Therapeutic vs Prophylactic Anticoagulation for Acute Chest Syndrome",
       "source": "REBEL EM",
       "link": "https://rebelem.com/tasc-trial/?utm_source=rss&utm_medium=rss&utm_campaign=tasc-trial",
-      "published": "1 day ago",
+      "published": "3 days ago",
       "publishedAt": "2026-07-13T11:00:53Z",
       "impact": "Practice-changing",
       "topic": "Acute Chest Syndrome",
-      "takeaway": "For adults with sickle cell disease presenting with ACS without macrothrombosis, consider escalating anticoagulation to a therapeutic dose if the patient is refractory to standard supportive care. The data supports this approach by showing reduced duration and lower opioid needs compared to prophylaxis alone. However, remember that this trial was specific to tinzaparin, so caution is warranted when extrapolating these dosing recommendations to other agents.",
-      "shortSummary": "The TASC trial represents a significant step forward, being the initial phase 3 randomized controlled trial to compare therapeutic versus prophylactic-dose tinzaparin for managing acute chest syndrome (ACS) in adults wi…",
-      "summary": "The TASC trial represents a significant step forward, being the initial phase 3 randomized controlled trial to compare therapeutic versus prophylactic-dose tinzaparin for managing acute chest syndrome (ACS) in adults with sickle cell disease who do not have pulmonary artery macrothrombosis. The primary finding was that using therapeutic-dose tinzaparin successfully reduced the overall duration of ACS when compared to receiving a standard prophylactic dose. Furthermore, this higher dosing strategy correlated with a notable decrease in opioid consumption among patients. These results suggest that simply maintaining prophylaxis might be suboptimal for managing established ACS.",
+      "takeaway": "For adults with ACS due to sickle cell disease without macrothrombosis, consider escalating anticoagulation from prophylactic to therapeutic doses if initial supportive care fails to resolve symptoms promptly. The benefit shown here is a reduction in overall illness duration and opioid use, suggesting a potential role for higher-dose therapy beyond standard guidelines. However, remember this finding is specific to tinzaparin and the absence of macrothrombosis.",
+      "shortSummary": "The TASC trial represents a significant step forward by being the first phase 3 randomized controlled trial to directly compare therapeutic versus prophylactic-dose tinzaparin for managing acute chest syndrome (ACS) in…",
+      "summary": "The TASC trial represents a significant step forward by being the first phase 3 randomized controlled trial to directly compare therapeutic versus prophylactic-dose tinzaparin for managing acute chest syndrome (ACS) in adults with sickle cell disease who do not have pulmonary artery macrothrombosis. The primary finding was that using therapeutic-dose tinzaparin successfully shortened the duration of ACS when compared to receiving a standard prophylactic dose. Furthermore, this higher dosing strategy correlated with a notable reduction in opioid consumption among the patients studied. These results suggest that simply maintaining prophylaxis might be suboptimal for some patients experiencing refractory ACS.",
       "confidence": "high"
     },
     {
@@ -31,27 +31,41 @@
       "title": "Critical Kids: PRoMPT Bolus",
       "source": "emDocs",
       "link": "https://www.emdocs.net/critical-kids-prompt-bolus/",
-      "published": "1 day ago",
+      "published": "3 days ago",
       "publishedAt": "2026-07-13T15:48:18Z",
       "impact": "Practice-changing",
       "topic": "Paediatric",
-      "takeaway": "When initiating fluid resuscitation for suspected septic shock in a child, favor balanced crystalloids over normal saline based on adult data trends suggesting better renal outcomes. However, remember that this is an extrapolation from adult trials, and pediatric physiology warrants caution; always titrate fluids carefully while monitoring urine output and lactate clearance rather than relying solely on bolus volumes.",
-      "shortSummary": "This piece reviews the PRoMPT trial within the context of pediatric emergencies, building upon existing knowledge regarding fluid resuscitation in septic shock.",
-      "summary": "This piece reviews the PRoMPT trial within the context of pediatric emergencies, building upon existing knowledge regarding fluid resuscitation in septic shock. While it draws parallels to adult data, specifically referencing the SMART trial's findings that balanced crystalloids were associated with lower rates of acute kidney injury and mortality compared to normal saline in critically ill adults, the focus remains on guiding practice for pediatrics. The overall message is a reminder to keep current evidence regarding fluid choice top-of-mind when managing septic shock in the pediatric population. It serves as a valuable refresher for clinicians navigating the complexities of resuscitation protocols.",
+      "takeaway": "When initiating resuscitation in pediatric septic shock, remember the adult data suggesting balanced crystalloids might be superior to normal saline for reducing AKI and mortality risk. While this is an extrapolation, it warrants considering a balanced solution unless contraindicated by specific local protocols or patient status. Always approach fluid choice with caution, as individual patient factors heavily influence optimal management.",
+      "shortSummary": "This piece reviews the PRoMPT bolus in the context of pediatric emergencies, drawing parallels to adult resuscitation literature regarding crystalloid choice in septic shock.",
+      "summary": "This piece reviews the PRoMPT bolus in the context of pediatric emergencies, drawing parallels to adult resuscitation literature regarding crystalloid choice in septic shock. While the focus is on pediatrics, it references key findings from adult trials, such as SMART, which demonstrated that balanced crystalloids are associated with lower rates of acute kidney injury and mortality compared to normal saline in critically ill adults. The overall message emphasizes the ongoing need for evidence-based guidelines when managing resuscitation fluids in septic patients across age groups. It serves as a reminder that fluid management remains a nuanced area requiring careful consideration of crystalloid composition.",
       "confidence": "high"
     },
     {
-      "slug": "can-t-intubate-can-t-oxygenate-cico",
-      "title": "Can’t Intubate Can’t Oxygenate (CICO)",
-      "source": "Life in the Fast Lane",
-      "link": "https://litfl.com/cant-intubate-cant-oxygenate-cico/",
-      "published": "4 hours ago",
-      "publishedAt": "2026-07-14T14:12:09Z",
+      "slug": "prediction-of-bloodstream-infection-using-triage-variables-in-the-emergency-depa",
+      "title": "Prediction of bloodstream infection using triage variables in the emergency department: retrospective derivation and validation cohort",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215749v2?rss=1",
+      "published": "2 hours ago",
+      "publishedAt": "2026-07-16T16:00:19Z",
       "impact": "Practice-changing",
-      "topic": "Airway",
-      "takeaway": "If you fail to oxygenate despite optimal efforts with masks and supraglottic devices, immediately pivot your thinking toward FONA as the definitive backup. Do not delay recognizing this failure point; continuous reassessment of ventilation effectiveness is key. Remember that preparing for a surgical airway should be ongoing throughout difficult airway management.",
-      "shortSummary": "This piece provides a concise overview of the critical scenario known as Can't Intubate Can't Oxygenate (CICO).",
-      "summary": "This piece provides a concise overview of the critical scenario known as Can't Intubate Can't Oxygenate (CICO). It defines CICO as the failure to achieve adequate alveolar oxygen delivery even after exhausting all standard upper airway rescue techniques, including face mask ventilation, supraglottic airway device placement, and tracheal intubation. The core message emphasizes that management requires immediate recognition of this dire situation and a proactive transition toward emergency front-of-neck access (FONA). Essentially, the takeaway is to maintain a high index of suspicion for CICO throughout any difficult airway sequence and to be prepared to bypass standard endotracheal tube placement entirely.",
+      "topic": "General Emergency Medicine",
+      "takeaway": "When managing febrile patients where blood cultures are being considered, use the GOTHIC score at triage to guide your suspicion level. Remember that while age ≥75 and tachycardia >90 bpm increase risk, having a protective complaint actually lowers it. This tool offers an objective way to refine decision-making beyond just fever status.",
+      "shortSummary": "This retrospective study introduces the GOTHIC score, a novel, easily implementable tool designed to predict bloodstream infection (BSI) risk in febrile emergency department patients right after triage.",
+      "summary": "This retrospective study introduces the GOTHIC score, a novel, easily implementable tool designed to predict bloodstream infection (BSI) risk in febrile emergency department patients right after triage. The authors derived and validated this score using seven variables that are readily obtainable at the point of care, addressing the issue of over-utilization of blood cultures despite low yield. The GOTHIC score incorporates factors such as advanced age (≥75 years), tachycardia exceeding 90 beats per minute, hypotension defined by a systolic blood pressure <38 degrees Celsius, having an isolated fever as the chief complaint, and specific protective complaints. The validation cohort demonstrated that this tool provides a useful means of risk stratification for guiding subsequent diagnostic workup in resource-limited settings.",
+      "confidence": "high"
+    },
+    {
+      "slug": "ttl-tips-16-ketamine-in-trauma-patients",
+      "title": "TTL tips 16: Ketamine in trauma patients.",
+      "source": "St Emlyn's",
+      "link": "https://www.stemlynsblog.org/ttl-tips-16-ketamine-in-trauma-patients/",
+      "published": "1 day ago",
+      "publishedAt": "2026-07-15T10:27:06Z",
+      "impact": "Practice-changing",
+      "topic": "Trauma",
+      "takeaway": "When managing refractory pain or needing sedation in the trauma bay, consider low-dose ketamine as an opioid adjunct to preserve respiratory and cardiovascular reserves. Always maintain full physiological monitoring, ensuring capnography is utilized during administration. Remember that while useful, its use requires adherence to established protocols for dosing and monitoring.",
+      "shortSummary": "This practical guide from St Emlyn's focuses on the utility of ketamine within the complex setting of trauma resuscitation, positioning it as a valuable agent for both analgesia and procedural sedation.",
+      "summary": "This practical guide from St Emlyn's focuses on the utility of ketamine within the complex setting of trauma resuscitation, positioning it as a valuable agent for both analgesia and procedural sedation. The core message emphasizes that low-dose ketamine can be an excellent opioid-sparing adjunct when standard analgesic regimens begin to plateau in efficacy. Beyond just pain control, the article covers its use in delayed sequence induction and general procedural sedation within the trauma team context. Crucially, it reiterates the necessity of meticulous monitoring for any patient receiving this agent, with capnography being highlighted as a standard requirement in the resuscitation environment.",
       "confidence": "high"
     },
     {
@@ -59,13 +73,13 @@
       "title": "Evaluating the Roth and Dyspnea severity score for emergency department discharge in exacerbations of chronic obstructive pulmonary disease",
       "source": "AJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42430863/",
-      "published": "4 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-07-10T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "General Emergency Medicine",
-      "takeaway": "When faced with a decision on discharging an acutely ill patient with COPD exacerbation, remember that both the Roth score and DSS show high sensitivity for discharge suitability. These tools offer reliable, objective bedside metrics that can help standardize disposition decisions without requiring complex workups. However, be mindful that this report focuses only on sensitivity; always integrate clinical judgment alongside these scores.",
-      "shortSummary": "This article evaluates two simple scoring systems, the Roth score and the Dyspnea Severity Score (DSS), to help emergency physicians make discharge decisions for patients presenting with exacerbations of COPD.",
-      "summary": "This article evaluates two simple scoring systems, the Roth score and the Dyspnea Severity Score (DSS), to help emergency physicians make discharge decisions for patients presenting with exacerbations of COPD. The authors found that both scores exhibit high sensitivity when used in this setting, suggesting they are effective tools for guiding disposition at the bedside. From a practical standpoint, the utility lies in providing objective, non-invasive cutoffs that can standardize care pathways. This has the potential to streamline resource utilization within the emergency department by accurately identifying patients who can safely be discharged. Overall, the findings suggest these scores are promising additions to our armamentarium for managing acute COPD exacerbations.",
+      "takeaway": "These scores appear useful for quickly stratifying COPD exacerbation severity at the bedside, offering a standardized way to support discharge planning. Remember that high sensitivity suggests good rule-out capability, but always interpret these alongside clinical judgment, especially if the patient's presentation is atypical or rapidly changing.",
+      "shortSummary": "This article evaluates two simple, bedside scoring systems—the Roth score and the Dyspnea Severity Score (DSS)—to help guide discharge decisions for patients presenting to the emergency department with exacerbations of…",
+      "summary": "This article evaluates two simple, bedside scoring systems—the Roth score and the Dyspnea Severity Score (DSS)—to help guide discharge decisions for patients presenting to the emergency department with exacerbations of COPD. The authors found that both scores exhibit high sensitivity in predicting which patients can be safely discharged from the ED setting. This suggests these tools offer a quick, objective method for resource management without requiring complex workups. Essentially, they provide clinicians with reliable, non-invasive cutoffs to standardize disposition decisions in this common and often challenging patient population.",
       "confidence": "high"
     },
     {
@@ -77,9 +91,9 @@
       "publishedAt": "2026-07-03T16:00:15Z",
       "impact": "Practice-changing",
       "topic": "Policy Statements",
-      "takeaway": "When assessing for POCD prehospital, focus your efforts on identifying trends across multiple parameters rather than relying solely on a single abnormal vital sign reading. The consensus points to airway assessment, respiratory effort (rate and work), oxygenation, perfusion, and mental status as the most reliable core indicators across all pediatric ages. Remember that establishing this shared framework is key for future research comparability.",
-      "shortSummary": "This modified Delphi study tackles the critical, yet poorly defined, concept of paediatric out-of-hospital clinical deterioration (POCD), which is recognized as a high-risk event requiring early recognition but lacks a…",
-      "summary": "This modified Delphi study tackles the critical, yet poorly defined, concept of paediatric out-of-hospital clinical deterioration (POCD), which is recognized as a high-risk event requiring early recognition but lacks a standardized definition. The authors convened a multidisciplinary panel to establish consensus across multiple rounds of questioning and rating. They successfully converged on a working definition stating that POCD involves a progressive or acute worsening identified by observable trends, rather than just isolated measurements, within a context suggesting serious risk. Furthermore, the process highlighted core indicators that were consistently prioritized regardless of specific paediatric age group. These key signs include assessment of airway patency, respiratory rate, work of breathing, oxygen saturation, skin color/perfusion status, and level of consciousness.",
+      "takeaway": "When evaluating a child suspected of POCD in the field, focus on identifying observable trends across multiple parameters rather than just single abnormal values. Pay close attention to changes in work of breathing and level of consciousness alongside standard vital signs like SpO2 and RR. Remember that this consensus framework is designed to standardize recognition, but clinical judgment remains paramount when interpreting these evolving patterns.",
+      "shortSummary": "This modified Delphi study successfully established the first consensus-based definition for paediatric out-of-hospital clinical deterioration (POCD), which is crucial given the current lack of a standardized metric in…",
+      "summary": "This modified Delphi study successfully established the first consensus-based definition for paediatric out-of-hospital clinical deterioration (POCD), which is crucial given the current lack of a standardized metric in prehospital settings. The core finding emphasizes that POCD must be defined as a progressive or acute worsening trend over time, rather than being based on isolated measurements at a single point in care. A multidisciplinary panel of UK clinicians reached consensus on this definition, and they also identified several consistently prioritized indicators across all paediatric age groups. These key signs include changes in airway patency, respiratory rate, work of breathing, oxygen saturation, skin color/perfusion, and level of consciousness. This framework is valuable because it provides a shared conceptual language for prehospital teams to use when assessing deteriorating children.",
       "confidence": "high"
     },
     {
@@ -87,13 +101,13 @@
       "title": "A multimodal intervention reduces computed tomography use in blunt head injury",
       "source": "AJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42435500/",
-      "published": "3 days ago",
+      "published": "5 days ago",
       "publishedAt": "2026-07-11T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Blunt Head Injury",
-      "takeaway": "When managing blunt head injury, remember that implementing a single guideline alone may not curb unnecessary CTs. To drive actual reduction in utilization, integrate evidence-based protocols directly into the EHR workflow and pair this with mandatory provider education and feedback loops. Be mindful that adherence to these systems is key to realizing any potential benefit.",
-      "shortSummary": "This article details the impact of implementing a comprehensive multimodal intervention aimed at curbing unnecessary computed tomography (CT) utilization following blunt head injury in the emergency department setting.",
-      "summary": "This article details the impact of implementing a comprehensive multimodal intervention aimed at curbing unnecessary computed tomography (CT) utilization following blunt head injury in the emergency department setting. The authors report that combining an institutional guideline with educational components, direct provider feedback, and integrated clinical decision support (CDS) proved effective. Specifically, they found this combined approach was associated with a measurable reduction in the number of CT head studies performed. This suggests that simply having a guideline isn't enough; active reinforcement through education and real-time workflow nudges is necessary for behavioral change regarding imaging appropriateness.",
+      "takeaway": "When tackling unnecessary CT utilization in blunt head injury, remember that process improvement requires more than just writing a guideline. To drive adherence and reduce scans, you need to couple the evidence-based protocol with mandatory education, regular provider feedback loops, and ideally, an integrated CDS alert within your EHR workflow. Don't assume guidelines alone will change practice; system reinforcement is crucial.",
+      "shortSummary": "This piece addresses the common issue of overutilization of computed tomography (CT) scans for blunt head injury in the emergency department setting.",
+      "summary": "This piece addresses the common issue of overutilization of computed tomography (CT) scans for blunt head injury in the emergency department setting. The authors investigated the effectiveness of a comprehensive, multimodal intervention designed to curb unnecessary imaging. Their findings suggest that simply implementing an institutional guideline is not enough; rather, combining this guideline with educational components, structured provider feedback, and integrating decision support tools directly into the electronic health record (EHR) was key. This integrated approach proved associated with a measurable reduction in the number of CT head studies performed for these patients. It highlights a systems-level intervention rather than just a clinical algorithm change.",
       "confidence": "high"
     },
     {
@@ -105,23 +119,9 @@
       "publishedAt": "2026-07-03T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Cancer Pain",
-      "takeaway": "Consider championing or adopting EMR prompts that guide opioid assessment and benzodiazepine use when managing known cancer pain patients in the ED. The data suggest this structured approach improves care quality beyond just documenting a score. Remember, while promising, this is based on an intervention study, so integrate it cautiously into your existing workflow.",
+      "takeaway": "Consider championing or utilizing EMR prompts that guide your assessment of opioid-tolerant cancer patients, particularly those needing simultaneous benzodiazepine and pain evaluation. Implementing such structured tools appears beneficial for ensuring guideline adherence and potentially reducing unnecessary ED utilization. Remember this is based on an intervention study; always correlate the tool's output with a thorough physical exam.",
       "shortSummary": "This piece details the implementation and outcomes of an Electronic Medical Record (EMR) intervention specifically targeting opioid management in cancer patients presenting to the Emergency Department.",
-      "summary": "This piece details the implementation and outcomes of an Electronic Medical Record (EMR) intervention specifically targeting opioid management in cancer patients presenting to the Emergency Department. The core finding revolves around integrating a Benzodiazepine/Pain Assessment (BPA) tool directly into the EMR workflow for these high-risk patients. The authors report that utilizing this structured, integrated tool was associated with both improved overall pain management within the ED and a measurable reduction in subsequent hospital admissions. This suggests that standardizing assessment and documentation via technology can translate to better clinical pathways for complex pain syndromes like cancer pain.",
-      "confidence": "high"
-    },
-    {
-      "slug": "comment-on-time-to-vasopressor-initiation-is-not-associated-with-increased-morta",
-      "title": "Comment on: “Time to Vasopressor Initiation Is Not Associated With Increased Mortality in Patients With Septic Shock”",
-      "source": "Annals of Emergency Medicine",
-      "link": "https://www.annemergmed.com/article/S0196-0644(26)00079-X/fulltext?rss=yes",
-      "published": "2 weeks ago",
-      "publishedAt": "2026-07-01T00:00:00Z",
-      "impact": "Practice-changing",
-      "topic": "Shock",
-      "takeaway": "The timing of vasopressor initiation appears less critical than previously thought when assessing overall mortality risk in septic shock patients. While early recognition and aggressive resuscitation remain paramount, this suggests that deviating significantly from standard protocols based solely on the clock might not be detrimental. Always remember to tailor management to the patient's dynamic physiological status rather than strictly adhering to a time-based guideline.",
-      "shortSummary": "Black et al.'s recent analysis in the Annals of Emergency Medicine tackles the perennial question of whether delaying vasopressor initiation in septic shock improves outcomes.",
-      "summary": "Black et al.'s recent analysis in the Annals of Emergency Medicine tackles the perennial question of whether delaying vasopressor initiation in septic shock improves outcomes. Utilizing a large, contemporary real-world cohort from a regional data trust, the authors performed comprehensive multivariable modeling to assess this relationship. Their key finding suggests that the time elapsed before starting vasoactive agents is not independently associated with increased mortality risk in this patient population. This challenges some existing clinical paradigms that might suggest an aggressive 'time zero' approach to resuscitation. The study's strength lies in its substantial sample size and real-world data application, making it a valuable piece for guiding immediate management decisions.",
+      "summary": "This piece details the implementation and outcomes of an Electronic Medical Record (EMR) intervention specifically targeting opioid management in cancer patients presenting to the Emergency Department. The core finding revolves around integrating a Benzodiazepine/Pain Assessment (BPA) tool directly into the EMR workflow for these complex patients. The authors report that using this structured, integrated tool was associated with both improved overall pain management within the ED setting and a measurable reduction in subsequent hospital admissions. This suggests that standardizing assessment and documentation via technology can translate into tangible improvements in care coordination and patient outcomes for cancer-related pain.",
       "confidence": "high"
     },
     {
@@ -133,9 +133,9 @@
       "publishedAt": "2026-07-03T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Reviews",
-      "takeaway": "Don't rely on a single published metric when assessing triage tool performance; remember that the reported diagnostic accuracy varies significantly based on local protocols and outcome definitions. While these systems are necessary tools, be mindful of potential over- or underestimation of acuity in your specific ED environment. Always integrate clinical judgment with the assigned triage level.",
-      "shortSummary": "This systematic review and meta-analysis synthesized data on the diagnostic accuracy of several commonly utilized five-level emergency department triage systems, including ESI, MTS, CTAS, ATS, and SATS.",
-      "summary": "This systematic review and meta-analysis synthesized data on the diagnostic accuracy of several commonly utilized five-level emergency department triage systems, including ESI, MTS, CTAS, ATS, and SATS. The core finding is that while these tools are foundational for front-door prioritization, their reported performance metrics are highly variable depending on the specific clinical setting and how 'severity' is defined in the outcome measures. Essentially, it provides a broad overview of how well these established triage scales predict actual patient need across different institutional contexts. This synthesis is useful because it cautions against assuming universal accuracy for any single scale.",
+      "takeaway": "Remember that triage tool performance isn't universally fixed; its reported accuracy is highly dependent on the specific clinical setting and outcome definition used in the study. Don't assume perfect reliability based on published meta-analyses alone, as local workflow variations matter significantly. Use these tools as guides for initial resource allocation but remain vigilant about tailoring your interpretation to your own ED's unique patient mix.",
+      "shortSummary": "This systematic review and meta-analysis synthesized data on the diagnostic accuracy of several common five-level emergency department triage systems, including ESI, MTS, CTAS, ATS, and SATS.",
+      "summary": "This systematic review and meta-analysis synthesized data on the diagnostic accuracy of several common five-level emergency department triage systems, including ESI, MTS, CTAS, ATS, and SATS. The core finding is that while these tools are foundational for front-door prioritization, their reported performance metrics are highly variable depending on where they are implemented and what specific clinical outcome is being measured. Essentially, the reliability of any single scale cannot be assumed across different institutional workflows or patient populations. This meta-analysis provides a broad overview but cautions against over-relying on generalized accuracy scores when making local protocol decisions.",
       "confidence": "high"
     },
     {
@@ -147,23 +147,51 @@
       "publishedAt": "2026-07-03T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Stroke",
-      "takeaway": "When managing acute ischemic stroke, favor implementing the Mothership model approach as it appears superior for achieving shorter treatment times and better functional recovery compared to Drip-and-Ship. Remember that while this improves outcomes, the choice of model does not appear to significantly alter rates of hemorrhage or mortality. Always consider optimizing system integration pathways if possible.",
-      "shortSummary": "This meta-analysis directly compares the Drip-and-Ship (DS) versus Mothership (MS) model approaches for managing acute ischemic stroke, importantly stratifying the analysis by the degree of pre-existing stroke system in…",
-      "summary": "This meta-analysis directly compares the Drip-and-Ship (DS) versus Mothership (MS) model approaches for managing acute ischemic stroke, importantly stratifying the analysis by the degree of pre-existing stroke system integration. The core finding is quite clear: the MS model consistently resulted in shorter overall treatment times and superior functional outcomes when benchmarked against the DS approach. Interestingly, these benefits observed with the Mothership model held true regardless of whether the patient had a high or low level of stroke system integration. Furthermore, the analysis noted that rates for key adverse events like recanalization, hemorrhage, and mortality were comparable between both management models.",
+      "takeaway": "When managing acute ischemic stroke, the evidence points toward adopting the Mothership model approach to systematically reduce time-to-treatment and improve functional status. While recanalization rates and mortality risk appear similar between models, prioritizing the MS workflow should be standard practice unless significant local barriers prevent its implementation. Remember that optimizing logistics is key, but don't let process adherence distract from core reperfusion therapy.",
+      "shortSummary": "This meta-analysis directly compares the Drip-and-Ship (DS) versus Mothership (MS) models for managing acute ischemic stroke, adding valuable stratification based on the level of existing stroke system integration withi…",
+      "summary": "This meta-analysis directly compares the Drip-and-Ship (DS) versus Mothership (MS) models for managing acute ischemic stroke, adding valuable stratification based on the level of existing stroke system integration within a healthcare network. The authors concluded that the MS model is superior to the DS approach because it results in both shorter overall treatment times and better functional outcomes, and this benefit holds true regardless of how well integrated the local stroke systems are. Interestingly, while the operational flow seems to favor MS, the rates for major complications like hemorrhage, as well as the rates of successful recanalization and mortality, were comparable between the two models. This suggests that optimizing the logistical pathway itself is a key determinant of outcome.",
       "confidence": "high"
     },
     {
-      "slug": "is-there-evidence-that-intranasal-ketamine-can-provide-adequate-procedural-sedat",
-      "title": "Is there evidence that intranasal ketamine can provide adequate procedural sedation in paediatric patients?",
+      "slug": "ventilation-parameters-during-advanced-life-support-in-cardiac-arrest-cavent-a-m",
+      "title": "Ventilation parameters during Advanced Life Support in cardiac arrest (CAvent): A multicentre observational cohort study",
+      "source": "Resuscitation",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42448221/",
+      "published": "2 days ago",
+      "publishedAt": "2026-07-14T10:00:00Z",
+      "impact": "High-yield",
+      "topic": "Airway",
+      "takeaway": "When assessing CPR quality, remember that BVM ventilations may not be as effective as anticipated, and asynchronous ETT use can generate elevated airway pressures. While spontaneous assisted ventilation seems more consistent regarding tidal volumes, always monitor for increasing leak rates over time. These findings stress the importance of standardizing how we measure ventilation parameters in our local protocols.",
+      "shortSummary": "This multicenter observational cohort study compared various ventilation parameters across different manual ventilation modes and airway devices utilized during cardiopulmonary resuscitation.",
+      "summary": "This multicenter observational cohort study compared various ventilation parameters across different manual ventilation modes and airway devices utilized during cardiopulmonary resuscitation. The authors found considerable variability in these parameters depending on the specific technique employed, which is a key point for practice. Notably, bag-valve mask (BVM) ventilations were shown to have limited efficacy in achieving optimal ventilation. Conversely, spontaneous assisted ventilation using an endotracheal tube (ETT) resulted in consistently measured tidal volumes and pressures across different modes, although leakage was observed increasing over time. Furthermore, asynchronous ETT ventilation was associated with the generation of high airway pressures. Overall, the study underscores a significant need for standardization when measuring ventilation parameters both in research settings and routine clinical resuscitation practice.",
+      "confidence": "high"
+    },
+    {
+      "slug": "risk-of-obstructive-acute-kidney-injury-derivation-and-internal-validation-of-a-",
+      "title": "Risk of obstructive acute kidney injury: derivation and internal validation of a risk stratification tree",
       "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-216136v2?rss=1",
-      "published": "5 days ago",
-      "publishedAt": "2026-07-09T12:36:39Z",
-      "impact": "Practice-changing",
-      "topic": "Sedation",
-      "takeaway": "For a severely needle-phobic child needing sedation, intranasal ketamine is a viable alternative to IV agents, despite evidence suggesting a slightly lower success rate than the IV route. Always ensure you have thoroughly discussed the risks and benefits of IN versus IV sedation with the parents beforehand to facilitate shared decision-making at the bedside.",
-      "shortSummary": "This review synthesized data from numerous papers to evaluate whether intranasal ketamine can serve as an adequate procedural sedative alternative to the more common intravenous route in pediatric emergency settings.",
-      "summary": "This review synthesized data from numerous papers to evaluate whether intranasal ketamine can serve as an adequate procedural sedative alternative to the more common intravenous route in pediatric emergency settings. After analyzing a large body of literature, the authors concluded that while IN ketamine is effective enough to be considered, its success rate appears marginally lower compared to IV administration. Despite this slight deficit, the utility of IN ketamine shines through when considering patient comfort and procedural logistics, particularly for children with severe needle phobia. The review emphasizes that integrating this modality requires thorough discussion and shared decision-making with the parents.",
+      "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215861v2?rss=1",
+      "published": "2 hours ago",
+      "publishedAt": "2026-07-16T16:00:19Z",
+      "impact": "High-yield",
+      "topic": "General Emergency Medicine",
+      "takeaway": "If a patient presents with AKI and has localized flank or hypogastric pain, consider them high risk for obstruction per this model. For otherwise stable patients without these specific symptoms, the low-risk classification suggests that aggressive urological workup might not be immediately warranted; however, remember this tool is based on internal validation only and requires external confirmation before changing your standard diagnostic approach.",
+      "shortSummary": "This paper introduces the KIT-FISTO decision tree, a tool developed for predicting obstructive acute kidney injury (AKI) among patients presenting to the emergency department.",
+      "summary": "This paper introduces the KIT-FISTO decision tree, a tool developed for predicting obstructive acute kidney injury (AKI) among patients presenting to the emergency department. The model was derived and internally validated using retrospective data from an ED setting. The key finding is that the presence of lumbar, flank, or hypogastric pain places a patient in a 'high risk' category, associated with an estimated 54-55% chance of obstructive AKI. Conversely, patients without these specific symptoms are generally classified as low risk, showing very low observed rates of obstruction. While the model demonstrates high sensitivity for identifying truly low-risk individuals, the authors caution that external and prospective validation is necessary before this tool can be implemented in routine clinical practice.",
+      "confidence": "moderate"
+    },
+    {
+      "slug": "pediatric-necrotizing-pneumonia-clinical-features-microbiology-management-and-ou",
+      "title": "Pediatric necrotizing pneumonia: Clinical features, microbiology, management, and outcomes in the tertiary center",
+      "source": "AJEM",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42456543/",
+      "published": "1 day ago",
+      "publishedAt": "2026-07-15T10:00:00Z",
+      "impact": "High-yield",
+      "topic": "Ultrasound",
+      "takeaway": "When managing pediatric pneumonia that fails to improve after 72 hours of antibiotics, strongly consider evaluating for PNP and associated complications using chest imaging. If effusion or persistent infection is suspected, be prepared to escalate care toward drainage or debridement, as this is often necessary. Remember that vancomycin dosing should be guided by therapeutic drug monitoring.",
+      "shortSummary": "This retrospective review details the clinical spectrum and management of pediatric necrotizing pneumonia (PNP), noting it accounts for a relatively small percentage of hospitalized pneumonia cases at tertiary centers.",
+      "summary": "This retrospective review details the clinical spectrum and management of pediatric necrotizing pneumonia (PNP), noting it accounts for a relatively small percentage of hospitalized pneumonia cases at tertiary centers. The authors established that *Streptococcus pneumoniae* remains the most common causative agent, but highlights the significant role of complications requiring aggressive intervention. A key finding is that more than half of these patients ultimately required surgical management due to persistent infection or substantial pleural effusion. Clinically, they emphasize that if a child presents with prolonged fever or respiratory failure beyond 72 hours despite appropriate antibiotic therapy, thorough chest imaging is mandatory for ruling out underlying complications.",
       "confidence": "high"
     },
     {
@@ -171,27 +199,13 @@
       "title": "Incidence and Outcomes of Emergency Physician-Performed Awake Intubations: A Report From the Airway Interventions Registry and Observational Database",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00371-9/fulltext?rss=yes",
-      "published": "1 week ago",
+      "published": "2 weeks ago",
       "publishedAt": "2026-07-06T00:00:00Z",
       "impact": "High-yield",
       "topic": "Airway",
-      "takeaway": "When considering awake intubation in your ED patients, remember that established institutional protocols dictate the standard of care for performance by non-anesthesia personnel. While the data characterizes incidence and outcomes, always correlate these findings with your local resource availability and team expertise before proceeding. Be mindful that this report describes observed patterns rather than establishing definitive guidelines.",
-      "shortSummary": "This report details the frequency, procedural habits, and resulting patient outcomes when emergency physicians perform awake tracheal intubations within a busy tertiary care emergency department setting.",
-      "summary": "This report details the frequency, procedural habits, and resulting patient outcomes when emergency physicians perform awake tracheal intubations within a busy tertiary care emergency department setting. By analyzing data from both the Airway Interventions Registry and an observational database, the authors provide a comprehensive look at this specific airway intervention performed by ED staff. Understanding these patterns is crucial because while awake intubation can be technically challenging, its performance in the ED context needs robust characterization to guide best practices. The findings help paint a picture of how often this procedure occurs and what the associated morbidity and mortality rates are when managed by emergency medicine specialists.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "national-patterns-in-emergency-department-diagnoses-and-mortality-insights-from-",
-      "title": "National patterns in emergency department diagnoses and mortality: insights from the Nationwide Emergency Department Sample",
-      "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-215921v1?rss=1",
-      "published": "5 days ago",
-      "publishedAt": "2026-07-09T16:00:19Z",
-      "impact": "High-yield",
-      "topic": "Sepsis",
-      "takeaway": "When considering resource allocation or targeted screening, remember that while cardiac arrest dominates ED death statistics, you must remain vigilant for excess morbidity from sepsis, respiratory failure, and ACS in specific vulnerable groups like the elderly, women, and racial minorities. Be mindful of recent shifts; COVID-19 was a major driver of utilization changes in 2021 compared to pre-pandemic years.",
-      "shortSummary": "This large national analysis using data from 2016 to 2021 provides a broad overview of evolving utilization patterns and mortality causes within the US Emergency Department setting.",
-      "summary": "This large national analysis using data from 2016 to 2021 provides a broad overview of evolving utilization patterns and mortality causes within the US Emergency Department setting. While cardiac arrest remains the leading cause of ED death across the board, the study effectively stratifies risk by population demographics. It points out that while chest pain was dominant pre-COVID, COVID-19 emerged as the most common presentation in 2021. Furthermore, it details significant disparities, noting sex differences—like higher UTI rates in women versus sepsis being more prevalent in men—and racial variations for specific diagnoses like COVID-19 and sepsis. Crucially, the data suggests that while cardiac arrest is the overall top killer, sepsis, respiratory compromise, ACS, and trauma contribute disproportionately to mortality among older adults, women, and minority groups.",
+      "takeaway": "When considering awake intubations in your ED, this data helps contextualize the actual frequency and outcomes observed in practice. While it confirms that these procedures are routine, remember that institutional protocols and local expertise will heavily influence success rates; therefore, always ensure robust pre-procedure planning and appropriate adjuncts are available at the bedside.",
+      "shortSummary": "This report provides an important characterization of how often and under what circumstances emergency physicians perform awake tracheal intubations within the high-acuity setting of a tertiary care emergency department.",
+      "summary": "This report provides an important characterization of how often and under what circumstances emergency physicians perform awake tracheal intubations within the high-acuity setting of a tertiary care emergency department. By analyzing data from both the Airway Interventions Registry and an observational database, the authors sought to map out current practice patterns and associated outcomes for this specific airway intervention. Understanding these details is crucial because awake intubation carries inherent risks but can be significantly beneficial when rapid sequence induction is contraindicated or overly difficult. The findings help paint a picture of the true volume and scope of advanced airway management performed by ED personnel.",
       "confidence": "high"
     },
     {
@@ -199,13 +213,13 @@
       "title": "Hepatitis C Screening Among Persons Experiencing Homelessness in the Emergency Department: A Secondary Analysis of the Determining Effective Testing in Emergency Departments and Care Coordination on Treatment Outcomes (DETECT) for Hepatitis C (Hep C) Screening Trial",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00373-2/fulltext?rss=yes",
-      "published": "1 week ago",
+      "published": "2 weeks ago",
       "publishedAt": "2026-07-06T00:00:00Z",
       "impact": "High-yield",
       "topic": "Trials",
-      "takeaway": "Given the known elevated risk of HCV in homeless populations, consider proactively offering HCV screening in the ED to all patients presenting with homelessness status. While this analysis confirms the utility of the ED for initial screening, remember that test acceptance and subsequent management require robust follow-up coordination outside the acute setting.",
-      "shortSummary": "This secondary analysis from the DETECT trial provides valuable insight into integrating Hepatitis C Virus (HCV) screening within the emergency department setting, specifically focusing on individuals experiencing homel…",
-      "summary": "This secondary analysis from the DETECT trial provides valuable insight into integrating Hepatitis C Virus (HCV) screening within the emergency department setting, specifically focusing on individuals experiencing homelessness. The authors examined associations between a patient's status of homelessness and various outcomes related to HCV testing offered in the ED, including test acceptance rates, seropositivity, and evidence of viremia. The core finding reinforces that the ED is an appropriate and well-positioned site for initiating HCV screening efforts, particularly within this high-risk and historically underserved population. This suggests a strong role for emergency medicine providers in identifying and managing undiagnosed HCV cases among those who might otherwise fall through gaps in routine care.",
+      "takeaway": "Given the known elevated risk and underserved status of homeless populations, routine HCV testing offer within the ED remains strongly supported by this data. Remember to proactively screen and discuss HCV testing with any patient presenting who reports homelessness or high-risk behaviors. The utility here is in systematic screening uptake rather than just test positivity.",
+      "shortSummary": "This secondary analysis from the DETECT trial provides valuable insight into integrating Hepatitis C Virus (HCV) screening within the emergency department setting, specifically focusing on populations experiencing homel…",
+      "summary": "This secondary analysis from the DETECT trial provides valuable insight into integrating Hepatitis C Virus (HCV) screening within the emergency department setting, specifically focusing on populations experiencing homelessness. The authors examined associations between a patient's status of homelessness and various outcomes related to HCV testing, including whether the test was offered, if it was accepted, seropositivity rates, and evidence of viremia. Overall, the findings reinforce the argument that EDs are uniquely positioned to serve as key screening points for HCV, particularly given the high-risk nature and historical under-screening of individuals experiencing homelessness. This suggests a strong role for emergency medicine providers in improving access to care for this vulnerable group.",
       "confidence": "high"
     },
     {
@@ -217,37 +231,37 @@
       "publishedAt": "2026-07-03T10:00:00Z",
       "impact": "High-yield",
       "topic": "Resuscitation",
-      "takeaway": "When managing CPR, either volume-controlled or manual ventilation appears equally effective regarding major outcomes, according to this meta-analysis. However, remember that the utility of VC versus other mechanical modes is not definitively established by this review. Proceed with standard protocols while remaining mindful that the evidence base for optimizing ventilation mode beyond basic guidelines is weak.",
-      "shortSummary": "This systematic review and meta-analysis synthesized the evidence regarding the use of volume-controlled mechanical ventilation versus manual ventilation during cardiopulmonary resuscitation.",
-      "summary": "This systematic review and meta-analysis synthesized the evidence regarding the use of volume-controlled mechanical ventilation versus manual ventilation during cardiopulmonary resuscitation. Overall, the pooled data suggest that there is no significant difference in major clinical outcomes when comparing these two modes of ventilation during CPR. While this provides some reassurance on the comparison between VC and manual methods, the authors caution that the relative benefit of volume-controlled ventilation compared to other established mechanical ventilation strategies remains unclear based on current evidence. The certainty level for these conclusions is noted as very low to low from randomized trials, which warrants careful interpretation at the bedside.",
+      "takeaway": "When managing CPR, you can proceed with either volume-controlled or manual ventilation without significant concern for worsening outcomes based on this meta-analysis. However, remember that the literature does not definitively prove one mode's superiority over others; therefore, stick to established protocols while remaining mindful of potential variations in local institutional guidelines.",
+      "shortSummary": "This systematic review and meta-analysis synthesized the current evidence regarding the use of volume-controlled mechanical ventilation versus manual ventilation during cardiopulmonary resuscitation.",
+      "summary": "This systematic review and meta-analysis synthesized the current evidence regarding the use of volume-controlled mechanical ventilation versus manual ventilation during cardiopulmonary resuscitation. The authors concluded that, based on randomized trial data, there is no significant difference in overall clinical outcomes when comparing these two modes of ventilation. Furthermore, they highlighted that the relative benefit of using volume-controlled ventilation compared to other available mechanical ventilation strategies remains unclear from the current literature. This suggests that while a specific mode might seem theoretically superior, the hard evidence supporting it over manual bagging during CPR is lacking.",
       "confidence": "high"
     },
     {
-      "slug": "ultrasound-guided-peripheral-iv-placement-practices-a-national-survey-of-gel-and",
-      "title": "Ultrasound-guided peripheral IV placement practices: A national survey of gel and probe cover use",
-      "source": "AJEM",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42442064/",
-      "published": "1 day ago",
-      "publishedAt": "2026-07-13T10:00:00Z",
+      "slug": "assessing-risk-of-early-icu-admission-or-death-at-emergency-department-triage-cl",
+      "title": "Assessing Risk of Early ICU Admission or Death at Emergency Department Triage: Clinical Judgment Versus Early Warning Scores",
+      "source": "Academic Emergency Medicine",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42461154/",
+      "published": "8 hours ago",
+      "publishedAt": "2026-07-16T10:00:00Z",
       "impact": "High-yield",
-      "topic": "Policy Statements",
-      "takeaway": "When performing US-PIVs, remember that while some centers have adopted sterile gel per CDC guidance, compliance remains variable. Don't assume universal adherence to using probe covers or sterile gel; it’s a practice point worth confirming at the bedside. If you are unsure of your local protocol, defaulting to both sterile gel and a cover adds an extra layer of precaution.",
-      "shortSummary": "This national survey assessed current institutional practices surrounding ultrasound-guided peripheral intravenous (US-PIV) placement, paying close attention to the use of sterile gel and probe covers.",
-      "summary": "This national survey assessed current institutional practices surrounding ultrasound-guided peripheral intravenous (US-PIV) placement, paying close attention to the use of sterile gel and probe covers. The data revealed a mixed landscape regarding adherence to recommended infection control measures. While nearly half of the surveyed institutions were already compliant with using sterile gel for these percutaneous procedures following CDC guidelines, there remains a notable gap in practice. Specifically, many facilities are still not utilizing either protective covers or sterile gel during US-PIV placements. This suggests that despite established recommendations, consistent adoption of optimal infection control protocols is an ongoing challenge across different settings.",
-      "confidence": "moderate"
+      "topic": "General Emergency Medicine",
+      "takeaway": "Don't rely solely on EWS to dictate escalation; they appear comparable to—and sometimes less predictive than—your overall gestalt. Use structured scores as a prompt or a checklist item, but remember that the most valuable information often comes from integrating those objective metrics with your physical exam and clinical narrative. Keep them in mind as complementary tools rather than definitive decision-makers.",
+      "shortSummary": "This piece tackles the perennial question of whether standardized Early Warning Scores (EWS) offer a superior predictive edge over seasoned clinical judgment when stratifying high-risk patients in the emergency departme…",
+      "summary": "This piece tackles the perennial question of whether standardized Early Warning Scores (EWS) offer a superior predictive edge over seasoned clinical judgment when stratifying high-risk patients in the emergency department for potential ICU admission or mortality. The authors compared several commonly utilized EWS systems against the nuanced assessment made by triage clinicians. The core finding suggests that, based on decision curve analysis, these established scoring tools did not demonstrate a clear advantage over the integrated judgment of the experienced ED team. Instead, the data points toward these scores and clinical acumen being more useful when employed as complementary aids rather than replacements for one another.",
+      "confidence": "high"
     },
     {
       "slug": "traumatic-uterine-rupture-in-a-nonpregnant-patient-a-case-report",
       "title": "Traumatic Uterine Rupture in a Nonpregnant Patient: A Case Report",
       "source": "JACEP Open",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42437286/",
-      "published": "2 days ago",
+      "published": "4 days ago",
       "publishedAt": "2026-07-12T10:00:00Z",
       "impact": "High-yield",
       "topic": "Resuscitation",
-      "takeaway": "When managing hemodynamically unstable trauma patients with suspected significant intra-abdominal bleeding and a positive suspicion of pelvic injury, do not solely rely on the absence of pregnancy to exclude uterine pathology. If initial resuscitation and imaging are inconclusive regarding the source of hemoperitoneum, consider advanced imaging like MRI for detailed assessment of the uterus, even in nonpregnant adolescents.",
-      "shortSummary": "This case report highlights a rare but critical scenario: traumatic uterine rupture occurring in an adolescent who was not pregnant, following severe blunt trauma.",
-      "summary": "This case report highlights a rare but critical scenario: traumatic uterine rupture occurring in an adolescent who was not pregnant, following severe blunt trauma. The authors emphasize that while most literature focuses on pregnancy-related ruptures, this presentation underscores the need for vigilance regarding subtle findings in the pelvis even when gestation is ruled out. Given the patient presented with hemorrhagic shock and multiple injuries after a fall, the initial workup included CT imaging which revealed concerning pelvic findings. The case argues strongly against dismissing uterine pathology simply because an initial pregnancy test was negative, suggesting that thorough evaluation remains necessary for unexplained hemoperitoneum in unstable trauma patients.",
+      "takeaway": "When managing a patient with unexplained hemoperitoneum and unstable pelvic fractures after significant blunt trauma, do not automatically exclude uterine rupture just because pregnancy testing is negative. If initial stabilization and imaging are equivocal regarding the source of bleeding, consider advanced cross-sectional imaging like MRI to thoroughly evaluate the uterus.",
+      "shortSummary": "This case report details an unusual presentation of traumatic uterine rupture in a nonpregnant adolescent following severe blunt trauma, which is noteworthy given that most reported cases occur during pregnancy.",
+      "summary": "This case report details an unusual presentation of traumatic uterine rupture in a nonpregnant adolescent following severe blunt trauma, which is noteworthy given that most reported cases occur during pregnancy. The patient presented with hemorrhagic shock after a fall and required extensive resuscitation. While the initial workup included a whole-body CT scan revealing significant findings, the authors emphasize that even when pregnancy is ruled out, subtle uterine pathology should not be dismissed based solely on standard imaging protocols for pelvic trauma. This highlights the potential for non-obstetric causes of uterine injury following severe blunt force trauma.",
       "confidence": "moderate"
     },
     {
@@ -255,41 +269,27 @@
       "title": "Clinician characteristics associated with CT use in children with minor blunt head trauma at very low risk for clinically important traumatic brain injuries",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215859v1?rss=1",
-      "published": "4 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-07-10T16:00:15Z",
       "impact": "High-yield",
       "topic": "Trauma",
-      "takeaway": "When managing a child with minor head trauma who scores very low risk on established prediction rules, remember that institutional guidelines alone may not dictate practice; clinician bias appears to be a factor. If you suspect your decision-making might be influenced by years of experience or personal comfort level regarding risk, consider seeking consultation from a colleague with significant pediatric emergency experience before ordering imaging.",
-      "shortSummary": "This study took a look at what influences emergency physicians' decisions regarding CT scanning for pediatric patients who sustained minor blunt head trauma but are deemed very low risk for clinically important traumati…",
-      "summary": "This study took a look at what influences emergency physicians' decisions regarding CT scanning for pediatric patients who sustained minor blunt head trauma but are deemed very low risk for clinically important traumatic brain injury, using the PECARN criteria as a benchmark. While evidence-based prediction rules exist to guide care, this research suggests that individual clinician characteristics play a role in adherence. The findings revealed that factors such as having more years of practice, reporting lower personal risk tolerance, and seeing fewer pediatric cases were all associated with an increased likelihood of ordering unnecessary CTs in this low-risk group. Ultimately, the authors suggest that improving imaging decision-making by involving providers with deeper pediatric expertise could help safely reduce overutilization.",
+      "takeaway": "When managing a very low-risk child after minor head trauma, remember that institutional protocols alone may not curb over-imaging; clinician experience level and self-perceived risk tolerance appear to be key drivers for unnecessary CTs. While we can't change the underlying decision-making biases immediately, emphasizing structured team review or involving providers with deep pediatric expertise might help standardize care and reduce unnecessary radiation exposure.",
+      "shortSummary": "This study delved into the behavioral factors influencing whether emergency department clinicians order CT scans for pediatric patients presenting with minor blunt head trauma who are already deemed very low risk for cl…",
+      "summary": "This study delved into the behavioral factors influencing whether emergency department clinicians order CT scans for pediatric patients presenting with minor blunt head trauma who are already deemed very low risk for clinically important traumatic brain injury based on established prediction rules like PECARN. While adherence to evidence-based guidelines is crucial, this research highlights that individual clinician characteristics play a role in imaging utilization. The analysis found several surprising associations: increased years of experience, lower self-reported risk tolerance, and practicing in settings with fewer pediatric cases were all correlated with higher rates of unnecessary CT scans in this low-risk cohort. This suggests the decision to image isn't purely based on objective scoring but is influenced by provider background and perceived risk.",
       "confidence": "high"
     },
     {
-      "slug": "impact-of-helicopter-emergency-medical-services-on-endovascular-thrombectomy-del",
-      "title": "Impact of Helicopter Emergency Medical Services on endovascular thrombectomy delays, clinical outcomes, and societal costs in large vessel occlusion stroke: a retrospective registry based counterfactual simulation study",
-      "source": "SJTREM",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42421149/",
-      "published": "5 days ago",
-      "publishedAt": "2026-07-09T10:00:00Z",
+      "slug": "is-there-evidence-that-intranasal-ketamine-can-provide-adequate-procedural-sedat",
+      "title": "Is there evidence that intranasal ketamine can provide adequate procedural sedation in paediatric patients?",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-216136v2?rss=1",
+      "published": "1 week ago",
+      "publishedAt": "2026-07-09T12:36:39Z",
       "impact": "High-yield",
-      "topic": "Stroke",
-      "takeaway": "Prioritize implementing a simultaneous dispatch protocol when considering HEMS for LVO stroke patients; relying on secondary dispatch negates much of the anticipated time advantage. This suggests that maximizing prehospital resource coordination is as critical as the transport modality itself for improving outcomes. Remember that while air transport is beneficial, optimizing the entire logistical chain remains paramount.",
-      "shortSummary": "This retrospective simulation study assessed the role of Helicopter Emergency Medical Services (HEMS) in managing large vessel occlusion (LVO) stroke, looking at delays, outcomes, and costs.",
-      "summary": "This retrospective simulation study assessed the role of Helicopter Emergency Medical Services (HEMS) in managing large vessel occlusion (LVO) stroke, looking at delays, outcomes, and costs. The authors concluded that while HEMS undeniably provides a transit advantage for these critically ill patients, its overall utility is significantly modulated by two factors: the acuity requiring on-scene critical care management and the timing of dispatch itself. A key finding highlighted was that utilizing secondary dispatch protocols effectively nullifies the time savings inherent in rapid air transport. Therefore, optimizing workflow to achieve simultaneous dispatch appears crucial for realizing both maximal clinical benefit and economic efficiency.",
-      "confidence": "high"
-    },
-    {
-      "slug": "coronary-subclavian-steal-syndrome-in-the-emergency-department-a-case-report",
-      "title": "Coronary subclavian steal syndrome in the emergency department - A case report",
-      "source": "AJEM",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42435501/",
-      "published": "3 days ago",
-      "publishedAt": "2026-07-11T10:00:00Z",
-      "impact": "High-yield",
-      "topic": "General Emergency Medicine",
-      "takeaway": "When evaluating a patient post-CABG with known left subclavian stenosis and concerning chest pain, do not overlook CSSS. Prompt ordering of a CT Angiogram or Aortogram is warranted to confirm steal physiology, and early activation of vascular surgery should be initiated for timely management.",
-      "shortSummary": "This case report brings attention to Coronary Subclavian Steal Syndrome (CSSS), a relatively uncommon but clinically significant issue encountered in the emergency department setting.",
-      "summary": "This case report brings attention to Coronary Subclavian Steal Syndrome (CSSS), a relatively uncommon but clinically significant issue encountered in the emergency department setting. The authors highlight that CSSS can manifest following procedures like CABG involving LIMA-LAD grafting, particularly when left subclavian stenosis is present. The core message for us as ED physicians is to maintain a high index of suspicion for this diagnosis even when initial workups are not definitively positive. They strongly advocate for the routine use of CT Angiography or an Aortogram in patients presenting with suggestive symptoms and relevant cardiac history, emphasizing the need for prompt consultation with Vascular Surgery.",
+      "topic": "Sedation",
+      "takeaway": "For severely needle-phobic pediatric patients needing procedural sedation, IN ketamine remains a valuable option despite having a slightly lower success rate than IV ketamine. Always ensure thorough shared decision-making and clear counseling with parents regarding the expected efficacy when choosing this route. Do not rely on it as a first-line replacement for IV agents if the child is not needle-phobic.",
+      "shortSummary": "This review synthesized data from numerous papers to evaluate whether intranasal (IN) ketamine can serve as an adequate procedural sedative alternative to the more common intravenous approach in pediatric emergency sett…",
+      "summary": "This review synthesized data from numerous papers to evaluate whether intranasal (IN) ketamine can serve as an adequate procedural sedative alternative to the more common intravenous approach in pediatric emergency settings. After analyzing a large body of literature, the authors focused on eight relevant studies to draw clinical conclusions. The overall evidence suggests that while IN ketamine is effective enough to be considered, its success rate appears marginally lower compared to IV ketamine administration. Despite this slight deficit, the primary utility highlighted is its ability to provide sedation without needles, which is a significant advantage for children with severe needle phobias.",
       "confidence": "high"
     }
   ],
@@ -315,7 +315,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 2,
+      "itemsKept": 1,
       "itemsSeen": 40
     },
     {
@@ -339,7 +339,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 4,
+      "itemsKept": 5,
       "itemsSeen": 10
     },
     {
@@ -363,7 +363,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 2,
+      "itemsKept": 3,
       "itemsSeen": 5
     },
     {
@@ -387,7 +387,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 8,
+      "itemsKept": 12,
       "itemsSeen": 12
     },
     {
@@ -423,7 +423,7 @@
       "qualityTier": "selective",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 1,
+      "itemsKept": 2,
       "itemsSeen": 20
     },
     {
@@ -435,7 +435,7 @@
       "qualityTier": "selective",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 11,
+      "itemsKept": 9,
       "itemsSeen": 21
     },
     {
@@ -507,7 +507,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 36,
+      "itemsKept": 8,
       "itemsSeen": 89
     },
     {
@@ -531,7 +531,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 10,
+      "itemsKept": 11,
       "itemsSeen": 87
     },
     {
@@ -555,7 +555,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 21,
+      "itemsKept": 24,
       "itemsSeen": 100
     },
     {
@@ -567,7 +567,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 2,
+      "itemsKept": 3,
       "itemsSeen": 100
     },
     {
@@ -579,7 +579,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 5,
+      "itemsKept": 7,
       "itemsSeen": 100
     },
     {
@@ -591,7 +591,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 1,
+      "itemsKept": 2,
       "itemsSeen": 100
     },
     {
@@ -603,7 +603,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 6,
+      "itemsKept": 3,
       "itemsSeen": 100
     },
     {
@@ -627,7 +627,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 12,
+      "itemsKept": 8,
       "itemsSeen": 100
     },
     {
@@ -639,7 +639,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 21,
+      "itemsKept": 24,
       "itemsSeen": 100
     },
     {
@@ -651,7 +651,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 14,
+      "itemsKept": 10,
       "itemsSeen": 100
     }
   ]
