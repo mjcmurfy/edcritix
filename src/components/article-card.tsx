@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Article } from "@/lib/feed";
+import { getArticleBottomLine, getArticleHref, getSourceAccessLabel, type Article } from "@/lib/feed";
 
 const impactClasses: Record<Article["impact"], string> = {
   "Practice-changing": "border-emerald-200 bg-emerald-50 text-emerald-900",
@@ -19,7 +19,7 @@ export function ArticleCard({ article }: { article: Article }) {
           {article.impact}
         </span>
         <span className="rounded-full border border-slate-200/80 bg-white/78 px-3 py-1 text-slate-600">
-          {article.sourceAccess}
+          {getSourceAccessLabel(article)}
         </span>
       </div>
 
@@ -34,7 +34,7 @@ export function ArticleCard({ article }: { article: Article }) {
         <div className="text-[11px] font-semibold uppercase tracking-[0.26em] text-teal-700">
           Bottom line
         </div>
-        <p className="mt-2 text-sm leading-7 text-slate-700">{article.bottomLine}</p>
+        <p className="mt-2 text-sm leading-7 text-slate-700">{getArticleBottomLine(article)}</p>
       </div>
 
       <div className="mt-5 flex items-center justify-between gap-3">
@@ -42,7 +42,7 @@ export function ArticleCard({ article }: { article: Article }) {
           {article.topic}
         </div>
         <Link
-          href={`/articles/${article.slug}`}
+          href={getArticleHref(article)}
           className="rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-800"
         >
           Read analysis

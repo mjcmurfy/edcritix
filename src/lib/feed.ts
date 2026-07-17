@@ -21,26 +21,26 @@ export type Article = {
   publishedAt: string | null;
   impact: ImpactLevel;
   topic: string;
-  topics: string[];
+  topics?: string[];
   takeaway: string;
   shortSummary: string;
   summary: string;
-  critique: string;
-  editorialAngle: string;
-  studyDesign: string;
-  sample: string | null;
-  evidenceSignal: string;
-  sourceAccess: SourceAccess;
-  keyFindings: string[];
-  strengths: string[];
-  limitations: string[];
-  questionsForPractice: string[];
-  bottomLine: string;
-  analysisProvenance: string;
-  score: number;
-  importance: string;
-  confidence: string | null;
-  readingPriority: string | null;
+  critique?: string;
+  editorialAngle?: string;
+  studyDesign?: string;
+  sample?: string | null;
+  evidenceSignal?: string;
+  sourceAccess?: SourceAccess;
+  keyFindings?: string[];
+  strengths?: string[];
+  limitations?: string[];
+  questionsForPractice?: string[];
+  bottomLine?: string;
+  analysisProvenance?: string;
+  score?: number;
+  importance?: string;
+  confidence?: string | null;
+  readingPriority?: string | null;
 };
 
 export type Topic = {
@@ -199,7 +199,73 @@ export const currentEdition: Edition =
   };
 
 export function getArticleBySlug(slug: string) {
-  return articles.find((article) => article.slug === slug);
+  return getAllArticles().find((article) => article.slug === slug);
+}
+
+export function getAllArticles() {
+  const seen = new Set<string>();
+  const combined: Article[] = [];
+
+  for (const article of [...articles, ...editionArchive.flatMap((edition) => edition.articles)]) {
+    if (seen.has(article.slug)) continue;
+    seen.add(article.slug);
+    combined.push(article);
+  }
+
+  return combined;
+}
+
+export function getArticleHref(article: Article) {
+  return `/articles/${article.slug}`;
+}
+
+export function getArticleTopics(article: Article) {
+  return article.topics?.length ? article.topics : [article.topic].filter(Boolean);
+}
+
+export function getArticleBottomLine(article: Article) {
+  return article.bottomLine?.trim() || article.takeaway || article.shortSummary;
+}
+
+export function getEvidenceLabel(article: Article) {
+  if (article.studyDesign?.trim()) return article.studyDesign;
+
+  const source = article.source.toLowerCase();
+  const title = article.title.toLowerCase();
+  const topic = article.topic.toLowerCase();
+
+  if (source.includes("rebel") || source.includes("emdocs") || source.includes("stemlyn")) return "FOAMed appraisal";
+  if (topic.includes("policy") || title.includes("consensus") || title.includes("guideline")) return "Guideline / consensus";
+  if (title.includes("systematic review") || title.includes("meta-analysis")) return "Systematic review";
+  if (title.includes("trial") || title.includes("random")) return "Clinical trial";
+  if (title.includes("cohort")) return "Cohort study";
+  if (title.includes("validation") || title.includes("derivation")) return "Derivation / validation";
+
+  return article.sourceAccess === "abstract + metadata" ? "Article scan" : "Evidence update";
+}
+
+export function getSourceAccessLabel(article: Article) {
+  if (article.sourceAccess === "full-text parsed") return "Full text parsed";
+  if (article.sourceAccess === "editor-uploaded PDF") return "Uploaded PDF";
+  return "Abstract and metadata";
+}
+
+export function getImpactDescription(impact: ImpactLevel) {
+  if (impact === "Practice-changing") return "Read first";
+  if (impact === "High-yield") return "High-yield";
+  if (impact === "Worth watching") return "Watch";
+  return "Background";
+}
+
+export function getArticleRankLabel(index: number) {
+  return `#${String(index + 1).padStart(2, "0")}`;
+}
+
+export function getRelatedArticles(article: Article, limit = 4) {
+  return getAllArticles()
+    .filter((candidate) => candidate.slug !== article.slug)
+    .filter((candidate) => candidate.topic === article.topic || candidate.source === article.source)
+    .slice(0, limit);
 }
 
 export function getEditionByDate(date: string) {
@@ -281,7 +347,7 @@ export function getImpactCounts() {
 export function getTopicArticles(topicLabel: string, limit?: number) {
   const matches = articles.filter(
     (article) =>
-      article.topic === topicLabel || article.topics.includes(topicLabel),
+      article.topic === topicLabel || getArticleTopics(article).includes(topicLabel),
   );
 
   return typeof limit === "number" ? matches.slice(0, limit) : matches;
@@ -314,7 +380,6 @@ export function getUniqueSources() {
 const genericCritiquePrefix = "The current engine flags this as important because ";
 const genericCritiqueMiddle =
   "This export is still working from summary-level inputs, so the critical appraisal is provisional rather than a final journal-club grade read.";
-const genericPriorityPrefix = "Internal reading priority is set to ";
 const genericProvenance =
   "Published from engine ranking plus abstract/metadata-level analysis; deeper appraisal can be layered later.";
 
@@ -346,5 +411,5 @@ export function getDisplayProvenance(article: Article) {
     return "Ranked from the live feed and summarised from the available source layer. Full-text appraisal can be added later when more source material is available.";
   }
 
-  return article.analysisProvenance;
+  return article.analysisProvenance ?? "Ranked from the live feed and summarised from the available source layer.";
 }

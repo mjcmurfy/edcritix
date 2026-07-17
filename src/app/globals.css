@@ -1,137 +1,147 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0b1220;
-  --background-soft: #111a2a;
-  --background-gradient-start: #0a111d;
-  --background-gradient-mid: #0b1220;
-  --background-gradient-end: #0c1321;
-  --glow-primary: rgba(45, 212, 191, 0.08);
-  --glow-secondary: rgba(56, 189, 248, 0.05);
-  --panel: rgba(255, 255, 255, 0.04);
-  --panel-strong: rgba(255, 255, 255, 0.06);
-  --panel-soft: rgba(255, 255, 255, 0.03);
-  --panel-muted: rgba(255, 255, 255, 0.05);
-  --panel-muted-strong: rgba(45, 212, 191, 0.08);
-  --border: rgba(255, 255, 255, 0.08);
-  --foreground: #e8eef6;
-  --foreground-strong: #ffffff;
-  --muted: #93a4ba;
-  --muted-soft: #cbd5e1;
-  --muted-faint: #64748b;
-  --nav-bg: rgba(2, 6, 23, 0.4);
-  --pill-bg: rgba(255, 255, 255, 0.06);
-  --pill-text: #d9e4f2;
-  --pill-muted-text: #aab9cc;
-  --pill-border: rgba(255, 255, 255, 0.14);
-  --number-pill-bg: #0f766e;
-  --number-pill-border: rgba(45, 212, 191, 0.42);
-  --number-pill-text: #ecfeff;
-  --hero-badge-bg: rgba(34, 211, 238, 0.1);
-  --hero-badge-border: rgba(103, 232, 249, 0.24);
-  --hero-badge-text: #c8f4ff;
-  --hero-surface: linear-gradient(155deg, rgba(17, 24, 39, 0.92), rgba(8, 15, 27, 0.84));
-  --hero-glow: radial-gradient(circle at top left, rgba(34, 211, 238, 0.18), transparent 34%), radial-gradient(circle at 85% 10%, rgba(45, 212, 191, 0.14), transparent 28%);
-  --hero-title: #ffffff;
-  --hero-subtitle: rgba(207, 250, 254, 0.85);
-  --hero-body: #e2e8f0;
-  --hero-card-bg: rgba(255, 255, 255, 0.05);
-  --hero-card-border: rgba(255, 255, 255, 0.1);
-  --hero-card-label: rgba(165, 243, 252, 0.7);
-  --hero-card-text: #ffffff;
-  --archive-pill-bg: rgba(255, 255, 255, 0.08);
-  --archive-pill-border: rgba(125, 211, 252, 0.22);
-  --impact-practice-bg: rgba(16, 185, 129, 0.2);
-  --impact-practice-border: rgba(52, 211, 153, 0.34);
-  --impact-practice-text: #d1fae5;
-  --impact-high-bg: rgba(14, 165, 233, 0.18);
-  --impact-high-border: rgba(56, 189, 248, 0.34);
-  --impact-high-text: #d8f3ff;
-  --impact-watch-bg: rgba(245, 158, 11, 0.18);
-  --impact-watch-border: rgba(251, 191, 36, 0.32);
-  --impact-watch-text: #fef3c7;
-  --impact-background-bg: rgba(148, 163, 184, 0.14);
-  --impact-background-border: rgba(148, 163, 184, 0.28);
-  --impact-background-text: #e2e8f0;
-  --button-bg: rgba(34, 211, 238, 0.1);
-  --button-border: rgba(103, 232, 249, 0.18);
-  --button-text: #d6f7ff;
-  --toggle-button-bg: rgba(45, 212, 191, 0.14);
-  --toggle-button-border: rgba(45, 212, 191, 0.28);
-  --toggle-button-text: #ccfbf1;
-  --action-expand-text: #86efac;
-  --action-collapse-text: #fda4af;
-  --inline-link-text: #9be7ff;
-  --section-label-text: rgba(125, 211, 252, 0.82);
-  --selection-bg: rgba(34, 211, 238, 0.24);
-  --selection-text: #f8fbff;
+  --background: #f7f8fa;
+  --surface: #ffffff;
+  --surface-subtle: #f1f5f9;
+  --surface-muted: #e8edf3;
+  --panel: #ffffff;
+  --panel-strong: #ffffff;
+  --panel-soft: #f8fafc;
+  --panel-muted: #f1f5f9;
+  --panel-muted-strong: #e6f4f1;
+  --border: #d7dee8;
+  --border-strong: #b9c5d3;
+  --foreground: #1b2430;
+  --foreground-strong: #07111f;
+  --muted: #586678;
+  --muted-soft: #374151;
+  --muted-faint: #758195;
+  --nav-bg: rgba(255, 255, 255, 0.94);
+  --pill-bg: #f7fafc;
+  --pill-text: #243244;
+  --pill-muted-text: #526174;
+  --pill-border: #dbe3ed;
+  --number-pill-bg: #0f3f3a;
+  --number-pill-border: #0f3f3a;
+  --number-pill-text: #ffffff;
+  --accent: #0f766e;
+  --accent-strong: #0f3f3a;
+  --accent-soft: #dff4f0;
+  --accent-border: #9fd3cc;
+  --hero-badge-bg: #edf7f5;
+  --hero-badge-border: #c8e4df;
+  --hero-badge-text: #0f3f3a;
+  --hero-surface: #ffffff;
+  --hero-glow: none;
+  --hero-title: #07111f;
+  --hero-subtitle: #344153;
+  --hero-body: #465569;
+  --hero-card-bg: #f7fafc;
+  --hero-card-border: #dbe3ed;
+  --hero-card-label: #66758a;
+  --hero-card-text: #172033;
+  --archive-pill-bg: #f7fafc;
+  --archive-pill-border: #dbe3ed;
+  --impact-practice-bg: #e8f7ef;
+  --impact-practice-border: #a8d9bb;
+  --impact-practice-text: #075c31;
+  --impact-high-bg: #e7f1fb;
+  --impact-high-border: #abcbe8;
+  --impact-high-text: #0b4f7a;
+  --impact-watch-bg: #fff6dc;
+  --impact-watch-border: #eed077;
+  --impact-watch-text: #704b00;
+  --impact-background-bg: #eef2f6;
+  --impact-background-border: #cbd5e1;
+  --impact-background-text: #465569;
+  --button-bg: #0f3f3a;
+  --button-border: #0f3f3a;
+  --button-text: #ffffff;
+  --button-muted-bg: #ffffff;
+  --button-muted-border: #cbd5e1;
+  --button-muted-text: #263244;
+  --toggle-button-bg: #ffffff;
+  --toggle-button-border: #cbd5e1;
+  --toggle-button-text: #263244;
+  --action-expand-text: #0f766e;
+  --action-collapse-text: #8a1f11;
+  --inline-link-text: #0f766e;
+  --section-label-text: #0f766e;
+  --selection-bg: #cdebe6;
+  --selection-text: #07111f;
 }
 
-html[data-theme="light"] {
-  --background: #f2f7fb;
-  --background-soft: #ffffff;
-  --background-gradient-start: #f7fbff;
-  --background-gradient-mid: #eef5fb;
-  --background-gradient-end: #e9f1f8;
-  --glow-primary: rgba(45, 212, 191, 0.12);
-  --glow-secondary: rgba(56, 189, 248, 0.08);
-  --panel: rgba(255, 255, 255, 0.84);
-  --panel-strong: rgba(255, 255, 255, 0.92);
-  --panel-soft: rgba(255, 255, 255, 0.72);
-  --panel-muted: rgba(248, 250, 252, 0.88);
-  --panel-muted-strong: rgba(204, 251, 241, 0.45);
-  --border: rgba(15, 23, 42, 0.1);
-  --foreground: #0f172a;
-  --foreground-strong: #020617;
-  --muted: #475569;
-  --muted-soft: #334155;
-  --muted-faint: #64748b;
-  --nav-bg: rgba(255, 255, 255, 0.76);
-  --pill-bg: rgba(255, 255, 255, 0.92);
-  --pill-text: #1e293b;
-  --pill-muted-text: #475569;
-  --pill-border: rgba(15, 23, 42, 0.14);
-  --number-pill-bg: #bff7f0;
-  --number-pill-border: rgba(13, 148, 136, 0.28);
-  --number-pill-text: #115e59;
-  --hero-badge-bg: rgba(14, 165, 233, 0.09);
-  --hero-badge-border: rgba(2, 132, 199, 0.2);
-  --hero-badge-text: #0c4a6e;
-  --hero-surface: linear-gradient(155deg, rgba(255, 255, 255, 0.96), rgba(236, 245, 252, 0.94));
-  --hero-glow: radial-gradient(circle at top left, rgba(34, 211, 238, 0.12), transparent 34%), radial-gradient(circle at 85% 10%, rgba(20, 184, 166, 0.1), transparent 28%);
-  --hero-title: #082f49;
-  --hero-subtitle: rgba(12, 74, 110, 0.88);
-  --hero-body: #334155;
-  --hero-card-bg: rgba(255, 255, 255, 0.6);
-  --hero-card-border: rgba(8, 145, 178, 0.14);
-  --hero-card-label: rgba(12, 74, 110, 0.7);
-  --hero-card-text: #082f49;
-  --archive-pill-bg: rgba(255, 255, 255, 0.72);
-  --archive-pill-border: rgba(8, 145, 178, 0.2);
-  --impact-practice-bg: rgba(16, 185, 129, 0.12);
-  --impact-practice-border: rgba(5, 150, 105, 0.26);
-  --impact-practice-text: #065f46;
-  --impact-high-bg: rgba(14, 165, 233, 0.12);
-  --impact-high-border: rgba(2, 132, 199, 0.24);
-  --impact-high-text: #0c4a6e;
-  --impact-watch-bg: rgba(245, 158, 11, 0.13);
-  --impact-watch-border: rgba(217, 119, 6, 0.24);
-  --impact-watch-text: #92400e;
-  --impact-background-bg: rgba(148, 163, 184, 0.14);
-  --impact-background-border: rgba(100, 116, 139, 0.22);
-  --impact-background-text: #334155;
-  --button-bg: rgba(8, 145, 178, 0.1);
-  --button-border: rgba(8, 145, 178, 0.18);
-  --button-text: #0f766e;
-  --toggle-button-bg: rgba(20, 184, 166, 0.12);
-  --toggle-button-border: rgba(13, 148, 136, 0.22);
-  --toggle-button-text: #115e59;
-  --action-expand-text: #166534;
-  --action-collapse-text: #b91c1c;
-  --inline-link-text: #0f766e;
-  --section-label-text: #0f5f73;
-  --selection-bg: rgba(8, 145, 178, 0.18);
-  --selection-text: #082f49;
+html[data-theme="dark"] {
+  --background: #111827;
+  --surface: #172033;
+  --surface-subtle: #1f2937;
+  --surface-muted: #263244;
+  --panel: #172033;
+  --panel-strong: #1f2937;
+  --panel-soft: #111827;
+  --panel-muted: #1f2937;
+  --panel-muted-strong: #17342f;
+  --border: #334155;
+  --border-strong: #475569;
+  --foreground: #e5e7eb;
+  --foreground-strong: #ffffff;
+  --muted: #a8b3c4;
+  --muted-soft: #cbd5e1;
+  --muted-faint: #94a3b8;
+  --nav-bg: rgba(17, 24, 39, 0.94);
+  --pill-bg: #1f2937;
+  --pill-text: #e5e7eb;
+  --pill-muted-text: #b6c2d2;
+  --pill-border: #334155;
+  --number-pill-bg: #2dd4bf;
+  --number-pill-border: #2dd4bf;
+  --number-pill-text: #06221f;
+  --accent: #2dd4bf;
+  --accent-strong: #99f6e4;
+  --accent-soft: #123c38;
+  --accent-border: #2a6f67;
+  --hero-badge-bg: #123c38;
+  --hero-badge-border: #2a6f67;
+  --hero-badge-text: #99f6e4;
+  --hero-surface: #172033;
+  --hero-glow: none;
+  --hero-title: #ffffff;
+  --hero-subtitle: #cbd5e1;
+  --hero-body: #cbd5e1;
+  --hero-card-bg: #1f2937;
+  --hero-card-border: #334155;
+  --hero-card-label: #a8b3c4;
+  --hero-card-text: #f8fafc;
+  --archive-pill-bg: #1f2937;
+  --archive-pill-border: #334155;
+  --impact-practice-bg: #103522;
+  --impact-practice-border: #25724d;
+  --impact-practice-text: #a7f3d0;
+  --impact-high-bg: #0d3049;
+  --impact-high-border: #25658b;
+  --impact-high-text: #bae6fd;
+  --impact-watch-bg: #3d2f0a;
+  --impact-watch-border: #8a6a16;
+  --impact-watch-text: #fde68a;
+  --impact-background-bg: #263244;
+  --impact-background-border: #475569;
+  --impact-background-text: #d7dee8;
+  --button-bg: #2dd4bf;
+  --button-border: #2dd4bf;
+  --button-text: #06221f;
+  --button-muted-bg: #1f2937;
+  --button-muted-border: #475569;
+  --button-muted-text: #e5e7eb;
+  --toggle-button-bg: #1f2937;
+  --toggle-button-border: #475569;
+  --toggle-button-text: #e5e7eb;
+  --action-expand-text: #99f6e4;
+  --action-collapse-text: #fecaca;
+  --inline-link-text: #5eead4;
+  --section-label-text: #5eead4;
+  --selection-bg: #0f766e;
+  --selection-text: #ffffff;
 }
 
 @theme inline {
@@ -155,23 +165,13 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: transparent;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--surface-subtle) 72%, transparent) 0, transparent 220px),
+    var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: -1;
-  background:
-    radial-gradient(circle at top, var(--glow-primary), transparent 24%),
-    radial-gradient(circle at 50% 20%, var(--glow-secondary), transparent 28%),
-    linear-gradient(180deg, var(--background-gradient-start) 0%, var(--background-gradient-mid) 45%, var(--background-gradient-end) 100%);
 }
 
 ::selection {
@@ -189,6 +189,11 @@ textarea {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--accent) 42%, transparent);
+  outline-offset: 3px;
 }
 
 html[data-editorial="hidden"] [data-editorial-panel="true"] {

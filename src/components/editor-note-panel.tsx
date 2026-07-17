@@ -17,20 +17,20 @@ export function EditorNotePanel({
   return (
     <section
       data-editorial-panel="true"
-      className="rounded-[34px] border border-[color:var(--border)] bg-[color:var(--panel)] px-5 py-5 shadow-[0_24px_70px_rgba(0,0,0,0.16)] backdrop-blur-sm sm:px-6 sm:py-6 lg:px-8 lg:py-7"
+      className="rounded-lg border border-[color:var(--border)] bg-[color:var(--surface)] px-4 py-5 shadow-sm sm:px-5 lg:px-6"
     >
       <div className="max-w-4xl">
-        <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[color:var(--muted-faint)]">
+        <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[color:var(--muted-faint)]">
           {label ?? "Edition note"}
         </div>
-        <h2 className="mt-2 text-[1.65rem] font-semibold tracking-tight text-[color:var(--foreground-strong)] sm:text-[2rem] lg:text-[2.2rem] lg:leading-[1.08]">
+        <h2 className="mt-2 text-2xl font-semibold leading-tight tracking-tight text-[color:var(--foreground-strong)] sm:text-3xl">
           {headline}
         </h2>
       </div>
 
-      <div className="mx-auto mt-4 w-full max-w-[52rem] text-left text-sm leading-6 text-[color:var(--muted-soft)] sm:mt-5 sm:text-base sm:leading-7">
+      <div className="mt-4 grid max-w-4xl gap-4 text-sm leading-6 text-[color:var(--muted-soft)] sm:text-base sm:leading-7">
         {splitParagraphs(summary).map((paragraph, index) => (
-          <p key={index} className={index === 0 ? "" : "mt-4"}>
+          <p key={index}>
             {paragraph}
           </p>
         ))}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const STORAGE_KEY = "edcritix-editorial-visible";
 
@@ -10,17 +10,17 @@ function applyVisibility(next: Visibility) {
   document.documentElement.dataset.editorial = next;
 }
 
-export function EditorialVisibilityToggle() {
-  const [visibility, setVisibility] = useState<Visibility>("shown");
+function getInitialVisibility(): Visibility {
+  if (typeof window === "undefined") return "shown";
 
-  useEffect(() => {
-    const saved = window.localStorage.getItem(STORAGE_KEY);
-    const initial: Visibility = saved === "hidden" ? "hidden" : "shown";
-    applyVisibility(initial);
-    if (initial === "hidden") {
-      window.setTimeout(() => setVisibility(initial), 0);
-    }
-  }, []);
+  const saved = window.localStorage.getItem(STORAGE_KEY);
+  const initial: Visibility = saved === "hidden" ? "hidden" : "shown";
+  applyVisibility(initial);
+  return initial;
+}
+
+export function EditorialVisibilityToggle() {
+  const [visibility, setVisibility] = useState<Visibility>(getInitialVisibility);
 
   function toggleVisibility() {
     const next: Visibility = visibility === "shown" ? "hidden" : "shown";
@@ -36,9 +36,10 @@ export function EditorialVisibilityToggle() {
       type="button"
       onClick={toggleVisibility}
       aria-label={isShown ? "Hide daily editorial" : "Show daily editorial"}
-      className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[color:var(--border)] bg-[color:var(--pill-bg)] text-sm text-[color:var(--pill-text)] transition hover:opacity-90"
+      className="inline-flex h-9 items-center justify-center rounded-md border border-[color:var(--button-muted-border)] bg-[color:var(--button-muted-bg)] px-3 text-xs font-medium text-[color:var(--button-muted-text)] transition hover:bg-[color:var(--surface-subtle)]"
     >
-      <span aria-hidden>{isShown ? "👁️" : "🙈"}</span>
+      <span className="hidden sm:inline">{isShown ? "Hide editorial" : "Show editorial"}</span>
+      <span className="sm:hidden">{isShown ? "Hide" : "Show"}</span>
     </button>
   );
 }

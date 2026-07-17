@@ -5,11 +5,11 @@ import type { PracticeSignalState, PracticeVote } from "@/lib/practice-signal";
 
 const STORAGE_KEY = "edcritix-practice-signal-voter-id";
 const buttonBase =
-  "inline-flex h-10 items-center justify-center rounded-full border px-3.5 text-sm font-medium leading-none shadow-[0_10px_24px_rgba(0,0,0,0.08)] transition hover:opacity-90";
+  "inline-flex h-9 items-center justify-center rounded-md border px-3 text-sm font-medium leading-none transition hover:bg-[color:var(--surface-subtle)]";
 const activeTone = "border-[color:var(--button-border)] bg-[color:var(--button-bg)] text-[color:var(--button-text)]";
 const neutralTone = "border-[color:var(--toggle-button-border)] bg-[color:var(--toggle-button-bg)] text-[color:var(--toggle-button-text)]";
 const mutedTone = "border-[color:var(--pill-border)] bg-[color:var(--pill-bg)] text-[color:var(--pill-muted-text)]";
-const iconPillClass = `${buttonBase} h-10 w-14 px-0`;
+const iconPillClass = `${buttonBase} h-9 w-12 px-0`;
 
 function getOrCreateVoterId() {
   const existing = window.localStorage.getItem(STORAGE_KEY);
@@ -28,12 +28,11 @@ function CountPill({ label, count, active = false }: { label: string; count: num
   );
 }
 
-function VoteButtonLabel({ icon, count, label }: { icon: string; count: number; label: string }) {
+function VoteButtonLabel({ count, label }: { count: number; label: string }) {
   return (
     <span className="inline-flex items-center gap-1.5">
-      <span aria-hidden>{icon}</span>
-      <span>{count}</span>
       <span>{label}</span>
+      <span>{count}</span>
     </span>
   );
 }
@@ -90,8 +89,8 @@ export function PracticeSignalControl({ slug }: { slug: string }) {
     return (
       <div className="flex flex-wrap items-center gap-2">
         <SignalLabelIcon />
-        <CountPill label="👍" count={state.up} active={state.userVote === "up"} />
-        <CountPill label="👎" count={state.down} active={state.userVote === "down"} />
+        <CountPill label="Useful" count={state.up} active={state.userVote === "up"} />
+        <CountPill label="Not useful" count={state.down} active={state.userVote === "down"} />
       </div>
     );
   }, [state]);
@@ -143,7 +142,7 @@ export function PracticeSignalControl({ slug }: { slug: string }) {
         disabled={isSubmitting}
         className={`${buttonBase} ${neutralTone} disabled:opacity-60`}
       >
-        <VoteButtonLabel icon="👍" count={state.up} label="Useful" />
+        <VoteButtonLabel count={state.up} label="Useful" />
       </button>
       <button
         type="button"
@@ -151,7 +150,7 @@ export function PracticeSignalControl({ slug }: { slug: string }) {
         disabled={isSubmitting}
         className={`${buttonBase} ${mutedTone} disabled:opacity-60`}
       >
-        <VoteButtonLabel icon="👎" count={state.down} label="Not useful" />
+        <VoteButtonLabel count={state.down} label="Not useful" />
       </button>
     </div>
   );

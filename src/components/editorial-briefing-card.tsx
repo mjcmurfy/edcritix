@@ -1,5 +1,13 @@
 import Link from "next/link";
-import type { Article } from "@/lib/feed";
+import {
+  getArticleBottomLine,
+  getArticleHref,
+  getDisplayCritique,
+  getDisplayProvenance,
+  getEvidenceLabel,
+  getSourceAccessLabel,
+  type Article,
+} from "@/lib/feed";
 
 const impactClasses: Record<Article["impact"], string> = {
   "Practice-changing": "border-emerald-200 bg-emerald-50 text-emerald-900",
@@ -25,7 +33,7 @@ export function EditorialBriefingCard({ article }: { article: Article }) {
                 {article.published}
               </span>
               <span className="rounded-full border border-slate-200/80 bg-white/65 px-3 py-1 text-slate-600">
-                {article.sourceAccess}
+                {getSourceAccessLabel(article)}
               </span>
             </div>
 
@@ -67,7 +75,7 @@ export function EditorialBriefingCard({ article }: { article: Article }) {
                 Key findings
               </div>
               <ul className="mt-3 space-y-3 text-sm leading-7 text-slate-700">
-                {article.keyFindings.map((finding) => (
+                {(article.keyFindings ?? [article.shortSummary]).map((finding) => (
                   <li key={finding} className="flex gap-3">
                     <span className="mt-2 h-1.5 w-1.5 rounded-full bg-teal-600" />
                     <span>{finding}</span>
@@ -79,12 +87,12 @@ export function EditorialBriefingCard({ article }: { article: Article }) {
               <div className="text-xs font-semibold uppercase tracking-[0.25em] text-teal-700">
                 Bottom line in the ED
               </div>
-              <p className="mt-3 text-sm leading-7 text-slate-700">{article.bottomLine}</p>
+              <p className="mt-3 text-sm leading-7 text-slate-700">{getArticleBottomLine(article)}</p>
               <div className="mt-4 rounded-2xl border border-slate-200/70 bg-slate-50/82 p-4 text-sm text-slate-700">
                 <div className="text-[11px] font-semibold uppercase tracking-[0.24em] text-slate-500">
                   Editorial angle
                 </div>
-                <p className="mt-2 leading-7">{article.editorialAngle}</p>
+                <p className="mt-2 leading-7">{article.editorialAngle ?? article.takeaway}</p>
               </div>
             </div>
           </section>
@@ -98,7 +106,7 @@ export function EditorialBriefingCard({ article }: { article: Article }) {
             <div className="mt-3 space-y-3 text-sm text-slate-700">
               <div>
                 <div className="text-slate-500">Study design</div>
-                <div className="mt-1 text-slate-950">{article.studyDesign}</div>
+                <div className="mt-1 text-slate-950">{getEvidenceLabel(article)}</div>
               </div>
               {article.sample ? (
                 <div>
@@ -108,7 +116,7 @@ export function EditorialBriefingCard({ article }: { article: Article }) {
               ) : null}
               <div>
                 <div className="text-slate-500">Signal</div>
-                <div className="mt-1 text-slate-950">{article.evidenceSignal}</div>
+                <div className="mt-1 text-slate-950">{article.evidenceSignal ?? article.impact}</div>
               </div>
               <div>
                 <div className="text-slate-500">Reading priority</div>
@@ -121,12 +129,12 @@ export function EditorialBriefingCard({ article }: { article: Article }) {
             <div className="text-xs font-semibold uppercase tracking-[0.25em] text-teal-700">
               Appraisal notes
             </div>
-            <p className="mt-3 text-sm leading-7 text-slate-700">{article.critique}</p>
+            <p className="mt-3 text-sm leading-7 text-slate-700">{getDisplayCritique(article) || article.takeaway}</p>
             <div className="mt-4 rounded-2xl border border-slate-200/70 bg-white/78 p-4 text-sm text-slate-700">
               <div className="text-[11px] font-semibold uppercase tracking-[0.24em] text-slate-500">
                 Analysis basis
               </div>
-              <p className="mt-2 leading-7">{article.analysisProvenance}</p>
+              <p className="mt-2 leading-7">{getDisplayProvenance(article)}</p>
             </div>
           </section>
 
@@ -135,7 +143,7 @@ export function EditorialBriefingCard({ article }: { article: Article }) {
               Questions for practice
             </div>
             <ul className="mt-3 space-y-3 text-sm leading-7 text-slate-700">
-              {article.questionsForPractice.map((question) => (
+              {(article.questionsForPractice ?? [article.takeaway]).map((question) => (
                 <li key={question} className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 rounded-full bg-teal-600" />
                   <span>{question}</span>
@@ -146,7 +154,7 @@ export function EditorialBriefingCard({ article }: { article: Article }) {
 
           <div className="flex flex-wrap gap-3">
             <Link
-              href={`/articles/${article.slug}`}
+              href={getArticleHref(article)}
               className="inline-flex rounded-full bg-slate-900 px-4 py-2 text-sm text-white transition hover:bg-slate-800"
             >
               Open full analysis

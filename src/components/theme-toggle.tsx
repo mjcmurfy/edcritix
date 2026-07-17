@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 type Theme = "dark" | "light";
 
@@ -10,15 +10,17 @@ function applyTheme(theme: Theme) {
   document.documentElement.dataset.theme = theme;
 }
 
-export function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>("dark");
+function getInitialTheme(): Theme {
+  if (typeof window === "undefined") return "light";
 
-  useEffect(() => {
-    const saved = window.localStorage.getItem(STORAGE_KEY);
-    const initial = saved === "light" || saved === "dark" ? saved : "dark";
-    setTheme(initial);
-    applyTheme(initial);
-  }, []);
+  const saved = window.localStorage.getItem(STORAGE_KEY);
+  const initial = saved === "light" || saved === "dark" ? saved : "light";
+  applyTheme(initial);
+  return initial;
+}
+
+export function ThemeToggle() {
+  const [theme, setTheme] = useState<Theme>(getInitialTheme);
 
   function toggleTheme() {
     const next = theme === "dark" ? "light" : "dark";
@@ -32,9 +34,9 @@ export function ThemeToggle() {
       type="button"
       onClick={toggleTheme}
       aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
-      className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[color:var(--border)] bg-[color:var(--pill-bg)] text-sm text-[color:var(--pill-text)] transition hover:opacity-90"
+      className="inline-flex h-9 items-center justify-center rounded-md border border-[color:var(--button-muted-border)] bg-[color:var(--button-muted-bg)] px-3 text-xs font-medium text-[color:var(--button-muted-text)] transition hover:bg-[color:var(--surface-subtle)]"
     >
-      <span aria-hidden>{theme === "dark" ? "🌙" : "☀️"}</span>
+      {theme === "dark" ? "Light" : "Dark"}
     </button>
   );
 }

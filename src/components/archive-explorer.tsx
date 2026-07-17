@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import type { Article, ImpactLevel } from "@/lib/feed";
+import { getArticleBottomLine, getArticleTopics, type Article, type ImpactLevel } from "@/lib/feed";
 
 const impactOptions: Array<ImpactLevel | "all"> = [
   "all",
@@ -42,8 +42,8 @@ export function ArchiveExplorer({
           article.takeaway,
           article.shortSummary,
           article.summary,
-          article.bottomLine,
-          ...article.topics,
+          getArticleBottomLine(article),
+          ...getArticleTopics(article),
         ]
           .join(" ")
           .toLowerCase()
@@ -53,7 +53,7 @@ export function ArchiveExplorer({
       const matchesTopic =
         topic === "all" ||
         article.topic === topic ||
-        article.topics.includes(topic);
+        getArticleTopics(article).includes(topic);
       const matchesSource = source === "all" || article.source === source;
 
       return matchesQuery && matchesImpact && matchesTopic && matchesSource;
@@ -64,7 +64,7 @@ export function ArchiveExplorer({
         return (Date.parse(b.publishedAt ?? "") || 0) - (Date.parse(a.publishedAt ?? "") || 0);
       }
 
-      return b.score - a.score;
+      return (b.score ?? 0) - (a.score ?? 0);
     });
   }, [articles, impact, query, sort, source, topic]);
 
@@ -206,7 +206,7 @@ export function ArchiveExplorer({
                 <div className="text-[11px] font-semibold uppercase tracking-[0.24em] text-teal-700">
                   Quick read
                 </div>
-                <p className="mt-2 text-sm leading-7 text-slate-700">{article.bottomLine}</p>
+                <p className="mt-2 text-sm leading-7 text-slate-700">{getArticleBottomLine(article)}</p>
               </div>
             </div>
           </Link>
