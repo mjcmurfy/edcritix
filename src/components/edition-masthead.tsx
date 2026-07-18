@@ -84,7 +84,7 @@ export function EditionMasthead({
         {!isCurrent ? (
           <Link
             href="/"
-            className={`${linkButton} border-[color:var(--button-border)] bg-[color:var(--button-bg)] text-[color:var(--button-text)] hover:opacity-90`}
+            className={`${linkButton} border-[color:var(--button-muted-border)] bg-[color:var(--button-muted-bg)] text-[color:var(--button-muted-text)] hover:bg-[color:var(--surface-subtle)]`}
           >
             Latest edition
           </Link>
