@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-07-22T18:43:50.849Z",
-    "sourceGeneratedAt": "2026-07-22T18:15:27.229228Z",
-    "editorialGeneratedAt": "2026-07-22T18:40:42.149166Z",
-    "editionDate": "2026-07-23"
+    "generatedAt": "2026-07-24T18:28:25.393Z",
+    "sourceGeneratedAt": "2026-07-24T18:15:00.798402Z",
+    "editorialGeneratedAt": "2026-07-24T18:28:05.240887Z",
+    "editionDate": "2026-07-25"
   },
   "briefing": {
-    "headline": "9 high-priority items in the latest EM scan",
-    "summary": "Top sources today: EMJ, Annals of Emergency Medicine, EMJ. Main themes: trials, evidence synthesis, reviews. Best early reads: Journal update monthly top five; Cephalosporins Should Be the Preferred Oral Antibiotics for Empiric Treatment of Outpatient Acute Pyelonephritis.",
-    "editorialHeadline": "Troponins, Airways, and the Edges of Protocolized Care",
-    "editorialSummary": "Today's set is led by two pieces that sit squarely in everyday ED decision-making: point-of-care high-sensitivity troponin algorithms for suspected myocardial infarction, and the ongoing argument over empiric oral antibiotics for outpatient pyelonephritis. The troponin review is promising but not practice-settling; accuracy is only part of the question, and the real test will be whether these pathways improve flow, disposition decisions, and patient outcomes once embedded in actual departments. The pyelonephritis debate is useful precisely because it resists a simple formulary answer, balancing resistance patterns, adverse-effect tradeoffs, and stewardship against the need for reliable early cure.\n\nSeveral other reads push clinicians to look past the first protocol label. Basilar artery occlusion thrombolysis, non-supine intubation, sex differences in rural STEMI reperfusion, and dispatcher-assisted CPR all point to situations where timing, positioning, recognition, and system design may matter as much as the headline intervention. The practical theme is not novelty for its own sake: it is careful implementation, with enough skepticism to avoid over-reading thin evidence and enough curiosity to notice when bedside habits deserve another look."
+    "headline": "11 high-priority items in the latest EM scan",
+    "summary": "Top sources today: EMJ, Annals of Emergency Medicine, Taming the SRU. Main themes: trials, reviews, evidence synthesis. Best early reads: Journal update monthly top five; Cephalosporins Should Be the Preferred Oral Antibiotics for Empiric Treatment of Outpatient Acute Pyelonephritis.",
+    "editorialHeadline": "From Stroke Windows to UTI Empirics: Key Shifts in ED Practice",
+    "editorialSummary": "The literature this week presents several high-yield considerations, particularly around timing and antibiotic stewardship. For stroke care, the TRACE-5 data challenges traditional thinking on basilar artery occlusion, suggesting tenecteplase may benefit patients up to 24 hours post-symptom onset—a significant consideration for delayed presentations.\n\nIn infectious disease management, there's a notable divergence regarding pyelonephritis empirics: one piece suggests cephalosporins as preferred oral agents, while another strongly cautions against this, reaffirming TMP-SMX or fluoroquinolones as the established first line. Similarly, when managing suspected AMI, meta-analyses confirm that rapid point-of-care troponin algorithms offer high sensitivity for ruling out disease using 0 hour/1 hour protocols.\n\nBeyond these core areas, we see refinement in trauma and resuscitation: pediatric guidelines are being questioned regarding routine operative management for severely displaced distal radial fractures, while the timing of prehospital epinephrine remains critical, with evidence linking delays to poorer neurological outcomes after OHCA. These varied updates underscore that clinical decision-making requires constant calibration against evolving data."
   },
   "dailyEditorial": [
     {
@@ -17,14 +17,14 @@
       "title": "Journal update monthly top five",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/43/8/526?rss=1",
-      "published": "1 day ago",
+      "published": "3 days ago",
       "publishedAt": "2026-07-21T13:06:06Z",
       "impact": "Practice-changing",
       "topic": "Practice Updates",
-      "takeaway": "Use this as a high-yield reading map rather than as primary evidence. The pediatric fracture trial looks like the item most likely to affect bedside and pathway decisions, but any change in sedation, reduction, or referral practice should wait for a direct look at the underlying methods and outcomes.",
-      "shortSummary": "EMJ's monthly top five rounds up papers from outside emergency medicine that may still alter the way ED clinicians think about common problems.",
-      "summary": "EMJ's monthly top five rounds up papers from outside emergency medicine that may still alter the way ED clinicians think about common problems. The format is deliberately selective, ranking articles by likely relevance and practice impact rather than trying to summarize the whole literature. The lead signal is a pediatric trauma trial on severely displaced distal radius fractures, framed as potentially practice-changing. For an ED reader, the value is not a single protocol update but a curated scan of adjacent evidence that may affect sedation, fracture pathways, referral decisions, and follow-up conversations. Because the piece is a secondary editorial selection, the original papers still need direct reading before changing local practice.",
-      "confidence": "moderate"
+      "takeaway": "For managing severely displaced distal radial fractures in pediatrics, this RCT provides compelling data suggesting a potential shift away from routine operative management toward non-surgical methods. While the findings are highly suggestive of changing practice, remember that this is an update based on one study; always correlate these results with local institutional protocols and patient stability before altering standard care.",
+      "shortSummary": "The latest update from the University of Oxford's clinical academic group provides a curated look at five potentially impactful papers originating outside of emergency medicine.",
+      "summary": "The latest update from the University of Oxford's clinical academic group provides a curated look at five potentially impactful papers originating outside of emergency medicine. They have ranked these articles based on their perceived ability to change practice, with 'Game changer' being the highest tier. Of particular note is a multicenter randomized controlled non-inferiority trial evaluating management for severely displaced distal radial fractures in children. This study directly compares non-surgical casting versus surgical reduction approaches and suggests potential shifts in current pediatric trauma protocols.",
+      "confidence": "high"
     },
     {
       "slug": "cephalosporins-should-be-the-preferred-oral-antibiotics-for-empiric-treatment-of",
@@ -35,23 +35,9 @@
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Sepsis",
-      "takeaway": "Cephalosporins may be reasonable empiric outpatient therapy in selected pyelonephritis patients, especially where local data support them and fluoroquinolone risk is unattractive. Do not let the headline override culture review, prior resistant organisms, pregnancy status, severity, or the need for parenteral therapy and reassessment.",
-      "shortSummary": "This Annals argument makes the case for cephalosporins as empiric oral therapy for outpatient acute pyelonephritis, a common ED disposition problem where initial antibiotic choice has real consequences.",
-      "summary": "This Annals argument makes the case for cephalosporins as empiric oral therapy for outpatient acute pyelonephritis, a common ED disposition problem where initial antibiotic choice has real consequences. The clinical tension is familiar: fluoroquinolones and trimethoprim-sulfamethoxazole have long been standard options, but resistance patterns, adverse effects, and stewardship pressures keep narrowing the comfort zone. A pro-cephalosporin position is most persuasive when local susceptibility data, patient risk factors, and follow-up reliability line up. The piece is useful because it forces clinicians to revisit habits that may be based on older resistance assumptions. It should be read alongside the counterpoint rather than treated as a standalone mandate.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "diagnostic-accuracy-of-point-of-care-high-sensitivity-troponin-algorithms-for-em",
-      "title": "Diagnostic accuracy of point-of-care high-sensitivity troponin algorithms for emergency department rule-out and rule-in of acute myocardial infarction: a systematic review and meta-analysis",
-      "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-215922v1?rss=1",
-      "published": "1 day ago",
-      "publishedAt": "2026-07-21T16:00:17Z",
-      "impact": "Practice-changing",
-      "topic": "Cardiology",
-      "takeaway": "Point-of-care high-sensitivity troponin pathways are attractive, but accuracy alone does not make them ready for broad deployment. Before changing chest pain pathways, look for assay-specific validation, clear rule-out thresholds, governance for quality control, and evidence that faster results actually improve disposition without creating unsafe rule-in or observation drift.",
-      "shortSummary": "This systematic review and meta-analysis examines whether point-of-care high-sensitivity troponin testing can support rapid 0/1-hour or 0/2-hour emergency department algorithms for suspected acute myocardial infarction.",
-      "summary": "This systematic review and meta-analysis examines whether point-of-care high-sensitivity troponin testing can support rapid 0/1-hour or 0/2-hour emergency department algorithms for suspected acute myocardial infarction. The accuracy question matters because point-of-care testing could shorten turnaround time at the exact point where crowding and disposition delays accumulate. The review focuses on sensitivity, specificity, positive predictive value, and negative predictive value, which are necessary but not sufficient for implementation. Departments still need to know how these assays perform across real case mix, sampling logistics, governance, and downstream testing behavior. The authors appropriately stop short of claiming a workflow win and call for implementation studies that measure patient outcomes and ED flow.",
+      "takeaway": "When treating suspected pyelonephritis on an outpatient basis, consider using a cephalosporin orally unless local resistance patterns strongly favor otherwise. While fluoroquinolones and TMP-SMX remain options, adopting cephalosporins first might simplify empiric coverage while potentially improving stewardship profiles. Always confirm the source of infection and renal function before making this switch.",
+      "shortSummary": "This article addresses the ongoing challenge of selecting optimal empiric oral antibiotics for managing acute pyelonephritis in the emergency department setting, an infection that demands prompt coverage to avert compli…",
+      "summary": "This article addresses the ongoing challenge of selecting optimal empiric oral antibiotics for managing acute pyelonephritis in the emergency department setting, an infection that demands prompt coverage to avert complications like sepsis or renal injury. While fluoroquinolones and TMP-SMX have historically been the go-to first-line agents according to various consensus guidelines, this review suggests a shift in preference. The authors argue for cephalosporins as the preferred oral antibiotic class for empiric outpatient management. This recommendation is framed within the context of improving clinical outcomes while simultaneously supporting robust antimicrobial stewardship practices.",
       "confidence": "high"
     },
     {
@@ -59,28 +45,14 @@
       "title": "TRACE-5: Rethinking the 24-hour clock in Basilar Artery Occlusions",
       "source": "Taming the SRU",
       "link": "https://www.tamingthesru.com/blog/journal-club/tnk-for-basilar-artery-occlusion",
-      "published": "2 days ago",
+      "published": "4 days ago",
       "publishedAt": "2026-07-20T11:55:00Z",
       "impact": "Practice-changing",
       "topic": "Stroke",
-      "takeaway": "For suspected basilar occlusion, the practical win is faster recognition, vascular imaging, and early stroke-team discussion, especially when symptoms are delayed or atypical. Tenecteplase decisions in late windows should remain protocolized and specialist-guided until the trial details are reconciled with local imaging and thrombectomy pathways.",
-      "shortSummary": "TRACE-5 tackles one of the harder stroke decisions in emergency medicine: basilar artery occlusion presenting outside the tidy early-window framework used for many anterior circulation discussions.",
-      "summary": "TRACE-5 tackles one of the harder stroke decisions in emergency medicine: basilar artery occlusion presenting outside the tidy early-window framework used for many anterior circulation discussions. The trial asks whether tenecteplase has a role up to 24 hours after symptom onset, a clinically important question because posterior circulation strokes can be devastating and diagnostically delayed. The summary suggests practice-shaping findings, but the bedside implications depend heavily on imaging selection, severity, thrombectomy access, and hemorrhage risk. This is not a simple invitation to lyse every late BAO patient. It is a prompt to understand the trial and to tighten local pathways for recognizing and escalating posterior circulation stroke.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "are-rapid-diagnostic-tests-reliable-for-the-detection-of-malaria-in-the-emergenc",
-      "title": "Are rapid diagnostic tests reliable for the detection of malaria in the emergency department?",
-      "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/43/8/514?rss=1",
-      "published": "1 day ago",
-      "publishedAt": "2026-07-21T13:06:06Z",
-      "impact": "Practice-changing",
-      "topic": "Reviews",
-      "takeaway": "A negative rapid malaria test should not automatically end the workup when exposure risk and clinical features remain concerning. Use rapid testing as part of a pathway that includes travel history, severity assessment, microscopy or confirmatory testing where available, and a low threshold for infectious diseases input in high-risk patients.",
-      "shortSummary": "This short systematic review asks whether malaria rapid diagnostic tests are reliable enough for febrile adults from endemic regions presenting to emergency care.",
-      "summary": "This short systematic review asks whether malaria rapid diagnostic tests are reliable enough for febrile adults from endemic regions presenting to emergency care. The question is highly practical for departments that see travelers, migrants, or returning residents, where malaria may be uncommon locally but dangerous to miss. Only six papers met inclusion criteria, so the review should be treated as a focused evidence check rather than a definitive diagnostic standard. Rapid tests can support early decision-making, but they do not remove the need to consider pretest probability, species, parasitemia, timing, local laboratory capacity, and repeat testing when suspicion remains high. The main value is reminding ED clinicians that speed and certainty are not the same thing.",
-      "confidence": "moderate"
+      "takeaway": "Given the observed functional benefit with tenecteplase up to 24 hours post-symptom onset, consider aggressive evaluation for BAO even when presentation is delayed. While this suggests expanding the treatment window, remember that these results are from a specific trial design and should guide high suspicion rather than replacing standard workup protocols.",
+      "shortSummary": "The TRACE-5 trial provides significant randomized evidence regarding the use of tenecteplase in patients presenting with basilar artery occlusion (BAO) up to 24 hours after symptom onset, challenging the traditional tim…",
+      "summary": "The TRACE-5 trial provides significant randomized evidence regarding the use of tenecteplase in patients presenting with basilar artery occlusion (BAO) up to 24 hours after symptom onset, challenging the traditional time constraints for thrombolysis. The data suggests a potential benefit extending beyond the standard therapeutic window, showing favorable functional outcomes in 38% of the tenecteplase group compared to only 29% in those receiving standard care. This work is particularly relevant because BAO management often requires thinking outside the typical anterior circulation protocols. Understanding these findings could fundamentally shift how we approach time-sensitive posterior circulation stroke care in the emergency department.",
+      "confidence": "high"
     },
     {
       "slug": "is-it-time-to-lyse-our-use-of-lytics-in-central-retinal-artery-occlusion",
@@ -91,24 +63,66 @@
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trials",
-      "takeaway": "Do not let CRAO become an ad hoc consult chain. The useful bedside move is a predefined pathway that treats acute painless monocular vision loss as time-sensitive, gets early ophthalmology and stroke input, and makes thrombolysis decisions from trial criteria rather than from habit or enthusiasm.",
-      "shortSummary": "This commentary reviews a randomized trial of tenecteplase for acute central retinal artery occlusion, a condition that sits uneasily between ophthalmology, neurology, and emergency stroke systems.",
-      "summary": "This commentary reviews a randomized trial of tenecteplase for acute central retinal artery occlusion, a condition that sits uneasily between ophthalmology, neurology, and emergency stroke systems. CRAO is time-sensitive and frightening, but the evidence for thrombolysis has been uncertain enough that practice varies widely. The important issue for ED clinicians is less the slogan of using or abandoning lytics and more the pathway: rapid recognition, exclusion of mimics, ophthalmology and stroke involvement, and honest appraisal of treatment windows and bleeding risk. A single trial can sharpen the discussion but should not be abstracted into a universal rule without looking at eligibility and outcomes. This is worth reading because CRAO cases are uncommon enough that departments often discover their pathway only when a patient is already in front of them.",
-      "confidence": "moderate"
+      "takeaway": "Keep an eye on the specific outcome measures from this trial regarding tenecteplase in CRAO, as it may alter local protocols for reperfusion therapy. If guidelines shift based on these findings, remember that the decision to administer a thrombolytic agent remains high-stakes due to bleeding risks. Do not change your current management until you have reviewed the full context of the trial's primary and secondary endpoints.",
+      "shortSummary": "This new randomized trial provides data on using tenecteplase for acute central retinal artery occlusion (CRAO), which is a significant consideration given the established role of thrombolytics in other embolic events.",
+      "summary": "This new randomized trial provides data on using tenecteplase for acute central retinal artery occlusion (CRAO), which is a significant consideration given the established role of thrombolytics in other embolic events. The publication details a head-to-head comparison, suggesting an effort to refine or potentially question the routine use of 'lytics' in this specific ophthalmologic emergency setting. While the full results are not detailed here, the very existence of such a trial signals a critical reassessment of current standard-of-care guidelines for CRAO management. For us in the ED, understanding these comparative outcomes is crucial because treatment decisions often hinge on the balance between potential reperfusion benefit and bleeding risk. We need to pay close attention to how this data shifts our approach when faced with suspected embolic retinal ischemia.",
+      "confidence": "high"
     },
     {
-      "slug": "is-non-supine-positioning-preferable-in-patients-requiring-intubation-in-the-eme",
-      "title": "Is non-supine positioning preferable in patients requiring intubation in the emergency department?",
+      "slug": "diagnostic-accuracy-of-point-of-care-high-sensitivity-troponin-algorithms-for-em",
+      "title": "Diagnostic accuracy of point-of-care high-sensitivity troponin algorithms for emergency department rule-out and rule-in of acute myocardial infarction: a systematic review and meta-analysis",
       "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-216213v1?rss=1",
-      "published": "5 days ago",
-      "publishedAt": "2026-07-17T16:00:14Z",
+      "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-215922v1?rss=1",
+      "published": "3 days ago",
+      "publishedAt": "2026-07-21T16:00:17Z",
       "impact": "Practice-changing",
-      "topic": "Intubation",
-      "takeaway": "Inclined or ramped positioning should be the default consideration for many ED intubations, especially when oxygenation, body habitus, or laryngoscopic view may be difficult. The evidence is not perfect, but the risk is low when done deliberately and integrated with preoxygenation, equipment setup, and team positioning.",
-      "shortSummary": "This short systematic review evaluates whether non-supine positioning improves first-pass success for emergency department intubation.",
-      "summary": "This short systematic review evaluates whether non-supine positioning improves first-pass success for emergency department intubation. The signal described is favorable: three studies showed a positive association between patient angulation and first-pass success. That fits with physiology and airway ergonomics, particularly in obesity, respiratory failure, aspiration risk, and anatomically difficult laryngoscopy. The evidence remains limited, and positioning is not a substitute for preparation, preoxygenation, operator skill, or a rescue plan. Still, the intervention is low-cost and operationally feasible, making it a strong candidate for protocolized airway setup rather than case-by-case improvisation.",
-      "confidence": "moderate"
+      "topic": "Cardiology",
+      "takeaway": "For initial triage, remember that current hs-POC algorithms provide high sensitivity (≥97%) for ruling out AMI with rapid results. The 0 hour/1 hour protocol appears clinically equivalent to the 0 hour/2 hour strategy and may allow you to make decisions sooner at the bedside. Always consider the local validation data and be mindful that these meta-analyses confirm accuracy but do not replace workflow optimization studies.",
+      "shortSummary": "This systematic review and meta-analysis synthesized data from multiple studies to assess the diagnostic accuracy of point-of-care (POC) high-sensitivity troponin algorithms for managing suspected acute myocardial infar…",
+      "summary": "This systematic review and meta-analysis synthesized data from multiple studies to assess the diagnostic accuracy of point-of-care (POC) high-sensitivity troponin algorithms for managing suspected acute myocardial infarction (AMI). The authors found that these modern hs-POC platforms demonstrate robust performance for both ruling out and ruling in AMI. Notably, they compared 0 hour/1 hour versus 0 hour/2 hour protocols, concluding that the former offers comparable diagnostic accuracy while potentially accelerating clinical decision-making by about an hour. Across all evaluated platforms, rule-out sensitivity was consistently high, meeting or exceeding 97%, with rapid turnaround times reported between 8 and 17 minutes. While the data supports their utility for both exclusion and inclusion criteria, the authors rightly point out that further implementation studies are necessary to fully define workflow impact.",
+      "confidence": "high"
+    },
+    {
+      "slug": "emcrit-racc-lit-review-2026-july",
+      "title": "EMCrit RACC-Lit Review – 2026 July",
+      "source": "EMCrit",
+      "link": "https://emcrit.org/emcrit/racc-lit-2026-july/",
+      "published": "1 week ago",
+      "publishedAt": "2026-07-17T18:31:54Z",
+      "impact": "Practice-changing",
+      "topic": "Resuscitation",
+      "takeaway": "When considering prehospital whole blood, remember that the evidence base is still developing, so practice should remain cautious regarding routine administration. For SVT management, review the latest recommendations on adenosine use to ensure your approach aligns with current guidelines. Always be mindful of potential electrical compatibility issues when using advanced resuscitation equipment.",
+      "shortSummary": "This month's Resuscitation and Acute Critical Care Literature review from EMCrit tackles several high-yield topics relevant to resuscitation practice.",
+      "summary": "This month's Resuscitation and Acute Critical Care Literature review from EMCrit tackles several high-yield topics relevant to resuscitation practice. Key areas covered include the efficacy of administering prehospital whole blood products, which remains a point of clinical debate regarding outcome improvement. Another practical concern addressed is the potential for damage to defibrillators resulting from direct current discharge (DSD). Furthermore, the review provides an update on adenosine use in the management of stable and unstable supraventricular tachycardia (SVT), offering guidance on current best practices. Given these topics—whole blood transfusion, device safety, and antiarrhythmic guidelines—it represents a comprehensive look at evolving resuscitation algorithms.",
+      "confidence": "high"
+    },
+    {
+      "slug": "association-between-the-timing-of-prehospital-epinephrine-administration-and-pat",
+      "title": "Association between the timing of prehospital epinephrine administration and patient outcomes after out-of-hospital cardiac arrest in Korea: a nationwide observational study",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215848v1?rss=1",
+      "published": "1 day ago",
+      "publishedAt": "2026-07-23T16:00:19Z",
+      "impact": "Practice-changing",
+      "topic": "Trauma",
+      "takeaway": "Aiming for prehospital epinephrine administration within 20 minutes of arrest remains a key goal in optimizing OHCA outcomes. The evidence suggests that every minute delay beyond this window is associated with poorer neurological recovery, so prompt EMS intervention is critical. Remember that while these findings are compelling, they come from an observational setting, necessitating cautious application at the bedside.",
+      "shortSummary": "This nationwide observational study from Korea analyzed the association between the timing of prehospital epinephrine administration and outcomes following non-traumatic adult out-of-hospital cardiac arrest (OHCA).",
+      "summary": "This nationwide observational study from Korea analyzed the association between the timing of prehospital epinephrine administration and outcomes following non-traumatic adult out-of-hospital cardiac arrest (OHCA). The core finding suggests that receiving epinephrine within 20 minutes of arrest onset is associated with better overall prognoses, including higher rates of return of spontaneous circulation (ROSC) and favorable neurological status, defined as a Cerebral Performance Category (CPC) of 1–2. Statistically, the analysis showed that delayed administration was linked to lower survival odds and poorer neurological outcomes compared to early dosing. Furthermore, continuous modeling indicated a dose-response relationship, where every minute delay in epinephrine correlated with decreased odds of good CPC, with drops appearing particularly pronounced after 30 minutes. While these results strongly support the value of timely advanced life support components like early epinephrine, the authors caution that interpretation should be done with care given the observational nature of the data.",
+      "confidence": "high"
+    },
+    {
+      "slug": "are-rapid-diagnostic-tests-reliable-for-the-detection-of-malaria-in-the-emergenc",
+      "title": "Are rapid diagnostic tests reliable for the detection of malaria in the emergency department?",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/43/8/514?rss=1",
+      "published": "3 days ago",
+      "publishedAt": "2026-07-21T13:06:06Z",
+      "impact": "Practice-changing",
+      "topic": "Reviews",
+      "takeaway": "When relying on RDTs for suspected malaria in endemic areas, remember that the overall accuracy hinges on the quality of the studies included in this synthesis. While they are useful screening tools, do not let a negative result entirely rule out malaria, especially if clinical suspicion remains high or if local epidemiology suggests otherwise. Always consider sending blood smears or PCR when resources allow for definitive confirmation.",
+      "shortSummary": "This systematic review synthesized data from six studies to evaluate the diagnostic accuracy of malaria rapid diagnostic tests (RDTs) when used on febrile adults presenting from endemic areas.",
+      "summary": "This systematic review synthesized data from six studies to evaluate the diagnostic accuracy of malaria rapid diagnostic tests (RDTs) when used on febrile adults presenting from endemic areas. The authors conducted a comprehensive search across major databases, ultimately analyzing data only from the included literature. Overall, the synthesis provides an evidence-based look at how reliable these point-of-care tools are in the busy emergency department setting for malaria diagnosis. While RDTs are widely used, understanding their true diagnostic performance is crucial for appropriate patient management and resource allocation. This review consolidates existing knowledge to guide current practice.",
+      "confidence": "high"
     },
     {
       "slug": "cephalosporins-should-not-be-the-preferred-empiric-oral-antibiotics-for-treatmen",
@@ -119,10 +133,24 @@
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Sepsis",
-      "takeaway": "Avoid turning outpatient pyelonephritis into a one-drug default. Choose empiric therapy from local resistance data and patient-specific risk, then build in culture follow-up and escalation triggers because early outpatient failure can become sepsis or renal complication quickly.",
-      "shortSummary": "This counterpoint argues against making cephalosporins the preferred empiric oral option for outpatient acute pyelonephritis.",
-      "summary": "This counterpoint argues against making cephalosporins the preferred empiric oral option for outpatient acute pyelonephritis. It emphasizes the seriousness of undertreated upper urinary tract infection and the established role of trimethoprim-sulfamethoxazole and fluoroquinolones when susceptibility and patient factors support them. The value is in the friction it creates with the paired pro-cephalosporin article: empiric antibiotic choice is not just a question of avoiding one drug class. Local resistance, prior cultures, illness severity, renal function, pregnancy, drug toxicity, and the ability to follow cultures all matter. The pair is a useful reminder that antimicrobial stewardship can mean narrower, safer, or more reliable depending on the patient in front of you.",
-      "confidence": "moderate"
+      "takeaway": "Stick with TMP-SMX or a fluoroquinolone as your initial oral empirical choice for outpatient pyelonephritis unless local resistance patterns mandate otherwise. While cephalosporins are sometimes used, they should not be the default first line due to established alternatives and potential issues. Always confirm local susceptibility data before deviating from these standard guidelines.",
+      "shortSummary": "This article strongly cautions against using cephalosporins as the go-to empiric oral antibiotic choice for treating outpatient acute pyelonephritis, despite their increasing use in practice.",
+      "summary": "This article strongly cautions against using cephalosporins as the go-to empiric oral antibiotic choice for treating outpatient acute pyelonephritis, despite their increasing use in practice. It reaffirms that TMP-SMX and fluoroquinolones remain the established first-line agents for this condition. The authors emphasize that any empirical selection must be highly tailored, taking into account local antibiogram data, potential adverse drug effects on the patient, and overall clinical status. Given the severity of pyelonephritis—which can rapidly escalate to sepsis if undertreated—adherence to guideline-based empiric therapy is crucial for preventing renal injury.",
+      "confidence": "high"
+    },
+    {
+      "slug": "is-non-supine-positioning-preferable-in-patients-requiring-intubation-in-the-eme",
+      "title": "Is non-supine positioning preferable in patients requiring intubation in the emergency department?",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-216213v1?rss=1",
+      "published": "1 week ago",
+      "publishedAt": "2026-07-17T16:00:14Z",
+      "impact": "Practice-changing",
+      "topic": "Intubation",
+      "takeaway": "Given the evidence, incorporating routine use of non-supine or inclined positioning during anticipated ED intubations seems supported by current literature to boost first-pass success. While this suggests a procedural change, remember that optimal positioning must always be balanced against hemodynamic stability and potential airway compromise from excessive angulation. Always assess for contraindications before standardizing this technique.",
+      "shortSummary": "This systematic review synthesized evidence regarding whether keeping a patient in a non-supine position improves the success rate during emergency department intubations.",
+      "summary": "This systematic review synthesized evidence regarding whether keeping a patient in a non-supine position improves the success rate during emergency department intubations. The authors searched multiple databases, identifying six prospective studies, including two randomized controlled trials, to address this question. Overall, the meta-analysis found a consistent positive association between maintaining patient angulation and achieving first-pass success rates for endotracheal intubation in the ED setting. These findings suggest that adopting an inclined positioning protocol might be beneficial for improving procedural outcomes when emergent airway management is required.",
+      "confidence": "high"
     },
     {
       "slug": "hemodynamic-phenotypes-not-clock-watching-dictate-vasopressor-efficacy-in-sepsis",
@@ -133,10 +161,10 @@
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Sepsis",
-      "takeaway": "Do not interpret a null timing association as permission to delay vasopressors in a crashing septic patient. Use early hemodynamic reassessment, fluid responsiveness, lactate and perfusion markers, and bedside ultrasound where appropriate to decide who needs pressors now and who needs a different intervention first.",
-      "shortSummary": "This letter responds to a study that found no significant association between time to vasopressor initiation and 90-day mortality in sepsis.",
-      "summary": "This letter responds to a study that found no significant association between time to vasopressor initiation and 90-day mortality in sepsis. The authors argue that a single clock-based analysis may obscure important physiologic heterogeneity, because patients arrive with different hemodynamic phenotypes and different reasons for hypotension. That critique is clinically credible: some patients need earlier vasopressors because vasodilation is the dominant problem, while others need source control, fluids, or reassessment of alternate shock states. The piece is not itself definitive evidence, but it usefully challenges rigid bundle thinking. It asks ED clinicians to treat time as one variable inside a physiologic assessment, not as the whole story.",
-      "confidence": "moderate"
+      "takeaway": "Don't let a null mortality correlation dictate your initial approach; instead, prioritize assessing the patient's current hemodynamic profile to guide vasopressor need. Remember that treating isolated vasoplegia in one subgroup might mask necessary support for another with occult cardiac dysfunction. Always use phenotype assessment alongside timing when titrating pressors.",
+      "shortSummary": "This article discusses a recent large-scale analysis suggesting that initiating vasopressors earlier in sepsis does not correlate with improved 90-day mortality, which presents a direct challenge to the prevailing 'earl…",
+      "summary": "This article discusses a recent large-scale analysis suggesting that initiating vasopressors earlier in sepsis does not correlate with improved 90-day mortality, which presents a direct challenge to the prevailing 'earlier is better' paradigm in resuscitation. The authors caution that interpreting this null result requires significant nuance; they argue that the observed lack of association may be due to mathematical cancellation across a highly diverse patient population rather than proving that timely intervention offers no benefit whatsoever. Instead, the paper strongly pivots the focus toward hemodynamic phenotype as the primary determinant for appropriate vasopressor management. The core message is that simply timing the drug administration without considering the underlying physiological state risks misinterpreting complex survival dynamics.",
+      "confidence": "high"
     },
     {
       "slug": "late-tranexamic-acid-after-trauma-uncertainty-is-not-neutral",
@@ -147,9 +175,23 @@
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trauma",
-      "takeaway": "Give TXA early when indicated; late dosing should be more thoughtful. In delayed trauma presentations, weigh evidence, hemorrhage phenotype, contraindications, and local trauma guidance instead of relying on a simple hours-since-injury rule detached from the patient's bleeding trajectory.",
-      "shortSummary": "This commentary examines late tranexamic acid after trauma through the lens of an exploratory secondary analysis from PATCH-Trauma.",
-      "summary": "This commentary examines late tranexamic acid after trauma through the lens of an exploratory secondary analysis from PATCH-Trauma. The methodological point is important: minute-level dosing data can test timing effects more precisely than older studies that used broader estimates. The clinical question remains difficult because TXA benefit is biologically time-dependent, but trauma presentations, transfer delays, and bleeding phenotypes do not always fit the trial ideal. The title captures the editorial stance: uncertainty about late treatment is not neutral if it encourages either reflexive dosing or reflexive nihilism. For ED practice, the piece supports a careful read of timing, inclusion criteria, bleeding risk, and outcome definitions before changing late-window TXA behavior.",
+      "takeaway": "Given the improved temporal resolution from the PATCH-Trauma data, consider that the timing of first-dose TXA might be more critical than previously thought. While this is an exploratory finding, it reinforces the need to administer TXA as early as possible post-injury in major trauma patients. Be mindful that this analysis is secondary and observational, so definitive protocol changes should await further confirmation.",
+      "shortSummary": "This article presents an exploratory secondary analysis digging into whether the benefit of administering tranexamic acid (TXA) in major trauma patients is dependent on how long it has been since the initial injury.",
+      "summary": "This article presents an exploratory secondary analysis digging into whether the benefit of administering tranexamic acid (TXA) in major trauma patients is dependent on how long it has been since the initial injury. The authors leveraged minute-level documentation from the PATCH-Trauma trial, which significantly improves timing precision compared to older studies like CRASH-2 that relied on less granular time estimates. This methodological strength allows for a more nuanced look at the optimal window for TXA administration in this setting. While it's an exploratory analysis, the focus on precise timing makes it quite relevant for refining current trauma protocols regarding antifibrinolytic use.",
+      "confidence": "moderate"
+    },
+    {
+      "slug": "where-should-we-compress-ultrasound-identification-of-the-ideal-area-of-maximal-",
+      "title": "Where Should We Compress? Ultrasound Identification of the Ideal Area of Maximal Compression for CPR",
+      "source": "Resuscitation",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42492621/",
+      "published": "1 day ago",
+      "publishedAt": "2026-07-23T10:00:00Z",
+      "impact": "Practice-changing",
+      "topic": "Ultrasound",
+      "takeaway": "While guidelines are clear on hand placement, remember that standard sites may be compressing structures like the LVOT rather than the absolute optimal area. For now, continue with established protocols unless you have access to advanced imaging confirming a significant deviation; however, keep this concept in mind when considering resuscitation quality improvement initiatives.",
+      "shortSummary": "This piece uses transthoracic echocardiography (TTE) to map out where chest compressions are actually having the most mechanical effect, suggesting a potential discrepancy with current guidelines.",
+      "summary": "This piece uses transthoracic echocardiography (TTE) to map out where chest compressions are actually having the most mechanical effect, suggesting a potential discrepancy with current guidelines. The authors found that standard recommended sites for CPR compression often fall directly over the Left Ventricular Outflow Tract (LVOT). This raises the concern of a physiologic mismatch, implying that simply following anatomical landmarks might not place the force optimally to achieve maximal ventricular compression. It's an interesting piece because it moves beyond just 'where to put your hands' and starts questioning the underlying biomechanics relative to cardiac anatomy.",
       "confidence": "moderate"
     },
     {
@@ -157,14 +199,14 @@
       "title": "Critical Kids: PRoMPT Bolus",
       "source": "emDocs",
       "link": "https://www.emdocs.net/critical-kids-prompt-bolus/",
-      "published": "1 week ago",
+      "published": "2 weeks ago",
       "publishedAt": "2026-07-13T15:48:18Z",
       "impact": "Practice-changing",
       "topic": "Paediatric",
-      "takeaway": "Treat pediatric boluses as iterative therapy, not autopilot volume delivery. The likely practical focus is careful patient selection, smaller reassessed increments when appropriate, and early escalation when perfusion fails to improve rather than simply repeating fluid by habit.",
-      "shortSummary": "This emDocs Critical Kids entry summarizes the PRoMPT Bolus evidence for pediatric emergency care.",
-      "summary": "This emDocs Critical Kids entry summarizes the PRoMPT Bolus evidence for pediatric emergency care. The source text is sparse, but the topic is important because fluid bolus decisions in sick children remain high-stakes and easy to oversimplify. Pediatric resuscitation requires attention to shock phenotype, setting, reassessment, and the risk of harm from both under-resuscitation and excess fluid. A guideline-style summary can be useful at the bedside if it translates evidence into practical thresholds and reassessment steps. The underlying article should be reviewed directly before using it for protocol changes.",
-      "confidence": "low"
+      "takeaway": "When managing septic shock in the ED setting, remember that while adult data suggests balanced crystalloids may be superior to normal saline for improving outcomes like AKI, this needs careful translation to pediatrics. Don't assume a direct switch without considering underlying renal status or specific institutional protocols; always weigh the evidence and monitor urine output closely when initiating fluid boluses.",
+      "shortSummary": "This update within the Critical Kids series focuses on pediatric emergencies, specifically reviewing the evidence from the PRoMPT trial in the context of resuscitation fluids.",
+      "summary": "This update within the Critical Kids series focuses on pediatric emergencies, specifically reviewing the evidence from the PRoMPT trial in the context of resuscitation fluids. While the article notes that some adult trials comparing crystalloid types for sepsis management have shown benefits with balanced crystalloids over normal saline—such as reduced rates of acute kidney injury and death seen in the SMART trial—the core discussion points toward applying this knowledge to pediatric practice. The overall message is a synthesis of current evidence regarding fluid choice in critically ill children experiencing septic shock. It serves as a reminder that resuscitation strategies are constantly evolving, requiring clinicians to integrate adult data with pediatric considerations.",
+      "confidence": "moderate"
     },
     {
       "slug": "managing-transient-st-segment-elevation",
@@ -175,10 +217,10 @@
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Ecg",
-      "takeaway": "Transient ST elevation should stay high-risk until the story, serial ECGs, biomarkers, and cardiology assessment make sense together. Improvement on one tracing is not reassurance by itself, especially when symptoms are convincing or the prehospital ECG met activation criteria.",
-      "shortSummary": "This ECG case starts with an older woman brought in under a prehospital STEMI activation after transient ST-segment elevation.",
-      "summary": "This ECG case starts with an older woman brought in under a prehospital STEMI activation after transient ST-segment elevation. The teaching value is in the word transient: ED clinicians must decide whether apparent improvement means lower risk, evolving occlusion, vasospasm, spontaneous reperfusion, mimic, or a dynamic process that still needs urgent cardiology involvement. The case details include typical high-risk features, including age, vascular risk factors, severe discomfort, and EMS activation. These presentations reward serial ECGs, symptom-timed interpretation, old tracing comparison, and careful communication with interventional cardiology. The article is likely most useful as a cognitive forcing function against prematurely downgrading a dynamic ECG.",
-      "confidence": "moderate"
+      "takeaway": "When faced with an out-of-hospital STEMI alert showing only transient ST elevations, remember that the initial aggressive workup and treatment must be tempered by clinical suspicion. While standard antiplatelet therapy is appropriate for suspected ACS, confirming the etiology of the elevation—whether it's due to rate/rhythm changes or true ischemia—is key before escalating care.",
+      "shortSummary": "This case report details the management of a patient presenting with severe chest pain and an out-of-hospital STEMI alert, who was found to have transient ST-segment elevation on initial ECG.",
+      "summary": "This case report details the management of a patient presenting with severe chest pain and an out-of-hospital STEMI alert, who was found to have transient ST-segment elevation on initial ECG. The patient had several comorbidities, including atrial fibrillation, hypertension, and hyperlipidemia. Initial pre-hospital care included standard interventions like aspirin, nitroglycerin, fentanyl, and fluids, all while the team suspected a true acute coronary syndrome. The discussion centers on how to appropriately manage findings of transient ST-segment elevation in this setting, which requires careful differentiation from actual myocardial injury.",
+      "confidence": "high"
     },
     {
       "slug": "prescribing-culture-severity-adjustment-and-outcome-choice-in-dexamethasone-regi",
@@ -189,66 +231,10 @@
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Paediatric",
-      "takeaway": "A second dexamethasone dose may not be automatically necessary for every discharged child with asthma. Consider severity, relapse risk, adherence, caregiver capacity, and local evidence before defaulting to two doses, and make sure discharge instructions are clearer than the prescription itself.",
-      "shortSummary": "This letter discusses one-dose versus two-dose dexamethasone regimens for children discharged from the ED after asthma exacerbation.",
-      "summary": "This letter discusses one-dose versus two-dose dexamethasone regimens for children discharged from the ED after asthma exacerbation. The highlighted finding is pragmatic: almost two-thirds of children received two doses, while weighted risks of 14-day ED revisit and hospitalization were similar between groups. That makes the prescribing culture question more interesting than a narrow medication-count question. If outcomes are similar, adherence, vomiting, caregiver burden, access to follow-up, and local discharge workflows become central to the decision. As a correspondence piece, it should be read as interpretation and critique rather than as a new trial.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "prediction-of-bloodstream-infection-using-triage-variables-in-the-emergency-depa",
-      "title": "Prediction of bloodstream infection using triage variables in the emergency department: retrospective derivation and validation cohort",
-      "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215749v2?rss=1",
-      "published": "6 days ago",
-      "publishedAt": "2026-07-16T16:00:19Z",
-      "impact": "Practice-changing",
-      "topic": "General Emergency Medicine",
-      "takeaway": "A triage-only bacteremia score could help identify patients who deserve faster clinician attention, cultures, or sepsis screening. Use it cautiously until externally validated, because the same simplicity that makes it usable at triage can also over-trigger testing in febrile but low-risk patients.",
-      "shortSummary": "This retrospective derivation and internal validation study develops the GOTHIC score to predict bloodstream infection using variables available immediately after ED triage.",
-      "summary": "This retrospective derivation and internal validation study develops the GOTHIC score to predict bloodstream infection using variables available immediately after ED triage. That design target is clinically relevant because many bacteremia prediction tools require labs or later clinician assessment, limiting their use at the first sorting point. The score includes simple early features such as older age, tachycardia, abnormal vital signs, and fever-related triage presentations. The promise is earlier risk recognition for blood cultures, antibiotics, or closer assessment, but internal validation is only the beginning. Before bedside adoption, the score needs external validation and evidence that it improves decisions without increasing low-value culturing or antibiotic overuse.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "sex-differences-in-rural-prehospital-st-segment-elevation-myocardial-infarction-",
-      "title": "Sex differences in rural prehospital ST-segment elevation myocardial infarction care",
-      "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/43/8/486?rss=1",
-      "published": "1 day ago",
-      "publishedAt": "2026-07-21T13:06:06Z",
-      "impact": "Practice-changing",
-      "topic": "Ecg",
-      "takeaway": "In rural STEMI systems, atypical symptoms and comorbidity should not lower urgency when the ECG is diagnostic or concerning. Track reperfusion times by sex, reinforce early ECG and activation practices, and look for delay points in EMS-to-PCI transfer workflows.",
-      "shortSummary": "This study examines sex differences in rural prehospital STEMI care, focusing on the proportion of patients reaching PCI within 90 minutes of EMS first medical contact.",
-      "summary": "This study examines sex differences in rural prehospital STEMI care, focusing on the proportion of patients reaching PCI within 90 minutes of EMS first medical contact. The signal is concerning: women were less likely than men to receive timely PCI, with the gap especially apparent among women without exertional chest pain and those with comorbid conditions. Rural systems already face distance and transfer constraints, so recognition bias and atypical symptom framing can compound structural delay. The article is useful because it turns an equity issue into an operational one: EMS assessment, ECG acquisition, activation thresholds, destination decisions, and feedback loops all matter. It should prompt local review of STEMI metrics by sex and symptom presentation.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "impact-of-bystander-and-patient-sex-on-cardiopulmonary-resuscitation-provision-i",
-      "title": "Impact of bystander and patient sex on cardiopulmonary resuscitation provision in out-of-hospital cardiac arrest",
-      "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/43/8/479?rss=1",
-      "published": "1 day ago",
-      "publishedAt": "2026-07-21T13:06:06Z",
-      "impact": "Practice-changing",
-      "topic": "Resuscitation",
-      "takeaway": "Dispatcher-assisted CPR is not just a backup for untrained bystanders; it may reduce hesitation and inequity in who receives CPR. EMS systems should audit bystander CPR patterns, strengthen call-taker scripts, and treat rapid coaching as a core arrest intervention.",
-      "shortSummary": "This study looks at how patient sex and bystander sex influence the provision of CPR in out-of-hospital cardiac arrest, and whether dispatcher-assisted CPR changes that gap.",
-      "summary": "This study looks at how patient sex and bystander sex influence the provision of CPR in out-of-hospital cardiac arrest, and whether dispatcher-assisted CPR changes that gap. The available summary suggests lower odds of bystander CPR in some sex-based comparisons, with the disparity reduced when dispatcher-assisted CPR was provided. That matters because the first minutes of arrest care happen before EMS arrives, and small differences in bystander action can translate into meaningful survival effects. Dispatcher coaching appears to function as both an instruction tool and a bias-reduction intervention. The details need direct review, but the operational implication is clear enough to deserve attention.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "delayed-intestinal-perforation-caused-by-overheated-peritoneal-dialysate-a-disea",
-      "title": "Delayed intestinal perforation caused by overheated peritoneal dialysate: A disease prone to missed diagnosis and misdiagnosis",
-      "source": "AJEM",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42480228/",
-      "published": "1 day ago",
-      "publishedAt": "2026-07-21T10:00:00Z",
-      "impact": "Practice-changing",
-      "topic": "General Emergency Medicine",
-      "takeaway": "Ask peritoneal dialysis patients with abdominal symptoms about the exchange itself, including dialysate temperature, equipment malfunction, and timing of pain. If thermal injury is plausible, maintain a low threshold for imaging, surgical input, and close observation because perforation may be delayed.",
-      "shortSummary": "This AJEM case report describes fatal delayed intestinal perforation after thermal injury from overheated peritoneal dialysate, caused by dialysate warmer malfunction.",
-      "summary": "This AJEM case report describes fatal delayed intestinal perforation after thermal injury from overheated peritoneal dialysate, caused by dialysate warmer malfunction. The event is rare, but the diagnostic lesson is memorable because early symptoms after peritoneal dialysis may be nonspecific and the causal exposure may not be volunteered unless asked about directly. Delayed perforation is life-threatening and can be missed if clinicians anchor on routine peritonitis or benign abdominal pain. The case broadens the differential for peritoneal dialysis patients with abdominal pain, fever, sepsis, or peritoneal signs after an unusual exchange. It is low-level evidence, but high-value as a safety reminder.",
-      "confidence": "low"
+      "takeaway": "When managing pediatric asthma exacerbations, you can treat both 1-dose and 2-dose dexamethasone regimens with confidence regarding their impact on 14-day revisit rates. Given the similar weighted risks observed, there is no strong evidence suggesting that defaulting to a two-dose regimen offers a distinct advantage over a single dose at discharge. Continue to use clinical judgment while recognizing that current practice patterns may not be optimizing outcomes.",
+      "shortSummary": "This article discusses a recent comparison evaluating whether a one-dose or two-dose dexamethasone regimen provides superior outcomes for pediatric patients discharged from the emergency department following an asthma e…",
+      "summary": "This article discusses a recent comparison evaluating whether a one-dose or two-dose dexamethasone regimen provides superior outcomes for pediatric patients discharged from the emergency department following an asthma exacerbation. The authors highlight that there is significant practice variation in administering these steroids, making this a relevant topic for clinical stewardship. Notably, the study observed that while nearly two-thirds of children actually received the two-dose approach, the weighted risks for both 14-day ED revisit and subsequent hospitalization were comparable between the single-dose and double-dose groups. This suggests that current prescribing habits may not be translating into a measurable benefit in preventing acute readmissions or revisits.",
+      "confidence": "high"
     },
     {
       "slug": "lyme-carditis-more-than-atrioventricular-block",
@@ -259,38 +245,52 @@
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Shock",
-      "takeaway": "In endemic areas, unexplained syncope, conduction abnormalities, or arrest in a compatible patient should put Lyme carditis on the differential. Do not restrict the diagnosis to classic AV block; monitor closely, involve cardiology and infectious diseases early, and treat promptly when suspicion is high.",
-      "shortSummary": "This case frames Lyme carditis as more than atrioventricular block, beginning with a man in Northern New England who had out-of-hospital cardiac arrest and defibrillation before ED arrival.",
-      "summary": "This case frames Lyme carditis as more than atrioventricular block, beginning with a man in Northern New England who had out-of-hospital cardiac arrest and defibrillation before ED arrival. The regional and clinical context matters: in endemic areas, Lyme disease can present with conduction disease, myocarditis-like features, syncope, and potentially malignant rhythms. The article is likely useful because ED clinicians often associate Lyme carditis with AV block and may under-recognize broader electrical instability. The case should reinforce careful exposure history, ECG scrutiny, telemetry, and early treatment when suspicion is meaningful. It also highlights the need to think geographically; the same presentation carries different priors in New England than in a low-incidence region.",
+      "takeaway": "When managing a patient post-cardiac arrest who presents with signs of myocardial dysfunction like apical akinesis and hypotension, especially in an endemic area, consider Lyme carditis even if the initial rhythm strip is unremarkable. Don't wait for classic findings; prompt evaluation for myocarditis or pericardial effusion remains crucial. Remember that this presentation is highly suggestive but requires further workup to rule out other causes of post-arrest cardiomyopathy.",
+      "shortSummary": "This case report highlights a concerning presentation in an emergency department setting involving syncope and pulseless arrest, prompting suspicion for Lyme carditis given the patient's history and subsequent findings.",
+      "summary": "This case report highlights a concerning presentation in an emergency department setting involving syncope and pulseless arrest, prompting suspicion for Lyme carditis given the patient's history and subsequent findings. The gentleman presented hypotensive with apical akinesis noted on point-of-care ultrasound about 30 minutes after return of spontaneous circulation (ROSC). This clinical picture suggests that cardiac manifestations beyond simple AV block can occur in Lyme disease, warranting consideration for myocarditis or pericarditis when the diagnosis is suspected. While the article details this specific case, it underscores the need to maintain a high index of suspicion for underlying infectious etiologies causing acute myocardial dysfunction following resuscitation.",
       "confidence": "moderate"
     },
     {
-      "slug": "a-multimodal-intervention-reduces-computed-tomography-use-in-blunt-head-injury",
-      "title": "A multimodal intervention reduces computed tomography use in blunt head injury",
-      "source": "AJEM",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42435500/",
-      "published": "2 weeks ago",
-      "publishedAt": "2026-07-11T10:00:00Z",
-      "impact": "High-yield",
-      "topic": "Blunt Head Injury",
-      "takeaway": "Reducing head CT use usually requires system design, not reminders alone. If adopting a similar approach, pair guidelines with EHR support and feedback, then monitor missed injury, return visits, patient satisfaction, and clinician override patterns.",
-      "shortSummary": "This AJEM study evaluates a multimodal intervention to reduce CT head use for blunt head injury in the ED.",
-      "summary": "This AJEM study evaluates a multimodal intervention to reduce CT head use for blunt head injury in the ED. The intervention combined an institutional guideline, education, provider feedback, and integrated clinical decision support, and was associated with fewer CT head studies. That combination is important because imaging overuse rarely changes from education alone; clinicians need usable rules, workflow support, and feedback that feels relevant rather than punitive. The summary does not establish every balancing measure, so return visits, missed injuries, and patient selection need review. Still, this is a practical operational paper for departments trying to align imaging with evidence-based head injury rules.",
+      "slug": "prediction-of-bloodstream-infection-using-triage-variables-in-the-emergency-depa",
+      "title": "Prediction of bloodstream infection using triage variables in the emergency department: retrospective derivation and validation cohort",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215749v2?rss=1",
+      "published": "1 week ago",
+      "publishedAt": "2026-07-16T16:00:19Z",
+      "impact": "Practice-changing",
+      "topic": "General Emergency Medicine",
+      "takeaway": "Consider using this GOTHIC score at triage when evaluating febrile patients for potential sepsis workup; it integrates easily assessable factors like age ≥75, tachycardia >90 bpm, and specific chief complaints. Remember that the inclusion of a protective complaint actually lowers the risk score, which is an important nuance to recall at the bedside. While promising, this tool was derived from retrospective data, so interpret its utility in your local patient population with caution.",
+      "shortSummary": "This retrospective study introduces the GOTHIC score, a novel, easily calculable tool designed to predict bloodstream infection risk in febrile emergency department patients based on variables available immediately afte…",
+      "summary": "This retrospective study introduces the GOTHIC score, a novel, easily calculable tool designed to predict bloodstream infection risk in febrile emergency department patients based on variables available immediately after triage. The authors derived and validated this score using data from two university hospital EDs over 2021, analyzing nearly 7000 visits where blood cultures were drawn. The GOTHIC score incorporates seven factors, including age of 75 years or older, tachycardia greater than 90 beats per minute, systolic blood pressure less than 38 degrees Celsius, having isolated fever as the chief complaint, and specific protective complaints. The development aims to improve diagnostic accuracy in settings where blood cultures are frequently drawn despite potentially low yield.",
       "confidence": "moderate"
     },
     {
-      "slug": "is-it-early-repolarization-or-inferior-st-segment-elevation-myocardial-infarctio",
-      "title": "Is It Early Repolarization or Inferior ST-Segment Elevation Myocardial Infarction?",
-      "source": "Annals of Emergency Medicine",
-      "link": "https://www.annemergmed.com/article/S0196-0644(25)01453-2/fulltext?rss=yes",
-      "published": "<1 hour ago",
-      "publishedAt": "2026-08-01T00:00:00Z",
-      "impact": "High-yield",
-      "topic": "Ecg",
-      "takeaway": "Early repolarization should be a diagnosis made with the whole clinical picture, not a reflex label for ST elevation. In older patients with convincing or evolving ischemic symptoms, get serial ECGs, compare prior tracings, look for reciprocal change, and involve cardiology early when uncertainty persists.",
-      "shortSummary": "This ECG case asks clinicians to distinguish early repolarization from inferior STEMI in a 64-year-old woman with evolving chest pain and radiation to both arms.",
-      "summary": "This ECG case asks clinicians to distinguish early repolarization from inferior STEMI in a 64-year-old woman with evolving chest pain and radiation to both arms. The clinical setup is intentionally uncomfortable: symptoms began as sharp pain but progressed into a more ischemic pattern, and the ECG interpretation carries major consequences. Cases like this are useful because early repolarization is often invoked as reassurance, yet age, symptoms, reciprocal changes, serial evolution, and biomarkers may point in a different direction. The teaching likely rests on disciplined ECG comparison and not separating the tracing from the patient in front of you. It is a good read for anyone who signs off chest pain ECGs under pressure.",
-      "confidence": "moderate"
+      "slug": "paediatric-intubation-checklist",
+      "title": "Paediatric Intubation Checklist",
+      "source": "Life in the Fast Lane",
+      "link": "https://litfl.com/paediatric-intubation-checklist/",
+      "published": "1 day ago",
+      "publishedAt": "2026-07-23T08:33:28Z",
+      "impact": "Practice-changing",
+      "topic": "Intubation",
+      "takeaway": "Always confirm the child's weight at the outset, as this dictates appropriate equipment sizing and medication dosages for every step. Use this checklist framework to ensure you have explicitly discussed your rescue plan and confirmed all necessary supplies before initiating any difficult airway maneuver. Remember that systematic preparation is as critical as the intubation itself.",
+      "shortSummary": "This article presents a comprehensive pediatric intubation checklist designed to serve as a quick cognitive aid for managing airways in the child.",
+      "summary": "This article presents a comprehensive pediatric intubation checklist designed to serve as a quick cognitive aid for managing airways in the child. It systematically covers the entire process, from initial preparation through post-intubation care, acknowledging that pediatric airway management involves unique technical and physiological hurdles. A key feature highlighted is the emphasis on weight-based considerations, which must guide equipment selection and drug dosing appropriately. Beyond just the physical act of intubating, the checklist integrates crucial elements like team communication protocols and necessary pre-intubation pauses to enhance safety. It aims to standardize care by ensuring no critical step—from rescue planning to post-procedure monitoring—is overlooked in the high-stakes environment of pediatric emergency medicine.",
+      "confidence": "high"
+    },
+    {
+      "slug": "extreme-temperatures-and-out-of-hospital-cardiac-arrest-a-systematic-review-and-",
+      "title": "Extreme temperatures and out-of-hospital cardiac arrest: a systematic review and narrative synthesis",
+      "source": "Resuscitation",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42486429/",
+      "published": "2 days ago",
+      "publishedAt": "2026-07-22T10:00:00Z",
+      "impact": "Practice-changing",
+      "topic": "Cardiac Arrest",
+      "takeaway": "Remember that extreme ambient temperatures, whether cold or hot, are associated with increased risk of OHCA; however, the evidence suggests colder extremes might contribute more significantly. While this is a strong signal for public health planning, at the bedside, focus on standard resuscitation protocols while remaining mindful of environmental context when assessing potential triggers. Integrating local weather data into pre-hospital resource allocation seems like a necessary future step.",
+      "shortSummary": "This systematic review synthesized thirty-one international studies to evaluate the association between extreme ambient temperatures and out-of-hospital cardiac arrest (OHCA) incidence and outcomes.",
+      "summary": "This systematic review synthesized thirty-one international studies to evaluate the association between extreme ambient temperatures and out-of-hospital cardiac arrest (OHCA) incidence and outcomes. The authors concluded that there is a clear U- or J-shaped relationship, suggesting elevated OHCA rates when temperatures are at either very cold or very hot extremes. Notably, the review highlighted that while both extremes increase risk, colder exposure appears to account for a larger proportion of the attributable cases. Given the projected intensification of temperature variability due to climate change, the authors strongly advocate for integrating environmental data into routine OHCA surveillance and EMS operational planning.",
+      "confidence": "high"
     }
   ],
   "sources": [
@@ -387,7 +387,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 8,
+      "itemsKept": 6,
       "itemsSeen": 12
     },
     {
@@ -435,7 +435,7 @@
       "qualityTier": "selective",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 8,
+      "itemsKept": 5,
       "itemsSeen": 21
     },
     {
@@ -507,7 +507,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 31,
+      "itemsKept": 29,
       "itemsSeen": 82
     },
     {
@@ -531,8 +531,8 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 11,
-      "itemsSeen": 77
+      "itemsKept": 9,
+      "itemsSeen": 79
     },
     {
       "id": "pubmed-resuscitation",
@@ -543,7 +543,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 10,
+      "itemsKept": 18,
       "itemsSeen": 100
     },
     {
@@ -555,7 +555,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 23,
+      "itemsKept": 25,
       "itemsSeen": 100
     },
     {
@@ -567,7 +567,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 3,
+      "itemsKept": 2,
       "itemsSeen": 100
     },
     {
@@ -579,7 +579,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 6,
+      "itemsKept": 5,
       "itemsSeen": 100
     },
     {
@@ -591,7 +591,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 3,
+      "itemsKept": 2,
       "itemsSeen": 100
     },
     {
@@ -603,7 +603,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 5,
+      "itemsKept": 4,
       "itemsSeen": 100
     },
     {
@@ -639,7 +639,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 16,
+      "itemsKept": 15,
       "itemsSeen": 100
     },
     {
@@ -651,7 +651,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 8,
+      "itemsKept": 10,
       "itemsSeen": 100
     }
   ]
