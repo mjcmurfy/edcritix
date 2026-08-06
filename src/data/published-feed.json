@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-08-05T18:28:45.577Z",
-    "sourceGeneratedAt": "2026-08-05T18:15:00.806125Z",
-    "editorialGeneratedAt": "2026-08-05T18:28:23.669895Z",
-    "editionDate": "2026-08-06"
+    "generatedAt": "2026-08-06T18:28:44.864Z",
+    "sourceGeneratedAt": "2026-08-06T18:15:00.810610Z",
+    "editorialGeneratedAt": "2026-08-06T18:28:22.408631Z",
+    "editionDate": "2026-08-07"
   },
   "briefing": {
-    "headline": "6 high-priority items in the latest EM scan",
-    "summary": "Top sources today: AJEM, Annals of Emergency Medicine, St Emlyn's. Main themes: trials, reviews, cardiac arrest care. Best early reads: Guideline update: Neonatal and infant airway management; Cephalosporins Should Be the Preferred Oral Antibiotics for Empiric Treatment of Outpatient Acute Pyelonephritis.",
-    "editorialHeadline": "From Neonatal Airways to Sepsis Phenotypes: What's Shifting at the Bedside",
-    "editorialSummary": "The current literature demands a pivot from rigid adherence to protocols toward nuanced physiological assessment. On one end, managing airways in neonates and infants requires strict attention to detail; new guidelines strongly favor videolaryngoscopy when anticipating difficult passages and mandate confirming tube placement with end-tidal capnography.\n\nIn the realm of critical care, the focus is shifting away from 'time-based' interventions. Evidence suggests that for cardiac arrest resuscitation, routine sodium bicarbonate administration lacks support, while in sepsis management, hemodynamic phenotype appears to trump strict adherence to vasopressor timing protocols. Furthermore, when considering acute retinal ischemia, randomized trials are prompting a necessary re-evaluation of systemic lytics like tenecteplase.\n\nFor the general ED clinician, these updates underscore a theme: specificity matters. Whether optimizing empiric oral antibiotics for pyelonephritis by favoring cephalosporins or recognizing that prehospital epinephrine timing correlates strongly with better neurological outcomes, today’s reading set emphasizes using robust data to refine—rather than discard—our clinical instincts."
+    "headline": "7 high-priority items in the latest EM scan",
+    "summary": "Top sources today: AJEM, Annals of Emergency Medicine, St Emlyn's. Main themes: trials, cardiac arrest care, trauma care. Best early reads: Guideline update: Neonatal and infant airway management; Cephalosporins Should Be the Preferred Oral Antibiotics for Empiric Treatment of Outpatient Acute Pyelonephritis.",
+    "editorialHeadline": "From Airway Algorithms to Antibiotic Shifts: What's Changing Today",
+    "editorialSummary": "The clinical landscape is shifting focus from rigid protocols toward nuanced, condition-specific decision-making. For airway management in the youngest patients, new joint guidelines strongly reinforce proactive risk stratification; when dealing with neonates or infants, anticipating difficulty via history and exam remains paramount, and videolaryngoscopy should be your first call if feasible.\n\nIn infectious workups, stewardship is driving antibiotic choice: for outpatient pyelonephritis, cephalosporins are emerging as the preferred empiric oral agent over historical staples like fluoroquinolones. Meanwhile, resuscitation efforts continue to refine their focus; rather than simply adhering to time-based metrics in sepsis, the underlying hemodynamic phenotype appears to be the more critical determinant guiding vasopressor use.\n\nThese updates underscore a pattern: moving beyond 'what' or 'when' toward 'how.' Whether it’s optimizing oxygenation post-arrest by considering conservative delivery or integrating point-of-care ultrasound early in resuscitation, today’s reading set demands that we prioritize actionable bedside assessment over rote adherence to outdated guidelines."
   },
   "dailyEditorial": [
     {
@@ -17,13 +17,13 @@
       "title": "Guideline update: Neonatal and infant airway management",
       "source": "AJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42546548/",
-      "published": "2 days ago",
+      "published": "3 days ago",
       "publishedAt": "2026-08-03T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Practice Updates",
-      "takeaway": "When managing a difficult airway in an infant or neonate, remember that pre-procedure prediction via history and physical exam is crucial. Favoring videolaryngoscopy over direct laryngoscopy is recommended practice, and always ensure you are using end-tidal capnography to confirm tube placement after intubation. Be mindful of the sedation agents suggested, as these guidelines emphasize minimizing attempts.",
-      "shortSummary": "The new 2024 joint guidelines from the European Society of Anaesthesiology and Intensive Care and British Journal of Anaesthesia provide an updated framework for managing airways in neonates and infants, acknowledging s…",
-      "summary": "The new 2024 joint guidelines from the European Society of Anaesthesiology and Intensive Care and British Journal of Anaesthesia provide an updated framework for managing airways in neonates and infants, acknowledging significant anatomical and physiological differences compared to adults. A key focus is on proactively predicting difficult airways using a thorough history and physical examination before any intervention. The recommendations strongly favor the use of videolaryngoscopy when intubation is anticipated, alongside recommending agents like etomidate or ketamine for sedation during these procedures. Furthermore, the guidelines place significant emphasis on minimizing the number of attempts while mandating the use of end-tidal capnography to confirm proper tube placement.",
+      "takeaway": "When managing a neonate or infant airway, always use history and physical exam findings to pre-emptively assess for difficulty. Prioritize videolaryngoscopy when available, remember to employ apneic oxygenation during attempts, and never skip end-tidal capnography confirmation after successful intubation.",
+      "shortSummary": "The new 2024 joint guidelines from major anesthesia societies provide an updated framework for managing the notoriously difficult airways of neonates and infants, acknowledging significant anatomical and physiological d…",
+      "summary": "The new 2024 joint guidelines from major anesthesia societies provide an updated framework for managing the notoriously difficult airways of neonates and infants, acknowledging significant anatomical and physiological differences compared to adults. A key focus is on proactive risk stratification, recommending that clinicians use a thorough history and physical exam to predict potential airway difficulties before any intervention. Furthermore, the guidelines strongly advocate for the use of videolaryngoscopy as the preferred method for intubation when feasible. Crucially, they emphasize supportive measures like apneic oxygenation during attempts and stress minimizing the total number of failed intubation efforts while mandating end-tidal capnography confirmation post-placement.",
       "confidence": "high"
     },
     {
@@ -31,13 +31,13 @@
       "title": "Cephalosporins Should Be the Preferred Oral Antibiotics for Empiric Treatment of Outpatient Acute Pyelonephritis",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(25)01433-7/fulltext?rss=yes",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Sepsis",
-      "takeaway": "When managing suspected outpatient pyelonephritis, consider escalating your empiric oral antibiotic choice to a cephalosporin unless local resistance patterns strongly favor another agent. While fluoroquinolones and TMP-SMX remain familiar options, this suggests an update favoring cephalosporins for initial coverage. Always confirm the rationale for the chosen agent against current institutional antibiograms.",
-      "shortSummary": "This article provides a focused recommendation regarding the empiric management of acute pyelonephritis in the outpatient setting, suggesting that cephalosporins should now be the preferred oral antibiotic choice.",
-      "summary": "This article provides a focused recommendation regarding the empiric management of acute pyelonephritis in the outpatient setting, suggesting that cephalosporins should now be the preferred oral antibiotic choice. Given that pyelonephritis is a frequent and potentially serious ED presentation requiring prompt coverage to avert complications like sepsis or renal injury, selecting the right agent while maintaining stewardship is key. Historically, fluoroquinolones and TMP-SMX have been the established first-line options according to consensus guidelines. The shift toward cephalosporins suggests an updated approach aiming to optimize efficacy while potentially improving resistance patterns compared to older agents.",
+      "takeaway": "When managing an outpatient with suspected pyelonephritis, consider using a cephalosporin orally as your first-line empiric choice unless local resistance patterns strongly dictate otherwise. While fluoroquinolones and TMP-SMX remain options, the current trend favors cephalosporins for stewardship reasons. Always ensure adequate follow-up to confirm cure and monitor for any signs of progression.",
+      "shortSummary": "This article addresses the ongoing challenge of selecting appropriate empiric oral antibiotics for managing acute pyelonephritis in the outpatient setting, a common and potentially serious ED presentation.",
+      "summary": "This article addresses the ongoing challenge of selecting appropriate empiric oral antibiotics for managing acute pyelonephritis in the outpatient setting, a common and potentially serious ED presentation. While fluoroquinolones and TMP-SMX have historically been cited as first-line options by various consensus guidelines, this review suggests a shift in preference toward cephalosporins. The core argument revolves around optimizing antibiotic choice to ensure clinical cure while simultaneously adhering to principles of antimicrobial stewardship and minimizing the risk of complications like sepsis or kidney injury. Given the high prevalence of this condition, selecting the right agent is critical for preventing downstream morbidity.",
       "confidence": "high"
     },
     {
@@ -45,13 +45,13 @@
       "title": "Does Sodium bicarbonate improve outcomes for in-hospital cardiac arrest?",
       "source": "St Emlyn's",
       "link": "https://www.stemlynsblog.org/does-sodium-bicarbonate-improve-outcomes-for-in-hospital-cardiac-arrest/",
-      "published": "1 day ago",
+      "published": "2 days ago",
       "publishedAt": "2026-08-04T14:41:01Z",
       "impact": "Practice-changing",
       "topic": "Cardiac Arrest",
-      "takeaway": "Do not initiate routine sodium bicarbonate administration solely based on historical practice during in-hospital cardiac arrests. The evidence from trials like BIHCA does not support its routine use to improve ROSC rates, so continue adhering to current ACLS guidelines without this intervention. Always consider the potential risks versus the unproven benefit.",
-      "shortSummary": "This review tackles the persistent, yet increasingly questioned, role of sodium bicarbonate administration following an in-hospital cardiac arrest.",
-      "summary": "This review tackles the persistent, yet increasingly questioned, role of sodium bicarbonate administration following an in-hospital cardiac arrest. It centers its discussion around the findings from the large randomized controlled trial, BIHCA. The core takeaway from analyzing this evidence is that there was no statistically significant difference observed in achieving a sustained return of spontaneous circulation between patients who received bicarbonate and those who received placebo. Given these results, the authors strongly suggest that routine use of sodium bicarbonate should not be part of standard resuscitation algorithms for cardiac arrest.",
+      "takeaway": "Given the lack of benefit shown by the BIHCA trial regarding sustained ROSC, do not initiate sodium bicarbonate routinely in the setting of in-hospital cardiac arrest unless specific guidelines dictate otherwise. Remember that current algorithms have largely moved away from this intervention, so rely on established ACLS/ALS protocols rather than historical practice.",
+      "shortSummary": "This review tackles the lingering practice of administering sodium bicarbonate during in-hospital cardiac arrest, a protocol that has seen significant shifts away from routine use in modern Advanced Life Support algorit…",
+      "summary": "This review tackles the lingering practice of administering sodium bicarbonate during in-hospital cardiac arrest, a protocol that has seen significant shifts away from routine use in modern Advanced Life Support algorithms. The discussion centers heavily on the BIHCA trial, which was a large randomized controlled effort designed to assess whether giving bicarbonate improved outcomes compared to placebo in this setting. The key takeaway from analyzing these data is that there was no statistically significant difference observed in achieving sustained return of spontaneous circulation between the group receiving bicarbonate and the control group. Therefore, based on this evidence, routine administration of sodium bicarbonate for cardiac arrest appears unsupported.",
       "confidence": "high"
     },
     {
@@ -63,9 +63,23 @@
       "publishedAt": "2026-07-25T14:34:21Z",
       "impact": "Practice-changing",
       "topic": "Cardiac Arrest",
-      "takeaway": "When managing unresponsive patients post-cardiac arrest, consider if current protocols mandate aggressive oxygenation beyond what is necessary for acceptable saturation targets. The data suggest that limiting oxygen exposure to achieve adequate oxygenation might be beneficial for improving long-term functional status. Be mindful that this trial focuses on a specific population and outcome measure, so interpretation should remain cautious until the full results are available.",
-      "shortSummary": "The LOGICAL trial was a randomized controlled study designed to test whether intentionally restricting oxygen delivery in unresponsive patients following cardiac arrest improves long-term neurological outcomes.",
-      "summary": "The LOGICAL trial was a randomized controlled study designed to test whether intentionally restricting oxygen delivery in unresponsive patients following cardiac arrest improves long-term neurological outcomes. The primary endpoint assessed was favorable functional status, measured by the extended Glasgow Outcome Scale at 180 days post-randomization. The core hypothesis explored was that maintaining acceptable oxygenation levels without aggressive hyperoxia might mitigate secondary brain injury. While the full results are pending publication in NEJM, the focus on conservative oxygen management suggests a shift away from routine high-flow oxygen administration in this critically ill population.",
+      "takeaway": "When managing unresponsive patients post-cardiac arrest, consider if aggressive oxygenation beyond what is needed for acceptable saturation levels might be detrimental. The data suggest a potential benefit to more conservative oxygen management strategies aimed at achieving adequate but not excessive oxygen delivery. However, remember that this was a controlled trial, and its application requires careful consideration of the patient's specific physiological status.",
+      "shortSummary": "The LOGICAL trial was a randomized controlled investigation assessing whether deliberately restricting oxygen delivery in unresponsive patients following cardiac arrest improves long-term neurological outcomes.",
+      "summary": "The LOGICAL trial was a randomized controlled investigation assessing whether deliberately restricting oxygen delivery in unresponsive patients following cardiac arrest improves long-term neurological outcomes. The primary endpoint measured favorable functional status using the extended Glasgow Outcome Scale at 180 days post-randomization. The overall implication suggests that maintaining optimal, rather than maximally supplied, oxygenation might be beneficial for improving recovery trajectories after resuscitation. This is a significant area of debate in critical care, as clinicians are constantly balancing the need to prevent hypoxemia against the risks associated with hyperoxia.",
+      "confidence": "high"
+    },
+    {
+      "slug": "an-action-based-paradigm-for-managing-cardiac-arrest",
+      "title": "An Action-Based Paradigm for Managing Cardiac Arrest",
+      "source": "ACEP Now",
+      "link": "https://www.acepnow.com/article/an-action-based-paradigm-for-managing-cardiac-arrest/",
+      "published": "1 day ago",
+      "publishedAt": "2026-08-05T14:44:30Z",
+      "impact": "Practice-changing",
+      "topic": "Resuscitation",
+      "takeaway": "Integrate POCUS early in your resuscitation efforts to systematically screen for pneumothorax or pericardial effusion, which are highly actionable reversible causes. While systemic lytics and ECMO remain advanced considerations, prioritizing these rapid ultrasound assessments should guide immediate next steps at the bedside. Remember that this framework aims to be more directive than simply listing potential etiologies.",
+      "shortSummary": "This piece advocates for shifting the paradigm of cardiac arrest management away from relying solely on traditional mnemonics like the H's and T's toward a more actionable, systematic framework.",
+      "summary": "This piece advocates for shifting the paradigm of cardiac arrest management away from relying solely on traditional mnemonics like the H's and T's toward a more actionable, systematic framework. The authors propose integrating point-of-care ultrasound (POCUS) early in resuscitation efforts to rapidly assess for potentially reversible causes such as pneumothorax or pericardial effusion. Furthermore, the discussion expands beyond basic airway and circulation management by incorporating considerations for systemic lytic therapy and extracorporeal membrane oxygenation (ECMO). The overall message is that a structured, multi-modal approach focusing on immediate diagnostic yield at the bedside will improve outcomes.",
       "confidence": "high"
     },
     {
@@ -73,13 +87,13 @@
       "title": "Is it Time to Lyse Our Use of “Lytics” in Central Retinal Artery Occlusion?",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00388-4/fulltext?rss=yes",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trials",
-      "takeaway": "Given the publication of a randomized trial evaluating tenecteplase for CRAO, it warrants immediate consideration at the bedside when managing suspected embolic occlusion. While we await full details on efficacy and safety compared to standard care, this suggests that our use of systemic lytics in acute retinal ischemia needs re-evaluation based on these new data. Be mindful that any change in practice should be guided by the complete results regarding patient selection and timing.",
-      "shortSummary": "This recent randomized trial provides data on the use of tenecteplase for acute central retinal artery occlusion (CRAO), which is a topic that has seen evolving management guidelines.",
-      "summary": "This recent randomized trial provides data on the use of tenecteplase for acute central retinal artery occlusion (CRAO), which is a topic that has seen evolving management guidelines. The publication in the Annals of Emergency Medicine draws attention to this work, suggesting a potential shift in our approach to reperfusion therapy in this setting. While the specific outcomes and dosing details are not fully available here, the mere existence of a randomized trial testing tenecteplase implies a significant discussion around whether current 'lytic' strategies remain optimal for CRAO management. It prompts us to critically re-evaluate the role of thrombolysis in acute retinal ischemia.",
+      "takeaway": "When managing suspected CRAO, remember that the utility of systemic thrombolytics like tenecteplase remains an area under active investigation. While this trial provides new data on its efficacy, clinicians should interpret these results cautiously and integrate them with local institutional protocols. Do not assume routine use of lytics without reviewing the full context regarding patient selection criteria and timing.",
+      "shortSummary": "This article presents the results of a randomized trial evaluating tenecteplase for acute central retinal artery occlusion (CRAO).",
+      "summary": "This article presents the results of a randomized trial evaluating tenecteplase for acute central retinal artery occlusion (CRAO). Given that CRAO is an ophthalmic emergency, the use of systemic thrombolytics like tenecteplase warrants careful consideration in the ED setting. The publication details suggest this study directly addresses whether reperfusion therapy with recombinant tissue plasminogen activator or a similar agent is beneficial for improving visual outcomes in patients presenting with acute CRAO. Reviewing these trial results is crucial because it helps refine our current standard of care, which often involves immediate aggressive management but may lack definitive evidence supporting systemic lytic agents.",
       "confidence": "high"
     },
     {
@@ -91,9 +105,9 @@
       "publishedAt": "2026-07-29T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Resuscitation",
-      "takeaway": "For managing hemorrhagic shock prehospital, current randomized data do not support a mortality advantage for whole blood over standard component therapy. Given the small sample size and low quality of the underlying trials, clinicians should approach this evidence with significant caution; routine changes based solely on this meta-analysis are not warranted until better powered studies emerge.",
-      "shortSummary": "This systematic review and meta-analysis directly addresses a critical point in trauma resuscitation by comparing prehospital whole blood administration against standard blood component therapy in adults suffering from…",
-      "summary": "This systematic review and meta-analysis directly addresses a critical point in trauma resuscitation by comparing prehospital whole blood administration against standard blood component therapy in adults suffering from hemorrhagic shock. The authors pooled the randomized evidence, which concluded that there was no significant mortality benefit to using whole blood over standard components when administered outside the hospital setting. It is worth noting that while much existing observational data compared whole blood to crystalloids or no transfusion, this meta-analysis specifically refined the comparison against established component therapy protocols. However, the authors themselves caution readers significantly because the pooled evidence is derived from only three trials, and these studies are described as having limited size and quality.",
+      "takeaway": "For managing hemorrhagic shock in the prehospital setting, current pooled randomized evidence does not support a mortality advantage for administering whole blood over standard component therapy. Given the small number and low quality of the underlying trials, exercise caution when making resuscitation decisions based solely on this meta-analysis; it suggests that more robustly powered studies are needed before changing practice guidelines.",
+      "shortSummary": "This systematic review and meta-analysis synthesized evidence regarding the use of prehospital whole blood resuscitation versus standard blood components in adults presenting with traumatic hemorrhagic shock.",
+      "summary": "This systematic review and meta-analysis synthesized evidence regarding the use of prehospital whole blood resuscitation versus standard blood components in adults presenting with traumatic hemorrhagic shock. The authors pooled data from randomized controlled trials, concluding that there was no significant mortality benefit associated with giving whole blood over conventional blood component therapy when administered outside the hospital setting. It is important to note that these findings are derived from a small number of limited and low-quality trials. Furthermore, the review points out that much existing observational literature compared whole blood against crystalloids or no transfusion rather than directly against standard components, suggesting this meta-analysis refines rather than completely negates prior clinical suspicion.",
       "confidence": "high"
     },
     {
@@ -101,13 +115,27 @@
       "title": "PulmCrit Wee: Four reasons that hyperangulated videolaryngoscopy should be the mainstay of ICU intubations",
       "source": "EMCrit",
       "link": "https://emcrit.org/pulmcrit/habui/",
-      "published": "3 hours ago",
+      "published": "1 day ago",
       "publishedAt": "2026-08-05T15:04:39Z",
       "impact": "Practice-changing",
       "topic": "Intubation",
-      "takeaway": "Given the evidence, consider adopting hyperangulated videolaryngoscopy as your preferred method for difficult or anticipated intubations in the ICU setting. This technique appears less dependent on perfect operator-patient geometric alignment than other methods. However, remember that this recommendation is based on current data comparing blades and should be integrated into local protocols while maintaining proficiency with all available equipment.",
-      "shortSummary": "This piece strongly advocates for making hyperangulated videolaryngoscopy the standard approach for intubating critically ill patients, suggesting a shift away from current practices involving MAC-VL blades.",
-      "summary": "This piece strongly advocates for making hyperangulated videolaryngoscopy the standard approach for intubating critically ill patients, suggesting a shift away from current practices involving MAC-VL blades. The core argument rests on performance limitations observed when using MAC blades during video laryngoscopy, which may not always be utilized correctly by operators. A recent multi-center randomized controlled trial provided data supporting this transition, showing that hyperangulated blades offered benefits in terms of improved first-pass success rates and reduced incidence of airway injuries compared to the MAC blade technique. The key clinical advantage highlighted is that the geometry of the hyperangulated approach does not necessitate precise facial alignment between the operator and the patient's airway.",
+      "takeaway": "Given the evidence favoring hyperangulated blades over MAC-VL for critically ill patients, consider making this your default choice unless contraindicated. Remember that the benefit is less about perfect technique adherence and more about bypassing strict geometric alignment constraints at the bedside. Always be mindful that while promising, this recommendation is based on evolving data and should integrate with local institutional protocols.",
+      "shortSummary": "This piece strongly advocates for making hyperangulated videolaryngoscopy the preferred standard of care for intubating critically ill patients, suggesting a shift away from current practices that might be suboptimal.",
+      "summary": "This piece strongly advocates for making hyperangulated videolaryngoscopy the preferred standard of care for intubating critically ill patients, suggesting a shift away from current practices that might be suboptimal. The core argument rests on observed limitations with using conventional MAC-VL blades, which may not always yield optimal results in practice. A recent multi-center randomized controlled trial provided supportive evidence, demonstrating that utilizing a hyperangulated blade improved first-pass success rates and was associated with fewer injuries when compared to the standard MAC-VL approach. From a practical standpoint, the advantage highlighted is that this technique does not impose strict geometric alignment requirements between the operator's face and the patient's airway during the procedure.",
+      "confidence": "moderate"
+    },
+    {
+      "slug": "whole-blood-resuscitation-does-evidence-match-belief",
+      "title": "Whole Blood Resuscitation: Does Evidence Match Belief?",
+      "source": "ACEP Now",
+      "link": "https://www.acepnow.com/article/whole-blood-resuscitation-does-evidence-match-belief/",
+      "published": "1 day ago",
+      "publishedAt": "2026-08-05T15:09:49Z",
+      "impact": "Practice-changing",
+      "topic": "Resuscitation",
+      "takeaway": "Don't let the convenience of single-bag whole blood overshadow the data; major trials haven't shown a clear mortality advantage over component therapy. Continue to utilize components based on specific coagulopathy profiles unless you are in an austere setting where logistics mandate its use. Remember that operational ease does not automatically equate to superior patient outcomes.",
+      "shortSummary": "This piece tackles the ongoing debate surrounding whole blood resuscitation versus modern component therapy in trauma management, a topic with significant logistical implications for emergency departments.",
+      "summary": "This piece tackles the ongoing debate surrounding whole blood resuscitation versus modern component therapy in trauma management, a topic with significant logistical implications for emergency departments. While using low titer group O whole blood certainly streamlines resuscitation efforts by offering a single-bag product, recent large randomized controlled trials have cast doubt on its superior clinical efficacy compared to standard component replacement. Specifically, the SWiFT and TOWAR trials did not establish a clear mortality benefit when comparing prehospital administration of whole blood against established care protocols. Therefore, while the operational simplicity of whole blood is appealing, clinicians need to weigh these logistical advantages carefully against the current evidence base from major clinical studies.",
       "confidence": "high"
     },
     {
@@ -115,83 +143,83 @@
       "title": "Hemodynamic Phenotypes, Not Clock-Watching, Dictate Vasopressor Efficacy in Sepsis",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00195-2/fulltext?rss=yes",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Sepsis",
-      "takeaway": "Don't let a null mortality association convince you that timing is irrelevant; instead, remember that individual hemodynamic status dictates need. Focus your decision-making on identifying specific vasoplegic subgroups versus those with occult cardiac dysfunction. Be mindful that the observed lack of benefit in this large cohort might simply reflect mathematical averaging across diverse pathophysiology.",
-      "shortSummary": "This piece discusses a recent large-scale analysis suggesting that the timing of vasopressor initiation might not be independently associated with 90-day mortality in sepsis, which challenges the prevailing 'earlier is…",
-      "summary": "This piece discusses a recent large-scale analysis suggesting that the timing of vasopressor initiation might not be independently associated with 90-day mortality in sepsis, which challenges the prevailing 'earlier is better' paradigm. The authors caution, however, that interpreting this null finding requires significant nuance; they suggest the result may be due to mathematical cancellation across a highly heterogeneous patient population rather than proving that timely intervention offers no benefit. Instead of focusing on the clock, the core message pivots toward recognizing distinct hemodynamic phenotypes as the primary determinant for appropriate vasopressor management. This shifts the focus from rigid adherence to timing protocols toward physiological assessment.",
-      "confidence": "high"
+      "takeaway": "Don't let this null result lead you to abandon timely support, but it does signal a necessary shift in focus from 'when' to 'how.' Remember that the underlying hemodynamic profile of the septic patient is likely more predictive of vasopressor benefit than the exact hour of initiation. Be mindful that the study population's heterogeneity might obscure true timing effects, so use phenotype assessment as your primary guide.",
+      "shortSummary": "This piece discusses a recent large-scale analysis suggesting that the timing of vasopressor initiation might not be directly correlated with 90-day mortality in septic patients, which challenges some established 'earli…",
+      "summary": "This piece discusses a recent large-scale analysis suggesting that the timing of vasopressor initiation might not be directly correlated with 90-day mortality in septic patients, which challenges some established 'earlier is better' guidelines. The authors caution, however, that interpreting this null result requires significant nuance; they argue that simply treating time as a linear variable across a highly diverse patient population likely introduces mathematical cancellation effects. Instead of focusing on the clock, the core message pivots toward recognizing distinct hemodynamic phenotypes as the true determinants guiding appropriate vasopressor therapy. This suggests that a one-size-fits-all approach based solely on timing may be misleading.",
+      "confidence": "moderate"
     },
     {
       "slug": "late-tranexamic-acid-after-trauma-uncertainty-is-not-neutral",
       "title": "Late Tranexamic Acid After Trauma: Uncertainty Is Not Neutral",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00183-6/fulltext?rss=yes",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trauma",
-      "takeaway": "Given the improved timing granularity from this secondary analysis, consider that the window for optimal TXA administration might be more sensitive than previously thought. While it doesn't mandate a change to standard protocols, remember that minimizing delay between injury and first dose remains paramount, even if the exact threshold isn't definitively established here.",
-      "shortSummary": "This paper presents an exploratory secondary analysis digging into whether the benefit of tranexamic acid (TXA) in major trauma is dependent on how long it takes to administer the first dose relative to injury time.",
-      "summary": "This paper presents an exploratory secondary analysis digging into whether the benefit of tranexamic acid (TXA) in major trauma is dependent on how long it takes to administer the first dose relative to injury time. The authors leveraged minute-level documentation from the PATCH-Trauma trial, which significantly improves timing precision compared to older studies like CRASH-2 that used less granular data. This methodological refinement allows for a more nuanced look at the temporal relationship between trauma and TXA administration. While it's an exploratory analysis, the ability to assess time dependency with high resolution is valuable for refining current guidelines on antifibrinolytic use in the acute setting.",
+      "takeaway": "Given the high precision of timing available from sources like PATCH-Trauma, consider that the optimal window for TXA administration might be more sensitive than previously assumed. While current guidelines support early use, these data suggest that the time gap between injury and first dose could influence efficacy, warranting careful documentation in resource-rich settings.",
+      "shortSummary": "This article presents an exploratory secondary analysis investigating whether the benefit of tranexamic acid (TXA) in major trauma is dependent on the time elapsed between injury and administration.",
+      "summary": "This article presents an exploratory secondary analysis investigating whether the benefit of tranexamic acid (TXA) in major trauma is dependent on the time elapsed between injury and administration. The authors leveraged minute-level documentation from the PATCH-Trauma trial, which significantly enhances the precision of timing assessment compared to historical cohorts or previous trials like CRASH-2. This level of detail allows for a more nuanced look at the temporal relationship between hemorrhage control with TXA and the time since injury. While the findings are exploratory, the methodological rigor afforded by minute-level data is a notable strength in this area of trauma resuscitation literature.",
       "confidence": "moderate"
     },
     {
-      "slug": "association-between-the-timing-of-prehospital-epinephrine-administration-and-pat",
-      "title": "Association between the timing of prehospital epinephrine administration and patient outcomes after out-of-hospital cardiac arrest in Korea: a nationwide observational study",
-      "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215848v1?rss=1",
-      "published": "2 weeks ago",
-      "publishedAt": "2026-07-23T16:00:19Z",
+      "slug": "ultrasound-guided-infraspinatus-teres-minor-plane-block-for-acute-post-traumatic",
+      "title": "Ultrasound-guided infraspinatus-teres minor plane block for acute post traumatic shoulder pain in the emergency department: A case series",
+      "source": "AJEM",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42556282/",
+      "published": "1 day ago",
+      "publishedAt": "2026-08-05T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trauma",
-      "takeaway": "Given the strong association found here, maintaining aggressive efforts to deliver epinephrine within 20 minutes of arrest onset should remain a high priority for EMS protocols. While this is observational data from one region, the trend suggests that every minute counts toward better neurological outcomes; therefore, minimizing prehospital delays remains crucial at the bedside.",
-      "shortSummary": "This nationwide observational study from Korea examined whether the timing of prehospital epinephrine administration impacts outcomes following non-traumatic out-of-hospital cardiac arrest (OHCA).",
-      "summary": "This nationwide observational study from Korea examined whether the timing of prehospital epinephrine administration impacts outcomes following non-traumatic out-of-hospital cardiac arrest (OHCA). The authors compared patients who received epinephrine early (within 20 minutes of arrest) versus those with delayed administration. Their analysis, using propensity score matching and multivariable regression on a large cohort, found a clear association: earlier epinephrine was linked to better survival rates and significantly improved neurological outcomes, specifically achieving a Cerebral Performance Category (CPC) of 1–2 at discharge. Furthermore, the data suggested a dose-response relationship, showing that every minute of delay correlated with lower odds of good CPC, with delays exceeding 30 minutes being particularly detrimental. Overall, these results strongly reinforce the clinical value of rapid advanced life support intervention in the prehospital setting.",
-      "confidence": "high"
+      "takeaway": "For severely painful acute shoulder trauma where standard analgesics are failing and traditional blocks might be compromised by diaphragmatic issues, consider an ultrasound-guided ITM plane block as a useful option. The rapid pain control achieved here suggests it could facilitate timely orthopedic assessment without escalating to sedation or needing adjunct agents. Remember this is based on limited case series data, so use clinical judgment regarding its role.",
+      "shortSummary": "This case series explores the utility of an ultrasound-guided infraspinatus teres minor (ITM) inter-fascial plane block for managing severe pain following acute traumatic shoulder injuries in the emergency department se…",
+      "summary": "This case series explores the utility of an ultrasound-guided infraspinatus teres minor (ITM) inter-fascial plane block for managing severe pain following acute traumatic shoulder injuries in the emergency department setting. The authors highlight that standard systemic analgesia can often be insufficient, and established regional techniques like interscalene or superior trunk blocks may present limitations due to potential hemidiaphragmatic paresis. They report using this novel, diaphragm-sparing approach to target both the suprascapular and axillary nerves via a single plane. In their small cohort of four patients, the ITM block successfully achieved rapid pain reduction, which was significant enough to allow for thorough examination and management without needing rescue analgesia or sedation. Overall, the findings suggest this technique is a viable, practical analgesic adjunct for acute shoulder trauma.",
+      "confidence": "moderate"
     },
     {
       "slug": "comparative-effectiveness-of-suction-versus-water-seal-following-tube-thoracosto",
       "title": "Comparative effectiveness of suction versus water seal following tube thoracostomy in traumatic pneumothorax and hemothorax: An updated systematic review and meta-analysis",
       "source": "AJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42537523/",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-07-31T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Practice Updates",
-      "takeaway": "While the data suggests suctioning might shorten hospital stays and improve lung expansion post-tube thoracostomy, remember that this meta-analysis is built on studies with significant methodological flaws, particularly regarding blinding. Therefore, don't change your standard of care based solely on these findings; continue to use clinical judgment while recognizing the current evidence base for this comparison is weak.",
-      "shortSummary": "This updated systematic review and meta-analysis directly compared the use of suction versus standard water seal drainage following tube thoracostomy for managing traumatic pneumothorax and hemothorax.",
-      "summary": "This updated systematic review and meta-analysis directly compared the use of suction versus standard water seal drainage following tube thoracostomy for managing traumatic pneumothorax and hemothorax. The authors synthesized data to determine if active suctioning provides a tangible benefit over passive water seal management in this common trauma setting. Overall, the analysis suggested that applying suction appears beneficial, showing improvements in hospital length of stay, overall chest tube duration, and rates of achieving full lung expansion compared to water seal alone. However, the review authors strongly caution against overinterpreting these positive results because every single trial included in the meta-analysis was flagged as being at a high risk of bias, largely due to inadequate blinding procedures for clinicians, participants, and outcome assessors.",
+      "takeaway": "While the data suggests suction may reduce hospital stay and chest tube time compared to water seal alone, remember that this conclusion rests on studies with significant methodological flaws, particularly regarding blinding. Therefore, don't change your routine management based solely on these positive trends; treat these findings as suggestive rather than definitive until higher-quality evidence emerges.",
+      "shortSummary": "This updated systematic review and meta-analysis directly compares the use of suction versus a standard water seal drainage system following tube thoracostomy for managing traumatic pneumothorax and hemothorax.",
+      "summary": "This updated systematic review and meta-analysis directly compares the use of suction versus a standard water seal drainage system following tube thoracostomy for managing traumatic pneumothorax and hemothorax. The authors synthesized data to determine if one method offers superior outcomes over the other in this common trauma setting. Overall, the analysis suggests that applying suction provides benefits by significantly shortening both the overall hospital length of stay and the required duration of chest tube placement, while also improving rates of full lung expansion. However, it is crucial to note the methodological limitations underpinning these positive findings because every single trial included in the meta-analysis was flagged as being at a high risk of bias, largely due to insufficient blinding across clinicians, participants, and outcome assessors.",
       "confidence": "moderate"
-    },
-    {
-      "slug": "oxygen-saturation-thresholds-for-opioid-induced-respiratory-depression-a-systema",
-      "title": "Oxygen Saturation Thresholds for Opioid-induced Respiratory Depression: A Systematic Review",
-      "source": "WestJEM",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42550704/",
-      "published": "1 day ago",
-      "publishedAt": "2026-08-04T10:00:00Z",
-      "impact": "Practice-changing",
-      "topic": "Opioid Toxicity",
-      "takeaway": "Don't rely solely on SpO2 to diagnose OIRD; prioritize monitoring end-tidal CO2 and assessing respiratory rate/effort first. If you must use SpO2 as a guide, remember that the literature suggests thresholds are somewhat variable, generally falling between 90% and 95%. Be cautious about treating every dip below these numbers without confirming underlying hypoventilation.",
-      "shortSummary": "This systematic review tackles the somewhat murky area of using oxygen saturation (SpO2) as a diagnostic threshold for opioid-induced respiratory depression (OIRD).",
-      "summary": "This systematic review tackles the somewhat murky area of using oxygen saturation (SpO2) as a diagnostic threshold for opioid-induced respiratory depression (OIRD). While it's clear that hypoventilation and hypercapnia are the primary physiological markers we should be focusing on, SpO2 monitoring is still heavily utilized in practice. The authors synthesized existing literature to see if there was any consensus regarding what SpO2 reading constitutes 'significant deterioration.' What they found is a spectrum of reported thresholds, generally clustering between 90% and 95%, depending on the quality of the study or the specific setting being evaluated. Ultimately, the review highlights that despite its widespread use, there is no standardized guideline for this measurement.",
-      "confidence": "high"
     },
     {
       "slug": "jc-peri-intubation-cardiovascular-collapse-in-critically-ill-patients",
       "title": "JC: Peri-intubation cardiovascular collapse in critically ill patients.",
       "source": "St Emlyn's",
       "link": "https://www.stemlynsblog.org/jc-peri-intubation-cardiovascular-collapse-in-critically-ill-patients/",
-      "published": "8 hours ago",
+      "published": "1 day ago",
       "publishedAt": "2026-08-05T10:53:52Z",
       "impact": "Practice-changing",
       "topic": "Intubation",
-      "takeaway": "Given the high rate of peri-intubation collapse seen here, consider optimizing your RSI drug choice, paying particular attention to agents like propofol. While the association is noted, remember that this study is observational and cannot prove causality, so don't abandon standard protocols based on this alone. However, it warrants a discussion about alternative induction/paralytic regimens in future rounds.",
-      "shortSummary": "This review highlights the concerning prevalence of peri-intubation cardiovascular collapse, which was observed in over 40% of critically ill patients within the INTUBE cohort.",
-      "summary": "This review highlights the concerning prevalence of peri-intubation cardiovascular collapse, which was observed in over 40% of critically ill patients within the INTUBE cohort. The analysis specifically points to propofol as a modifiable factor independently associated with this hemodynamic instability, and further notes that its use correlates with increased risks of both ICU admission and 28-day mortality. It is crucial to remember that while these findings suggest a potential association between propofol administration during rapid sequence intubation (RSI) and cardiovascular compromise, the evidence presented remains observational in nature. Therefore, clinicians should interpret this data as suggestive rather than definitive proof of causation.",
+      "takeaway": "Given the high rate of peri-intubation collapse seen here, consider optimizing your RSI drug choices beyond just standard protocols. While propofol appears implicated in this observational series, remember that correlation is not causation; therefore, do not unilaterally abandon it based on this data alone. However, maintaining a heightened index of suspicion for underlying cardiovascular instability during the entire intubation process remains paramount.",
+      "shortSummary": "This piece highlights the concerning prevalence of peri-intubation cardiovascular collapse, which was observed in over 40% of critically ill patients within the INTUBE cohort.",
+      "summary": "This piece highlights the concerning prevalence of peri-intubation cardiovascular collapse, which was observed in over 40% of critically ill patients within the INTUBE cohort. The analysis pointed toward propofol as a modifiable factor independently associated with this hemodynamic instability, and further noted that its use correlated with increased risks of both ICU admission and 28-day mortality. While these findings suggest a potential link between propofol administration during rapid sequence intubation (RSI) and cardiovascular compromise, it is crucial to remember that the evidence presented remains observational in nature. Therefore, while the data warrants clinical attention regarding anesthetic choice, it does not establish definitive causality.",
+      "confidence": "high"
+    },
+    {
+      "slug": "no-flow-duration-and-outcomes-in-adult-blunt-traumatic-out-of-hospital-cardiac-a",
+      "title": "No-flow duration and outcomes in adult blunt traumatic out-of-hospital cardiac arrest",
+      "source": "AJEM",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42556283/",
+      "published": "1 day ago",
+      "publishedAt": "2026-08-05T10:00:00Z",
+      "impact": "Practice-changing",
+      "topic": "Trauma",
+      "takeaway": "Given the association between very short no-flow times and better outcomes in blunt traumatic OHCA, aggressive early resuscitation efforts remain paramount. While this highlights the need for swift field management, remember that a poor prognosis is suggested even with rapid intervention; therefore, managing expectations remains crucial at the bedside.",
+      "shortSummary": "This paper examined the relationship between the time to circulation (no-flow duration) and subsequent outcomes for adults who suffered witnessed out-of-hospital cardiac arrest following blunt trauma.",
+      "summary": "This paper examined the relationship between the time to circulation (no-flow duration) and subsequent outcomes for adults who suffered witnessed out-of-hospital cardiac arrest following blunt trauma. The core finding suggests that achieving a favorable neurological outcome within 30 days is associated with an extremely brief no-flow period in this specific patient population. Overall, the data point toward a generally poor prognosis for these patients presenting after blunt trauma leading to OHCA. This emphasizes how critical rapid intervention time is when managing cardiac arrest secondary to significant blunt force injury.",
       "confidence": "high"
     },
     {
@@ -203,37 +231,23 @@
       "publishedAt": "2026-07-27T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Resuscitation",
-      "takeaway": "When facing a neonate in advanced resuscitation where vascular access is needed, remember that current evidence synthesis highlights the necessity of choosing methods based on local protocols rather than definitive guidelines from this review alone. While the need for robust evidence is clear, clinicians should proceed with established institutional best practices while remaining mindful of potential difficulties in achieving timely access.",
-      "shortSummary": "This systematic review tackles the challenging, yet crucial, topic of establishing appropriate vascular access during advanced neonatal resuscitation or cardiac arrest.",
-      "summary": "This systematic review tackles the challenging, yet crucial, topic of establishing appropriate vascular access during advanced neonatal resuscitation or cardiac arrest. The core premise is that while securing IV/IO access is vital for administering necessary medications and fluids in these emergent scenarios, there remains a significant lack of high-quality evidence to guide clinicians on the best techniques. Essentially, the authors are synthesizing current knowledge because practitioners need clear recommendations to optimize survival outcomes when time is of the essence. Given the critical nature of neonatal resuscitation, establishing reliable access quickly is paramount for effective management.",
+      "takeaway": "When faced with emergent vascular access in a neonate undergoing advanced resuscitation, remember that current practice is guided by the need for more evidence. Since this review noted a gap in direct comparative data, default to established institutional guidelines while maintaining a high index of suspicion for difficult cannulation. Be cautious about implementing novel techniques without local supporting literature.",
+      "shortSummary": "This systematic review addresses the persistent clinical challenge of establishing reliable vascular access during advanced neonatal resuscitation or cardiac arrest, recognizing its critical role in improving survival o…",
+      "summary": "This systematic review addresses the persistent clinical challenge of establishing reliable vascular access during advanced neonatal resuscitation or cardiac arrest, recognizing its critical role in improving survival outcomes. The core premise is that despite the recognized importance of this intervention, there remains a significant lack of high-quality evidence to guide clinicians on selecting the optimal technique among various available methods. Essentially, the literature needs consolidation to move beyond current practices and provide concrete recommendations for bedside use when resuscitation efforts are underway. While the review highlights the necessity of robust evidence, the provided excerpt does not detail specific comparative results or definitive protocols for different access modalities.",
       "confidence": "moderate"
-    },
-    {
-      "slug": "the-impact-of-leveraging-an-emergency-department-observation-unit-for-pandemic-r",
-      "title": "The Impact of Leveraging an Emergency Department Observation Unit for Pandemic Response on Observation Outcomes: A Retrospective Observational Difference-In-Differences Study",
-      "source": "JACEP Open",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42548937/",
-      "published": "1 day ago",
-      "publishedAt": "2026-08-04T10:00:00Z",
-      "impact": "Practice-changing",
-      "topic": "General Emergency Medicine",
-      "takeaway": "When considering using EDOU space for surge capacity, remember that simply admitting observation patients to general inpatient beds appears associated with increased costs and longer overall stays for those specific patients. This suggests a potential negative impact on resource utilization even if it frees up physical space. Be mindful of these metrics when planning operational shifts during high-volume periods.",
-      "shortSummary": "This retrospective difference-in-differences study examined the consequences of diverting Emergency Department Observation Unit (EDOU) capacity to manage surge or disaster surges by admitting observation patients into g…",
-      "summary": "This retrospective difference-in-differences study examined the consequences of diverting Emergency Department Observation Unit (EDOU) capacity to manage surge or disaster surges by admitting observation patients into general inpatient beds. The authors found a clear association between this displacement and several negative outcomes for the observation cohort, specifically noting increases in overall cost, length of stay, utilization of inpatient beds, and the rate of subsequent inpatient admission. Essentially, while it might seem like a necessary triage measure during a public health crisis, the data suggests that moving these patients out of their designated unit into standard inpatient care negatively impacts resource metrics for the observation group itself.",
-      "confidence": "high"
     },
     {
       "slug": "advanced-vs-basic-life-support-outcomes-in-treatment-of-out-of-hospital-cardiac-",
       "title": "Advanced vs basic life support outcomes in treatment of out-of-hospital-cardiac-arrest: A registry-based cohort study",
       "source": "AJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42546549/",
-      "published": "2 days ago",
+      "published": "3 days ago",
       "publishedAt": "2026-08-03T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Shock",
-      "takeaway": "When managing OHCA in the field, remember that providing care encompassing advanced interventions appears beneficial for improving sustained ROSC and subsequent survival, especially if the initial rhythm is shockable. While this shows a trend toward better outcomes with ALS, always consider the limitations of observational registry data when making immediate bedside decisions.",
+      "takeaway": "In the setting of OHCA, the evidence supports that incorporating advanced measures beyond simple chest compressions is beneficial for improving sustained ROSC and subsequent outcomes. Specifically, expect better survival and neurologic status when ALS protocols are utilized over BLS alone, particularly if the initial rhythm was shockable. Remember this association while considering resource allocation in prehospital settings.",
       "shortSummary": "This registry-based cohort study compared outcomes for out-of-hospital cardiac arrest (OHCA) patients who received Advanced Life Support (ALS) versus those who only received Basic Life Support (BLS).",
-      "summary": "This registry-based cohort study compared outcomes for out-of-hospital cardiac arrest (OHCA) patients who received Advanced Life Support (ALS) versus those who only received Basic Life Support (BLS). The authors found a positive association between receiving ALS and achieving sustained return of spontaneous circulation, regardless of the initial rhythm encountered. Furthermore, for arrests that were shockable initially, the group receiving ALS demonstrated better overall survival to discharge and more favorable neurologic outcomes compared to the BLS-only group. Overall, the data suggest that incorporating comprehensive care beyond basic measures can improve patient prognosis following OHCA.",
+      "summary": "This registry-based cohort study compared outcomes for out-of-hospital cardiac arrest (OHCA) patients who received Advanced Life Support (ALS) versus those who only received Basic Life Support (BLS). The authors found a positive association between receiving ALS and achieving sustained return of spontaneous circulation, regardless of the initial rhythm encountered. Furthermore, for arrests initially presenting with shockable rhythms, the group receiving ALS demonstrated improved survival rates to discharge and better neurologic outcomes compared to the BLS-only cohort. Overall, the data suggests that augmenting basic resuscitation efforts with more comprehensive care components translates to tangible improvements in patient recovery.",
       "confidence": "high"
     },
     {
@@ -241,13 +255,13 @@
       "title": "Managing Transient ST-Segment Elevation",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00108-3/fulltext?rss=yes",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Ecg",
-      "takeaway": "When faced with chest pain and transient ST-segment elevation following STEMI alert activation, remember that initial stabilization protocols are key. Don't let a single ECG finding dictate immediate aggressive reperfusion if the clinical context suggests an alternative etiology or evolving picture; reassessment after initial supportive care is crucial.",
-      "shortSummary": "This case report details the initial management of a 74-year-old woman presenting to the ED with severe chest pain and an out-of-hospital STEMI alert, despite having a history of atrial fibrillation, hypertension, and h…",
-      "summary": "This case report details the initial management of a 74-year-old woman presenting to the ED with severe chest pain and an out-of-hospital STEMI alert, despite having a history of atrial fibrillation, hypertension, and hyperlipidemia. The EMS team initiated standard protocols including aspirin, sublingual nitroglycerin, fentanyl, and IV fluids upon arrival. The core discussion revolves around the appropriate management pathway when transient ST-segment elevation is identified in this acute setting. It serves as a practical reminder that even with classic signs pointing toward an acute coronary syndrome, careful interpretation of the ECG findings relative to the clinical picture is paramount before committing to invasive reperfusion strategies.",
+      "takeaway": "When encountering an out-of-hospital STEMI alert with transient ST elevation, remember to critically assess the clinical context and history rather than solely relying on the initial ECG. If the presentation suggests a non-ischemic etiology for the changes, aggressive reperfusion strategies may be unwarranted; focus instead on optimizing supportive care while ruling out other causes of chest pain.",
+      "shortSummary": "This case report details the management of a 74-year-old woman presenting to the ED with severe chest pain and an out-of-hospital STEMI alert, despite having pre-existing conditions including atrial fibrillation, hypert…",
+      "summary": "This case report details the management of a 74-year-old woman presenting to the ED with severe chest pain and an out-of-hospital STEMI alert, despite having pre-existing conditions including atrial fibrillation, hypertension, and hyperlipidemia. The initial EMS management included standard interventions like aspirin, nitroglycerin, fentanyl, and fluids. The core discussion revolves around the appropriate approach when transient ST-segment elevation is identified in this setting, which requires careful differentiation from true acute coronary syndrome requiring immediate reperfusion strategies. It serves as a good reminder that not every STEMI alert necessitates aggressive antiplatelet or reperfusion therapy if the underlying cause of the ECG changes is benign or transient.",
       "confidence": "high"
     },
     {
@@ -255,13 +269,13 @@
       "title": "Prescribing Culture, Severity Adjustment, and Outcome Choice in Dexamethasone Regimen Studies for Pediatric Asthma Exacerbations",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00198-8/fulltext?rss=yes",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Paediatric",
-      "takeaway": "For routine management of pediatric asthma exacerbations, you can likely treat both 1-dose and 2-dose dexamethasone regimens with similar risk profiles regarding 14-day ED revisit and hospitalization. This suggests that defaulting to the higher dose frequency without clear indication may not improve outcomes. Always consider local guidelines while recognizing that current evidence does not strongly favor one dosing schedule over the other for preventing early readmissions.",
-      "shortSummary": "This article reviews a recent comparison of one-dose versus two-dose dexamethasone regimens for pediatric asthma exacerbations managed in the emergency department.",
-      "summary": "This article reviews a recent comparison of one-dose versus two-dose dexamethasone regimens for pediatric asthma exacerbations managed in the emergency department. The authors highlight that this topic represents an area with considerable practice variation, making the findings clinically relevant for resource stewardship. The key finding reported is that while nearly two-thirds of children actually received the two-dose regimen, the weighted risks of both 14-day ED revisit and subsequent hospitalization were comparable between the single-dose and double-dose groups. This suggests that current prescribing habits might not be translating into a measurable benefit in preventing acute readmissions or revisits.",
+      "takeaway": "When managing an asthma exacerbation, you can treat either the 1-dose or 2-dose dexamethasone regimen with similar expected risks for 14-day revisits and hospitalizations. This suggests that adherence to a specific dosing protocol over another may not be critical for immediate discharge planning. However, always consider local guidelines and patient stability when making this decision.",
+      "shortSummary": "This article discusses a recent comparison evaluating whether a single dose versus two doses of dexamethasone provides superior outcomes for pediatric patients discharged from the emergency department following an asthm…",
+      "summary": "This article discusses a recent comparison evaluating whether a single dose versus two doses of dexamethasone provides superior outcomes for pediatric patients discharged from the emergency department following an asthma exacerbation. The authors highlight that there is significant practice variation in how often these steroids are administered, making this comparison clinically relevant. Notably, the study found that while nearly two-thirds of children actually received the two-dose regimen, the weighted risks for both 14-day ED revisit and subsequent hospitalization were comparable between the single-dose and double-dose groups. This suggests that current prescribing habits may not be driving a measurable difference in short-term readmission rates.",
       "confidence": "high"
     },
     {
@@ -273,23 +287,9 @@
       "publishedAt": "2026-07-27T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Shock",
-      "takeaway": "If you have access to the patient's recent ECG, noting pathological Q-waves, LVH, or conduction delays might suggest a higher pretest probability of an initial shockable rhythm during OHCA. However, this is purely associational data, and these findings should not replace standard ACLS algorithms; always manage based on current rhythm assessment.",
-      "shortSummary": "This piece explores whether pre-existing abnormalities on an ECG can predict the likelihood of encountering a shockable rhythm during out-of-hospital cardiac arrest (OHCA).",
-      "summary": "This piece explores whether pre-existing abnormalities on an ECG can predict the likelihood of encountering a shockable rhythm during out-of-hospital cardiac arrest (OHCA). The authors found that several specific ECG findings—namely pathological Q-waves, left ventricular hypertrophy, atrial fibrillation, intraventricular conduction delay, and left bundle branch block—were associated with increased odds of finding a shockable initial rhythm when compared to patients whose most recent hospital ECG was entirely normal. This suggests a potential utility in risk stratification for resuscitation teams by reviewing historical ECGs.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "jc-magnesium-for-acute-headache-maybe-but-perhaps-not-for-all",
-      "title": "JC: Magnesium for Acute Headache: Maybe, but perhaps not for all..",
-      "source": "St Emlyn's",
-      "link": "https://www.stemlynsblog.org/jc-magnesium-for-acute-headache-maybe-but-perhaps-not-for-all/",
-      "published": "5 days ago",
-      "publishedAt": "2026-07-31T20:33:18Z",
-      "impact": "Practice-changing",
-      "topic": "Trauma",
-      "takeaway": "Don't overhaul your standard headache protocol based solely on this data; the benefit seen in treatment success rates was modest. However, if you have a patient who is refractory to initial therapy and has high pain burden, considering adding IV MgSO4 might be worth trying due to reports of reduced rescue analgesic needs. Remember that the evidence remains somewhat weak, so use clinical judgment over rigid adherence to this suggestion.",
-      "shortSummary": "This review synthesizes the current evidence regarding the role of intravenous magnesium sulfate in managing acute non-traumatic headache within the emergency department setting.",
-      "summary": "This review synthesizes the current evidence regarding the role of intravenous magnesium sulfate in managing acute non-traumatic headache within the emergency department setting. The discussion centers around a recent randomized controlled trial that investigated adding IV MgSO4 to standard paracetamol therapy. While this RCT demonstrated an increase in treatment success rates when magnesium was added, the authors caution that these improvements fell short of what would be considered clinically significant enough to mandate a change in practice guidelines. Interestingly, the study did point toward ancillary benefits associated with magnesium administration, specifically noting reduced reliance on rescue analgesia and improved patient satisfaction scores. Overall, the consensus seems to be that while there are some positive signals, the supporting evidence base for routine use of IV magnesium remains weak.",
+      "takeaway": "If you have access to the patient's most recent hospital ECG within the last year, note any pathological Q-waves, LVH, or conduction delays, as these findings correlate with a higher chance of needing initial defibrillation in OHCA. While this is suggestive, remember that baseline ECG abnormalities do not replace standard ACLS algorithms; they are only one piece of prognostic information.",
+      "shortSummary": "This piece investigates whether certain pre-existing electrocardiographic findings predict the likelihood of encountering a shockable rhythm during out-of-hospital cardiac arrest (OHCA).",
+      "summary": "This piece investigates whether certain pre-existing electrocardiographic findings predict the likelihood of encountering a shockable rhythm during out-of-hospital cardiac arrest (OHCA). The analysis specifically focused on bystander-witnessed arrests and found that several ECG abnormalities conferred increased odds of needing initial defibrillation. Specifically, pathological Q-waves, left ventricular hypertrophy, atrial fibrillation, intraventricular conduction delay, and left bundle branch block were all associated with a higher probability of a shockable rhythm compared to those presenting with normal baseline ECGs. This suggests a potential utility in risk stratification using recent hospital ECG data before an arrest occurs.",
       "confidence": "moderate"
     }
   ],
@@ -303,7 +303,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 2,
+      "itemsKept": 7,
       "itemsSeen": 10
     },
     {
@@ -325,10 +325,10 @@
       "category": "foamed",
       "priority": 4,
       "qualityTier": "standard",
-      "status": "offline",
-      "rawStatus": "error",
-      "itemsKept": 0,
-      "itemsSeen": 0
+      "status": "online",
+      "rawStatus": "ok",
+      "itemsKept": 1,
+      "itemsSeen": 50
     },
     {
       "id": "emdocs",
@@ -385,10 +385,10 @@
       "category": "foamed",
       "priority": 4,
       "qualityTier": "standard",
-      "status": "offline",
-      "rawStatus": "error",
-      "itemsKept": 0,
-      "itemsSeen": 0
+      "status": "online",
+      "rawStatus": "ok",
+      "itemsKept": 7,
+      "itemsSeen": 12
     },
     {
       "id": "aliem",
@@ -531,7 +531,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 9,
+      "itemsKept": 8,
       "itemsSeen": 86
     },
     {
@@ -543,7 +543,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 13,
+      "itemsKept": 7,
       "itemsSeen": 100
     },
     {
@@ -555,7 +555,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 27,
+      "itemsKept": 29,
       "itemsSeen": 100
     },
     {
@@ -603,7 +603,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 4,
+      "itemsKept": 3,
       "itemsSeen": 100
     },
     {
@@ -627,7 +627,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 13,
+      "itemsKept": 14,
       "itemsSeen": 100
     },
     {
@@ -639,7 +639,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 9,
+      "itemsKept": 8,
       "itemsSeen": 100
     },
     {
