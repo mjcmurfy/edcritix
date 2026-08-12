@@ -1,44 +1,86 @@
 {
   "meta": {
-    "generatedAt": "2026-08-11T18:28:46.142Z",
-    "sourceGeneratedAt": "2026-08-11T18:15:01.074716Z",
-    "editorialGeneratedAt": "2026-08-11T18:28:24.635069Z",
-    "editionDate": "2026-08-12"
+    "generatedAt": "2026-08-12T18:47:16.350Z",
+    "sourceGeneratedAt": "2026-08-12T18:15:00.860697Z",
+    "editorialGeneratedAt": "2026-08-12T18:45:21.305119Z",
+    "editionDate": "2026-08-13"
   },
   "briefing": {
-    "headline": "8 high-priority items in the latest EM scan",
-    "summary": "Top sources today: JACEP Open, EMCrit, AJEM. Main themes: guideline or formal recommendation, reviews, trials. Best early reads: Emergency Department Imaging of Pediatric Patients with Blunt Thoracic Trauma: A Systematic Review, Meta-Analysis, and Practice Management Guideline; EMCrit 431 – OB-EMCrit – Life-Threatening Post-Partum Hemorrhage (PPH) with Cho Espinoza.",
-    "editorialHeadline": "From Peds Trauma to Postpartum Bleeding: Refining the Bedside Algorithm",
-    "editorialSummary": "The current literature demands a sharp focus on refining algorithms, whether you're managing pediatric blunt trauma or catastrophic postpartum hemorrhage. For stable children with thoracic injury, the weight of evidence suggests we can temper routine CT scanning due to radiation risk; physical exam and point-of-care ultrasound should guide initial workup. Similarly, in massive PPH without immediate advanced resources, the priority shifts entirely from calculating blood loss volume to aggressively managing hemodynamic instability via uterotonics and compression.\n\nBeyond obstetrics, airway management for neonates requires a proactive shift toward predicting difficulty using history and exam findings, making videolaryngoscopy the preferred tool when intubation seems necessary. On the antibiotic front, stewardship efforts might favor cephalosporins over fluoroquinolones for empiric outpatient pyelonephritis coverage. Finally, remember that in complex scenarios—from cardiac arrest to septic shock—the guiding principle is moving beyond rigid adherence to timing or single-modality testing; instead, focus on dynamic assessment of the patient's current physiological phenotype.\n\nThis collection emphasizes that modern emergency care requires integrating multiple data streams—be it POCUS findings, subtle historical clues in pediatric pain, or hemodynamic status—to guide immediate, actionable decisions."
+    "headline": "10 high-priority items in the latest EM scan",
+    "summary": "Top sources today: EMJ, Journal of Emergency Medicine, JACEP Open. Main themes: trials, guideline or formal recommendation, reviews. Best early reads: Journal update monthly top five; Analgesia for Awake Internal Jugular Vein Cannulation in Trauma Emergency Bay: A Randomized Comparison of Ultrasound-Guided Superficial Cervical Plexus Block With Local Infiltration.",
+    "editorialHeadline": "EDCritix Daily: Resuscitation Choices, Safer Imaging, and High-Risk Diagnostics",
+    "editorialSummary": "Today’s strongest reads focus on decisions that change bedside care: analgesia for awake central access, selective imaging after pediatric blunt chest trauma, neonatal airway technique, and medication choices in bradycardia and agitation. Several provocative commentaries challenge routine practice in sepsis, cardiac arrest, thrombolysis, trauma, and antimicrobial prescribing, but most warrant cautious interpretation rather than immediate protocol change."
   },
   "dailyEditorial": [
+    {
+      "slug": "journal-update-monthly-top-five",
+      "title": "Journal update monthly top five",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-216286v1?rss=1",
+      "published": "1 day ago",
+      "publishedAt": "2026-08-11T16:00:17Z",
+      "impact": "Practice-changing",
+      "topic": "Practice Updates",
+      "takeaway": "Use this as a rapid evidence scan; review the underlying trials before changing sepsis protocols. A curated journal roundup highlights five papers outside emergency medicine, including fluid and vasopressor strategy in early septic shock.",
+      "shortSummary": "A curated journal roundup highlights five papers outside emergency medicine, including fluid and vasopressor strategy in early septic shock.",
+      "summary": "A curated journal roundup highlights five papers outside emergency medicine, including fluid and vasopressor strategy in early septic shock. Its value is breadth and appraisal rather than a single practice-changing result.",
+      "confidence": "moderate"
+    },
+    {
+      "slug": "analgesia-for-awake-internal-jugular-vein-cannulation-in-trauma-emergency-bay-a-",
+      "title": "Analgesia for Awake Internal Jugular Vein Cannulation in Trauma Emergency Bay: A Randomized Comparison of Ultrasound-Guided Superficial Cervical Plexus Block With Local Infiltration",
+      "source": "Journal of Emergency Medicine",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42580054/",
+      "published": "1 day ago",
+      "publishedAt": "2026-08-11T10:00:00Z",
+      "impact": "Practice-changing",
+      "topic": "Trauma",
+      "takeaway": "Consider the block when expertise is available and avoiding systemic sedation matters; do not generalize beyond the studied setting. In awake trauma patients needing internal jugular access, an ultrasound-guided superficial cervical plexus block improved procedural conditions compared with local infiltration.",
+      "shortSummary": "In awake trauma patients needing internal jugular access, an ultrasound-guided superficial cervical plexus block improved procedural conditions compared with local infiltration.",
+      "summary": "In awake trauma patients needing internal jugular access, an ultrasound-guided superficial cervical plexus block improved procedural conditions compared with local infiltration. Benefit depends on operator skill and careful patient selection.",
+      "confidence": "moderate"
+    },
     {
       "slug": "emergency-department-imaging-of-pediatric-patients-with-blunt-thoracic-trauma-a-",
       "title": "Emergency Department Imaging of Pediatric Patients with Blunt Thoracic Trauma: A Systematic Review, Meta-Analysis, and Practice Management Guideline",
       "source": "JACEP Open",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42569217/",
-      "published": "3 days ago",
+      "published": "4 days ago",
       "publishedAt": "2026-08-08T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trauma",
-      "takeaway": "For stable pediatric patients with minor initial screening findings after blunt thoracic trauma, you can generally forgo routine chest CT scanning due to radiation risks. Focus on a thorough physical exam and consider point-of-care ultrasound as part of your initial workup. Remember that the evidence base is weak, so these recommendations should guide practice rather than dictate management in complex cases.",
-      "shortSummary": "This systematic review and meta-analysis synthesized the current evidence regarding imaging modalities for pediatric patients presenting with blunt thoracic trauma in the emergency department setting.",
-      "summary": "This systematic review and meta-analysis synthesized the current evidence regarding imaging modalities for pediatric patients presenting with blunt thoracic trauma in the emergency department setting. While it acknowledges that CT scanning remains highly sensitive for detecting thoracic injuries, the authors appropriately highlight the disproportionately higher risk associated with ionizing radiation exposure in children compared to adults. The overall body of evidence supporting routine advanced imaging is considered low quality across the included studies. Consequently, the guideline development was cautious, leading to specific recommendations primarily concerning the use of chest CT in stable pediatric patients.",
-      "confidence": "high"
+      "takeaway": "Do not reflexively CT every child with blunt chest trauma; use examination, mechanism, radiography, and validated risk assessment to target advanced imaging.",
+      "shortSummary": "This systematic review and guideline weighs the high sensitivity of chest CT against low rates of actionable thoracic injury and greater radiation risk in children.",
+      "summary": "This systematic review and guideline weighs the high sensitivity of chest CT against low rates of actionable thoracic injury and greater radiation risk in children. The clinical direction is toward selective, risk-based imaging.",
+      "confidence": "moderate"
+    },
+    {
+      "slug": "in-children-requiring-emergency-vascular-access-are-intraosseous-lines-associate",
+      "title": "In children requiring emergency vascular access, are intraosseous lines associated with significant long-term complications?",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-216214v1?rss=1",
+      "published": "1 day ago",
+      "publishedAt": "2026-08-11T16:00:17Z",
+      "impact": "Practice-changing",
+      "topic": "Trauma",
+      "takeaway": "Do not delay lifesaving IO access when vascular access is urgent; document placement and monitor for local complications. A short-cut review examines whether pediatric intraosseous access causes meaningful long-term harm.",
+      "shortSummary": "A short-cut review examines whether pediatric intraosseous access causes meaningful long-term harm.",
+      "summary": "A short-cut review examines whether pediatric intraosseous access causes meaningful long-term harm. The evidence base appears limited, so rare complications remain difficult to quantify.",
+      "confidence": "low"
     },
     {
       "slug": "emcrit-431-ob-emcrit-life-threatening-post-partum-hemorrhage-pph-with-cho-espino",
       "title": "EMCrit 431 – OB-EMCrit – Life-Threatening Post-Partum Hemorrhage (PPH) with Cho Espinoza",
       "source": "EMCrit",
       "link": "https://emcrit.org/emcrit/post-partum-hemorrhage/",
-      "published": "4 days ago",
+      "published": "5 days ago",
       "publishedAt": "2026-08-07T19:41:04Z",
       "impact": "Practice-changing",
       "topic": "Resuscitation",
-      "takeaway": "When managing massive PPH without immediate access to comprehensive resources, prioritize recognizing hemodynamic deterioration over calculating estimated blood loss. Aggressively administer uterotonics and maintain physical uterine compression while simultaneously initiating resuscitation protocols for coagulopathy. Remember that early recognition of instability is the most critical determinant of initial management.",
-      "shortSummary": "This update tackles catastrophic postpartum hemorrhage (PPH) management, specifically tailored for providers who might be the sole resuscitationist in a resource-limited or rural setting.",
-      "summary": "This update tackles catastrophic postpartum hemorrhage (PPH) management, specifically tailored for providers who might be the sole resuscitationist in a resource-limited or rural setting. The core message shifts focus away from simply quantifying blood loss volume toward recognizing and responding to any hemodynamic instability. Key components covered include high-yield uterotonic administration protocols, hands-on physical compression techniques, and aggressive strategies for managing underlying coagulopathy. It provides practical algorithms for temporizing severe obstetric exsanguination when advanced resources are not immediately available.",
-      "confidence": "high"
+      "takeaway": "Use a rehearsed PPH sequence: activate help and blood products early, give appropriate uterotonics, control the source, and treat coagulopathy in parallel.",
+      "shortSummary": "A practical resuscitation discussion covers uterotonics, mechanical compression, hemorrhage control, and coagulopathy management in catastrophic postpartum hemorrhage, with emphasis on resource-limited moments.",
+      "summary": "A practical resuscitation discussion covers uterotonics, mechanical compression, hemorrhage control, and coagulopathy management in catastrophic postpartum hemorrhage, with emphasis on resource-limited moments.",
+      "confidence": "moderate"
     },
     {
       "slug": "guideline-update-neonatal-and-infant-airway-management",
@@ -49,9 +91,9 @@
       "publishedAt": "2026-08-03T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Practice Updates",
-      "takeaway": "When managing a neonate or infant airway, prioritize using history and physical exam findings to predict difficulty before proceeding with any advanced airway maneuvers. If intubation is necessary, videolaryngoscopy should be your preferred tool, and always ensure you are utilizing apneic oxygenation support during attempts. Remember that confirmation of tube placement via end-tidal capnography does not replace the need for careful initial assessment.",
-      "shortSummary": "The new 2024 joint guidelines from the ESAIC and BJA provide critical updates for managing airways in neonates and infants, acknowledging the significant anatomical and physiological differences compared to adults.",
-      "summary": "The new 2024 joint guidelines from the ESAIC and BJA provide critical updates for managing airways in neonates and infants, acknowledging the significant anatomical and physiological differences compared to adults. A key focus is on proactively predicting difficult airway scenarios using a thorough history and physical exam before any intervention. The recommendations strongly favor the use of videolaryngoscopy when intubation is anticipated, which should improve visualization over traditional methods. Furthermore, the guidelines stress the importance of maintaining adequate oxygenation during attempts by utilizing techniques like apneic oxygenation. Finally, they reinforce that confirming successful placement via end-tidal capnography remains paramount throughout the process.",
+      "takeaway": "Prepare an explicit primary and rescue airway plan, optimize oxygenation, and use pediatric-sized equipment with skilled assistance early. This update translates 2024 European guidance for neonatal and infant airway management, emphasizing difficult-airway assessment and age-specific anatomy and physiology.",
+      "shortSummary": "This update translates 2024 European guidance for neonatal and infant airway management, emphasizing difficult-airway assessment and age-specific anatomy and physiology.",
+      "summary": "This update translates 2024 European guidance for neonatal and infant airway management, emphasizing difficult-airway assessment and age-specific anatomy and physiology.",
       "confidence": "high"
     },
     {
@@ -63,10 +105,24 @@
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Sepsis",
-      "takeaway": "When managing an outpatient suspected pyelonephritis, consider using a cephalosporin orally as your first-line empiric agent instead of relying solely on fluoroquinolones or TMP-SMX. This shift may improve stewardship while maintaining adequate coverage for common uropathogens. Always confirm local resistance patterns before making this change.",
-      "shortSummary": "This article addresses the ongoing challenge of selecting appropriate empiric oral antibiotics for managing acute pyelonephritis in the outpatient setting, a common and potentially serious ED presentation.",
-      "summary": "This article addresses the ongoing challenge of selecting appropriate empiric oral antibiotics for managing acute pyelonephritis in the outpatient setting, a common and potentially serious ED presentation. While fluoroquinolones and TMP-SMX have historically been standard recommendations, this review suggests that cephalosporins may represent a superior choice for initial empirical coverage. The goal remains balancing effective pathogen coverage with minimizing resistance development and supporting antimicrobial stewardship efforts. Given the risk of complications like sepsis or renal injury, timely and targeted therapy is paramount upon diagnosis.",
-      "confidence": "high"
+      "takeaway": "Choose oral therapy using local susceptibility data, patient risk, culture follow-up, and guideline recommendations rather than adopting a universal class preference.",
+      "shortSummary": "This commentary argues for oral cephalosporins as preferred empiric outpatient therapy for acute pyelonephritis, balancing efficacy, resistance, adverse effects, and stewardship.",
+      "summary": "This commentary argues for oral cephalosporins as preferred empiric outpatient therapy for acute pyelonephritis, balancing efficacy, resistance, adverse effects, and stewardship. It is an argument, not definitive comparative evidence.",
+      "confidence": "low"
+    },
+    {
+      "slug": "the-case-of-the-redacted-ledger",
+      "title": "The Case of the Redacted Ledger",
+      "source": "EMCrit",
+      "link": "https://emcrit.org/emnerd/the-case-of-the-redacted-ledger/",
+      "published": "3 hours ago",
+      "publishedAt": "2026-08-12T15:56:10Z",
+      "impact": "Practice-changing",
+      "topic": "Trials",
+      "takeaway": "Base antiviral decisions on the actual trial population, timing, severity, and effect estimates—not historical assumptions or rhetoric alone.",
+      "shortSummary": "A critical appraisal revisits oseltamivir in light of REMAP-CAP and longstanding concerns about selective reporting.",
+      "summary": "A critical appraisal revisits oseltamivir in light of REMAP-CAP and longstanding concerns about selective reporting. The piece is useful for interpreting evidence but is strongly opinionated.",
+      "confidence": "moderate"
     },
     {
       "slug": "does-sodium-bicarbonate-improve-outcomes-for-in-hospital-cardiac-arrest",
@@ -77,52 +133,24 @@
       "publishedAt": "2026-08-04T14:41:01Z",
       "impact": "Practice-changing",
       "topic": "Cardiac Arrest",
-      "takeaway": "Do not initiate sodium bicarbonate routinely for suspected or confirmed cardiac arrest based on this data; the BIHCA trial showed no benefit in improving sustained ROSC. While historical protocols may still recommend it, current evidence suggests withholding routine administration unless specific indications (like severe acidosis refractory to other measures) are met. Always review local advanced life support algorithms against these modern randomized trial findings.",
-      "shortSummary": "This review tackles the lingering question of whether routine sodium bicarbonate administration improves outcomes following an in-hospital cardiac arrest, a practice that has seen significant shifts away from historical…",
-      "summary": "This review tackles the lingering question of whether routine sodium bicarbonate administration improves outcomes following an in-hospital cardiac arrest, a practice that has seen significant shifts away from historical guidelines. The discussion centers heavily on the findings from the BIHCA trial, which was a large randomized controlled trial designed to test this intervention. Crucially, the data from this study did not demonstrate any statistically significant difference in sustained return of spontaneous circulation when comparing patients who received bicarbonate versus those who received placebo. Given these robust results, the authors conclude that current evidence does not support the routine use of sodium bicarbonate for managing cardiac arrest in the emergency department setting.",
-      "confidence": "high"
+      "takeaway": "Avoid routine bicarbonate during cardiac arrest; reserve it for specific indications such as sodium-channel blockade or severe hyperkalemia while prioritizing high-quality ALS care.",
+      "shortSummary": "A review of the BIHCA trial asks whether sodium bicarbonate improves outcomes in in-hospital cardiac arrest.",
+      "summary": "A review of the BIHCA trial asks whether sodium bicarbonate improves outcomes in in-hospital cardiac arrest. It addresses a persistent gap between modern algorithms and ongoing routine use.",
+      "confidence": "moderate"
     },
     {
       "slug": "recurrent-back-pain-in-a-child-more-than-a-missed-x-ray",
       "title": "Recurrent Back Pain in a Child: More Than a Missed X-Ray",
       "source": "ACEP Now",
       "link": "https://www.acepnow.com/article/recurrent-back-pain-in-a-child-more-than-a-missed-x-ray/",
-      "published": "5 hours ago",
+      "published": "1 day ago",
       "publishedAt": "2026-08-11T13:25:05Z",
       "impact": "Practice-changing",
       "topic": "Trauma",
-      "takeaway": "When evaluating recurrent or nocturnal back pain in a child, treat the history as the most critical piece of data point; do not let normal X-rays reassure you prematurely. If the clinical suspicion remains high despite negative initial imaging, consider escalating workup with advanced modalities like MRI to rule out occult malignancy or other serious etiologies.",
-      "shortSummary": "This review strongly emphasizes that recurrent, atraumatic back pain in a child should never be dismissed simply because initial plain radiographs are negative.",
-      "summary": "This review strongly emphasizes that recurrent, atraumatic back pain in a child should never be dismissed simply because initial plain radiographs are negative. The authors highlight the critical importance of maintaining a high index of suspicion for underlying pathology, particularly malignancy, even when the physical exam and basic imaging appear reassuring. They use the case of a missed Ewing sarcoma to underscore how history—specifically nocturnal or worsening pain patterns—must guide the differential diagnosis beyond routine workup. Essentially, this piece serves as a crucial reminder that in pediatric back pain, the clinical narrative often outweighs initial negative radiographic findings. It's a valuable read for keeping the diagnostic process aggressive when red flags are present.",
-      "confidence": "high"
-    },
-    {
-      "slug": "an-action-based-paradigm-for-managing-cardiac-arrest",
-      "title": "An Action-Based Paradigm for Managing Cardiac Arrest",
-      "source": "ACEP Now",
-      "link": "https://www.acepnow.com/article/an-action-based-paradigm-for-managing-cardiac-arrest/",
-      "published": "6 days ago",
-      "publishedAt": "2026-08-05T14:44:30Z",
-      "impact": "Practice-changing",
-      "topic": "Resuscitation",
-      "takeaway": "Integrate POCUS early in your resuscitation efforts to quickly rule out treatable causes like pneumothorax or pericardial effusion. While standard ACLS remains foundational, keep systemic lytics and ECMO pathways top-of-mind for rapid escalation if initial measures fail. Remember this framework is designed to guide immediate action rather than replace core life support algorithms.",
-      "shortSummary": "This piece argues for shifting the paradigm of cardiac arrest management away from rote memorization of mnemonics like the H's and T's toward a more dynamic, action-based approach.",
-      "summary": "This piece argues for shifting the paradigm of cardiac arrest management away from rote memorization of mnemonics like the H's and T's toward a more dynamic, action-based approach. The authors propose a structured framework that integrates immediate bedside ultrasound evaluation with systematic consideration of advanced therapies. Specifically, they emphasize using point-of-care ultrasound (POCUS) to rapidly assess for pneumothorax or pericardial effusion, which are key reversible causes. Furthermore, the discussion broadens the scope beyond standard ACLS protocols by incorporating decisions regarding systemic lytic therapy and extracorporeal membrane oxygenation (ECMO). Overall, it pushes for a more algorithm-driven, real-time diagnostic and therapeutic process at the bedside.",
-      "confidence": "high"
-    },
-    {
-      "slug": "efficacy-and-safety-of-prehospital-whole-blood-resuscitation-in-traumatic-haemor",
-      "title": "Efficacy and safety of prehospital whole blood resuscitation in traumatic haemorrhagic shock a systematic review and meta-analysis",
-      "source": "AJEM",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42526297/",
-      "published": "2 weeks ago",
-      "publishedAt": "2026-07-29T10:00:00Z",
-      "impact": "Practice-changing",
-      "topic": "Resuscitation",
-      "takeaway": "For managing hemorrhagic shock prehospital, the pooled randomized data do not support a mortality advantage for whole blood over standard component therapy. While this meta-analysis is helpful in refining existing guidelines, remember that its conclusions are based on only three small, low-quality trials. Proceed with caution and maintain a high index of suspicion for ongoing hemorrhage regardless of resuscitation choice.",
-      "shortSummary": "This systematic review and meta-analysis directly compared prehospital whole blood resuscitation against standard blood component therapy in adults presenting with traumatic hemorrhagic shock.",
-      "summary": "This systematic review and meta-analysis directly compared prehospital whole blood resuscitation against standard blood component therapy in adults presenting with traumatic hemorrhagic shock. The authors pooled the randomized evidence and concluded that there was no significant mortality benefit to using whole blood over standard components when administered outside of a hospital setting. It is important to note that while this analysis refines previous signals—which often compared whole blood to crystalloids or no transfusion—the current conclusion rests on only three trials, which are described as being limited in size and quality. Therefore, the authors strongly advise caution regarding the clinical implementation of prehospital whole blood protocols until more robustly powered studies can confirm these findings.",
-      "confidence": "high"
+      "takeaway": "Treat persistent night pain, systemic features, neurologic findings, or repeated presentations as red flags requiring reassessment and appropriate advanced imaging or referral.",
+      "shortSummary": "A missed Ewing sarcoma case illustrates why recurrent, atraumatic, or nocturnal back pain in a child deserves diagnostic escalation even after initially reassuring imaging.",
+      "summary": "A missed Ewing sarcoma case illustrates why recurrent, atraumatic, or nocturnal back pain in a child deserves diagnostic escalation even after initially reassuring imaging.",
+      "confidence": "moderate"
     },
     {
       "slug": "is-it-time-to-lyse-our-use-of-lytics-in-central-retinal-artery-occlusion",
@@ -133,52 +161,24 @@
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trials",
-      "takeaway": "Keep tenecteplase in mind when managing acute CRAO, as recent high-quality trial data are emerging to guide its use. Until more details on efficacy and safety endpoints become available, approach thrombolysis with caution, remembering that reperfusion strategies for CRAO remain somewhat nuanced compared to other embolic syndromes. Always correlate any potential systemic thrombolytic use with local institutional protocols.",
-      "shortSummary": "This randomized trial addresses the use of tenecteplase in acute central retinal artery occlusion (CRAO), which is a critical area given the established role of thrombolytics in other embolic events.",
-      "summary": "This randomized trial addresses the use of tenecteplase in acute central retinal artery occlusion (CRAO), which is a critical area given the established role of thrombolytics in other embolic events. The publication details a head-to-head comparison involving this agent for CRAO, suggesting an effort to refine our current management algorithms for this sight-threatening condition. While the specifics of patient outcomes or dosing regimens are not fully detailed here, the mere existence of such a trial signals a potential shift in standard care guidelines regarding reperfusion strategies for CRAO. It is important that we remain aware of these high-level randomized data as they directly impact our initial management decisions in the ED setting.",
+      "takeaway": "Do not make thrombolysis routine for CRAO from this signal alone; activate urgent stroke and ophthalmology pathways and follow local protocols.",
+      "shortSummary": "This appraisal discusses a randomized trial of tenecteplase for acute central retinal artery occlusion.",
+      "summary": "This appraisal discusses a randomized trial of tenecteplase for acute central retinal artery occlusion. The central issue is whether uncertain visual benefit justifies systemic bleeding risk.",
       "confidence": "moderate"
     },
     {
-      "slug": "diagnostic-yield-of-hospitalization-for-emergency-department-patients-with-synco",
-      "title": "Diagnostic Yield of Hospitalization for Emergency Department Patients With Syncope and Presyncope",
-      "source": "Academic Emergency Medicine",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42573572/",
+      "slug": "rabies-post-exposure-prophylaxis-after-previous-immediate-hypersensitivity-a-cas",
+      "title": "Rabies post-exposure prophylaxis after previous immediate hypersensitivity: A case report",
+      "source": "AJEM",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42580000/",
       "published": "1 day ago",
-      "publishedAt": "2026-08-10T10:00:00Z",
-      "impact": "Practice-changing",
-      "topic": "General Emergency Medicine",
-      "takeaway": "For select high-risk adults over 40 presenting with unexplained syncope or presyncope, consider admission for monitoring even if initial ED testing is negative. The data suggest hospitalization improves the diagnostic yield for serious causes and accelerates diagnosis. Remember that this recommendation applies to a specific, higher-risk subset of patients.",
-      "shortSummary": "This recent review addresses the utility of admitting select emergency department patients presenting with unexplained syncope or presyncope.",
-      "summary": "This recent review addresses the utility of admitting select emergency department patients presenting with unexplained syncope or presyncope. The core finding suggests that hospitalization, even when a definitive dangerous cause isn't identified in the ED setting, actually improves the diagnostic yield for serious adverse outcomes and speeds up the overall time to diagnosis. Specifically, the authors argue it is reasonable to consider admission for monitoring in certain higher-risk adults who are over 40 years old presenting with these symptoms. This shifts the paradigm slightly by supporting inpatient observation as a valuable step beyond routine ED workup for this population.",
-      "confidence": "high"
-    },
-    {
-      "slug": "phenobarbital-vs-diazepam-based-strategies-for-treating-severe-alcohol-withdrawa",
-      "title": "Phenobarbital vs. Diazepam-Based Strategies for Treating Severe Alcohol Withdrawal Syndrome in the Emergency Department",
-      "source": "Journal of Emergency Medicine",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42575030/",
-      "published": "1 day ago",
-      "publishedAt": "2026-08-10T10:00:00Z",
-      "impact": "Practice-changing",
-      "topic": "Intubation",
-      "takeaway": "When managing severe alcohol withdrawal, consider if adding phenobarbital to standard benzodiazepine care might reduce overall medication burden and ICU utilization without compromising respiratory stability or increasing intubation rates. However, remember this was a retrospective comparison, so the benefit is suggestive rather than definitive; always weigh the added drug load against established guidelines.",
-      "shortSummary": "This retrospective analysis directly compares the use of phenobarbital versus standard benzodiazepine regimens for managing severe alcohol withdrawal syndrome within the emergency department setting.",
-      "summary": "This retrospective analysis directly compares the use of phenobarbital versus standard benzodiazepine regimens for managing severe alcohol withdrawal syndrome within the emergency department setting. The core finding suggests that incorporating phenobarbital into management, even when compared to a dedicated benzodiazepine-only approach, resulted in fewer total drug administrations and lower rates of ICU admission. Importantly, this observed benefit did not come at the expense of respiratory depression or the need for tracheal intubation, which are key safety endpoints in this acute setting. This suggests a potential role for phenobarbital beyond just seizure prophylaxis in optimizing resource use during severe withdrawal management.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "whole-blood-resuscitation-does-evidence-match-belief",
-      "title": "Whole Blood Resuscitation: Does Evidence Match Belief?",
-      "source": "ACEP Now",
-      "link": "https://www.acepnow.com/article/whole-blood-resuscitation-does-evidence-match-belief/",
-      "published": "6 days ago",
-      "publishedAt": "2026-08-05T15:09:49Z",
+      "publishedAt": "2026-08-11T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Resuscitation",
-      "takeaway": "Don't let the operational convenience of whole blood lead you to abandon established component protocols in the ED. Remember that major trials haven't proven a mortality benefit for prehospital whole blood versus standard care. Continue to use your judgment, but be cautious about adopting whole blood solely based on logistical ease when robust evidence is lacking.",
-      "shortSummary": "This piece tackles the ongoing debate surrounding whole blood resuscitation versus modern component therapy protocols in trauma management.",
-      "summary": "This piece tackles the ongoing debate surrounding whole blood resuscitation versus modern component therapy protocols in trauma management. While we all appreciate the logistical simplicity of administering a single bag of low titer group O whole blood, recent large randomized controlled trials have cast some doubt on its definitive clinical superiority over standard component replacement strategies in the emergency department setting. Specifically, the SWiFT and TOWAR trials did not establish a clear mortality benefit for using prehospital whole blood compared to existing care standards. This suggests that while whole blood remains operationally appealing for austere environments due to ease of use, clinicians need to temper expectations regarding its routine superiority over component-based approaches based on current high-level evidence.",
-      "confidence": "high"
+      "takeaway": "Do not abandon indicated rabies prophylaxis after suspected allergy; urgently involve public health and allergy specialists for a supervised product and dosing plan.",
+      "shortSummary": "A case report describes completing rabies post-exposure prophylaxis after a prior immediate hypersensitivity reaction.",
+      "summary": "A case report describes completing rabies post-exposure prophylaxis after a prior immediate hypersensitivity reaction. It highlights specialist-supervised risk management when a preventable, nearly universally fatal disease is at stake.",
+      "confidence": "low"
     },
     {
       "slug": "hemodynamic-phenotypes-not-clock-watching-dictate-vasopressor-efficacy-in-sepsis",
@@ -189,51 +189,51 @@
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Sepsis",
-      "takeaway": "Don't let a null mortality finding convince you to ignore initial signs of shock; instead, focus your assessment on the patient's current hemodynamic profile. Remember that vasopressor need is phenotype-driven, not time-driven, so tailor therapy based on measurable circulatory deficits rather than just adherence to an arbitrary timeline.",
-      "shortSummary": "This piece tackles the persistent 'earlier is better' dogma surrounding vasopressor initiation in septic shock, referencing a study that found no significant link between the timing of starting pressors and 90-day morta…",
-      "summary": "This piece tackles the persistent 'earlier is better' dogma surrounding vasopressor initiation in septic shock, referencing a study that found no significant link between the timing of starting pressors and 90-day mortality. The authors caution us against interpreting this null result too strongly; they suggest it might be an artifact of analyzing time as a simple linear variable across a highly diverse patient population. Instead of focusing solely on when to start agents, the core message pivots toward recognizing that hemodynamic phenotype is the true driver for appropriate vasopressor use. Essentially, the utility of these drugs seems dictated by the underlying physiological derangements rather than just the clock.",
-      "confidence": "high"
-    },
-    {
-      "slug": "casting-doubt-on-tradition-boot-vs-cast-for-toddler-s-fractures",
-      "title": "Casting Doubt on Tradition: Boot vs Cast for Toddler’s Fractures",
-      "source": "REBEL EM",
-      "link": "https://rebelem.com/boot-vs-cast/?utm_source=rss&utm_medium=rss&utm_campaign=boot-vs-cast",
-      "published": "1 day ago",
-      "publishedAt": "2026-08-10T11:00:22Z",
-      "impact": "Practice-changing",
-      "topic": "General Emergency Medicine",
-      "takeaway": "For stable, uncomplicated toddler's fractures, consider counseling parents about a removable walking boot as a viable alternative to casting since it appears noninferior for pain control and may facilitate quicker return to activity. Remember to thoroughly counsel caregivers on diligent skin checks when using the boot to prevent pressure injuries or irritation.",
-      "shortSummary": "This piece challenges the long-standing practice of casting all uncomplicated, radiographically confirmed toddler's fractures by evaluating the use of a removable walking boot as an alternative treatment modality.",
-      "summary": "This piece challenges the long-standing practice of casting all uncomplicated, radiographically confirmed toddler's fractures by evaluating the use of a removable walking boot as an alternative treatment modality. The evidence presented suggests that treating these injuries with a boot is noninferior to traditional casting when assessing pain levels at the four-week mark. Furthermore, the authors noted that boot immobilization allowed a greater proportion of children to resume their baseline level of activity more quickly compared to those casted. This shift in practice consideration is useful because it directly addresses reducing caregiver burden while maintaining comparable clinical outcomes regarding pain management.",
-      "confidence": "high"
+      "takeaway": "Individualize fluids and vasopressors to perfusion and hemodynamics, while recognizing that phenotype-guided timing still needs prospective validation.",
+      "shortSummary": "This letter argues that vasopressor timing studies may obscure benefit by pooling distinct hemodynamic phenotypes.",
+      "summary": "This letter argues that vasopressor timing studies may obscure benefit by pooling distinct hemodynamic phenotypes. It is a physiologic critique of clock-based sepsis targets, not proof of a superior phenotype-guided strategy.",
+      "confidence": "low"
     },
     {
       "slug": "complications-of-midazolam-in-the-management-of-agitated-patients-in-the-emergen",
       "title": "Complications of Midazolam in the Management of Agitated Patients in the Emergency Department: A Dutch Observational Study",
       "source": "Journal of Emergency Medicine",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42566827/",
-      "published": "4 days ago",
+      "published": "5 days ago",
       "publishedAt": "2026-08-07T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Resuscitation",
-      "takeaway": "Be mindful that using midazolam for agitated delirium warrants anticipating frequent respiratory compromise and potential need for repeated dosing. Since the complications observed were generally mild and managed with supportive care, this suggests vigilance is key rather than immediate escalation to advanced airway management. Keep in mind these findings are from an observational cohort, so interpret the risk profile alongside patient-specific factors.",
-      "shortSummary": "This Dutch observational study took a look at the use of midazolam in managing agitated patients presenting to the emergency department, particularly those with hyperactive delirium and underlying intoxication.",
-      "summary": "This Dutch observational study took a look at the use of midazolam in managing agitated patients presenting to the emergency department, particularly those with hyperactive delirium and underlying intoxication. The authors found that while midazolam was associated with a relatively high rate of sedation-related complications, these issues were generally transient and manageable using only basic supportive care measures. Specifically, they noted frequent respiratory events and the necessity for repeated drug dosing throughout the course of treatment. Overall, the data suggests that while midazolam is used frequently in this setting, its use carries predictable, albeit manageable, risks that warrant a closer look at alternative or optimized sedation protocols.",
-      "confidence": "high"
+      "takeaway": "If using midazolam for agitation, continuously monitor ventilation and oxygenation, anticipate repeat dosing, and have airway support immediately available.",
+      "shortSummary": "A Dutch observational study found frequent but transient sedation-related complications with midazolam in agitated, often intoxicated patients.",
+      "summary": "A Dutch observational study found frequent but transient sedation-related complications with midazolam in agitated, often intoxicated patients. Events were managed supportively without advanced airway intervention, but repeated dosing was common.",
+      "confidence": "moderate"
     },
     {
       "slug": "initial-atropine-dose-of-0-5-mg-versus-1-mg-in-unstable-bradycardia-a-propensity",
       "title": "Initial atropine dose of 0.5 mg versus 1 mg in unstable bradycardia: A propensity score-matched retrospective cohort study",
       "source": "AJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42561719/",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-08-06T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "General Emergency Medicine",
-      "takeaway": "When managing unstable bradycardia, consider initiating atropine with a 1.0 mg dose rather than 0.5 mg, as this was associated with better first-dose success rates in this retrospective cohort. However, remember that this is an observational association, so do not change your standard protocol based on this alone; await confirmation from prospective studies.",
-      "shortSummary": "This retrospective, propensity score-matched cohort study compared the initial dosing of atropine—specifically 0.5 mg versus 1.0 mg—in adults presenting with unstable bradycardia in the emergency department setting.",
-      "summary": "This retrospective, propensity score-matched cohort study compared the initial dosing of atropine—specifically 0.5 mg versus 1.0 mg—in adults presenting with unstable bradycardia in the emergency department setting. The authors found that initiating therapy with a higher initial dose of 1.0 mg was associated with better outcomes on first administration, namely achieving higher rates of first-dose success and requiring less subsequent escalation of care compared to starting at 0.5 mg. While these findings suggest a potential advantage to the higher initial bolus, the authors rightly caution that this is observational data and emphasizes the necessity for prospective, multicenter trials to solidify these recommendations.",
+      "takeaway": "The findings support current 1 mg initial dosing, but do not delay pacing or vasoactive support when atropine is unlikely to work. In a propensity-matched retrospective cohort, 1 mg atropine was associated with greater first-dose success and less escalation than 0.5 mg for unstable adult bradycardia.",
+      "shortSummary": "In a propensity-matched retrospective cohort, 1 mg atropine was associated with greater first-dose success and less escalation than 0.5 mg for unstable adult bradycardia.",
+      "summary": "In a propensity-matched retrospective cohort, 1 mg atropine was associated with greater first-dose success and less escalation than 0.5 mg for unstable adult bradycardia. Residual confounding limits causal certainty.",
+      "confidence": "moderate"
+    },
+    {
+      "slug": "why-ai-struggles-with-rare-catastrophic-disease-lessons-from-the-aorta-ai-study-",
+      "title": "Why AI struggles with rare catastrophic disease: lessons from the AORTA-AI study of acute aortic syndrome",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-216369v1?rss=1",
+      "published": "1 day ago",
+      "publishedAt": "2026-08-11T16:00:17Z",
+      "impact": "Practice-changing",
+      "topic": "Haematology",
+      "takeaway": "Judge decision tools by calibration, missed cases, and downstream testing burden; AI should support rather than replace clinical assessment and definitive imaging decisions.",
+      "shortSummary": "The AORTA-AI analysis shows the core problem of predicting rare catastrophic disease: models that minimize missed acute aortic syndrome generate many false positives.",
+      "summary": "The AORTA-AI analysis shows the core problem of predicting rare catastrophic disease: models that minimize missed acute aortic syndrome generate many false positives. Large model counts do not overcome low prevalence and overlapping presentations.",
       "confidence": "moderate"
     },
     {
@@ -245,23 +245,9 @@
       "publishedAt": "2026-08-01T00:00:00Z",
       "impact": "High-yield",
       "topic": "Trauma",
-      "takeaway": "Given the high precision of timing available from sources like PATCH-Trauma, consider that the benefit of TXA might indeed be time-dependent. While guidelines generally support early administration, these data suggest scrutinizing the gap between injury and first dose when managing unstable trauma patients. Remember this is an exploratory analysis, so while it warrants attention, do not abandon established protocols based solely on this preliminary finding.",
-      "shortSummary": "This article presents an exploratory secondary analysis digging into whether the benefit of tranexamic acid (TXA) in major trauma is dependent on how late it is administered relative to the time of injury.",
-      "summary": "This article presents an exploratory secondary analysis digging into whether the benefit of tranexamic acid (TXA) in major trauma is dependent on how late it is administered relative to the time of injury. The authors leveraged minute-level documentation from the PATCH-Trauma trial, which significantly improves temporal precision compared to older studies like CRASH-2 that used less granular timing estimates. This methodological refinement allows for a more nuanced assessment of the 'time window' for TXA administration in hemorrhagic shock settings. While it is an exploratory analysis, the ability to stratify outcomes by precise time intervals makes this investigation quite valuable for refining current resuscitation protocols.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "ultrasound-guided-infraspinatus-teres-minor-plane-block-for-acute-post-traumatic",
-      "title": "Ultrasound-guided infraspinatus-teres minor plane block for acute post traumatic shoulder pain in the emergency department: A case series",
-      "source": "AJEM",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42556282/",
-      "published": "6 days ago",
-      "publishedAt": "2026-08-05T10:00:00Z",
-      "impact": "High-yield",
-      "topic": "Trauma",
-      "takeaway": "For acutely painful shoulder trauma refractory to standard systemic agents, consider the ITM plane block as a viable alternative due to its diaphragm-sparing nature. If you suspect severe pain is impeding necessary examination or positioning, this technique may facilitate timely assessment without the added risk of diaphragmatic compromise associated with other blocks. Remember that this is based on a small case series, so use it judiciously.",
-      "shortSummary": "This case series details the use of an ultrasound-guided infraspinatus teres minor (ITM) inter-fascial plane block for managing severe pain following acute traumatic shoulder injuries in the emergency department setting.",
-      "summary": "This case series details the use of an ultrasound-guided infraspinatus teres minor (ITM) inter-fascial plane block for managing severe pain following acute traumatic shoulder injuries in the emergency department setting. The authors highlight that traditional analgesia methods can often be insufficient, and established blocks like the interscalene or superior trunk approaches carry risks such as hemidiaphragmatic paresis. They report performing this novel, diaphragm-sparing technique to target both the suprascapular and axillary nerves via a single approach. In their cohort of four patients, the ITM block successfully achieved rapid pain reduction, which was significant enough to allow for thorough examination and definitive management without needing rescue analgesia or sedation. This suggests it could be a valuable adjunct tool in the acute trauma bay.",
+      "takeaway": "Give TXA early to eligible bleeding trauma patients; avoid assuming benefit when treatment is substantially delayed and follow established trauma protocols.",
+      "shortSummary": "This commentary examines time-to-tranexamic-acid data from PATCH-Trauma and warns against treating late administration as harmless uncertainty.",
+      "summary": "This commentary examines time-to-tranexamic-acid data from PATCH-Trauma and warns against treating late administration as harmless uncertainty. As a secondary analysis, it cannot establish a precise causal cutoff.",
       "confidence": "moderate"
     },
     {
@@ -273,24 +259,38 @@
       "publishedAt": "2026-07-31T10:00:00Z",
       "impact": "High-yield",
       "topic": "Practice Updates",
-      "takeaway": "While the data suggests suction might shorten hospital stays and improve lung expansion post-tube thoracostomy in trauma, remember that this meta-analysis is built on studies with significant methodological flaws due to poor blinding. Therefore, don't change your standard of care based solely on these findings; treat the results as suggestive rather than definitive until higher quality evidence emerges.",
-      "shortSummary": "This updated systematic review and meta-analysis directly compared the use of suction versus standard water seal drainage following tube thoracostomy for managing traumatic pneumothorax and hemothorax.",
-      "summary": "This updated systematic review and meta-analysis directly compared the use of suction versus standard water seal drainage following tube thoracostomy for managing traumatic pneumothorax and hemothorax. The authors synthesized data suggesting that applying suction provides tangible benefits, specifically noting improvements in hospital length of stay, reduced duration of chest tube placement, and better rates of full lung expansion. While these outcomes are clinically appealing, the review team strongly cautions against overinterpreting these positive results because every single trial included in the meta-analysis was flagged as being at a high risk of bias. This concern stems primarily from the lack of blinding across clinicians, participants, and outcome assessors, which could potentially skew subjective endpoints like discharge timing.",
-      "confidence": "high"
+      "takeaway": "Suction is reasonable when clinically indicated, but the evidence is insufficient for a rigid universal strategy; reassess using lung expansion, air leak, and local protocol.",
+      "shortSummary": "An updated meta-analysis suggests suction after traumatic tube thoracostomy may shorten tube duration and hospital stay and improve expansion.",
+      "summary": "An updated meta-analysis suggests suction after traumatic tube thoracostomy may shorten tube duration and hospital stay and improve expansion. Every included trial had high risk of bias, weakening confidence.",
+      "confidence": "low"
+    },
+    {
+      "slug": "diagnostic-yield-of-hospitalization-for-emergency-department-patients-with-synco",
+      "title": "Diagnostic Yield of Hospitalization for Emergency Department Patients With Syncope and Presyncope",
+      "source": "Academic Emergency Medicine",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42573572/",
+      "published": "2 days ago",
+      "publishedAt": "2026-08-10T10:00:00Z",
+      "impact": "High-yield",
+      "topic": "General Emergency Medicine",
+      "takeaway": "Admit higher-risk patients when dangerous causes remain plausible; use structured risk assessment and avoid equating increased diagnostic yield with universal benefit.",
+      "shortSummary": "Hospitalization of selected adults with syncope or presyncope increased detection of serious adverse outcomes and shortened time to diagnosis.",
+      "summary": "Hospitalization of selected adults with syncope or presyncope increased detection of serious adverse outcomes and shortened time to diagnosis. The result supports targeted admission rather than admission of all patients.",
+      "confidence": "moderate"
     },
     {
       "slug": "non-a-non-b-aortic-arch-dissection-with-atypical-presentation-ambiguous-cta-find",
       "title": "Non-A, non-B aortic arch dissection with atypical presentation, ambiguous CTA findings, and therapeutic dilemma",
       "source": "AJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42561721/",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-08-06T10:00:00Z",
       "impact": "High-yield",
       "topic": "General Emergency Medicine",
-      "takeaway": "When managing acute chest pain suggestive of AAS but with equivocal CTA findings, don't let subtle or atypical features lead you to dismiss the concern entirely. Maintain a high index of suspicion for underlying aortic pathology and consider specialist input if the diagnostic pathway remains unclear. Remember that penetrating ulcers can mimic dissection, so careful correlation between clinical status and imaging nuances is key.",
-      "shortSummary": "This article tackles the diagnostic pitfalls inherent in managing acute aortic syndrome (AAS), emphasizing that even with readily available tools like CTA, presentation can be highly atypical and imaging findings may be…",
-      "summary": "This article tackles the diagnostic pitfalls inherent in managing acute aortic syndrome (AAS), emphasizing that even with readily available tools like CTA, presentation can be highly atypical and imaging findings may be ambiguous. The authors present a case where initial suspicion for dissection was tempered by subtle CTA findings, ultimately leading to a diagnosis of a penetrating atherosclerotic ulcer complicated by localized intramural hematoma rather than a classic Type A or B dissection. This highlights that the clinical picture, not just the textbook imaging pattern, must guide management when faced with uncertainty in this life-threatening vascular emergency. It serves as a good reminder that vigilance is required even when initial workup seems to point away from overt dissection.",
-      "confidence": "high"
+      "takeaway": "When suspicion for acute aortic syndrome remains high despite equivocal CTA, obtain expert radiology and aortic-team review and pursue timely repeat or alternative imaging.",
+      "shortSummary": "A case of non-A, non-B arch dissection illustrates how atypical symptoms and subtle CTA findings can produce diagnostic and treatment uncertainty despite modern imaging.",
+      "summary": "A case of non-A, non-B arch dissection illustrates how atypical symptoms and subtle CTA findings can produce diagnostic and treatment uncertainty despite modern imaging.",
+      "confidence": "low"
     }
   ],
   "sources": [
@@ -315,7 +315,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 4,
+      "itemsKept": 5,
       "itemsSeen": 40
     },
     {
@@ -399,7 +399,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 1,
+      "itemsKept": 0,
       "itemsSeen": 10
     },
     {
@@ -471,7 +471,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 0,
+      "itemsKept": 1,
       "itemsSeen": 20
     },
     {
@@ -531,8 +531,8 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 3,
-      "itemsSeen": 86
+      "itemsKept": 9,
+      "itemsSeen": 91
     },
     {
       "id": "pubmed-resuscitation",
@@ -555,7 +555,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 26,
+      "itemsKept": 23,
       "itemsSeen": 100
     },
     {
@@ -579,7 +579,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 11,
+      "itemsKept": 10,
       "itemsSeen": 100
     },
     {
@@ -603,7 +603,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 1,
+      "itemsKept": 0,
       "itemsSeen": 100
     },
     {
@@ -627,7 +627,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 13,
+      "itemsKept": 15,
       "itemsSeen": 100
     },
     {
