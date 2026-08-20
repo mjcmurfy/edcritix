@@ -1,29 +1,29 @@
 {
   "meta": {
-    "generatedAt": "2026-08-19T18:28:11.571Z",
-    "sourceGeneratedAt": "2026-08-19T18:15:00.826507Z",
-    "editorialGeneratedAt": "2026-08-19T18:27:50.452214Z",
-    "editionDate": "2026-08-20"
+    "generatedAt": "2026-08-20T18:28:23.838Z",
+    "sourceGeneratedAt": "2026-08-20T18:15:00.851729Z",
+    "editorialGeneratedAt": "2026-08-20T18:28:04.129980Z",
+    "editionDate": "2026-08-21"
   },
   "briefing": {
-    "headline": "9 high-priority items in the latest EM scan",
-    "summary": "Top sources today: EMJ, Annals of Emergency Medicine. Main themes: trauma care, consensus guidance, guideline or formal recommendation. Best early reads: Journal update monthly top five; Clinical Policy: A Critical Issue Related to Direct Oral Anticoagulants in Adult Patients Presenting to the Emergency Department.",
-    "editorialHeadline": "Sepsis, Bleeding, and the Art of the Procedural Nudge",
-    "editorialSummary": "The resuscitation algorithms are shifting again, demanding a critical look at our initial fluid strategies. The latest data on septic shock suggests a potential pivot away from aggressive, continuous fluid boluses, favoring earlier initiation of vasopressors once initial resuscitation efforts are underway—a nuance that requires careful consideration at the bedside.\n\nBeyond shock, managing patients with major bleeding on Direct Oral Anticoagulants (DOACs) remains a high-stakes balancing act. New policy syntheses are clarifying the comparative utility of agent-specific antidotes versus standard PCC protocols, urging us to adhere closely to the evidence-based guidelines while remaining aware of local protocol gaps.\n\nOn the procedural front, the utility of ultrasound-guided Superficial Cervical Plexus Blocks for awake IJV cannulation presents a compelling, skill-dependent alternative to standard local infiltration, potentially streamlining care in the chaotic trauma bay. Similarly, when managing catastrophic postpartum hemorrhage, the focus must remain squarely on recognizing hemodynamic deterioration rather than getting bogged down in estimated blood loss calculations. These updates—from optimizing resuscitation timing to refining procedural analgesia—underscore that mastering the 'next best step' requires constant vigilance with the literature."
+    "headline": "15 high-priority items in the latest EM scan",
+    "summary": "Top sources today: EMJ, Annals of Emergency Medicine, EMJ. Main themes: trials, guideline or formal recommendation, consensus guidance. Best early reads: Journal update monthly top five; Clinical Policy: A Critical Issue Related to Direct Oral Anticoagulants in Adult Patients Presenting to the Emergency Department.",
+    "editorialHeadline": "From Sepsis Timing to Hip Pain Blocks: Where the Evidence is Shifting",
+    "editorialSummary": "The data coming out this week suggests several key areas where our bedside algorithms might need a careful recalibration. Most notably, the ARISE FLUIDS trial continues to press the issue in early septic shock: the timing of vasopressor escalation versus continued aggressive fluid resuscitation remains a critical pivot point, suggesting we might need to be more aggressive with pressors sooner than previously thought.\n\nBeyond sepsis, the management of acute pain in older adults with hip fractures presents a compelling procedural update. A randomized trial strongly favors an ultrasound-guided pericapsular nerve group block over routine IV morphine, offering superior initial pain control and eliminating the need for rescue opioids in this vulnerable population. On the stroke side, the ORIENTAL-MeVO data adds weight to the argument for endovascular thrombectomy in specific subsets of medium-vessel occlusion strokes, showing a tangible benefit in functional independence at 90 days.\n\nOther high-yield items include a refined consensus on DOAC reversal agents, which reiterates that definitive superiority over standard care remains unproven, and a reminder that for stable pediatric blunt thoracic trauma, the radiation risk of routine CT warrants caution. These findings—from optimizing resuscitation timing to refining regional anesthesia for common orthopedic injuries—underscore that while the core principles remain, the precise timing and modality of intervention are constantly being sharpened by high-quality data."
   },
   "dailyEditorial": [
     {
       "slug": "journal-update-monthly-top-five",
       "title": "Journal update monthly top five",
       "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-216286v1?rss=1",
-      "published": "1 week ago",
-      "publishedAt": "2026-08-11T16:00:17Z",
+      "link": "http://emj.bmj.com/cgi/content/short/43/9/593?rss=1",
+      "published": "11 hours ago",
+      "publishedAt": "2026-08-20T07:45:43Z",
       "impact": "Practice-changing",
       "topic": "Practice Updates",
-      "takeaway": "The ARISE FLUIDS trial suggests a potential shift away from continuing aggressive fluid resuscitation once initial resuscitation is underway, favoring earlier vasopressor use in septic shock. Keep in mind this is a high-level recommendation based on this RCT, but the authors caution that the clinical utility needs careful consideration at the bedside. Don't change your entire protocol based on this alone, but it warrants a focused discussion during your next sepsis morbidity and mortality conference.",
-      "shortSummary": "The latest roundup from the Johns Hopkins Emergency Department team highlights five key papers across various emergency topics, using a multimodal search approach to curate the most relevant literature.",
-      "summary": "The latest roundup from the Johns Hopkins Emergency Department team highlights five key papers across various emergency topics, using a multimodal search approach to curate the most relevant literature. They categorize these findings into 'Worth a peek,' 'Head turner,' and 'Game changer' to guide practice changes. Of particular note is the ARISE FLUIDS trial, a randomized controlled trial examining the timing of vasopressor initiation versus continued aggressive fluid resuscitation in early septic shock. This paper is flagged as a potential 'Game Changer,' suggesting a shift in current sepsis management paradigms. The authors provide a clinical bottom line for each paper, detailing findings, limitations, and practical implications.",
+      "takeaway": "For medium-vessel occlusion strokes presenting within 24 hours with moderate-to-severe deficits (NIHSS ≥ 6), the data from ORIENTAL-MeVO suggests a tangible benefit to adding thrombectomy over medical management alone, showing a higher rate of functional independence at 90 days. While this is encouraging, remember that this was an open-label trial, and the benefit needs to be weighed against the procedural risks. Clinically, this strengthens the argument for aggressive reperfusion strategies in this subgroup.",
+      "shortSummary": "The ORIENTAL-MeVO trial provides an update on endovascular thrombectomy for medium-vessel occlusion strokes, an area where evidence has previously been somewhat mixed despite these occlusions representing a significant…",
+      "summary": "The ORIENTAL-MeVO trial provides an update on endovascular thrombectomy for medium-vessel occlusion strokes, an area where evidence has previously been somewhat mixed despite these occlusions representing a significant proportion of ischemic strokes. This open-label, blinded-outcome randomized controlled trial compared thrombectomy combined with standard medical care against medical management alone in adults presenting within 24 hours with moderate-to-severe deficits, defined by an NIHSS score of 6 or greater. The primary endpoint was functional independence, measured by a Modified Rankin Score (mRS) of 0–2 at 90 days. The results showed a notable difference, with the group receiving thrombectomy achieving a functional independence rate of 58.6% compared to 46.6% in the control group. This data suggests a potential benefit for endovascular intervention in this specific subset of stroke patients.",
       "confidence": "high"
     },
     {
@@ -35,9 +35,23 @@
       "publishedAt": "2026-09-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Policy Statements",
-      "takeaway": "When managing major bleeding in a patient on a DOAC in the ED/ICU, remember that the policy weighs agent-specific antidotes against standard care like PCC. The key takeaway is to follow the evidence-based recommendations provided, as the utility of specific antidotes versus general PCC remains a nuanced area. Be mindful that these recommendations are derived from a systematic review, and local institutional protocols must still align with the strength of the available data.",
-      "shortSummary": "This new ACP clinical policy synthesizes the current evidence regarding the management of adult patients presenting to the ED or ICU with major symptomatic bleeding while on direct oral anticoagulants (DOACs).",
-      "summary": "This new ACP clinical policy synthesizes the current evidence regarding the management of adult patients presenting to the ED or ICU with major symptomatic bleeding while on direct oral anticoagulants (DOACs). The core question addressed is whether administering an agent-specific antidote provides a benefit over standard reversal strategies, such as using prothrombin complex concentrate (PCC). The committee performed a systematic review to derive evidence-based recommendations, which is crucial given the variability in institutional protocols for DOAC reversal. The resulting policy provides clear guidance on the comparative efficacy of these reversal agents in the setting of acute, major bleeding.",
+      "takeaway": "When managing major bleeding in a patient on a DOAC in the ED/ICU, the current policy emphasizes that the benefit of agent-specific antidotes over standard care like PCC is not definitively proven by the available data. Therefore, the recommendations guide clinicians toward using established protocols while remaining mindful that definitive superiority of one reversal agent over another remains unproven in this setting.",
+      "shortSummary": "This new ACP clinical policy synthesizes the evidence surrounding the management of direct oral anticoagulant (DOAC) overdose or major bleeding in the acute setting of the emergency department or ICU.",
+      "summary": "This new ACP clinical policy synthesizes the evidence surrounding the management of direct oral anticoagulant (DOAC) overdose or major bleeding in the acute setting of the emergency department or ICU. The core question addressed is whether administering an agent-specific reversal agent provides a tangible benefit over standard reversal strategies, such as using prothrombin complex concentrate (PCC). The committee performed a systematic review to generate evidence-based recommendations. Overall, the policy provides a structured approach to decision-making when managing these patients, which is crucial given the increasing use of DOACs in the general population.",
+      "confidence": "high"
+    },
+    {
+      "slug": "ultrasound-guided-pericapsular-nerve-group-block-versus-intravenous-morphine-for",
+      "title": "Ultrasound-guided pericapsular nerve group block versus intravenous morphine for pain management in older adults with hip fractures: a randomised controlled trial in the emergency department",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/43/9/530?rss=1",
+      "published": "11 hours ago",
+      "publishedAt": "2026-08-20T07:45:43Z",
+      "impact": "Practice-changing",
+      "topic": "Ultrasound",
+      "takeaway": "For older adults with acute hip fractures, the data favor initiating a PENG block over routine IV morphine, as it provided superior initial pain control and eliminated the need for rescue analgesia in this cohort. While the evidence is strong, remember that this was a controlled ED setting, and institutional protocols for ultrasound availability and operator skill must guide implementation. Proceed with the block while remaining vigilant for any signs of peripheral nerve compromise.",
+      "shortSummary": "This randomized controlled trial directly addresses the management of acute hip fracture pain in older adults presenting to the emergency department, comparing an ultrasound-guided pericapsular nerve group (PENG) block…",
+      "summary": "This randomized controlled trial directly addresses the management of acute hip fracture pain in older adults presenting to the emergency department, comparing an ultrasound-guided pericapsular nerve group (PENG) block against standard intravenous morphine. Given the known risks of opioids in this demographic, the study was designed to provide high-quality evidence on regional anesthesia efficacy. The findings are quite compelling, showing that the PENG block group achieved a significantly greater median pain reduction at the 30-minute mark compared to the morphine group. Furthermore, the PENG block group reported no need for rescue analgesia, whereas nearly 6% of the morphine group required supplemental opioids. Overall, the data strongly suggest that the PENG block is a highly effective and safe alternative for managing this acute pain state.",
       "confidence": "high"
     },
     {
@@ -49,9 +63,9 @@
       "publishedAt": "2026-09-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Policy Statements",
-      "takeaway": "When implementing unscheduled procedural sedation, ensure your department has clear, documented protocols covering both the initial principles of care and ongoing quality monitoring. Remember that these guidelines are ACEP policy, so integrate them into your local institutional policies rather than treating them as standalone evidence. Always confirm local resource availability before relying on these general principles.",
-      "shortSummary": "This is the initial installment of the ACEP Delphi Consensus Guidelines addressing unscheduled procedural sedation, focusing specifically on the foundational principles, necessary oversight structures, and quality monit…",
-      "summary": "This is the initial installment of the ACEP Delphi Consensus Guidelines addressing unscheduled procedural sedation, focusing specifically on the foundational principles, necessary oversight structures, and quality monitoring aspects. It's important to remember that these are official ACEP policy statements, meaning they represent established guidelines rather than findings from a standard peer-reviewed research article. The guidelines aim to standardize care by providing consensus recommendations on how to safely manage sedation when procedures are performed outside of a planned setting. Understanding the framework for oversight and quality improvement is key to implementing these best practices across different emergency departments. This comprehensive approach helps move the practice toward a more uniform standard of care.",
+      "takeaway": "When managing unscheduled sedation, ensure your departmental protocols align with these principles regarding pre-procedure assessment and continuous monitoring. Remember that these are ACEP policy statements, so integrate them into your local guidelines rather than treating them as standalone evidence. Always confirm the appropriate level of oversight is in place before initiating sedation for any emergent procedure.",
+      "shortSummary": "This first installment of the Delphi Consensus Guidelines tackles the foundational aspects of unscheduled procedural sedation, establishing core principles, necessary oversight mechanisms, and quality monitoring strateg…",
+      "summary": "This first installment of the Delphi Consensus Guidelines tackles the foundational aspects of unscheduled procedural sedation, establishing core principles, necessary oversight mechanisms, and quality monitoring strategies. It's important to remember that these are official policy statements from the American College of Emergency Physicians, meaning they represent established guidelines rather than the findings of a typical peer-reviewed research article. The document provides a comprehensive framework for managing sedation when procedures are needed outside of a controlled, scheduled setting. Understanding these guidelines is crucial for standardizing care and ensuring appropriate levels of safety and monitoring across different emergency departments. This structured approach aims to improve the consistency and quality of sedation practices in the acute care environment.",
       "confidence": "high"
     },
     {
@@ -63,9 +77,9 @@
       "publishedAt": "2026-08-08T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trauma",
-      "takeaway": "Given the radiation risks, routine chest CT in stable pediatric patients with minor initial findings should likely be avoided unless specific high-risk features are present. Focus initial management on a thorough clinical assessment and potentially point-of-care ultrasound, reserving CT for those with clear indications that outweigh the radiation risk. Remember that the low evidence quality limits the strength of these recommendations.",
+      "takeaway": "For stable pediatric patients with minor initial screening findings following blunt thoracic trauma, the current evidence suggests avoiding routine chest CT scans due to radiation risk. Consider optimizing initial workup with focused ultrasound or chest X-ray first, reserving CT for those with persistent or concerning findings. Remember that the utility of advanced imaging must be weighed heavily against the cumulative risk of radiation exposure in this age group.",
       "shortSummary": "This systematic review and meta-analysis synthesized the current evidence regarding imaging modalities for pediatric patients presenting with blunt thoracic trauma in the emergency department.",
-      "summary": "This systematic review and meta-analysis synthesized the current evidence regarding imaging modalities for pediatric patients presenting with blunt thoracic trauma in the emergency department. While the authors acknowledge that CT remains a highly sensitive tool for detecting thoracic injuries, they appropriately highlight the disproportionately higher risk associated with ionizing radiation exposure in the pediatric population compared to adults. The review ultimately found that the overall quality of evidence supporting routine use of advanced imaging was quite low. Consequently, the practice guideline developed provides a nuanced recommendation, focusing specifically on the utility of routine chest CT in stable children with minor initial screening findings.",
+      "summary": "This systematic review and meta-analysis synthesized the current evidence regarding imaging modalities for pediatric patients presenting with blunt thoracic trauma in the emergency department. While the authors acknowledge that CT scanning is highly sensitive for diagnosing thoracic injuries, they appropriately highlight the disproportionately higher risk associated with ionizing radiation in the pediatric population compared to adults. Given that the incidence of actual thoracic injuries requiring intervention is lower in children, the balance of risk versus benefit is a key consideration. The review ultimately provided guidance, though it noted the overall low quality of evidence across the included studies, leading to cautious recommendations, particularly concerning routine CT use.",
       "confidence": "high"
     },
     {
@@ -77,9 +91,9 @@
       "publishedAt": "2026-08-11T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trauma",
-      "takeaway": "For awake trauma patients requiring IJV cannulation, consider an ultrasound-guided SCPB if you have the expertise, as it offers robust analgesia without sedation and may speed up the process. Remember that this is a skill-based intervention, so only attempt it if you are proficient in ultrasound-guided regional anesthesia. If the patient is unstable or the provider is not experienced, stick to standard local infiltration.",
-      "shortSummary": "This randomized comparison evaluates the use of ultrasound-guided Superficial Cervical Plexus Block (SCPB) versus standard local infiltration for cannulating the internal jugular vein in awake trauma patients.",
-      "summary": "This randomized comparison evaluates the use of ultrasound-guided Superficial Cervical Plexus Block (SCPB) versus standard local infiltration for cannulating the internal jugular vein in awake trauma patients. The authors suggest that SCPB represents a valuable alternative technique for this common emergency procedure. The key finding is that when performed by experienced providers, SCPB provides comprehensive sensory coverage, which appears to significantly reduce the overall time required for cannulation and improve patient cooperation. Crucially, this approach allows for adequate analgesia without necessitating systemic sedation, which is a major benefit in the chaotic trauma bay setting. However, the utility of this technique is explicitly tied to the skill level of the performing clinician.",
+      "takeaway": "For awake trauma patients requiring IJV access, consider an ultrasound-guided SCPB as a superior analgesic adjunct to simple local infiltration. This approach offers better sensory blockade, potentially speeding up the procedure and improving cooperation without sedation. Remember that this technique requires proficiency in ultrasound-guided regional anesthesia, so only use it when you are confident in your ultrasound skills.",
+      "shortSummary": "This report compares two methods for providing analgesia during internal jugular vein (IJV) cannulation in awake trauma patients: a superficial cervical plexus block (SCPB) guided by ultrasound, versus standard local in…",
+      "summary": "This report compares two methods for providing analgesia during internal jugular vein (IJV) cannulation in awake trauma patients: a superficial cervical plexus block (SCPB) guided by ultrasound, versus standard local infiltration. The authors conclude that the ultrasound-guided SCPB represents a valuable alternative for certain patients. The key benefit highlighted is that the SCPB provides more comprehensive sensory coverage compared to simple local infiltration. This improved analgesia translates into reduced procedural time and better patient cooperation, all without necessitating systemic sedation, which is a major advantage in the trauma setting. However, the utility of this technique is explicitly tied to the skill level of the performing clinician, suggesting experience in ultrasound-guided regional anesthesia is a prerequisite.",
       "confidence": "high"
     },
     {
@@ -91,9 +105,9 @@
       "publishedAt": "2026-09-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Resuscitation",
-      "takeaway": "When managing suspected hemorrhagic shock in the prehospital setting, the data supports the consideration of Type O whole blood as a resuscitation adjunct. However, remember that this is a nuanced decision; protocols must balance the potential benefit against the risks of transfusion in the field. Always ensure local guidelines and resource availability are factored into the decision-making process.",
-      "shortSummary": "This article details the use of Type O whole blood for prehospital resuscitation in trauma and hemorrhage, representing a significant consideration for field management.",
-      "summary": "This article details the use of Type O whole blood for prehospital resuscitation in trauma and hemorrhage, representing a significant consideration for field management. The authors present data regarding the efficacy and safety profile of administering whole blood products outside of the hospital setting. The discussion centers on whether the benefits of immediate whole blood administration outweigh the logistical and potential risks associated with prehospital blood product use. Given the high index of suspicion for hemorrhagic shock in trauma patients, this evidence directly informs resuscitation protocols away from the trauma bay. It provides a contemporary look at optimizing blood product utilization in the field setting.",
+      "takeaway": "When managing severe hemorrhage in the prehospital setting, the use of Type O whole blood warrants consideration based on local protocols and resource availability. While the concept is appealing for comprehensive resuscitation, remember that current guidelines emphasize balanced resuscitation; therefore, the decision to administer whole blood versus crystalloids or component therapy should be weighed carefully against established institutional guidelines and the patient's hemodynamic status. Always assess the logistical feasibility and potential for delayed care when opting for whole blood.",
+      "shortSummary": "This article addresses the use of Type O whole blood for prehospital resuscitation in trauma and hemorrhage, a topic of ongoing debate in emergency medicine.",
+      "summary": "This article addresses the use of Type O whole blood for prehospital resuscitation in trauma and hemorrhage, a topic of ongoing debate in emergency medicine. The authors present data regarding the efficacy and safety of administering whole blood products outside of the hospital setting. The core of the discussion revolves around whether the benefits of providing whole blood—which contains red cells, plasma, and platelets—outweigh the logistical challenges and potential risks associated with prehospital transfusion. Given the high incidence of hemorrhagic shock in trauma, optimizing resuscitation fluids remains a critical area of focus for prehospital care protocols. The findings contribute to the evolving guidelines on blood product management in the field.",
       "confidence": "high"
     },
     {
@@ -105,9 +119,9 @@
       "publishedAt": "2026-08-11T16:00:17Z",
       "impact": "Practice-changing",
       "topic": "Trauma",
-      "takeaway": "When faced with difficult vascular access in a pediatric patient, the evidence supports the continued use of IO lines as a reliable alternative. The risk of severe, long-term sequelae like growth disturbance or thrombosis appears low based on this review. Remember that while minor complications can occur, the benefit of rapid access outweighs the rare risk, so don't delay necessary resuscitation due to access concerns.",
-      "shortSummary": "This review synthesized data from 11 observational studies to assess the long-term safety profile of intraosseous (IO) access in children needing emergency vascular access.",
-      "summary": "This review synthesized data from 11 observational studies to assess the long-term safety profile of intraosseous (IO) access in children needing emergency vascular access. The authors found that severe long-term complications following IO placement are quite rare. Specifically, they noted no evidence linking IO use to growth disturbance, venous thrombosis, or fat embolism in the reviewed literature. While low-frequency isolated cases of compartment syndrome, fracture, and extravasation were documented, the overall picture suggests a favorable risk-benefit ratio. The conclusion strongly advises that emergency clinicians should not hesitate to utilize or maintain IO lines when establishing definitive intravenous access is challenging or delayed.",
+      "takeaway": "When faced with difficult IV access in a child, IO remains a reliable option because severe long-term complications appear uncommon based on this literature review. You can proceed with IO placement without undue hesitation, but remain vigilant for signs of local complications like compartment syndrome or extravasation. Remember that this assessment is based on observational data, so clinical judgment always trumps generalized guidelines.",
+      "shortSummary": "This review synthesized data from 11 observational studies to assess the long-term safety profile of intraosseous (IO) access in children needing urgent vascular access.",
+      "summary": "This review synthesized data from 11 observational studies to assess the long-term safety profile of intraosseous (IO) access in children needing urgent vascular access. The authors found that severe long-term complications following IO placement are quite rare in this pediatric population. Specifically, the review noted no evidence linking IO use to growth disturbance, venous thrombosis, or fat embolism. While low-frequency, isolated cases of compartment syndrome, fracture, and extravasation were documented, the overall picture suggests a favorable risk-benefit ratio. The conclusion strongly advises that emergency clinicians should not hesitate to utilize or maintain IO lines when establishing definitive intravenous access is challenging or impossible.",
       "confidence": "high"
     },
     {
@@ -119,23 +133,107 @@
       "publishedAt": "2026-08-07T19:41:04Z",
       "impact": "Practice-changing",
       "topic": "Resuscitation",
-      "takeaway": "When managing severe PPH, prioritize recognizing hemodynamic deterioration over simply calculating estimated blood loss. Aggressively administer uterotonics and maintain physical compression while simultaneously assessing for and treating coagulopathy. Remember that these protocols are designed for the sole resuscitationist, so maintain a high index of suspicion for underlying, treatable causes.",
-      "shortSummary": "This discussion provides a high-yield, practical overhaul of managing catastrophic postpartum hemorrhage, specifically tailored for the emergency physician who might be the sole resuscitationist in a resource-limited or…",
-      "summary": "This discussion provides a high-yield, practical overhaul of managing catastrophic postpartum hemorrhage, specifically tailored for the emergency physician who might be the sole resuscitationist in a resource-limited or rural setting. The core message moves away from an over-reliance on estimating blood loss volume, instead emphasizing that any observed hemodynamic instability or using tools like the LLS score should trigger immediate, aggressive intervention. The discussion covers critical, actionable steps including optimizing uterotonic administration protocols, implementing physical compression techniques, and aggressively managing underlying coagulopathies. It’s a very hands-on approach designed to improve immediate resuscitation capability when standard protocols might be insufficient.",
+      "takeaway": "When managing severe PPH, prioritize recognizing and responding to hemodynamic instability or LLS score changes over just estimating blood loss. Be aggressive with uterotonics and don't neglect physical compression or early coagulopathy management. Remember that these protocols are designed for the sole resuscitationist, so keep your hands dirty and your thinking systematic.",
+      "shortSummary": "This discussion provides a high-yield, practical overhaul of managing catastrophic postpartum hemorrhage, specifically tailored for providers who might be the sole resuscitation resource in a resource-limited or rural s…",
+      "summary": "This discussion provides a high-yield, practical overhaul of managing catastrophic postpartum hemorrhage, specifically tailored for providers who might be the sole resuscitation resource in a resource-limited or rural setting. The core message shifts the focus away from simply quantifying blood loss volume, arguing instead that the most critical indicators are any observed hemodynamic changes or the use of tools like the LLS score. The discussion emphasizes aggressive, systematic uterotonic administration alongside hands-on physical compression techniques. Furthermore, it dedicates significant time to managing underlying coagulopathies, providing actionable steps for temporizing severe obstetric exsanguination when definitive resources are delayed.",
       "confidence": "high"
+    },
+    {
+      "slug": "association-between-the-time-to-norepinephrine-initiation-and-mortality-in-patie",
+      "title": "Association between the time to norepinephrine initiation and mortality in patients with sepsis",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/43/9/537?rss=1",
+      "published": "11 hours ago",
+      "publishedAt": "2026-08-20T07:45:43Z",
+      "impact": "Practice-changing",
+      "topic": "Sepsis",
+      "takeaway": "Aiming for prompt vasopressor support seems important in sepsis; specifically, initiating norepinephrine within the first hour of hypotension was linked to better outcomes. While this is a strong association, remember that this is observational data, and other confounding factors are likely at play. Don't let this dictate a rigid timeline, but it certainly reinforces the need for rapid resuscitation efforts.",
+      "shortSummary": "This prospective study examined the relationship between the timing of norepinephrine initiation and 28-day all-cause mortality in a cohort of 138 sepsis patients.",
+      "summary": "This prospective study examined the relationship between the timing of norepinephrine initiation and 28-day all-cause mortality in a cohort of 138 sepsis patients. The authors utilized Cox regression analysis to compare parameters between survivors and non-survivors, focusing specifically on the time to norepinephrine (NE) initiation. The findings suggest a significant association between the NE time and overall mortality risk in this critically ill population. Most notably, the data indicated that starting norepinephrine within the first 60 minutes after hypotension developed was associated with a lower risk of death at 28 days.",
+      "confidence": "high"
+    },
+    {
+      "slug": "modified-has-bled-score-for-predicting-delayed-intracranial-hemorrhage-in-doac-t",
+      "title": "Modified HAS-BLED score for predicting delayed intracranial hemorrhage in DOAC-treated geriatric head trauma",
+      "source": "AJEM",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42618393/",
+      "published": "1 day ago",
+      "publishedAt": "2026-08-19T10:00:00Z",
+      "impact": "Practice-changing",
+      "topic": "Trauma",
+      "takeaway": "When managing elderly trauma patients on DOACs, consider using this modified HAS-BLED score to stratify risk for delayed ICH. A high score might warrant more aggressive monitoring or earlier consideration for repeat imaging, while a low score could support a more selective approach, potentially sparing unnecessary repeat CTs. Remember that this is a predictive tool, and clinical judgment must always guide the decision to image.",
+      "shortSummary": "This article introduces a modified version of the HAS-BLED score specifically tailored for predicting delayed intracranial hemorrhage (ICH) in elderly patients who have sustained head trauma while on direct oral anticoa…",
+      "summary": "This article introduces a modified version of the HAS-BLED score specifically tailored for predicting delayed intracranial hemorrhage (ICH) in elderly patients who have sustained head trauma while on direct oral anticoagulant (DOAC) therapy. The authors found that this modified score functions as a robust and independent predictor of ICH in this vulnerable population. The clinical utility suggested is that this tool could facilitate risk stratification, potentially moving the practice away from routine, serial repeat imaging for all patients. This refinement of an existing risk assessment tool is particularly relevant given the increased use of DOACs and the inherent risks associated with head trauma in the geriatric setting.",
+      "confidence": "high"
+    },
+    {
+      "slug": "primary-survey-highlights-from-this-issue",
+      "title": "Primary survey: highlights from this issue",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/43/9/529?rss=1",
+      "published": "11 hours ago",
+      "publishedAt": "2026-08-20T07:45:43Z",
+      "impact": "Practice-changing",
+      "topic": "Analgesia",
+      "takeaway": "For acute, severe pain like that from a hip fracture, consider regional approaches like PENG blocks over routine IV opioids, as the evidence suggests they offer superior, longer-lasting analgesia with a better safety profile. While regional anesthesia is generally preferred for opioid sparing, remember that the utility of PENG blocks should be weighed against the specific patient comorbidities and the immediate availability of the technique. Always maintain vigilance regarding the risks associated with any anesthetic intervention.",
+      "shortSummary": "This current issue of the Emergency Medicine Journal dedicates attention to optimizing analgesic strategies, with a specific focus on managing severe pain, particularly following hip fractures.",
+      "summary": "This current issue of the Emergency Medicine Journal dedicates attention to optimizing analgesic strategies, with a specific focus on managing severe pain, particularly following hip fractures. The key highlight is an Editor's choice randomized trial comparing pericapsular nerve group (PENG) blocks against standard intravenous morphine administration. The authors' findings suggest a favorable profile for PENG blocks, indicating they are both safer and provide analgesia that is both earlier in onset and more sustained compared to IV opiates. This reinforces the general principle that regional anesthesia remains a cornerstone for opioid-sparing care in these high-risk populations. It serves as a good reminder that comprehensive emergency care extends beyond the patient to include the needs of the entire healthcare team.",
+      "confidence": "high"
+    },
+    {
+      "slug": "common-femoral-artery-access-in-emergency-medicine",
+      "title": "Common femoral artery access in emergency medicine",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/43/9/572?rss=1",
+      "published": "11 hours ago",
+      "publishedAt": "2026-08-20T07:45:43Z",
+      "impact": "Practice-changing",
+      "topic": "Resuscitation",
+      "takeaway": "Prioritize deliberate practice of CFA cannulation and sheath insertion, as this access is becoming foundational for emerging endovascular resuscitation modalities like ECMO and ECPR. While standard arterial lines are routine, remember that CFA access is the gateway for more complex, advanced interventions. Be mindful that procedural proficiency must be actively integrated into training protocols rather than being assumed.",
+      "shortSummary": "The increasing reliance on advanced endovascular resuscitation techniques, coupled with the growing use of ECMO and ECPR in cardiac arrest, is making proficient common femoral artery (CFA) cannulation and sheath inserti…",
+      "summary": "The increasing reliance on advanced endovascular resuscitation techniques, coupled with the growing use of ECMO and ECPR in cardiac arrest, is making proficient common femoral artery (CFA) cannulation and sheath insertion a critical skill in emergency medicine. While standard arterial line placement is already considered core training, the specific technical skill of achieving reliable CFA access for subsequent endovascular procedures needs more deliberate emphasis within current emergency curricula. The article details the key technical steps for this access, discusses methods for competency acquisition, and highlights potential pitfalls. Given the trajectory of resuscitation care, mastering this access point is becoming paramount for emergency physicians.",
+      "confidence": "high"
+    },
+    {
+      "slug": "clinical-trial-probes-fluid-choice-in-suspected-pediatric-septic-shock",
+      "title": "Clinical Trial Probes Fluid Choice in Suspected Pediatric Septic Shock",
+      "source": "ACEP Now",
+      "link": "https://www.acepnow.com/article/clinical-trial-probes-fluid-choice-in-suspected-pediatric-septic-shock/",
+      "published": "23 hours ago",
+      "publishedAt": "2026-08-19T19:24:32Z",
+      "impact": "Practice-changing",
+      "topic": "Shock",
+      "takeaway": "For initial fluid boluses in pediatric septic shock, the data supports the use of either normal saline or a balanced crystalloid without concern for differential mortality or kidney outcomes. This means you can select the fluid that is most readily available or preferred by your local protocol. Remember that this evidence pertains to initial bolus resuscitation, and ongoing management should guide subsequent fluid choices.",
+      "shortSummary": "The PECARN PRoMPT BOLUS trial directly compared the use of normal saline versus balanced crystalloids for initial fluid resuscitation in pediatric patients suspected of having septic shock.",
+      "summary": "The PECARN PRoMPT BOLUS trial directly compared the use of normal saline versus balanced crystalloids for initial fluid resuscitation in pediatric patients suspected of having septic shock. The primary finding was that there was no discernible difference in major outcomes, specifically regarding mortality or kidney injury, between the two fluid types. This suggests that, at least for initial bolus resuscitation in this population, the choice between normal saline and a balanced crystalloid may not impact the overall clinical course. This is valuable because it simplifies decision-making at the bedside when fluid choice is otherwise ambiguous.",
+      "confidence": "high"
+    },
+    {
+      "slug": "abstracts-from-international-emergency-medicine-journals",
+      "title": "Abstracts from international Emergency Medicine journals",
+      "source": "EMJ",
+      "link": "http://emj.bmj.com/cgi/content/short/43/9/597?rss=1",
+      "published": "11 hours ago",
+      "publishedAt": "2026-08-20T07:45:43Z",
+      "impact": "Practice-changing",
+      "topic": "Trauma",
+      "takeaway": "When managing acute musculoskeletal trauma pain, this trial directly compares intranasal versus subcutaneous ketamine, which is helpful for guiding local analgesic choice. Remember that the study design is robust, but the practical utility hinges on the reported differences in pain control and adverse events, which should be scrutinized. For now, consider this a signal to pay close attention to head-to-head data comparing these two routes in your local practice.",
+      "shortSummary": "This issue compiles highlighted research abstracts from several international emergency medicine societies, providing a broad look at current literature.",
+      "summary": "This issue compiles highlighted research abstracts from several international emergency medicine societies, providing a broad look at current literature. One notable abstract details a randomized, double-blinded, double-dummy prospective trial comparing the use of intranasal versus subcutaneous ketamine for managing acute pain following musculoskeletal trauma in the emergency department. The study design suggests a rigorous comparison of two common analgesic delivery methods for this common clinical scenario. While the abstract provides the framework for this comparison, the full details regarding specific efficacy endpoints, pain scores, and safety profiles are necessary for a complete understanding of the findings. It's a useful snapshot of ongoing comparative effectiveness research in acute pain management.",
+      "confidence": "moderate"
     },
     {
       "slug": "infrequent-emergency-department-diagnosis-and-outpatient-follow-up-of-mild-traum",
       "title": "Infrequent emergency department diagnosis and outpatient follow-up of mild traumatic brain injury after closed head injury: age and rurality patterns",
       "source": "AJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42600264/",
-      "published": "5 days ago",
+      "published": "6 days ago",
       "publishedAt": "2026-08-14T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trauma",
-      "takeaway": "Be mindful that the diagnosis of mTBI can vary significantly between the acute ED setting and subsequent outpatient follow-up, and this may be influenced by patient demographics like age or location. While consensus criteria provide a framework, remember that the initial ED diagnosis might not perfectly predict the later clinical picture. This suggests a need for clear, standardized follow-up plans regardless of the initial diagnostic certainty.",
-      "shortSummary": "This paper tackles the variability surrounding the diagnosis and subsequent management of mild traumatic brain injury (mTBI) following head injury, a very common ED encounter.",
-      "summary": "This paper tackles the variability surrounding the diagnosis and subsequent management of mild traumatic brain injury (mTBI) following head injury, a very common ED encounter. The authors are looking at how often mTBI is actually diagnosed by ED clinicians at the time of discharge compared to what is diagnosed later during routine outpatient follow-up, and how it stacks up against established consensus criteria. Furthermore, they are digging into whether age or the patient's geographic setting, specifically rurality, influences these diagnostic patterns. Understanding this discrepancy is key because it speaks directly to diagnostic consistency and the appropriateness of the care pathway once the patient leaves the acute setting.",
+      "takeaway": "Expect significant variability in whether mTBI is formally diagnosed in the ED versus later in the outpatient setting, suggesting that discharge documentation might not reflect the full spectrum of injury. When managing these patients, remember that relying solely on initial ED assessment for definitive diagnosis or follow-up planning may be insufficient. Consider standardizing follow-up protocols, especially when the patient presents from a rural area, to ensure consistent care pathways.",
+      "shortSummary": "This paper tackles the notoriously variable diagnosis and follow-up of mild traumatic brain injury (mTBI) following a closed head injury, which is a common ED encounter.",
+      "summary": "This paper tackles the notoriously variable diagnosis and follow-up of mild traumatic brain injury (mTBI) following a closed head injury, which is a common ED encounter. The authors sought to quantify how often mTBI is diagnosed by ED clinicians at the point of discharge and compare this rate against diagnoses made later during outpatient follow-up or based on established consensus criteria. Furthermore, they specifically investigated if the rate of mTBI diagnosis varies based on the patient's age or whether the care was provided in a rural setting. Given the known diagnostic ambiguity surrounding mTBI, understanding these discrepancies in diagnosis and subsequent management pathways is clinically relevant for standardizing care.",
       "confidence": "moderate"
     },
     {
@@ -147,135 +245,23 @@
       "publishedAt": "2026-09-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trauma",
-      "takeaway": "Be mindful of the recommended insertion technique for the SPEAR device, particularly the instruction to advance the catheter after contacting a rib. While it's intended to improve safety for out-of-hospital use, this specific procedural detail warrants careful consideration at the bedside. Always review the latest institutional protocols when using novel devices to ensure the technique minimizes iatrogenic injury.",
-      "shortSummary": "This alert addresses a potential complication associated with the SPEAR device, a novel 10-gauge catheter-over-needle system designed for blind, out-of-hospital needle decompression for suspected pneumothorax.",
-      "summary": "This alert addresses a potential complication associated with the SPEAR device, a novel 10-gauge catheter-over-needle system designed for blind, out-of-hospital needle decompression for suspected pneumothorax. The device is marketed for use by emergency physicians, trauma specialists, and EMS personnel. A key aspect of the device's recommended technique involves inserting the needle approximately 3 cm to contact a rib before advancing the catheter into the thoracic cavity. The authors are issuing this warning to highlight a potential complication related to this specific procedural guidance, making it relevant for anyone utilizing this tool in the field.",
+      "takeaway": "When considering SPEAR or similar devices for blind decompression, remember the manufacturer suggests aiming for placement 3 cm superficial to a rib before advancing. While this technique is intended to guide placement, be mindful that this is a procedural recommendation for a novel device, and its utility versus standard needle decompression in the field remains a point of consideration. Always review the latest institutional protocols regarding pneumothorax management.",
+      "shortSummary": "This article serves as a cautionary alert regarding the use of the SPEAR device, a novel 10-gauge catheter-over-needle system marketed for blind, out-of-hospital needle decompression for suspected pneumothorax.",
+      "summary": "This article serves as a cautionary alert regarding the use of the SPEAR device, a novel 10-gauge catheter-over-needle system marketed for blind, out-of-hospital needle decompression for suspected pneumothorax. The device is designed for anterior or lateral placement in resource-limited settings. A key procedural detail highlighted is the manufacturer's recommendation to insert the device approximately 3 cm to contact a rib before advancing the catheter into the thoracic cavity. Given that this is an alert about a potential complication, the focus is on ensuring providers are aware of the risks associated with this specific technique in the field setting.",
       "confidence": "high"
     },
     {
-      "slug": "the-case-of-the-redacted-ledger",
-      "title": "The Case of the Redacted Ledger",
-      "source": "EMCrit",
-      "link": "https://emcrit.org/emnerd/the-case-of-the-redacted-ledger/",
-      "published": "1 week ago",
-      "publishedAt": "2026-08-12T15:56:10Z",
-      "impact": "Practice-changing",
-      "topic": "Influenza",
-      "takeaway": "Given the critique of the evidence base, clinicians should approach routine oseltamivir use in critically ill patients with caution, recognizing that the data supporting superior outcomes over standard care in this cohort are questionable. While guidelines may still recommend it, remember that the current evidence suggests it may not confer a significant benefit compared to placebo or standard supportive care in the ICU setting. Always consider the context of the patient's illness severity when weighing the benefit against potential side effects.",
-      "shortSummary": "This piece critically reviews the historical evidence base for using oseltamivir in critically ill patients, arguing that much of the prior support was built on flawed generalizations from healthier populations or obser…",
-      "summary": "This piece critically reviews the historical evidence base for using oseltamivir in critically ill patients, arguing that much of the prior support was built on flawed generalizations from healthier populations or observational data. The authors point to the early discontinuation of the influenza antiviral domain in the REMAP-CAP trial as a key piece of evidence, suggesting a lack of meaningful benefit in the critically ill setting. The overall tone suggests skepticism regarding the established efficacy of the drug in this specific, high-acuity patient group, referencing past industry practices that allegedly obscured borderline results.",
-      "confidence": "high"
-    },
-    {
-      "slug": "arterial-blood-gas-parameters-during-cardiopulmonary-resuscitation-and-sustained",
-      "title": "Arterial Blood Gas Parameters during Cardiopulmonary Resuscitation and Sustained Return of Spontaneous Circulation in Out-of-Hospital Cardiac Arrest: A Preplanned Secondary Analysis of the AMCPR Trial",
-      "source": "Resuscitation",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42600769/",
-      "published": "5 days ago",
-      "publishedAt": "2026-08-14T10:00:00Z",
-      "impact": "Practice-changing",
-      "topic": "Resuscitation",
-      "takeaway": "While higher intra-arrest PaO2 was linked to ROSC, remember that this association might be confounded by how long the patient was resuscitated. Don't rely solely on this metric, but recognize that arterial line placement during CPR can offer valuable physiological data points beyond standard blood pressure readings.",
-      "shortSummary": "This preplanned secondary analysis of the AMCPR trial looked into the utility of intra-arrest partial pressure of oxygen in arterial blood gas (PaO2) measurements during out-of-hospital cardiac arrest (OHCA) resuscitati…",
-      "summary": "This preplanned secondary analysis of the AMCPR trial looked into the utility of intra-arrest partial pressure of oxygen in arterial blood gas (PaO2) measurements during out-of-hospital cardiac arrest (OHCA) resuscitation. The key finding reported is that a higher intra-arrest PaO2 level was associated with achieving sustained return of spontaneous circulation (ROSC). However, the authors caution that this association is only partially independent of the total duration of resuscitation efforts. Overall, the data suggest that placing an arterial line during CPR might yield physiological insights that go beyond what standard hemodynamic monitoring can provide.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "sex-modifies-the-association-between-bystander-cpr-and-30-day-survival-after-out",
-      "title": "Sex modifies the association between bystander CPR and 30-day survival after out-of-hospital cardiac arrest: SOS-KANTO 2017 study",
-      "source": "AJEM",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42612311/",
+      "slug": "global-practices-and-attitudes-in-acute-appendicitis-management-the-pamap-w-inte",
+      "title": "Global practices and attitudes in acute appendicitis management: the PAMAP-W international survey and Delphi consensus study on the WSES appendicitis grading system",
+      "source": "World Journal of Emergency Surgery",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42613617/",
       "published": "1 day ago",
-      "publishedAt": "2026-08-18T10:00:00Z",
+      "publishedAt": "2026-08-19T10:00:00Z",
       "impact": "Practice-changing",
-      "topic": "Resuscitation",
-      "takeaway": "While bystander CPR remains crucial for improving 30-day survival after OHCA regardless of sex, remember that the protective effect might differ between males and females. This suggests that while we should always encourage bystander CPR, understanding the underlying physiological reasons for any observed sex-specific differences could eventually help optimize our local resuscitation guidelines.",
-      "shortSummary": "This SOS-KANTO 2017 study investigated whether the benefit of bystander cardiopulmonary resuscitation (CPR) following out-of-hospital cardiac arrest (OHCA) differs based on the patient's sex.",
-      "summary": "This SOS-KANTO 2017 study investigated whether the benefit of bystander cardiopulmonary resuscitation (CPR) following out-of-hospital cardiac arrest (OHCA) differs based on the patient's sex. The authors found that while bystander CPR was associated with improved 30-day survival in both male and female patients, the strength of this association was not uniform across the sexes. Specifically, the analysis suggests that biological sex acts as a potential effect modifier for the relationship between receiving bystander CPR and subsequent survival rates. The conclusion emphasizes that while the overall benefit is clear, the magnitude of that benefit appears sex-dependent, pointing toward a need for more granular research to refine resuscitation protocols.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "agitation-a-clinical-review-for-emergency-physicians",
-      "title": "Agitation: A Clinical Review for Emergency Physicians",
-      "source": "Journal of Emergency Medicine",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42612480/",
-      "published": "1 day ago",
-      "publishedAt": "2026-08-18T10:00:00Z",
-      "impact": "Practice-changing",
-      "topic": "Reviews",
-      "takeaway": "Always initiate management with non-pharmacologic measures, prioritizing verbal de-escalation regardless of the perceived severity. Remember that the underlying cause of the agitation dictates the best next steps, so don't just treat the agitation itself. While medication is necessary sometimes, always pair it with a systematic approach involving the whole team to minimize restraints.",
-      "shortSummary": "This review provides a comprehensive overview of managing agitation in the emergency department, emphasizing a multi-faceted approach rather than relying solely on pharmacologic intervention.",
-      "summary": "This review provides a comprehensive overview of managing agitation in the emergency department, emphasizing a multi-faceted approach rather than relying solely on pharmacologic intervention. The authors strongly advocate for establishing verbal de-escalation as the cornerstone and first-line strategy for managing agitated patients. Beyond de-escalation, effective care hinges on a thorough consideration of the underlying etiology of the agitation, which should guide subsequent management decisions. Furthermore, the integration of multidisciplinary teamwork is highlighted as critical for improving patient care quality and reducing adverse events. Adherence to these principles is suggested to decrease the reliance on physical restraints and mitigate the risk of workplace violence among ED staff.",
-      "confidence": "high"
-    },
-    {
-      "slug": "response-from-authors-to-the-letter-to-the-editor",
-      "title": "Response From Authors to the Letter to the Editor",
-      "source": "Annals of Emergency Medicine",
-      "link": "https://www.annemergmed.com/article/S0196-0644(26)00237-4/fulltext?rss=yes",
-      "published": "<1 hour ago",
-      "publishedAt": "2026-09-01T00:00:00Z",
-      "impact": "High-yield",
-      "topic": "General Emergency Medicine",
-      "takeaway": "Given the strong association found between undertriage of the sickest patients and delayed care, vigilance regarding triage protocols is warranted. When managing critically ill patients, remember that even minor triage inaccuracies can translate into clinically significant delays in intervention. This suggests a need for robust system checks to ensure the most acutely ill patients are correctly identified and prioritized immediately upon arrival.",
-      "shortSummary": "This response to a letter to the editor reiterates a significant finding from a large-scale analysis of over 5.3 million emergency department encounters across 21 community settings.",
-      "summary": "This response to a letter to the editor reiterates a significant finding from a large-scale analysis of over 5.3 million emergency department encounters across 21 community settings. The core finding highlights a substantial issue with triage accuracy, specifically noting that over one-third of the sickest patients were found to be undertriaged. More critically, the authors established a direct association between this undertriage of critically ill patients and a measurable delay in receiving care, which was found to be a median of 8 minutes when compared to appropriately triaged high-acuity patients. This underscores that triage accuracy isn't just a quality metric; it has tangible, negative impacts on immediate patient management.",
-      "confidence": "high"
-    },
-    {
-      "slug": "independent-predictors-of-hyperoxemia-following-prehospital-oxygen-therapy-a-pro",
-      "title": "Independent predictors of hyperoxemia following prehospital oxygen therapy: A prospective cohort study",
-      "source": "AJEM",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42594675/",
-      "published": "6 days ago",
-      "publishedAt": "2026-08-13T10:00:00Z",
-      "impact": "High-yield",
-      "topic": "Intubation",
-      "takeaway": "Remember that prehospital oxygen delivery often leads to avoidable hyperoxemia, especially in intubated patients or those with prolonged transport. Don't just rely on standard protocols; actively titrate oxygen based on continuous reassessment during transport. Be mindful that over-oxygenation can have downstream effects, so individualized titration is key.",
-      "shortSummary": "This prospective cohort study addresses the common clinical issue of hyperoxemia following prehospital oxygen administration.",
-      "summary": "This prospective cohort study addresses the common clinical issue of hyperoxemia following prehospital oxygen administration. The authors found that hyperoxemia was quite prevalent among the patient population receiving supplemental oxygen before arrival at the hospital. The core message revolves around the necessity of moving away from routine, blanket oxygen protocols. Instead, the data strongly advocate for a highly individualized approach to oxygen titration and mandate regular reassessment of oxygenation status throughout the entire transport period. This is particularly critical for patients who have been intubated or those undergoing extended prehospital transport times.",
-      "confidence": "high"
-    },
-    {
-      "slug": "failure-to-record-not-vagal-stimulation-is-the-cause-for-unexpected-pauses",
-      "title": "Failure to Record, Not Vagal Stimulation, Is the Cause for Unexpected Pauses",
-      "source": "Annals of Emergency Medicine",
-      "link": "https://www.annemergmed.com/article/S0196-0644(26)00269-6/fulltext?rss=yes",
-      "published": "<1 hour ago",
-      "publishedAt": "2026-09-01T00:00:00Z",
-      "impact": "High-yield",
-      "topic": "Ecg",
-      "takeaway": "When you see a pause on the monitor, don't automatically assume a significant arrhythmia; check the machine first. Look for evidence of baseline artifact, like slight quivering in the TP segment, or the presence of a T wave followed by a sinus beat without a preceding QRS complex. If these signs are present, suspect recording failure over true bradycardia.",
-      "shortSummary": "This article suggests that when interpreting unexpected pauses on an ECG, one must critically consider the possibility of technical failure rather than attributing the pause to a primary cardiac rhythm disturbance.",
-      "summary": "This article suggests that when interpreting unexpected pauses on an ECG, one must critically consider the possibility of technical failure rather than attributing the pause to a primary cardiac rhythm disturbance. The authors point to specific ECG findings that argue against a true pause, namely the presence of a pristine flat line during the supposed pause interval. They suggest that if the machine is functioning correctly, one should anticipate observing slight baseline quivering, particularly in the TP segment. Furthermore, the detection of a T wave preceding a sinus beat without any preceding QRS complex is another key indicator that the recording itself might be compromised. This shifts the diagnostic focus from rhythm interpretation to equipment assessment.",
-      "confidence": "high"
-    },
-    {
-      "slug": "pediatric-extracorporeal-cardiopulmonary-resuscitation-for-out-of-hospital-cardi",
-      "title": "Pediatric extracorporeal cardiopulmonary resuscitation for out-of-hospital cardiac arrest: outcomes and clinical trajectories",
-      "source": "Resuscitation",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42603601/",
-      "published": "4 days ago",
-      "publishedAt": "2026-08-15T10:00:00Z",
-      "impact": "High-yield",
-      "topic": "Resuscitation",
-      "takeaway": "When considering ECPR for pediatric OHCA, remember that outcome prediction hinges on more than just the procedure itself. Focus on rigorously documenting the quality of initial resuscitation and meticulously tracking the duration of low-flow periods. These early markers, alongside metabolic derangements, are key determinants for anticipating post-resuscitation trajectories.",
-      "shortSummary": "This review summarizes the outcomes and clinical trajectories following extracorporeal cardiopulmonary resuscitation (ECPR) in pediatric patients who experienced out-of-hospital cardiac arrest (OHCA).",
-      "summary": "This review summarizes the outcomes and clinical trajectories following extracorporeal cardiopulmonary resuscitation (ECPR) in pediatric patients who experienced out-of-hospital cardiac arrest (OHCA). The key takeaway is that while survival rates remain limited, the procedure does yield meaningful survival in this critically ill population. The authors emphasize that simply performing ECPR is not the sole determinant of outcome; rather, prognosis appears to be significantly influenced by several modifiable and measurable factors. Specifically, the quality of the initial resuscitation efforts, the total duration of low-flow states, and the early identification of metabolic or organ injury profiles are crucial elements for stratifying patient outcomes. This suggests a need to refine post-resuscitation care beyond just the mechanical support provided by ECPR.",
-      "confidence": "moderate"
-    },
-    {
-      "slug": "interpreting-a-dose-finding-trial-of-sphenopalatine-ganglion-block-for-acute-hea",
-      "title": "Interpreting a Dose-Finding Trial of Sphenopalatine Ganglion Block for Acute Headache",
-      "source": "Annals of Emergency Medicine",
-      "link": "https://www.annemergmed.com/article/S0196-0644(26)00248-9/fulltext?rss=yes",
-      "published": "<1 hour ago",
-      "publishedAt": "2026-09-01T00:00:00Z",
-      "impact": "High-yield",
-      "topic": "Trials",
-      "takeaway": "For acute headache management, this trial suggests that while SPG block is an option, the dose-response relationship found might be influenced by methodological limitations. Don't change your current standard of care based solely on these negative findings, but recognize that procedural optimization in the ED remains an area needing more robust, methodologically sound data.",
-      "shortSummary": "This article presents a randomized dose-finding trial evaluating the use of sphenopalatine ganglion block with bupivacaine for managing acute headache in the emergency department setting.",
-      "summary": "This article presents a randomized dose-finding trial evaluating the use of sphenopalatine ganglion block with bupivacaine for managing acute headache in the emergency department setting. While the investigation tackles a relevant procedural question in headache management, the authors themselves caution that several methodological limitations might temper the interpretation of the observed negative dose-response relationship. It's a solid effort to quantify the effect of varying anesthetic doses in this context, which is always valuable for procedural guidelines. However, the authors' own commentary highlights that these limitations temper how strongly we should interpret the current findings regarding optimal dosing.",
+      "topic": "Practice Recommendations",
+      "takeaway": "When faced with variable global management protocols for appendicitis, remember that the WSES grading system is proposed as a complementary tool, not a replacement for established guidelines. Use the grading framework to structure your decision-making process, particularly when managing complicated disease, but always integrate this with your local institutional protocols and clinical judgment. Be mindful that the authors acknowledge the need for further research to solidify its place in practice.",
+      "shortSummary": "This paper addresses the persistent and significant international variability in how acute appendicitis, especially the complicated forms, is managed both intraoperatively and postoperatively.",
+      "summary": "This paper addresses the persistent and significant international variability in how acute appendicitis, especially the complicated forms, is managed both intraoperatively and postoperatively. The authors present the PAMAP-W project, which is a comprehensive effort combining real-world practice mapping with expert consensus refinement. The core output is the development of a grade-linked framework designed to guide clinical and surgical decision-making in a more pragmatic manner. Crucially, the authors emphasize that the proposed WSES Acute Appendicitis grading system is intended to complement, rather than supersede, existing, established evidence-based guidelines. While the heterogeneity in care is clear, this framework offers a structured approach to decision-making across different settings.",
       "confidence": "moderate"
     }
   ],
@@ -289,7 +275,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 5,
+      "itemsKept": 9,
       "itemsSeen": 10
     },
     {
@@ -311,10 +297,10 @@
       "category": "foamed",
       "priority": 4,
       "qualityTier": "standard",
-      "status": "offline",
-      "rawStatus": "error",
-      "itemsKept": 0,
-      "itemsSeen": 0
+      "status": "online",
+      "rawStatus": "ok",
+      "itemsKept": 2,
+      "itemsSeen": 50
     },
     {
       "id": "emdocs",
@@ -371,10 +357,10 @@
       "category": "foamed",
       "priority": 4,
       "qualityTier": "standard",
-      "status": "offline",
-      "rawStatus": "error",
-      "itemsKept": 0,
-      "itemsSeen": 0
+      "status": "online",
+      "rawStatus": "ok",
+      "itemsKept": 2,
+      "itemsSeen": 12
     },
     {
       "id": "aliem",
@@ -505,8 +491,8 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 0,
-      "itemsSeen": 18
+      "itemsKept": 17,
+      "itemsSeen": 17
     },
     {
       "id": "emj-ahead",
@@ -518,7 +504,7 @@
       "status": "online",
       "rawStatus": "ok",
       "itemsKept": 6,
-      "itemsSeen": 91
+      "itemsSeen": 78
     },
     {
       "id": "pubmed-resuscitation",
@@ -541,7 +527,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 22,
+      "itemsKept": 21,
       "itemsSeen": 100
     },
     {
@@ -553,7 +539,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 1,
+      "itemsKept": 2,
       "itemsSeen": 100
     },
     {
@@ -565,7 +551,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 6,
+      "itemsKept": 7,
       "itemsSeen": 100
     },
     {
@@ -613,7 +599,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 16,
+      "itemsKept": 15,
       "itemsSeen": 100
     },
     {
@@ -625,7 +611,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 11,
+      "itemsKept": 14,
       "itemsSeen": 100
     },
     {
@@ -637,7 +623,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 9,
+      "itemsKept": 12,
       "itemsSeen": 100
     }
   ]
