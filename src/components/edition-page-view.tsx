@@ -17,6 +17,12 @@ export function EditionPageView({
   isCurrent: boolean;
 }) {
   const summary = edition.summary?.trim() || "No daily editorial is available for this edition yet.";
+  const readFirstCount = edition.articles.filter(
+    (article) => article.impact === "Practice-changing",
+  ).length;
+  const highYieldCount = edition.articles.filter(
+    (article) => article.impact === "High-yield",
+  ).length;
 
   return (
     <PageShell>
@@ -25,6 +31,8 @@ export function EditionPageView({
           editionLabel={edition.label}
           sourceWindowDays={edition.sourceWindowDays ?? null}
           articleCount={edition.articleCount ?? edition.articles.length}
+          readFirstCount={readFirstCount}
+          highYieldCount={highYieldCount}
           updatedAt={edition.editorialGeneratedAt ?? edition.generatedAt ?? null}
           previousHref={previousHref}
           nextHref={nextHref}

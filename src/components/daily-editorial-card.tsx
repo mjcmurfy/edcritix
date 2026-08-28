@@ -50,19 +50,29 @@ function MetaChip({ children, className = "" }: { children: ReactNode; className
 }
 
 export function DailyEditorialCard({ article, index }: { article: Article; index: number }) {
-  return <DailyEditorialCardInner article={article} index={index} compact={false} />;
+  const [isExpanded, setIsExpanded] = useState(true);
+
+  return (
+    <DailyEditorialCardInner
+      article={article}
+      index={index}
+      isExpanded={isExpanded}
+      onExpandedChange={setIsExpanded}
+    />
+  );
 }
 
 export function DailyEditorialCardInner({
   article,
   index,
-  compact = false,
+  isExpanded,
+  onExpandedChange,
 }: {
   article: Article;
   index: number;
-  compact?: boolean;
+  isExpanded: boolean;
+  onExpandedChange: (nextExpanded: boolean) => void;
 }) {
-  const [isExpanded, setIsExpanded] = useState(!compact);
   const topics = getArticleTopics(article);
 
   return (
@@ -151,7 +161,7 @@ export function DailyEditorialCardInner({
           <div className="flex flex-wrap gap-2">
             <button
               type="button"
-              onClick={() => setIsExpanded((value) => !value)}
+              onClick={() => onExpandedChange(!isExpanded)}
               aria-label={isExpanded ? `Collapse ${article.title}` : `Expand ${article.title}`}
               className={`${actionButton} border-[color:var(--button-muted-border)] bg-[color:var(--button-muted-bg)] text-[color:var(--button-muted-text)] hover:bg-[color:var(--surface-subtle)]`}
             >

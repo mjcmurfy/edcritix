@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { BrandMark } from "@/components/brand-mark";
-import { EditorialVisibilityToggle } from "@/components/editorial-visibility-toggle";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 export function TopNav() {
@@ -13,7 +12,7 @@ export function TopNav() {
             <div className="text-sm font-semibold tracking-tight text-[color:var(--foreground-strong)]">
               EDCritix
             </div>
-            <div className="truncate text-xs text-[color:var(--muted)]">Emergency medicine evidence briefing</div>
+            <div className="truncate text-xs text-[color:var(--muted)]">Defibrillating the data</div>
           </div>
         </Link>
 
@@ -57,7 +56,6 @@ export function TopNav() {
           >
             Archive
           </Link>
-          <EditorialVisibilityToggle />
           <ThemeToggle />
         </div>
       </div>

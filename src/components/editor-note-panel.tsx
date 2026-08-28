@@ -15,11 +15,8 @@ export function EditorNotePanel({
   summary: string;
 }) {
   return (
-    <section
-      data-editorial-panel="true"
-      className="rounded-lg border border-[color:var(--border)] bg-[color:var(--surface)] px-4 py-5 shadow-sm sm:px-5 lg:px-6"
-    >
-      <div className="max-w-4xl">
+    <section className="rounded-lg border border-[color:var(--border)] bg-[color:var(--surface)] px-4 py-5 shadow-sm sm:px-5 lg:px-6">
+      <div className="max-w-5xl">
         <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[color:var(--muted-faint)]">
           {label ?? "Edition note"}
         </div>
@@ -28,7 +25,7 @@ export function EditorNotePanel({
         </h2>
       </div>
 
-      <div className="mt-4 grid max-w-4xl gap-4 text-sm leading-6 text-[color:var(--muted-soft)] sm:text-base sm:leading-7">
+      <div className="mt-4 grid max-w-5xl gap-4 text-sm leading-6 text-[color:var(--muted-soft)] sm:text-base sm:leading-7">
         {splitParagraphs(summary).map((paragraph, index) => (
           <p key={index}>
             {paragraph}

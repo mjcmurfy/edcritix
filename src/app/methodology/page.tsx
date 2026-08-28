@@ -36,10 +36,10 @@ export default function MethodologyPage() {
           <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[color:var(--muted-faint)]">
             Methods
           </div>
-          <h1 className="mt-2 max-w-3xl text-3xl font-semibold leading-tight tracking-tight text-[color:var(--foreground-strong)] sm:text-4xl">
+          <h1 className="mt-2 max-w-5xl text-3xl font-semibold leading-tight tracking-tight text-[color:var(--foreground-strong)] sm:text-4xl">
             How EDCritix turns a source scan into a clinical reading queue
           </h1>
-          <p className="mt-4 max-w-3xl text-base leading-7 text-[color:var(--muted-soft)]">
+          <p className="mt-4 max-w-5xl text-base leading-7 text-[color:var(--muted-soft)]">
             The site is intentionally transparent about source coverage, ranking labels, and limitations so first-time readers can judge whether a signal deserves their time.
           </p>
           <div className="mt-5 flex flex-wrap gap-2">

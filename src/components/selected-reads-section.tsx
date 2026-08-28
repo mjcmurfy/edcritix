@@ -21,10 +21,13 @@ export function SelectedReadsSection({
   heading?: string;
   label?: string;
 }) {
-  const [compact, setCompact] = useState(false);
+  const [expandedSlugs, setExpandedSlugs] = useState<Set<string>>(
+    () => new Set(articles.map((article) => article.slug)),
+  );
   const [query, setQuery] = useState("");
   const [impact, setImpact] = useState<ImpactLevel | "all">("all");
   const isFiltered = query.trim() !== "" || impact !== "all";
+  const allExpanded = articles.every((article) => expandedSlugs.has(article.slug));
 
   const filtered = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
@@ -80,10 +83,16 @@ export function SelectedReadsSection({
             />
             <button
               type="button"
-              onClick={() => setCompact((value) => !value)}
+              onClick={() => {
+                setExpandedSlugs(
+                  allExpanded
+                    ? new Set()
+                    : new Set(articles.map((article) => article.slug)),
+                );
+              }}
               className="inline-flex h-10 items-center justify-center rounded-md border border-[color:var(--toggle-button-border)] bg-[color:var(--toggle-button-bg)] px-3 text-sm font-medium text-[color:var(--toggle-button-text)] transition hover:bg-[color:var(--surface-subtle)]"
             >
-              {compact ? "Expand all" : "Collapse all"}
+              {allExpanded ? "Collapse all" : "Expand all"}
             </button>
           </div>
         </div>
@@ -125,10 +134,21 @@ export function SelectedReadsSection({
 
           return (
             <DailyEditorialCardInner
-              key={`${article.slug}-${compact ? "compact" : "expanded"}`}
+              key={article.slug}
               article={article}
               index={originalIndex >= 0 ? originalIndex : 0}
-              compact={compact}
+              isExpanded={expandedSlugs.has(article.slug)}
+              onExpandedChange={(nextExpanded) => {
+                setExpandedSlugs((current) => {
+                  const next = new Set(current);
+                  if (nextExpanded) {
+                    next.add(article.slug);
+                  } else {
+                    next.delete(article.slug);
+                  }
+                  return next;
+                });
+              }}
             />
           );
         })}

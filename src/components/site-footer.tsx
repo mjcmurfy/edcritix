@@ -12,7 +12,7 @@ export function SiteFooter() {
             EDCritix
           </div>
           <p className="mt-2 leading-6">
-            AI-assisted emergency medicine current-awareness. Summaries are for education and triage of reading, not a substitute for the original source or local clinical policy.
+            Defibrillating the Data.
           </p>
         </div>
 

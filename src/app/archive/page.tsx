@@ -20,7 +20,7 @@ export default function ArchivePage() {
             Previous EDCritix editions
           </h1>
           <p className="mt-4 max-w-3xl text-base leading-7 text-[color:var(--muted-soft)]">
-            Daily briefing history, newest first. Each edition preserves the ranked reading queue and editorial synthesis from that day.
+            Past editions with their ranked reading queues and daily editorials.
           </p>
         </section>
 
