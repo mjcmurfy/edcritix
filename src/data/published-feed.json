@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-08-31T21:45:14.277Z",
-    "sourceGeneratedAt": "2026-08-31T21:15:01.488638Z",
-    "editorialGeneratedAt": "2026-08-31T21:35:50.177259Z",
-    "editionDate": "2026-09-01"
+    "generatedAt": "2026-09-01T20:52:44.273Z",
+    "sourceGeneratedAt": "2026-09-01T20:47:52.611003Z",
+    "editorialGeneratedAt": "2026-09-01T20:51:12.122177Z",
+    "editionDate": "2026-09-02"
   },
   "briefing": {
     "headline": "8 high-priority items in the latest EM scan",
-    "summary": "Top sources today: AJEM, Annals of Emergency Medicine. Main themes: policy statements, consensus guidance, guideline or formal recommendation. Best early reads: Prospective validation of HACOR score for HFNO failure in emergency department patients with acute respiratory failure; Clinical Policy: A Critical Issue Related to Direct Oral Anticoagulants in Adult Patients Presenting to the Emergency Department.",
+    "summary": "Top sources today: AJEM, Annals of Emergency Medicine. Main themes: policy statements, trials, consensus guidance. Best early reads: Prospective validation of HACOR score for HFNO failure in emergency department patients with acute respiratory failure; Clinical Policy: A Critical Issue Related to Direct Oral Anticoagulants in Adult Patients Presenting to the Emergency Department.",
     "editorialHeadline": "Respiratory escalation, haemorrhage policy and high-stakes procedures",
-    "editorialSummary": "Today's strongest bedside signals are the prospective validation of the 60-minute HACOR score for HFNO failure and a small randomised trial favouring ultrasound-guided PENG block over intravenous morphine for older adults with hip fracture. Both are clinically actionable, but the new HACOR threshold needs prospective confirmation and the PENG result needs replication in a larger, blinded trial.\n\nPolicy and practice updates dominate the rest of the list: ACEP addresses reversal of major bleeding in patients taking direct oral anticoagulants, new consensus guidance covers unscheduled procedural sedation, and practical reviews revisit emergency thoracotomy, crush injury and common femoral arterial access. Intramuscular adrenaline remains standard care for anaphylaxis because comparative evidence for the intranasal route is still insufficient."
+    "editorialSummary": "Today’s strongest bedside signals are the prospective validation of the 60-minute HACOR score for HFNO failure and a small randomised trial favouring ultrasound-guided PENG block over intravenous morphine for older adults with hip fracture. Both are clinically actionable, but the new HACOR threshold needs prospective confirmation and the PENG result needs replication in a larger, blinded trial.\n\nPolicy and practice updates dominate the rest of the list: ACEP addresses reversal of major bleeding in patients taking direct oral anticoagulants, new consensus guidance covers unscheduled procedural sedation, and practical reviews revisit emergency thoracotomy, crush injury and common femoral arterial access. Additional correspondence highlights uncertainty around sphenopalatine ganglion block technique and reinforces checking apparent ECG pauses for recording artefact."
   },
   "dailyEditorial": [
     {
@@ -17,7 +17,7 @@
       "title": "Prospective validation of HACOR score for HFNO failure in emergency department patients with acute respiratory failure",
       "source": "AJEM",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42659770/",
-      "published": "4 days ago",
+      "published": "5 days ago",
       "publishedAt": "2026-08-27T10:00:00Z",
       "impact": "Practice-changing",
       "topic": "General Emergency Medicine",
@@ -31,7 +31,7 @@
       "title": "Clinical Policy: A Critical Issue Related to Direct Oral Anticoagulants in Adult Patients Presenting to the Emergency Department",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00364-1/fulltext?rss=yes",
-      "published": "<1 hour ago",
+      "published": "21 hours ago",
       "publishedAt": "2026-09-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Policy Statements",
@@ -45,7 +45,7 @@
       "title": "Unscheduled Procedural Sedation Multidisciplinary Delphi Consensus Guidelines, Part 1: Principles, Oversight, and Quality Monitoring",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00462-2/fulltext?rss=yes",
-      "published": "<1 hour ago",
+      "published": "21 hours ago",
       "publishedAt": "2026-09-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Policy Statements",
@@ -73,7 +73,7 @@
       "title": "Whole Blood Versus Component Therapy for Out-of-Hospital Trauma Resuscitation",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00480-4/fulltext?rss=yes",
-      "published": "<1 hour ago",
+      "published": "21 hours ago",
       "publishedAt": "2026-09-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Resuscitation",
@@ -115,7 +115,7 @@
       "title": "Early management of crush injury and crush syndrome: a Faculty of Pre-Hospital Care consensus statement",
       "source": "EMJ",
       "link": "http://emj.bmj.com/cgi/content/short/emermed-2025-215431v1?rss=1",
-      "published": "4 days ago",
+      "published": "5 days ago",
       "publishedAt": "2026-08-27T16:00:14Z",
       "impact": "Practice-changing",
       "topic": "Policy Statements",
@@ -129,7 +129,7 @@
       "title": "Potential Risks With the SPEAR®, a New Device Marketed for Out-of-Hospital Needle Decompression of the Chest",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00254-4/fulltext?rss=yes",
-      "published": "<1 hour ago",
+      "published": "21 hours ago",
       "publishedAt": "2026-09-01T00:00:00Z",
       "impact": "Practice-changing",
       "topic": "Trauma",
@@ -153,20 +153,6 @@
       "confidence": "moderate"
     },
     {
-      "slug": "is-intranasal-adrenaline-effective-for-the-treatment-of-anaphylaxis",
-      "title": "Is intranasal adrenaline effective for the treatment of anaphylaxis?",
-      "source": "EMJ",
-      "link": "http://emj.bmj.com/cgi/content/short/emermed-2026-216454v1?rss=1",
-      "published": "3 days ago",
-      "publishedAt": "2026-08-28T16:00:14Z",
-      "impact": "Practice-changing",
-      "topic": "Reviews",
-      "takeaway": "Continue intramuscular adrenaline as first-line treatment for anaphylaxis. Current evidence is insufficient to substitute the intranasal route.",
-      "shortSummary": "This shortcut review found only eight directly relevant clinical reports comparing intranasal with intramuscular adrenaline for anaphylaxis, mostly weak case-series evidence; it could not establish equivalent effectiven…",
-      "summary": "This shortcut review found only eight directly relevant clinical reports comparing intranasal with intramuscular adrenaline for anaphylaxis, mostly weak case-series evidence; it could not establish equivalent effectiveness.",
-      "confidence": "moderate"
-    },
-    {
       "slug": "primary-survey-highlights-from-this-issue",
       "title": "Primary survey: highlights from this issue",
       "source": "EMJ",
@@ -185,7 +171,7 @@
       "title": "JC: Manual pressure augmentation during cardiac arrest: another lesson in physiology versus outcome",
       "source": "St Emlyn's",
       "link": "https://www.stemlynsblog.org/jc-manual-pressure-augmentation-during-cardiac-arrest-another-lesson-in-physiology-versus-outcome/",
-      "published": "4 days ago",
+      "published": "5 days ago",
       "publishedAt": "2026-08-27T12:02:24Z",
       "impact": "Practice-changing",
       "topic": "Cardiac Arrest",
@@ -213,7 +199,7 @@
       "title": "Response From Authors to the Letter to the Editor",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00237-4/fulltext?rss=yes",
-      "published": "<1 hour ago",
+      "published": "21 hours ago",
       "publishedAt": "2026-09-01T00:00:00Z",
       "impact": "High-yield",
       "topic": "General Emergency Medicine",
@@ -255,7 +241,7 @@
       "title": "Failure to Record, Not Vagal Stimulation, Is the Cause for Unexpected Pauses",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00269-6/fulltext?rss=yes",
-      "published": "<1 hour ago",
+      "published": "21 hours ago",
       "publishedAt": "2026-09-01T00:00:00Z",
       "impact": "High-yield",
       "topic": "Ecg",
@@ -269,7 +255,7 @@
       "title": "Interpreting a Dose-Finding Trial of Sphenopalatine Ganglion Block for Acute Headache",
       "source": "Annals of Emergency Medicine",
       "link": "https://www.annemergmed.com/article/S0196-0644(26)00248-9/fulltext?rss=yes",
-      "published": "<1 hour ago",
+      "published": "21 hours ago",
       "publishedAt": "2026-09-01T00:00:00Z",
       "impact": "High-yield",
       "topic": "Trials",
@@ -277,6 +263,20 @@
       "shortSummary": "This letter highlights methodological limitations that may complicate interpretation of a negative dose-response trial of bupivacaine sphenopalatine ganglion block for ED headache.",
       "summary": "This letter highlights methodological limitations that may complicate interpretation of a negative dose-response trial of bupivacaine sphenopalatine ganglion block for ED headache.",
       "confidence": "moderate"
+    },
+    {
+      "slug": "in-reply",
+      "title": "In reply:",
+      "source": "Annals of Emergency Medicine",
+      "link": "https://www.annemergmed.com/article/S0196-0644(26)00249-0/fulltext?rss=yes",
+      "published": "21 hours ago",
+      "publishedAt": "2026-09-01T00:00:00Z",
+      "impact": "High-yield",
+      "topic": "Trials",
+      "takeaway": "Treat sphenopalatine ganglion block as an optional adjunct for selected headache patients, not a proven replacement for standard therapy. Discuss the uncertain response and lack of a clearly superior technique.",
+      "shortSummary": "The trial authors acknowledge methodological limitations and that their study did not identify one optimal sphenopalatine ganglion block technique.",
+      "summary": "The trial authors acknowledge methodological limitations and that their study did not identify one optimal sphenopalatine ganglion block technique. They report that a subset of ED headache patients achieved rapid relief without systemic medication and that clinicians could perform the block with minimal training.",
+      "confidence": "low"
     }
   ],
   "sources": [
@@ -289,7 +289,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 8,
+      "itemsKept": 7,
       "itemsSeen": 10
     },
     {
@@ -457,7 +457,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 0,
+      "itemsKept": 1,
       "itemsSeen": 20
     },
     {
@@ -493,8 +493,8 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 26,
-      "itemsSeen": 69
+      "itemsKept": 28,
+      "itemsSeen": 71
     },
     {
       "id": "emj-current",
@@ -565,7 +565,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 4,
+      "itemsKept": 5,
       "itemsSeen": 100
     },
     {
@@ -589,7 +589,7 @@
       "qualityTier": "core",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 4,
+      "itemsKept": 5,
       "itemsSeen": 100
     },
     {
@@ -613,7 +613,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 4,
+      "itemsKept": 3,
       "itemsSeen": 100
     },
     {
@@ -625,7 +625,7 @@
       "qualityTier": "standard",
       "status": "online",
       "rawStatus": "ok",
-      "itemsKept": 10,
+      "itemsKept": 11,
       "itemsSeen": 100
     },
     {
